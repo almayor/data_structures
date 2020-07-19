@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../data_structures/data_structures.h
+errno.h
+-
+sys/types.h
+-
+types.h
+../data_structures/types.h
+libft.h
+../data_structures/libft.h
+ft_printf.h
+../data_structures/ft_printf.h
+
+../ft_printf/ft_printf.h
+stdarg.h
+-
+string.h
+-
+
+../libft/libft.h
+string.h
+-
+
+../types/types.h
+stdlib.h
+-
+libft.h
+../types/libft.h
+ft_printf.h
+../types/ft_printf.h
+
+/Users/almayor/Documents/programming/42/algorithms/data_structures/array/array.h
+data_structures.h
+/Users/almayor/Documents/programming/42/algorithms/data_structures/array/data_structures.h
+
+/Users/almayor/Documents/programming/42/algorithms/data_structures/array/array_quick_sort.c
+array.h
+/Users/almayor/Documents/programming/42/algorithms/data_structures/array/array.h
+
