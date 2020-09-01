@@ -1,23 +1,23 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   rbt_utils.h                                        :+:      :+:    :+:   */
+/*   rbt_utils.h                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: unite <marvin@42.fr>                       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/07/18 16:53:08 by unite             #+#    #+#             */
-/*   Updated: 2020/07/19 00:34:04 by unite            ###   ########.fr       */
+/*   Updated: 2020/07/21 21:31:21 by unite            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef RBT_UTILS_H
+#ifndef RBT_MAP_UTILS_H
 
-# define RBT_UTILS_H
+# define RBT_MAP_UTILS_H
 
 # include "rbt.h"
 
-t_rbt_node	*rbt_make_node(const t_rbt *rbt, const void *key, const void *val,
-							t_rbt_node_color color);
+t_rbt_node	*rbt_make_node(const t_rbt *rbt, const void *key,
+								const void *val, t_rbt_node_color color);
 t_rbt_node	*rbt_rotate_left(t_rbt *rbt, t_rbt_node *h);
 t_rbt_node	*rbt_rotate_right(t_rbt *rbt, t_rbt_node *h);
 void		rbt_flip_color(t_rbt *rbt, t_rbt_node *h);

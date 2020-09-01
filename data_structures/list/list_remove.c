@@ -6,13 +6,13 @@
 /*   By: unite <marvin@42.fr>                       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/07/18 22:16:54 by unite             #+#    #+#             */
-/*   Updated: 2020/07/18 22:34:07 by unite            ###   ########.fr       */
+/*   Updated: 2020/07/21 22:32:37 by unite            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "list.h"
 
-static void	*list_remove_inner(t_list *alst, size_t index)
+static void	*list_unlink_inner(t_list *alst, size_t index)
 {
 	t_link	*link;
 	void	*content;
@@ -37,7 +37,7 @@ static void	*list_remove_inner(t_list *alst, size_t index)
 	return (content);
 }
 
-void	*list_remove(t_list *alst, size_t index)
+void	*list_unlink(t_list *alst, size_t index)
 {
 	if (index >= alst->size)
 	{
@@ -45,9 +45,9 @@ void	*list_remove(t_list *alst, size_t index)
 		return (NULL);
 	}
 	else if (index == 0)
-		return (list_remove_first(alst));
+		return (list_unlink_first(alst));
 	else if (index + 1 == alst->size)
-		return (list_remove_last(alst));
+		return (list_unlink_last(alst));
 	else
-		return (list_remove_inner(alst, index));
+		return (list_unlink_inner(alst, index));
 }

@@ -6,6 +6,12 @@
 
 #IncludeRegexTransform: 
 
+../data_structures/array.h
+data_structures.h
+../data_structures/data_structures.h
+queue.h
+../data_structures/queue.h
+
 ../data_structures/data_structures.h
 errno.h
 -
@@ -17,6 +23,30 @@ libft.h
 ../data_structures/libft.h
 ft_printf.h
 ../data_structures/ft_printf.h
+
+../data_structures/graph.h
+data_structures.h
+../data_structures/data_structures.h
+array.h
+../data_structures/array.h
+rbt.h
+../data_structures/rbt.h
+
+../data_structures/list.h
+data_structures.h
+../data_structures/data_structures.h
+
+../data_structures/queue.h
+data_structures.h
+../data_structures/data_structures.h
+list.h
+../data_structures/list.h
+
+../data_structures/rbt.h
+data_structures.h
+../data_structures/data_structures.h
+queue.h
+../data_structures/queue.h
 
 ../ft_printf/ft_printf.h
 stdarg.h
@@ -36,11 +66,7 @@ libft.h
 ft_printf.h
 ../types/ft_printf.h
 
-/Users/almayor/Documents/programming/42/algorithms/data_structures/array/array.h
-data_structures.h
-/Users/almayor/Documents/programming/42/algorithms/data_structures/array/data_structures.h
-
-/Users/almayor/Documents/programming/42/algorithms/data_structures/array/array_quick_sort.c
-array.h
-/Users/almayor/Documents/programming/42/algorithms/data_structures/array/array.h
+/Users/almayor/Documents/programming/42/algorithms/data_structures/graph/graph_adjacent.c
+graph.h
+/Users/almayor/Documents/programming/42/algorithms/data_structures/graph/graph.h
 

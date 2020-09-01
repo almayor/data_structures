@@ -6,13 +6,13 @@
 /*   By: unite <marvin@42.fr>                       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/07/18 22:16:54 by unite             #+#    #+#             */
-/*   Updated: 2020/07/18 22:34:25 by unite            ###   ########.fr       */
+/*   Updated: 2020/07/21 22:32:39 by unite            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "list.h"
 
-void	list_unlink(t_list *alst, size_t index)
+void	list_remove(t_list *alst, size_t index)
 {
-	alst->type->del(list_remove(alst, index));
+	alst->type->del(list_unlink(alst, index));
 }

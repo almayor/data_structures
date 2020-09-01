@@ -6,7 +6,7 @@
 /*   By: unite <marvin@42.fr>                       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/07/16 23:14:36 by unite             #+#    #+#             */
-/*   Updated: 2020/07/17 01:35:02 by unite            ###   ########.fr       */
+/*   Updated: 2020/07/21 22:33:33 by unite            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,6 +17,6 @@ void	list_delete(t_list *alst)
 	if (alst == NULL)
 		return ;
 	while (alst->size)
-		list_unlink_first(alst);
+		list_remove_first(alst);
 	free(alst);
 }

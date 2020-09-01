@@ -16,6 +16,11 @@ void	list_print(const t_list *alst)
 {
 	t_link	*link;
 
+	if (!alst)
+	{
+		ft_putstr("(null)\n");
+		return ;
+	}
 	link = alst->head;
 	while (link)
 	{

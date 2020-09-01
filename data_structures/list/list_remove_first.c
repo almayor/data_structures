@@ -6,13 +6,13 @@
 /*   By: unite <marvin@42.fr>                       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/07/18 16:00:12 by unite             #+#    #+#             */
-/*   Updated: 2020/07/18 16:04:10 by unite            ###   ########.fr       */
+/*   Updated: 2020/07/21 22:32:35 by unite            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "list.h"
 
-void	*list_remove_first(t_list *alst)
+void	*list_unlink_first(t_list *alst)
 {
 	t_link	*tmp;
 	void	*content;

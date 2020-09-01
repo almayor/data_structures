@@ -19,5 +19,5 @@ t_max_pq	*max_pq_new_size(const t_type *type, size_t size)
 		errno = EINVAL;
 		return (NULL);
 	}
-	return (array_new_size(type, size));
+	return (array_zeros(type, size));
 }

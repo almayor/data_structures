@@ -46,18 +46,15 @@
 				<Compiler>
 					<Add directory="/Users/almayor/Documents/programming/42/algorithms/data_structures"/>
 					<Add directory="/Users/almayor/Documents/programming/42/algorithms/data_structures/array"/>
-					<Add directory="/Users/almayor/Documents/programming/42/algorithms/data_structures/bst"/>
-					<Add directory="/Users/almayor/Documents/programming/42/algorithms/data_structures/list"/>
-					<Add directory="/Users/almayor/Documents/programming/42/algorithms/data_structures/max_pq"/>
-					<Add directory="/Users/almayor/Documents/programming/42/algorithms/data_structures/min_pq"/>
-					<Add directory="/Users/almayor/Documents/programming/42/algorithms/data_structures/queue"/>
+					<Add directory="/Users/almayor/Documents/programming/42/algorithms/data_structures/hashmap"/>
+					<Add directory="/Users/almayor/Documents/programming/42/algorithms/data_structures/hashset"/>
 					<Add directory="/Users/almayor/Documents/programming/42/algorithms/data_structures/rbt"/>
-					<Add directory="/Users/almayor/Documents/programming/42/algorithms/data_structures/stack"/>
 					<Add directory="/Users/almayor/Documents/programming/42/algorithms/ft_printf"/>
 					<Add directory="/Users/almayor/Documents/programming/42/algorithms/ft_printf/src"/>
 					<Add directory="/Users/almayor/Documents/programming/42/algorithms/libft"/>
 					<Add directory="/Users/almayor/Documents/programming/42/algorithms/types"/>
-					<Add directory="/Users/almayor/Documents/programming/42/algorithms/utils"/>
+					<Add directory="/Users/almayor/Documents/programming/42/algorithms/types/utils"/>
+					<Add directory="/Users/almayor/Documents/programming/42/algorithms/algorithms"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
@@ -80,18 +77,15 @@
 				<Compiler>
 					<Add directory="/Users/almayor/Documents/programming/42/algorithms/data_structures"/>
 					<Add directory="/Users/almayor/Documents/programming/42/algorithms/data_structures/array"/>
-					<Add directory="/Users/almayor/Documents/programming/42/algorithms/data_structures/bst"/>
-					<Add directory="/Users/almayor/Documents/programming/42/algorithms/data_structures/list"/>
-					<Add directory="/Users/almayor/Documents/programming/42/algorithms/data_structures/max_pq"/>
-					<Add directory="/Users/almayor/Documents/programming/42/algorithms/data_structures/min_pq"/>
-					<Add directory="/Users/almayor/Documents/programming/42/algorithms/data_structures/queue"/>
+					<Add directory="/Users/almayor/Documents/programming/42/algorithms/data_structures/hashmap"/>
+					<Add directory="/Users/almayor/Documents/programming/42/algorithms/data_structures/hashset"/>
 					<Add directory="/Users/almayor/Documents/programming/42/algorithms/data_structures/rbt"/>
-					<Add directory="/Users/almayor/Documents/programming/42/algorithms/data_structures/stack"/>
 					<Add directory="/Users/almayor/Documents/programming/42/algorithms/ft_printf"/>
 					<Add directory="/Users/almayor/Documents/programming/42/algorithms/ft_printf/src"/>
 					<Add directory="/Users/almayor/Documents/programming/42/algorithms/libft"/>
 					<Add directory="/Users/almayor/Documents/programming/42/algorithms/types"/>
-					<Add directory="/Users/almayor/Documents/programming/42/algorithms/utils"/>
+					<Add directory="/Users/almayor/Documents/programming/42/algorithms/types/utils"/>
+					<Add directory="/Users/almayor/Documents/programming/42/algorithms/algorithms"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
@@ -106,10 +100,25 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/almayor/Documents/programming/42/algorithms/data_structures/array/array.h">
+		<Unit filename="/Users/almayor/Documents/programming/42/algorithms/algorithms/sorts/insertion_sort/array_insertion_sort.c">
+			<Option target="algorithms"/>
+		</Unit>
+		<Unit filename="/Users/almayor/Documents/programming/42/algorithms/algorithms/sorts/merge_sort/array_merge_sort.c">
+			<Option target="algorithms"/>
+		</Unit>
+		<Unit filename="/Users/almayor/Documents/programming/42/algorithms/algorithms/sorts/merge_sort/list_merge_sort.c">
+			<Option target="algorithms"/>
+		</Unit>
+		<Unit filename="/Users/almayor/Documents/programming/42/algorithms/algorithms/sorts/quick_sort/array_quick_sort.c">
+			<Option target="algorithms"/>
+		</Unit>
+		<Unit filename="/Users/almayor/Documents/programming/42/algorithms/data_structures/array.h">
 			<Option target="algorithms"/>
 		</Unit>
 		<Unit filename="/Users/almayor/Documents/programming/42/algorithms/data_structures/array/array_append.c">
+			<Option target="algorithms"/>
+		</Unit>
+		<Unit filename="/Users/almayor/Documents/programming/42/algorithms/data_structures/array/array_copy.c">
 			<Option target="algorithms"/>
 		</Unit>
 		<Unit filename="/Users/almayor/Documents/programming/42/algorithms/data_structures/array/array_delete.c">
@@ -121,25 +130,13 @@
 		<Unit filename="/Users/almayor/Documents/programming/42/algorithms/data_structures/array/array_insert.c">
 			<Option target="algorithms"/>
 		</Unit>
-		<Unit filename="/Users/almayor/Documents/programming/42/algorithms/data_structures/array/array_insertion_sort.c">
-			<Option target="algorithms"/>
-		</Unit>
-		<Unit filename="/Users/almayor/Documents/programming/42/algorithms/data_structures/array/array_merge_sort.c">
-			<Option target="algorithms"/>
-		</Unit>
 		<Unit filename="/Users/almayor/Documents/programming/42/algorithms/data_structures/array/array_new.c">
-			<Option target="algorithms"/>
-		</Unit>
-		<Unit filename="/Users/almayor/Documents/programming/42/algorithms/data_structures/array/array_new_size.c">
 			<Option target="algorithms"/>
 		</Unit>
 		<Unit filename="/Users/almayor/Documents/programming/42/algorithms/data_structures/array/array_pop.c">
 			<Option target="algorithms"/>
 		</Unit>
 		<Unit filename="/Users/almayor/Documents/programming/42/algorithms/data_structures/array/array_print.c">
-			<Option target="algorithms"/>
-		</Unit>
-		<Unit filename="/Users/almayor/Documents/programming/42/algorithms/data_structures/array/array_quick_sort.c">
 			<Option target="algorithms"/>
 		</Unit>
 		<Unit filename="/Users/almayor/Documents/programming/42/algorithms/data_structures/array/array_remove.c">
@@ -151,10 +148,16 @@
 		<Unit filename="/Users/almayor/Documents/programming/42/algorithms/data_structures/array/array_size.c">
 			<Option target="algorithms"/>
 		</Unit>
+		<Unit filename="/Users/almayor/Documents/programming/42/algorithms/data_structures/array/array_sort.c">
+			<Option target="algorithms"/>
+		</Unit>
 		<Unit filename="/Users/almayor/Documents/programming/42/algorithms/data_structures/array/array_sorted.c">
 			<Option target="algorithms"/>
 		</Unit>
 		<Unit filename="/Users/almayor/Documents/programming/42/algorithms/data_structures/array/array_swap.c">
+			<Option target="algorithms"/>
+		</Unit>
+		<Unit filename="/Users/almayor/Documents/programming/42/algorithms/data_structures/array/array_to_queue.c">
 			<Option target="algorithms"/>
 		</Unit>
 		<Unit filename="/Users/almayor/Documents/programming/42/algorithms/data_structures/array/array_utils.c">
@@ -163,7 +166,10 @@
 		<Unit filename="/Users/almayor/Documents/programming/42/algorithms/data_structures/array/array_utils.h">
 			<Option target="algorithms"/>
 		</Unit>
-		<Unit filename="/Users/almayor/Documents/programming/42/algorithms/data_structures/bst/bst.h">
+		<Unit filename="/Users/almayor/Documents/programming/42/algorithms/data_structures/array/array_zeros.c">
+			<Option target="algorithms"/>
+		</Unit>
+		<Unit filename="/Users/almayor/Documents/programming/42/algorithms/data_structures/bst.h">
 			<Option target="algorithms"/>
 		</Unit>
 		<Unit filename="/Users/almayor/Documents/programming/42/algorithms/data_structures/bst/bst_delete.c">
@@ -190,10 +196,103 @@
 		<Unit filename="/Users/almayor/Documents/programming/42/algorithms/data_structures/graph.h">
 			<Option target="algorithms"/>
 		</Unit>
-		<Unit filename="/Users/almayor/Documents/programming/42/algorithms/data_structures/kd_tree.h">
+		<Unit filename="/Users/almayor/Documents/programming/42/algorithms/data_structures/graph/graph_E.c">
 			<Option target="algorithms"/>
 		</Unit>
-		<Unit filename="/Users/almayor/Documents/programming/42/algorithms/data_structures/list/list.h">
+		<Unit filename="/Users/almayor/Documents/programming/42/algorithms/data_structures/graph/graph_V.c">
+			<Option target="algorithms"/>
+		</Unit>
+		<Unit filename="/Users/almayor/Documents/programming/42/algorithms/data_structures/graph/graph_add_edge.c">
+			<Option target="algorithms"/>
+		</Unit>
+		<Unit filename="/Users/almayor/Documents/programming/42/algorithms/data_structures/graph/graph_add_vertex.c">
+			<Option target="algorithms"/>
+		</Unit>
+		<Unit filename="/Users/almayor/Documents/programming/42/algorithms/data_structures/graph/graph_adjacency.c">
+			<Option target="algorithms"/>
+		</Unit>
+		<Unit filename="/Users/almayor/Documents/programming/42/algorithms/data_structures/graph/graph_adjacent.c">
+			<Option target="algorithms"/>
+		</Unit>
+		<Unit filename="/Users/almayor/Documents/programming/42/algorithms/data_structures/graph/graph_delete.c">
+			<Option target="algorithms"/>
+		</Unit>
+		<Unit filename="/Users/almayor/Documents/programming/42/algorithms/data_structures/graph/graph_new.c">
+			<Option target="algorithms"/>
+		</Unit>
+		<Unit filename="/Users/almayor/Documents/programming/42/algorithms/data_structures/graph/graph_vertices.c">
+			<Option target="algorithms"/>
+		</Unit>
+		<Unit filename="/Users/almayor/Documents/programming/42/algorithms/data_structures/hashmap.h">
+			<Option target="algorithms"/>
+		</Unit>
+		<Unit filename="/Users/almayor/Documents/programming/42/algorithms/data_structures/hashmap/hashmap_contains.c">
+			<Option target="algorithms"/>
+		</Unit>
+		<Unit filename="/Users/almayor/Documents/programming/42/algorithms/data_structures/hashmap/hashmap_delete.c">
+			<Option target="algorithms"/>
+		</Unit>
+		<Unit filename="/Users/almayor/Documents/programming/42/algorithms/data_structures/hashmap/hashmap_get.c">
+			<Option target="algorithms"/>
+		</Unit>
+		<Unit filename="/Users/almayor/Documents/programming/42/algorithms/data_structures/hashmap/hashmap_keys.c">
+			<Option target="algorithms"/>
+		</Unit>
+		<Unit filename="/Users/almayor/Documents/programming/42/algorithms/data_structures/hashmap/hashmap_new.c">
+			<Option target="algorithms"/>
+		</Unit>
+		<Unit filename="/Users/almayor/Documents/programming/42/algorithms/data_structures/hashmap/hashmap_put.c">
+			<Option target="algorithms"/>
+		</Unit>
+		<Unit filename="/Users/almayor/Documents/programming/42/algorithms/data_structures/hashmap/hashmap_remove.c">
+			<Option target="algorithms"/>
+		</Unit>
+		<Unit filename="/Users/almayor/Documents/programming/42/algorithms/data_structures/hashmap/hashmap_size.c">
+			<Option target="algorithms"/>
+		</Unit>
+		<Unit filename="/Users/almayor/Documents/programming/42/algorithms/data_structures/hashmap/hashmap_utils.c">
+			<Option target="algorithms"/>
+		</Unit>
+		<Unit filename="/Users/almayor/Documents/programming/42/algorithms/data_structures/hashmap/hashmap_utils.h">
+			<Option target="algorithms"/>
+		</Unit>
+		<Unit filename="/Users/almayor/Documents/programming/42/algorithms/data_structures/hashmap/hashmap_vals.c">
+			<Option target="algorithms"/>
+		</Unit>
+		<Unit filename="/Users/almayor/Documents/programming/42/algorithms/data_structures/hashset.h">
+			<Option target="algorithms"/>
+		</Unit>
+		<Unit filename="/Users/almayor/Documents/programming/42/algorithms/data_structures/hashset/hashset_contains.c">
+			<Option target="algorithms"/>
+		</Unit>
+		<Unit filename="/Users/almayor/Documents/programming/42/algorithms/data_structures/hashset/hashset_copy.c">
+			<Option target="algorithms"/>
+		</Unit>
+		<Unit filename="/Users/almayor/Documents/programming/42/algorithms/data_structures/hashset/hashset_delete.c">
+			<Option target="algorithms"/>
+		</Unit>
+		<Unit filename="/Users/almayor/Documents/programming/42/algorithms/data_structures/hashset/hashset_new.c">
+			<Option target="algorithms"/>
+		</Unit>
+		<Unit filename="/Users/almayor/Documents/programming/42/algorithms/data_structures/hashset/hashset_put.c">
+			<Option target="algorithms"/>
+		</Unit>
+		<Unit filename="/Users/almayor/Documents/programming/42/algorithms/data_structures/hashset/hashset_remove.c">
+			<Option target="algorithms"/>
+		</Unit>
+		<Unit filename="/Users/almayor/Documents/programming/42/algorithms/data_structures/hashset/hashset_size.c">
+			<Option target="algorithms"/>
+		</Unit>
+		<Unit filename="/Users/almayor/Documents/programming/42/algorithms/data_structures/hashset/hashset_utils.c">
+			<Option target="algorithms"/>
+		</Unit>
+		<Unit filename="/Users/almayor/Documents/programming/42/algorithms/data_structures/hashset/hashset_utils.h">
+			<Option target="algorithms"/>
+		</Unit>
+		<Unit filename="/Users/almayor/Documents/programming/42/algorithms/data_structures/hashset/hashset_vals.c">
+			<Option target="algorithms"/>
+		</Unit>
+		<Unit filename="/Users/almayor/Documents/programming/42/algorithms/data_structures/list.h">
 			<Option target="algorithms"/>
 		</Unit>
 		<Unit filename="/Users/almayor/Documents/programming/42/algorithms/data_structures/list/list_add_first.c">
@@ -244,7 +343,7 @@
 		<Unit filename="/Users/almayor/Documents/programming/42/algorithms/data_structures/list/list_unlink_last.c">
 			<Option target="algorithms"/>
 		</Unit>
-		<Unit filename="/Users/almayor/Documents/programming/42/algorithms/data_structures/max_pq/max_pq.h">
+		<Unit filename="/Users/almayor/Documents/programming/42/algorithms/data_structures/max_pq.h">
 			<Option target="algorithms"/>
 		</Unit>
 		<Unit filename="/Users/almayor/Documents/programming/42/algorithms/data_structures/max_pq/max_pq_add.c">
@@ -262,13 +361,13 @@
 		<Unit filename="/Users/almayor/Documents/programming/42/algorithms/data_structures/max_pq/max_pq_peek.c">
 			<Option target="algorithms"/>
 		</Unit>
-		<Unit filename="/Users/almayor/Documents/programming/42/algorithms/data_structures/max_pq/max_pq_remove.c">
+		<Unit filename="/Users/almayor/Documents/programming/42/algorithms/data_structures/max_pq/max_pq_pop.c">
 			<Option target="algorithms"/>
 		</Unit>
 		<Unit filename="/Users/almayor/Documents/programming/42/algorithms/data_structures/max_pq/max_pq_size.c">
 			<Option target="algorithms"/>
 		</Unit>
-		<Unit filename="/Users/almayor/Documents/programming/42/algorithms/data_structures/min_pq/min_pq.h">
+		<Unit filename="/Users/almayor/Documents/programming/42/algorithms/data_structures/min_pq.h">
 			<Option target="algorithms"/>
 		</Unit>
 		<Unit filename="/Users/almayor/Documents/programming/42/algorithms/data_structures/min_pq/min_pq_add.c">
@@ -286,13 +385,13 @@
 		<Unit filename="/Users/almayor/Documents/programming/42/algorithms/data_structures/min_pq/min_pq_peek.c">
 			<Option target="algorithms"/>
 		</Unit>
-		<Unit filename="/Users/almayor/Documents/programming/42/algorithms/data_structures/min_pq/min_pq_remove.c">
+		<Unit filename="/Users/almayor/Documents/programming/42/algorithms/data_structures/min_pq/min_pq_pop.c">
 			<Option target="algorithms"/>
 		</Unit>
 		<Unit filename="/Users/almayor/Documents/programming/42/algorithms/data_structures/min_pq/min_pq_size.c">
 			<Option target="algorithms"/>
 		</Unit>
-		<Unit filename="/Users/almayor/Documents/programming/42/algorithms/data_structures/queue/queue.h">
+		<Unit filename="/Users/almayor/Documents/programming/42/algorithms/data_structures/queue.h">
 			<Option target="algorithms"/>
 		</Unit>
 		<Unit filename="/Users/almayor/Documents/programming/42/algorithms/data_structures/queue/queue_delete.c">
@@ -316,10 +415,13 @@
 		<Unit filename="/Users/almayor/Documents/programming/42/algorithms/data_structures/queue/queue_size.c">
 			<Option target="algorithms"/>
 		</Unit>
-		<Unit filename="/Users/almayor/Documents/programming/42/algorithms/data_structures/rbt/rbt.h">
+		<Unit filename="/Users/almayor/Documents/programming/42/algorithms/data_structures/rbt.h">
 			<Option target="algorithms"/>
 		</Unit>
 		<Unit filename="/Users/almayor/Documents/programming/42/algorithms/data_structures/rbt/rbt_ceil.c">
+			<Option target="algorithms"/>
+		</Unit>
+		<Unit filename="/Users/almayor/Documents/programming/42/algorithms/data_structures/rbt/rbt_contains.c">
 			<Option target="algorithms"/>
 		</Unit>
 		<Unit filename="/Users/almayor/Documents/programming/42/algorithms/data_structures/rbt/rbt_delete.c">
@@ -334,7 +436,7 @@
 		<Unit filename="/Users/almayor/Documents/programming/42/algorithms/data_structures/rbt/rbt_height.c">
 			<Option target="algorithms"/>
 		</Unit>
-		<Unit filename="/Users/almayor/Documents/programming/42/algorithms/data_structures/rbt/rbt_inorder.c">
+		<Unit filename="/Users/almayor/Documents/programming/42/algorithms/data_structures/rbt/rbt_keys.c">
 			<Option target="algorithms"/>
 		</Unit>
 		<Unit filename="/Users/almayor/Documents/programming/42/algorithms/data_structures/rbt/rbt_max.c">
@@ -358,13 +460,28 @@
 		<Unit filename="/Users/almayor/Documents/programming/42/algorithms/data_structures/rbt/rbt_utils.h">
 			<Option target="algorithms"/>
 		</Unit>
-		<Unit filename="/Users/almayor/Documents/programming/42/algorithms/data_structures/rbt/rbt_utils_1.c">
+		<Unit filename="/Users/almayor/Documents/programming/42/algorithms/data_structures/rbt/rbt_vals.c">
 			<Option target="algorithms"/>
 		</Unit>
-		<Unit filename="/Users/almayor/Documents/programming/42/algorithms/data_structures/rbt/rbt_utils_2.c">
+		<Unit filename="/Users/almayor/Documents/programming/42/algorithms/data_structures/rbt/utils/rbt_flip_color.c">
 			<Option target="algorithms"/>
 		</Unit>
-		<Unit filename="/Users/almayor/Documents/programming/42/algorithms/data_structures/stack/stack.h">
+		<Unit filename="/Users/almayor/Documents/programming/42/algorithms/data_structures/rbt/utils/rbt_is_red_node.c">
+			<Option target="algorithms"/>
+		</Unit>
+		<Unit filename="/Users/almayor/Documents/programming/42/algorithms/data_structures/rbt/utils/rbt_make_node.c">
+			<Option target="algorithms"/>
+		</Unit>
+		<Unit filename="/Users/almayor/Documents/programming/42/algorithms/data_structures/rbt/utils/rbt_rotate_left.c">
+			<Option target="algorithms"/>
+		</Unit>
+		<Unit filename="/Users/almayor/Documents/programming/42/algorithms/data_structures/rbt/utils/rbt_rotate_right.c">
+			<Option target="algorithms"/>
+		</Unit>
+		<Unit filename="/Users/almayor/Documents/programming/42/algorithms/data_structures/rbt/utils/rbt_size_subtree.c">
+			<Option target="algorithms"/>
+		</Unit>
+		<Unit filename="/Users/almayor/Documents/programming/42/algorithms/data_structures/stack.h">
 			<Option target="algorithms"/>
 		</Unit>
 		<Unit filename="/Users/almayor/Documents/programming/42/algorithms/data_structures/stack/stack_delete.c">
@@ -389,6 +506,24 @@
 			<Option target="algorithms"/>
 		</Unit>
 		<Unit filename="/Users/almayor/Documents/programming/42/algorithms/data_structures/union_find.h">
+			<Option target="algorithms"/>
+		</Unit>
+		<Unit filename="/Users/almayor/Documents/programming/42/algorithms/data_structures/union_find/union_find_count.c">
+			<Option target="algorithms"/>
+		</Unit>
+		<Unit filename="/Users/almayor/Documents/programming/42/algorithms/data_structures/union_find/union_find_delete.c">
+			<Option target="algorithms"/>
+		</Unit>
+		<Unit filename="/Users/almayor/Documents/programming/42/algorithms/data_structures/union_find/union_find_find.c">
+			<Option target="algorithms"/>
+		</Unit>
+		<Unit filename="/Users/almayor/Documents/programming/42/algorithms/data_structures/union_find/union_find_new.c">
+			<Option target="algorithms"/>
+		</Unit>
+		<Unit filename="/Users/almayor/Documents/programming/42/algorithms/data_structures/union_find/union_find_size.c">
+			<Option target="algorithms"/>
+		</Unit>
+		<Unit filename="/Users/almayor/Documents/programming/42/algorithms/data_structures/union_find/union_find_union.c">
 			<Option target="algorithms"/>
 		</Unit>
 		<Unit filename="/Users/almayor/Documents/programming/42/algorithms/ft_printf/ft_printf.h">
@@ -784,7 +919,7 @@
 		<Unit filename="/Users/almayor/Documents/programming/42/algorithms/main.c">
 			<Option target="algorithms"/>
 		</Unit>
-		<Unit filename="/Users/almayor/Documents/programming/42/algorithms/types/type_bst_node.c">
+		<Unit filename="/Users/almayor/Documents/programming/42/algorithms/types/type_array.c">
 			<Option target="algorithms"/>
 		</Unit>
 		<Unit filename="/Users/almayor/Documents/programming/42/algorithms/types/type_char.c">
@@ -793,10 +928,10 @@
 		<Unit filename="/Users/almayor/Documents/programming/42/algorithms/types/type_float.c">
 			<Option target="algorithms"/>
 		</Unit>
-		<Unit filename="/Users/almayor/Documents/programming/42/algorithms/types/type_int.c">
+		<Unit filename="/Users/almayor/Documents/programming/42/algorithms/types/type_hashset.c">
 			<Option target="algorithms"/>
 		</Unit>
-		<Unit filename="/Users/almayor/Documents/programming/42/algorithms/types/type_rbt_node.c">
+		<Unit filename="/Users/almayor/Documents/programming/42/algorithms/types/type_int.c">
 			<Option target="algorithms"/>
 		</Unit>
 		<Unit filename="/Users/almayor/Documents/programming/42/algorithms/types/type_str.c">
@@ -805,13 +940,13 @@
 		<Unit filename="/Users/almayor/Documents/programming/42/algorithms/types/types.h">
 			<Option target="algorithms"/>
 		</Unit>
-		<Unit filename="/Users/almayor/Documents/programming/42/algorithms/utils/data2ptr.c">
+		<Unit filename="/Users/almayor/Documents/programming/42/algorithms/types/utils/data2ptr.c">
 			<Option target="algorithms"/>
 		</Unit>
-		<Unit filename="/Users/almayor/Documents/programming/42/algorithms/utils/ptr2data.c">
+		<Unit filename="/Users/almayor/Documents/programming/42/algorithms/types/utils/ptr2data.c">
 			<Option target="algorithms"/>
 		</Unit>
-		<Unit filename="/Users/almayor/Documents/programming/42/algorithms/utils/utils.h">
+		<Unit filename="/Users/almayor/Documents/programming/42/algorithms/types/utils/utils.h">
 			<Option target="algorithms"/>
 		</Unit>
 		<Unit filename="/Users/almayor/Documents/programming/42/algorithms/CMakeLists.txt">

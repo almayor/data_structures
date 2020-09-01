@@ -6,7 +6,7 @@
 /*   By: unite <marvin@42.fr>                       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/07/17 01:30:04 by unite             #+#    #+#             */
-/*   Updated: 2020/07/18 16:21:50 by unite            ###   ########.fr       */
+/*   Updated: 2020/07/21 22:33:15 by unite            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,5 +14,5 @@
 
 void	*queue_dequeue(t_queue *queue)
 {
-	return (list_remove_first(queue));
+	return (list_unlink_first(queue));
 }

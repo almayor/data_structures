@@ -123,6 +123,114 @@ algorithms/fast:
 	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/build
 .PHONY : algorithms/fast
 
+algorithms/sorts/insertion_sort/array_insertion_sort.o: algorithms/sorts/insertion_sort/array_insertion_sort.c.o
+
+.PHONY : algorithms/sorts/insertion_sort/array_insertion_sort.o
+
+# target to build an object file
+algorithms/sorts/insertion_sort/array_insertion_sort.c.o:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/algorithms/sorts/insertion_sort/array_insertion_sort.c.o
+.PHONY : algorithms/sorts/insertion_sort/array_insertion_sort.c.o
+
+algorithms/sorts/insertion_sort/array_insertion_sort.i: algorithms/sorts/insertion_sort/array_insertion_sort.c.i
+
+.PHONY : algorithms/sorts/insertion_sort/array_insertion_sort.i
+
+# target to preprocess a source file
+algorithms/sorts/insertion_sort/array_insertion_sort.c.i:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/algorithms/sorts/insertion_sort/array_insertion_sort.c.i
+.PHONY : algorithms/sorts/insertion_sort/array_insertion_sort.c.i
+
+algorithms/sorts/insertion_sort/array_insertion_sort.s: algorithms/sorts/insertion_sort/array_insertion_sort.c.s
+
+.PHONY : algorithms/sorts/insertion_sort/array_insertion_sort.s
+
+# target to generate assembly for a file
+algorithms/sorts/insertion_sort/array_insertion_sort.c.s:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/algorithms/sorts/insertion_sort/array_insertion_sort.c.s
+.PHONY : algorithms/sorts/insertion_sort/array_insertion_sort.c.s
+
+algorithms/sorts/merge_sort/array_merge_sort.o: algorithms/sorts/merge_sort/array_merge_sort.c.o
+
+.PHONY : algorithms/sorts/merge_sort/array_merge_sort.o
+
+# target to build an object file
+algorithms/sorts/merge_sort/array_merge_sort.c.o:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/algorithms/sorts/merge_sort/array_merge_sort.c.o
+.PHONY : algorithms/sorts/merge_sort/array_merge_sort.c.o
+
+algorithms/sorts/merge_sort/array_merge_sort.i: algorithms/sorts/merge_sort/array_merge_sort.c.i
+
+.PHONY : algorithms/sorts/merge_sort/array_merge_sort.i
+
+# target to preprocess a source file
+algorithms/sorts/merge_sort/array_merge_sort.c.i:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/algorithms/sorts/merge_sort/array_merge_sort.c.i
+.PHONY : algorithms/sorts/merge_sort/array_merge_sort.c.i
+
+algorithms/sorts/merge_sort/array_merge_sort.s: algorithms/sorts/merge_sort/array_merge_sort.c.s
+
+.PHONY : algorithms/sorts/merge_sort/array_merge_sort.s
+
+# target to generate assembly for a file
+algorithms/sorts/merge_sort/array_merge_sort.c.s:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/algorithms/sorts/merge_sort/array_merge_sort.c.s
+.PHONY : algorithms/sorts/merge_sort/array_merge_sort.c.s
+
+algorithms/sorts/merge_sort/list_merge_sort.o: algorithms/sorts/merge_sort/list_merge_sort.c.o
+
+.PHONY : algorithms/sorts/merge_sort/list_merge_sort.o
+
+# target to build an object file
+algorithms/sorts/merge_sort/list_merge_sort.c.o:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/algorithms/sorts/merge_sort/list_merge_sort.c.o
+.PHONY : algorithms/sorts/merge_sort/list_merge_sort.c.o
+
+algorithms/sorts/merge_sort/list_merge_sort.i: algorithms/sorts/merge_sort/list_merge_sort.c.i
+
+.PHONY : algorithms/sorts/merge_sort/list_merge_sort.i
+
+# target to preprocess a source file
+algorithms/sorts/merge_sort/list_merge_sort.c.i:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/algorithms/sorts/merge_sort/list_merge_sort.c.i
+.PHONY : algorithms/sorts/merge_sort/list_merge_sort.c.i
+
+algorithms/sorts/merge_sort/list_merge_sort.s: algorithms/sorts/merge_sort/list_merge_sort.c.s
+
+.PHONY : algorithms/sorts/merge_sort/list_merge_sort.s
+
+# target to generate assembly for a file
+algorithms/sorts/merge_sort/list_merge_sort.c.s:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/algorithms/sorts/merge_sort/list_merge_sort.c.s
+.PHONY : algorithms/sorts/merge_sort/list_merge_sort.c.s
+
+algorithms/sorts/quick_sort/array_quick_sort.o: algorithms/sorts/quick_sort/array_quick_sort.c.o
+
+.PHONY : algorithms/sorts/quick_sort/array_quick_sort.o
+
+# target to build an object file
+algorithms/sorts/quick_sort/array_quick_sort.c.o:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/algorithms/sorts/quick_sort/array_quick_sort.c.o
+.PHONY : algorithms/sorts/quick_sort/array_quick_sort.c.o
+
+algorithms/sorts/quick_sort/array_quick_sort.i: algorithms/sorts/quick_sort/array_quick_sort.c.i
+
+.PHONY : algorithms/sorts/quick_sort/array_quick_sort.i
+
+# target to preprocess a source file
+algorithms/sorts/quick_sort/array_quick_sort.c.i:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/algorithms/sorts/quick_sort/array_quick_sort.c.i
+.PHONY : algorithms/sorts/quick_sort/array_quick_sort.c.i
+
+algorithms/sorts/quick_sort/array_quick_sort.s: algorithms/sorts/quick_sort/array_quick_sort.c.s
+
+.PHONY : algorithms/sorts/quick_sort/array_quick_sort.s
+
+# target to generate assembly for a file
+algorithms/sorts/quick_sort/array_quick_sort.c.s:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/algorithms/sorts/quick_sort/array_quick_sort.c.s
+.PHONY : algorithms/sorts/quick_sort/array_quick_sort.c.s
+
 data_structures/array/array_append.o: data_structures/array/array_append.c.o
 
 .PHONY : data_structures/array/array_append.o
@@ -149,6 +257,33 @@ data_structures/array/array_append.s: data_structures/array/array_append.c.s
 data_structures/array/array_append.c.s:
 	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/array/array_append.c.s
 .PHONY : data_structures/array/array_append.c.s
+
+data_structures/array/array_copy.o: data_structures/array/array_copy.c.o
+
+.PHONY : data_structures/array/array_copy.o
+
+# target to build an object file
+data_structures/array/array_copy.c.o:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/array/array_copy.c.o
+.PHONY : data_structures/array/array_copy.c.o
+
+data_structures/array/array_copy.i: data_structures/array/array_copy.c.i
+
+.PHONY : data_structures/array/array_copy.i
+
+# target to preprocess a source file
+data_structures/array/array_copy.c.i:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/array/array_copy.c.i
+.PHONY : data_structures/array/array_copy.c.i
+
+data_structures/array/array_copy.s: data_structures/array/array_copy.c.s
+
+.PHONY : data_structures/array/array_copy.s
+
+# target to generate assembly for a file
+data_structures/array/array_copy.c.s:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/array/array_copy.c.s
+.PHONY : data_structures/array/array_copy.c.s
 
 data_structures/array/array_delete.o: data_structures/array/array_delete.c.o
 
@@ -231,60 +366,6 @@ data_structures/array/array_insert.c.s:
 	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/array/array_insert.c.s
 .PHONY : data_structures/array/array_insert.c.s
 
-data_structures/array/array_insertion_sort.o: data_structures/array/array_insertion_sort.c.o
-
-.PHONY : data_structures/array/array_insertion_sort.o
-
-# target to build an object file
-data_structures/array/array_insertion_sort.c.o:
-	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/array/array_insertion_sort.c.o
-.PHONY : data_structures/array/array_insertion_sort.c.o
-
-data_structures/array/array_insertion_sort.i: data_structures/array/array_insertion_sort.c.i
-
-.PHONY : data_structures/array/array_insertion_sort.i
-
-# target to preprocess a source file
-data_structures/array/array_insertion_sort.c.i:
-	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/array/array_insertion_sort.c.i
-.PHONY : data_structures/array/array_insertion_sort.c.i
-
-data_structures/array/array_insertion_sort.s: data_structures/array/array_insertion_sort.c.s
-
-.PHONY : data_structures/array/array_insertion_sort.s
-
-# target to generate assembly for a file
-data_structures/array/array_insertion_sort.c.s:
-	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/array/array_insertion_sort.c.s
-.PHONY : data_structures/array/array_insertion_sort.c.s
-
-data_structures/array/array_merge_sort.o: data_structures/array/array_merge_sort.c.o
-
-.PHONY : data_structures/array/array_merge_sort.o
-
-# target to build an object file
-data_structures/array/array_merge_sort.c.o:
-	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/array/array_merge_sort.c.o
-.PHONY : data_structures/array/array_merge_sort.c.o
-
-data_structures/array/array_merge_sort.i: data_structures/array/array_merge_sort.c.i
-
-.PHONY : data_structures/array/array_merge_sort.i
-
-# target to preprocess a source file
-data_structures/array/array_merge_sort.c.i:
-	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/array/array_merge_sort.c.i
-.PHONY : data_structures/array/array_merge_sort.c.i
-
-data_structures/array/array_merge_sort.s: data_structures/array/array_merge_sort.c.s
-
-.PHONY : data_structures/array/array_merge_sort.s
-
-# target to generate assembly for a file
-data_structures/array/array_merge_sort.c.s:
-	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/array/array_merge_sort.c.s
-.PHONY : data_structures/array/array_merge_sort.c.s
-
 data_structures/array/array_new.o: data_structures/array/array_new.c.o
 
 .PHONY : data_structures/array/array_new.o
@@ -311,33 +392,6 @@ data_structures/array/array_new.s: data_structures/array/array_new.c.s
 data_structures/array/array_new.c.s:
 	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/array/array_new.c.s
 .PHONY : data_structures/array/array_new.c.s
-
-data_structures/array/array_new_size.o: data_structures/array/array_new_size.c.o
-
-.PHONY : data_structures/array/array_new_size.o
-
-# target to build an object file
-data_structures/array/array_new_size.c.o:
-	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/array/array_new_size.c.o
-.PHONY : data_structures/array/array_new_size.c.o
-
-data_structures/array/array_new_size.i: data_structures/array/array_new_size.c.i
-
-.PHONY : data_structures/array/array_new_size.i
-
-# target to preprocess a source file
-data_structures/array/array_new_size.c.i:
-	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/array/array_new_size.c.i
-.PHONY : data_structures/array/array_new_size.c.i
-
-data_structures/array/array_new_size.s: data_structures/array/array_new_size.c.s
-
-.PHONY : data_structures/array/array_new_size.s
-
-# target to generate assembly for a file
-data_structures/array/array_new_size.c.s:
-	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/array/array_new_size.c.s
-.PHONY : data_structures/array/array_new_size.c.s
 
 data_structures/array/array_pop.o: data_structures/array/array_pop.c.o
 
@@ -392,33 +446,6 @@ data_structures/array/array_print.s: data_structures/array/array_print.c.s
 data_structures/array/array_print.c.s:
 	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/array/array_print.c.s
 .PHONY : data_structures/array/array_print.c.s
-
-data_structures/array/array_quick_sort.o: data_structures/array/array_quick_sort.c.o
-
-.PHONY : data_structures/array/array_quick_sort.o
-
-# target to build an object file
-data_structures/array/array_quick_sort.c.o:
-	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/array/array_quick_sort.c.o
-.PHONY : data_structures/array/array_quick_sort.c.o
-
-data_structures/array/array_quick_sort.i: data_structures/array/array_quick_sort.c.i
-
-.PHONY : data_structures/array/array_quick_sort.i
-
-# target to preprocess a source file
-data_structures/array/array_quick_sort.c.i:
-	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/array/array_quick_sort.c.i
-.PHONY : data_structures/array/array_quick_sort.c.i
-
-data_structures/array/array_quick_sort.s: data_structures/array/array_quick_sort.c.s
-
-.PHONY : data_structures/array/array_quick_sort.s
-
-# target to generate assembly for a file
-data_structures/array/array_quick_sort.c.s:
-	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/array/array_quick_sort.c.s
-.PHONY : data_structures/array/array_quick_sort.c.s
 
 data_structures/array/array_remove.o: data_structures/array/array_remove.c.o
 
@@ -501,6 +528,33 @@ data_structures/array/array_size.c.s:
 	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/array/array_size.c.s
 .PHONY : data_structures/array/array_size.c.s
 
+data_structures/array/array_sort.o: data_structures/array/array_sort.c.o
+
+.PHONY : data_structures/array/array_sort.o
+
+# target to build an object file
+data_structures/array/array_sort.c.o:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/array/array_sort.c.o
+.PHONY : data_structures/array/array_sort.c.o
+
+data_structures/array/array_sort.i: data_structures/array/array_sort.c.i
+
+.PHONY : data_structures/array/array_sort.i
+
+# target to preprocess a source file
+data_structures/array/array_sort.c.i:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/array/array_sort.c.i
+.PHONY : data_structures/array/array_sort.c.i
+
+data_structures/array/array_sort.s: data_structures/array/array_sort.c.s
+
+.PHONY : data_structures/array/array_sort.s
+
+# target to generate assembly for a file
+data_structures/array/array_sort.c.s:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/array/array_sort.c.s
+.PHONY : data_structures/array/array_sort.c.s
+
 data_structures/array/array_sorted.o: data_structures/array/array_sorted.c.o
 
 .PHONY : data_structures/array/array_sorted.o
@@ -555,6 +609,33 @@ data_structures/array/array_swap.c.s:
 	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/array/array_swap.c.s
 .PHONY : data_structures/array/array_swap.c.s
 
+data_structures/array/array_to_queue.o: data_structures/array/array_to_queue.c.o
+
+.PHONY : data_structures/array/array_to_queue.o
+
+# target to build an object file
+data_structures/array/array_to_queue.c.o:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/array/array_to_queue.c.o
+.PHONY : data_structures/array/array_to_queue.c.o
+
+data_structures/array/array_to_queue.i: data_structures/array/array_to_queue.c.i
+
+.PHONY : data_structures/array/array_to_queue.i
+
+# target to preprocess a source file
+data_structures/array/array_to_queue.c.i:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/array/array_to_queue.c.i
+.PHONY : data_structures/array/array_to_queue.c.i
+
+data_structures/array/array_to_queue.s: data_structures/array/array_to_queue.c.s
+
+.PHONY : data_structures/array/array_to_queue.s
+
+# target to generate assembly for a file
+data_structures/array/array_to_queue.c.s:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/array/array_to_queue.c.s
+.PHONY : data_structures/array/array_to_queue.c.s
+
 data_structures/array/array_utils.o: data_structures/array/array_utils.c.o
 
 .PHONY : data_structures/array/array_utils.o
@@ -581,6 +662,33 @@ data_structures/array/array_utils.s: data_structures/array/array_utils.c.s
 data_structures/array/array_utils.c.s:
 	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/array/array_utils.c.s
 .PHONY : data_structures/array/array_utils.c.s
+
+data_structures/array/array_zeros.o: data_structures/array/array_zeros.c.o
+
+.PHONY : data_structures/array/array_zeros.o
+
+# target to build an object file
+data_structures/array/array_zeros.c.o:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/array/array_zeros.c.o
+.PHONY : data_structures/array/array_zeros.c.o
+
+data_structures/array/array_zeros.i: data_structures/array/array_zeros.c.i
+
+.PHONY : data_structures/array/array_zeros.i
+
+# target to preprocess a source file
+data_structures/array/array_zeros.c.i:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/array/array_zeros.c.i
+.PHONY : data_structures/array/array_zeros.c.i
+
+data_structures/array/array_zeros.s: data_structures/array/array_zeros.c.s
+
+.PHONY : data_structures/array/array_zeros.s
+
+# target to generate assembly for a file
+data_structures/array/array_zeros.c.s:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/array/array_zeros.c.s
+.PHONY : data_structures/array/array_zeros.c.s
 
 data_structures/bst/bst_delete.o: data_structures/bst/bst_delete.c.o
 
@@ -743,6 +851,762 @@ data_structures/bst/bst_size.s: data_structures/bst/bst_size.c.s
 data_structures/bst/bst_size.c.s:
 	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/bst/bst_size.c.s
 .PHONY : data_structures/bst/bst_size.c.s
+
+data_structures/graph/graph_E.o: data_structures/graph/graph_E.c.o
+
+.PHONY : data_structures/graph/graph_E.o
+
+# target to build an object file
+data_structures/graph/graph_E.c.o:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/graph/graph_E.c.o
+.PHONY : data_structures/graph/graph_E.c.o
+
+data_structures/graph/graph_E.i: data_structures/graph/graph_E.c.i
+
+.PHONY : data_structures/graph/graph_E.i
+
+# target to preprocess a source file
+data_structures/graph/graph_E.c.i:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/graph/graph_E.c.i
+.PHONY : data_structures/graph/graph_E.c.i
+
+data_structures/graph/graph_E.s: data_structures/graph/graph_E.c.s
+
+.PHONY : data_structures/graph/graph_E.s
+
+# target to generate assembly for a file
+data_structures/graph/graph_E.c.s:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/graph/graph_E.c.s
+.PHONY : data_structures/graph/graph_E.c.s
+
+data_structures/graph/graph_V.o: data_structures/graph/graph_V.c.o
+
+.PHONY : data_structures/graph/graph_V.o
+
+# target to build an object file
+data_structures/graph/graph_V.c.o:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/graph/graph_V.c.o
+.PHONY : data_structures/graph/graph_V.c.o
+
+data_structures/graph/graph_V.i: data_structures/graph/graph_V.c.i
+
+.PHONY : data_structures/graph/graph_V.i
+
+# target to preprocess a source file
+data_structures/graph/graph_V.c.i:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/graph/graph_V.c.i
+.PHONY : data_structures/graph/graph_V.c.i
+
+data_structures/graph/graph_V.s: data_structures/graph/graph_V.c.s
+
+.PHONY : data_structures/graph/graph_V.s
+
+# target to generate assembly for a file
+data_structures/graph/graph_V.c.s:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/graph/graph_V.c.s
+.PHONY : data_structures/graph/graph_V.c.s
+
+data_structures/graph/graph_add_edge.o: data_structures/graph/graph_add_edge.c.o
+
+.PHONY : data_structures/graph/graph_add_edge.o
+
+# target to build an object file
+data_structures/graph/graph_add_edge.c.o:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/graph/graph_add_edge.c.o
+.PHONY : data_structures/graph/graph_add_edge.c.o
+
+data_structures/graph/graph_add_edge.i: data_structures/graph/graph_add_edge.c.i
+
+.PHONY : data_structures/graph/graph_add_edge.i
+
+# target to preprocess a source file
+data_structures/graph/graph_add_edge.c.i:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/graph/graph_add_edge.c.i
+.PHONY : data_structures/graph/graph_add_edge.c.i
+
+data_structures/graph/graph_add_edge.s: data_structures/graph/graph_add_edge.c.s
+
+.PHONY : data_structures/graph/graph_add_edge.s
+
+# target to generate assembly for a file
+data_structures/graph/graph_add_edge.c.s:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/graph/graph_add_edge.c.s
+.PHONY : data_structures/graph/graph_add_edge.c.s
+
+data_structures/graph/graph_add_vertex.o: data_structures/graph/graph_add_vertex.c.o
+
+.PHONY : data_structures/graph/graph_add_vertex.o
+
+# target to build an object file
+data_structures/graph/graph_add_vertex.c.o:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/graph/graph_add_vertex.c.o
+.PHONY : data_structures/graph/graph_add_vertex.c.o
+
+data_structures/graph/graph_add_vertex.i: data_structures/graph/graph_add_vertex.c.i
+
+.PHONY : data_structures/graph/graph_add_vertex.i
+
+# target to preprocess a source file
+data_structures/graph/graph_add_vertex.c.i:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/graph/graph_add_vertex.c.i
+.PHONY : data_structures/graph/graph_add_vertex.c.i
+
+data_structures/graph/graph_add_vertex.s: data_structures/graph/graph_add_vertex.c.s
+
+.PHONY : data_structures/graph/graph_add_vertex.s
+
+# target to generate assembly for a file
+data_structures/graph/graph_add_vertex.c.s:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/graph/graph_add_vertex.c.s
+.PHONY : data_structures/graph/graph_add_vertex.c.s
+
+data_structures/graph/graph_adjacency.o: data_structures/graph/graph_adjacency.c.o
+
+.PHONY : data_structures/graph/graph_adjacency.o
+
+# target to build an object file
+data_structures/graph/graph_adjacency.c.o:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/graph/graph_adjacency.c.o
+.PHONY : data_structures/graph/graph_adjacency.c.o
+
+data_structures/graph/graph_adjacency.i: data_structures/graph/graph_adjacency.c.i
+
+.PHONY : data_structures/graph/graph_adjacency.i
+
+# target to preprocess a source file
+data_structures/graph/graph_adjacency.c.i:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/graph/graph_adjacency.c.i
+.PHONY : data_structures/graph/graph_adjacency.c.i
+
+data_structures/graph/graph_adjacency.s: data_structures/graph/graph_adjacency.c.s
+
+.PHONY : data_structures/graph/graph_adjacency.s
+
+# target to generate assembly for a file
+data_structures/graph/graph_adjacency.c.s:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/graph/graph_adjacency.c.s
+.PHONY : data_structures/graph/graph_adjacency.c.s
+
+data_structures/graph/graph_adjacent.o: data_structures/graph/graph_adjacent.c.o
+
+.PHONY : data_structures/graph/graph_adjacent.o
+
+# target to build an object file
+data_structures/graph/graph_adjacent.c.o:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/graph/graph_adjacent.c.o
+.PHONY : data_structures/graph/graph_adjacent.c.o
+
+data_structures/graph/graph_adjacent.i: data_structures/graph/graph_adjacent.c.i
+
+.PHONY : data_structures/graph/graph_adjacent.i
+
+# target to preprocess a source file
+data_structures/graph/graph_adjacent.c.i:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/graph/graph_adjacent.c.i
+.PHONY : data_structures/graph/graph_adjacent.c.i
+
+data_structures/graph/graph_adjacent.s: data_structures/graph/graph_adjacent.c.s
+
+.PHONY : data_structures/graph/graph_adjacent.s
+
+# target to generate assembly for a file
+data_structures/graph/graph_adjacent.c.s:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/graph/graph_adjacent.c.s
+.PHONY : data_structures/graph/graph_adjacent.c.s
+
+data_structures/graph/graph_delete.o: data_structures/graph/graph_delete.c.o
+
+.PHONY : data_structures/graph/graph_delete.o
+
+# target to build an object file
+data_structures/graph/graph_delete.c.o:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/graph/graph_delete.c.o
+.PHONY : data_structures/graph/graph_delete.c.o
+
+data_structures/graph/graph_delete.i: data_structures/graph/graph_delete.c.i
+
+.PHONY : data_structures/graph/graph_delete.i
+
+# target to preprocess a source file
+data_structures/graph/graph_delete.c.i:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/graph/graph_delete.c.i
+.PHONY : data_structures/graph/graph_delete.c.i
+
+data_structures/graph/graph_delete.s: data_structures/graph/graph_delete.c.s
+
+.PHONY : data_structures/graph/graph_delete.s
+
+# target to generate assembly for a file
+data_structures/graph/graph_delete.c.s:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/graph/graph_delete.c.s
+.PHONY : data_structures/graph/graph_delete.c.s
+
+data_structures/graph/graph_new.o: data_structures/graph/graph_new.c.o
+
+.PHONY : data_structures/graph/graph_new.o
+
+# target to build an object file
+data_structures/graph/graph_new.c.o:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/graph/graph_new.c.o
+.PHONY : data_structures/graph/graph_new.c.o
+
+data_structures/graph/graph_new.i: data_structures/graph/graph_new.c.i
+
+.PHONY : data_structures/graph/graph_new.i
+
+# target to preprocess a source file
+data_structures/graph/graph_new.c.i:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/graph/graph_new.c.i
+.PHONY : data_structures/graph/graph_new.c.i
+
+data_structures/graph/graph_new.s: data_structures/graph/graph_new.c.s
+
+.PHONY : data_structures/graph/graph_new.s
+
+# target to generate assembly for a file
+data_structures/graph/graph_new.c.s:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/graph/graph_new.c.s
+.PHONY : data_structures/graph/graph_new.c.s
+
+data_structures/graph/graph_vertices.o: data_structures/graph/graph_vertices.c.o
+
+.PHONY : data_structures/graph/graph_vertices.o
+
+# target to build an object file
+data_structures/graph/graph_vertices.c.o:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/graph/graph_vertices.c.o
+.PHONY : data_structures/graph/graph_vertices.c.o
+
+data_structures/graph/graph_vertices.i: data_structures/graph/graph_vertices.c.i
+
+.PHONY : data_structures/graph/graph_vertices.i
+
+# target to preprocess a source file
+data_structures/graph/graph_vertices.c.i:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/graph/graph_vertices.c.i
+.PHONY : data_structures/graph/graph_vertices.c.i
+
+data_structures/graph/graph_vertices.s: data_structures/graph/graph_vertices.c.s
+
+.PHONY : data_structures/graph/graph_vertices.s
+
+# target to generate assembly for a file
+data_structures/graph/graph_vertices.c.s:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/graph/graph_vertices.c.s
+.PHONY : data_structures/graph/graph_vertices.c.s
+
+data_structures/hashmap/hashmap_contains.o: data_structures/hashmap/hashmap_contains.c.o
+
+.PHONY : data_structures/hashmap/hashmap_contains.o
+
+# target to build an object file
+data_structures/hashmap/hashmap_contains.c.o:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/hashmap/hashmap_contains.c.o
+.PHONY : data_structures/hashmap/hashmap_contains.c.o
+
+data_structures/hashmap/hashmap_contains.i: data_structures/hashmap/hashmap_contains.c.i
+
+.PHONY : data_structures/hashmap/hashmap_contains.i
+
+# target to preprocess a source file
+data_structures/hashmap/hashmap_contains.c.i:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/hashmap/hashmap_contains.c.i
+.PHONY : data_structures/hashmap/hashmap_contains.c.i
+
+data_structures/hashmap/hashmap_contains.s: data_structures/hashmap/hashmap_contains.c.s
+
+.PHONY : data_structures/hashmap/hashmap_contains.s
+
+# target to generate assembly for a file
+data_structures/hashmap/hashmap_contains.c.s:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/hashmap/hashmap_contains.c.s
+.PHONY : data_structures/hashmap/hashmap_contains.c.s
+
+data_structures/hashmap/hashmap_delete.o: data_structures/hashmap/hashmap_delete.c.o
+
+.PHONY : data_structures/hashmap/hashmap_delete.o
+
+# target to build an object file
+data_structures/hashmap/hashmap_delete.c.o:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/hashmap/hashmap_delete.c.o
+.PHONY : data_structures/hashmap/hashmap_delete.c.o
+
+data_structures/hashmap/hashmap_delete.i: data_structures/hashmap/hashmap_delete.c.i
+
+.PHONY : data_structures/hashmap/hashmap_delete.i
+
+# target to preprocess a source file
+data_structures/hashmap/hashmap_delete.c.i:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/hashmap/hashmap_delete.c.i
+.PHONY : data_structures/hashmap/hashmap_delete.c.i
+
+data_structures/hashmap/hashmap_delete.s: data_structures/hashmap/hashmap_delete.c.s
+
+.PHONY : data_structures/hashmap/hashmap_delete.s
+
+# target to generate assembly for a file
+data_structures/hashmap/hashmap_delete.c.s:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/hashmap/hashmap_delete.c.s
+.PHONY : data_structures/hashmap/hashmap_delete.c.s
+
+data_structures/hashmap/hashmap_get.o: data_structures/hashmap/hashmap_get.c.o
+
+.PHONY : data_structures/hashmap/hashmap_get.o
+
+# target to build an object file
+data_structures/hashmap/hashmap_get.c.o:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/hashmap/hashmap_get.c.o
+.PHONY : data_structures/hashmap/hashmap_get.c.o
+
+data_structures/hashmap/hashmap_get.i: data_structures/hashmap/hashmap_get.c.i
+
+.PHONY : data_structures/hashmap/hashmap_get.i
+
+# target to preprocess a source file
+data_structures/hashmap/hashmap_get.c.i:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/hashmap/hashmap_get.c.i
+.PHONY : data_structures/hashmap/hashmap_get.c.i
+
+data_structures/hashmap/hashmap_get.s: data_structures/hashmap/hashmap_get.c.s
+
+.PHONY : data_structures/hashmap/hashmap_get.s
+
+# target to generate assembly for a file
+data_structures/hashmap/hashmap_get.c.s:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/hashmap/hashmap_get.c.s
+.PHONY : data_structures/hashmap/hashmap_get.c.s
+
+data_structures/hashmap/hashmap_keys.o: data_structures/hashmap/hashmap_keys.c.o
+
+.PHONY : data_structures/hashmap/hashmap_keys.o
+
+# target to build an object file
+data_structures/hashmap/hashmap_keys.c.o:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/hashmap/hashmap_keys.c.o
+.PHONY : data_structures/hashmap/hashmap_keys.c.o
+
+data_structures/hashmap/hashmap_keys.i: data_structures/hashmap/hashmap_keys.c.i
+
+.PHONY : data_structures/hashmap/hashmap_keys.i
+
+# target to preprocess a source file
+data_structures/hashmap/hashmap_keys.c.i:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/hashmap/hashmap_keys.c.i
+.PHONY : data_structures/hashmap/hashmap_keys.c.i
+
+data_structures/hashmap/hashmap_keys.s: data_structures/hashmap/hashmap_keys.c.s
+
+.PHONY : data_structures/hashmap/hashmap_keys.s
+
+# target to generate assembly for a file
+data_structures/hashmap/hashmap_keys.c.s:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/hashmap/hashmap_keys.c.s
+.PHONY : data_structures/hashmap/hashmap_keys.c.s
+
+data_structures/hashmap/hashmap_new.o: data_structures/hashmap/hashmap_new.c.o
+
+.PHONY : data_structures/hashmap/hashmap_new.o
+
+# target to build an object file
+data_structures/hashmap/hashmap_new.c.o:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/hashmap/hashmap_new.c.o
+.PHONY : data_structures/hashmap/hashmap_new.c.o
+
+data_structures/hashmap/hashmap_new.i: data_structures/hashmap/hashmap_new.c.i
+
+.PHONY : data_structures/hashmap/hashmap_new.i
+
+# target to preprocess a source file
+data_structures/hashmap/hashmap_new.c.i:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/hashmap/hashmap_new.c.i
+.PHONY : data_structures/hashmap/hashmap_new.c.i
+
+data_structures/hashmap/hashmap_new.s: data_structures/hashmap/hashmap_new.c.s
+
+.PHONY : data_structures/hashmap/hashmap_new.s
+
+# target to generate assembly for a file
+data_structures/hashmap/hashmap_new.c.s:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/hashmap/hashmap_new.c.s
+.PHONY : data_structures/hashmap/hashmap_new.c.s
+
+data_structures/hashmap/hashmap_put.o: data_structures/hashmap/hashmap_put.c.o
+
+.PHONY : data_structures/hashmap/hashmap_put.o
+
+# target to build an object file
+data_structures/hashmap/hashmap_put.c.o:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/hashmap/hashmap_put.c.o
+.PHONY : data_structures/hashmap/hashmap_put.c.o
+
+data_structures/hashmap/hashmap_put.i: data_structures/hashmap/hashmap_put.c.i
+
+.PHONY : data_structures/hashmap/hashmap_put.i
+
+# target to preprocess a source file
+data_structures/hashmap/hashmap_put.c.i:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/hashmap/hashmap_put.c.i
+.PHONY : data_structures/hashmap/hashmap_put.c.i
+
+data_structures/hashmap/hashmap_put.s: data_structures/hashmap/hashmap_put.c.s
+
+.PHONY : data_structures/hashmap/hashmap_put.s
+
+# target to generate assembly for a file
+data_structures/hashmap/hashmap_put.c.s:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/hashmap/hashmap_put.c.s
+.PHONY : data_structures/hashmap/hashmap_put.c.s
+
+data_structures/hashmap/hashmap_remove.o: data_structures/hashmap/hashmap_remove.c.o
+
+.PHONY : data_structures/hashmap/hashmap_remove.o
+
+# target to build an object file
+data_structures/hashmap/hashmap_remove.c.o:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/hashmap/hashmap_remove.c.o
+.PHONY : data_structures/hashmap/hashmap_remove.c.o
+
+data_structures/hashmap/hashmap_remove.i: data_structures/hashmap/hashmap_remove.c.i
+
+.PHONY : data_structures/hashmap/hashmap_remove.i
+
+# target to preprocess a source file
+data_structures/hashmap/hashmap_remove.c.i:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/hashmap/hashmap_remove.c.i
+.PHONY : data_structures/hashmap/hashmap_remove.c.i
+
+data_structures/hashmap/hashmap_remove.s: data_structures/hashmap/hashmap_remove.c.s
+
+.PHONY : data_structures/hashmap/hashmap_remove.s
+
+# target to generate assembly for a file
+data_structures/hashmap/hashmap_remove.c.s:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/hashmap/hashmap_remove.c.s
+.PHONY : data_structures/hashmap/hashmap_remove.c.s
+
+data_structures/hashmap/hashmap_size.o: data_structures/hashmap/hashmap_size.c.o
+
+.PHONY : data_structures/hashmap/hashmap_size.o
+
+# target to build an object file
+data_structures/hashmap/hashmap_size.c.o:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/hashmap/hashmap_size.c.o
+.PHONY : data_structures/hashmap/hashmap_size.c.o
+
+data_structures/hashmap/hashmap_size.i: data_structures/hashmap/hashmap_size.c.i
+
+.PHONY : data_structures/hashmap/hashmap_size.i
+
+# target to preprocess a source file
+data_structures/hashmap/hashmap_size.c.i:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/hashmap/hashmap_size.c.i
+.PHONY : data_structures/hashmap/hashmap_size.c.i
+
+data_structures/hashmap/hashmap_size.s: data_structures/hashmap/hashmap_size.c.s
+
+.PHONY : data_structures/hashmap/hashmap_size.s
+
+# target to generate assembly for a file
+data_structures/hashmap/hashmap_size.c.s:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/hashmap/hashmap_size.c.s
+.PHONY : data_structures/hashmap/hashmap_size.c.s
+
+data_structures/hashmap/hashmap_utils.o: data_structures/hashmap/hashmap_utils.c.o
+
+.PHONY : data_structures/hashmap/hashmap_utils.o
+
+# target to build an object file
+data_structures/hashmap/hashmap_utils.c.o:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/hashmap/hashmap_utils.c.o
+.PHONY : data_structures/hashmap/hashmap_utils.c.o
+
+data_structures/hashmap/hashmap_utils.i: data_structures/hashmap/hashmap_utils.c.i
+
+.PHONY : data_structures/hashmap/hashmap_utils.i
+
+# target to preprocess a source file
+data_structures/hashmap/hashmap_utils.c.i:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/hashmap/hashmap_utils.c.i
+.PHONY : data_structures/hashmap/hashmap_utils.c.i
+
+data_structures/hashmap/hashmap_utils.s: data_structures/hashmap/hashmap_utils.c.s
+
+.PHONY : data_structures/hashmap/hashmap_utils.s
+
+# target to generate assembly for a file
+data_structures/hashmap/hashmap_utils.c.s:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/hashmap/hashmap_utils.c.s
+.PHONY : data_structures/hashmap/hashmap_utils.c.s
+
+data_structures/hashmap/hashmap_vals.o: data_structures/hashmap/hashmap_vals.c.o
+
+.PHONY : data_structures/hashmap/hashmap_vals.o
+
+# target to build an object file
+data_structures/hashmap/hashmap_vals.c.o:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/hashmap/hashmap_vals.c.o
+.PHONY : data_structures/hashmap/hashmap_vals.c.o
+
+data_structures/hashmap/hashmap_vals.i: data_structures/hashmap/hashmap_vals.c.i
+
+.PHONY : data_structures/hashmap/hashmap_vals.i
+
+# target to preprocess a source file
+data_structures/hashmap/hashmap_vals.c.i:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/hashmap/hashmap_vals.c.i
+.PHONY : data_structures/hashmap/hashmap_vals.c.i
+
+data_structures/hashmap/hashmap_vals.s: data_structures/hashmap/hashmap_vals.c.s
+
+.PHONY : data_structures/hashmap/hashmap_vals.s
+
+# target to generate assembly for a file
+data_structures/hashmap/hashmap_vals.c.s:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/hashmap/hashmap_vals.c.s
+.PHONY : data_structures/hashmap/hashmap_vals.c.s
+
+data_structures/hashset/hashset_contains.o: data_structures/hashset/hashset_contains.c.o
+
+.PHONY : data_structures/hashset/hashset_contains.o
+
+# target to build an object file
+data_structures/hashset/hashset_contains.c.o:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/hashset/hashset_contains.c.o
+.PHONY : data_structures/hashset/hashset_contains.c.o
+
+data_structures/hashset/hashset_contains.i: data_structures/hashset/hashset_contains.c.i
+
+.PHONY : data_structures/hashset/hashset_contains.i
+
+# target to preprocess a source file
+data_structures/hashset/hashset_contains.c.i:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/hashset/hashset_contains.c.i
+.PHONY : data_structures/hashset/hashset_contains.c.i
+
+data_structures/hashset/hashset_contains.s: data_structures/hashset/hashset_contains.c.s
+
+.PHONY : data_structures/hashset/hashset_contains.s
+
+# target to generate assembly for a file
+data_structures/hashset/hashset_contains.c.s:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/hashset/hashset_contains.c.s
+.PHONY : data_structures/hashset/hashset_contains.c.s
+
+data_structures/hashset/hashset_copy.o: data_structures/hashset/hashset_copy.c.o
+
+.PHONY : data_structures/hashset/hashset_copy.o
+
+# target to build an object file
+data_structures/hashset/hashset_copy.c.o:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/hashset/hashset_copy.c.o
+.PHONY : data_structures/hashset/hashset_copy.c.o
+
+data_structures/hashset/hashset_copy.i: data_structures/hashset/hashset_copy.c.i
+
+.PHONY : data_structures/hashset/hashset_copy.i
+
+# target to preprocess a source file
+data_structures/hashset/hashset_copy.c.i:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/hashset/hashset_copy.c.i
+.PHONY : data_structures/hashset/hashset_copy.c.i
+
+data_structures/hashset/hashset_copy.s: data_structures/hashset/hashset_copy.c.s
+
+.PHONY : data_structures/hashset/hashset_copy.s
+
+# target to generate assembly for a file
+data_structures/hashset/hashset_copy.c.s:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/hashset/hashset_copy.c.s
+.PHONY : data_structures/hashset/hashset_copy.c.s
+
+data_structures/hashset/hashset_delete.o: data_structures/hashset/hashset_delete.c.o
+
+.PHONY : data_structures/hashset/hashset_delete.o
+
+# target to build an object file
+data_structures/hashset/hashset_delete.c.o:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/hashset/hashset_delete.c.o
+.PHONY : data_structures/hashset/hashset_delete.c.o
+
+data_structures/hashset/hashset_delete.i: data_structures/hashset/hashset_delete.c.i
+
+.PHONY : data_structures/hashset/hashset_delete.i
+
+# target to preprocess a source file
+data_structures/hashset/hashset_delete.c.i:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/hashset/hashset_delete.c.i
+.PHONY : data_structures/hashset/hashset_delete.c.i
+
+data_structures/hashset/hashset_delete.s: data_structures/hashset/hashset_delete.c.s
+
+.PHONY : data_structures/hashset/hashset_delete.s
+
+# target to generate assembly for a file
+data_structures/hashset/hashset_delete.c.s:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/hashset/hashset_delete.c.s
+.PHONY : data_structures/hashset/hashset_delete.c.s
+
+data_structures/hashset/hashset_new.o: data_structures/hashset/hashset_new.c.o
+
+.PHONY : data_structures/hashset/hashset_new.o
+
+# target to build an object file
+data_structures/hashset/hashset_new.c.o:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/hashset/hashset_new.c.o
+.PHONY : data_structures/hashset/hashset_new.c.o
+
+data_structures/hashset/hashset_new.i: data_structures/hashset/hashset_new.c.i
+
+.PHONY : data_structures/hashset/hashset_new.i
+
+# target to preprocess a source file
+data_structures/hashset/hashset_new.c.i:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/hashset/hashset_new.c.i
+.PHONY : data_structures/hashset/hashset_new.c.i
+
+data_structures/hashset/hashset_new.s: data_structures/hashset/hashset_new.c.s
+
+.PHONY : data_structures/hashset/hashset_new.s
+
+# target to generate assembly for a file
+data_structures/hashset/hashset_new.c.s:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/hashset/hashset_new.c.s
+.PHONY : data_structures/hashset/hashset_new.c.s
+
+data_structures/hashset/hashset_put.o: data_structures/hashset/hashset_put.c.o
+
+.PHONY : data_structures/hashset/hashset_put.o
+
+# target to build an object file
+data_structures/hashset/hashset_put.c.o:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/hashset/hashset_put.c.o
+.PHONY : data_structures/hashset/hashset_put.c.o
+
+data_structures/hashset/hashset_put.i: data_structures/hashset/hashset_put.c.i
+
+.PHONY : data_structures/hashset/hashset_put.i
+
+# target to preprocess a source file
+data_structures/hashset/hashset_put.c.i:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/hashset/hashset_put.c.i
+.PHONY : data_structures/hashset/hashset_put.c.i
+
+data_structures/hashset/hashset_put.s: data_structures/hashset/hashset_put.c.s
+
+.PHONY : data_structures/hashset/hashset_put.s
+
+# target to generate assembly for a file
+data_structures/hashset/hashset_put.c.s:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/hashset/hashset_put.c.s
+.PHONY : data_structures/hashset/hashset_put.c.s
+
+data_structures/hashset/hashset_remove.o: data_structures/hashset/hashset_remove.c.o
+
+.PHONY : data_structures/hashset/hashset_remove.o
+
+# target to build an object file
+data_structures/hashset/hashset_remove.c.o:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/hashset/hashset_remove.c.o
+.PHONY : data_structures/hashset/hashset_remove.c.o
+
+data_structures/hashset/hashset_remove.i: data_structures/hashset/hashset_remove.c.i
+
+.PHONY : data_structures/hashset/hashset_remove.i
+
+# target to preprocess a source file
+data_structures/hashset/hashset_remove.c.i:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/hashset/hashset_remove.c.i
+.PHONY : data_structures/hashset/hashset_remove.c.i
+
+data_structures/hashset/hashset_remove.s: data_structures/hashset/hashset_remove.c.s
+
+.PHONY : data_structures/hashset/hashset_remove.s
+
+# target to generate assembly for a file
+data_structures/hashset/hashset_remove.c.s:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/hashset/hashset_remove.c.s
+.PHONY : data_structures/hashset/hashset_remove.c.s
+
+data_structures/hashset/hashset_size.o: data_structures/hashset/hashset_size.c.o
+
+.PHONY : data_structures/hashset/hashset_size.o
+
+# target to build an object file
+data_structures/hashset/hashset_size.c.o:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/hashset/hashset_size.c.o
+.PHONY : data_structures/hashset/hashset_size.c.o
+
+data_structures/hashset/hashset_size.i: data_structures/hashset/hashset_size.c.i
+
+.PHONY : data_structures/hashset/hashset_size.i
+
+# target to preprocess a source file
+data_structures/hashset/hashset_size.c.i:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/hashset/hashset_size.c.i
+.PHONY : data_structures/hashset/hashset_size.c.i
+
+data_structures/hashset/hashset_size.s: data_structures/hashset/hashset_size.c.s
+
+.PHONY : data_structures/hashset/hashset_size.s
+
+# target to generate assembly for a file
+data_structures/hashset/hashset_size.c.s:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/hashset/hashset_size.c.s
+.PHONY : data_structures/hashset/hashset_size.c.s
+
+data_structures/hashset/hashset_utils.o: data_structures/hashset/hashset_utils.c.o
+
+.PHONY : data_structures/hashset/hashset_utils.o
+
+# target to build an object file
+data_structures/hashset/hashset_utils.c.o:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/hashset/hashset_utils.c.o
+.PHONY : data_structures/hashset/hashset_utils.c.o
+
+data_structures/hashset/hashset_utils.i: data_structures/hashset/hashset_utils.c.i
+
+.PHONY : data_structures/hashset/hashset_utils.i
+
+# target to preprocess a source file
+data_structures/hashset/hashset_utils.c.i:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/hashset/hashset_utils.c.i
+.PHONY : data_structures/hashset/hashset_utils.c.i
+
+data_structures/hashset/hashset_utils.s: data_structures/hashset/hashset_utils.c.s
+
+.PHONY : data_structures/hashset/hashset_utils.s
+
+# target to generate assembly for a file
+data_structures/hashset/hashset_utils.c.s:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/hashset/hashset_utils.c.s
+.PHONY : data_structures/hashset/hashset_utils.c.s
+
+data_structures/hashset/hashset_vals.o: data_structures/hashset/hashset_vals.c.o
+
+.PHONY : data_structures/hashset/hashset_vals.o
+
+# target to build an object file
+data_structures/hashset/hashset_vals.c.o:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/hashset/hashset_vals.c.o
+.PHONY : data_structures/hashset/hashset_vals.c.o
+
+data_structures/hashset/hashset_vals.i: data_structures/hashset/hashset_vals.c.i
+
+.PHONY : data_structures/hashset/hashset_vals.i
+
+# target to preprocess a source file
+data_structures/hashset/hashset_vals.c.i:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/hashset/hashset_vals.c.i
+.PHONY : data_structures/hashset/hashset_vals.c.i
+
+data_structures/hashset/hashset_vals.s: data_structures/hashset/hashset_vals.c.s
+
+.PHONY : data_structures/hashset/hashset_vals.s
+
+# target to generate assembly for a file
+data_structures/hashset/hashset_vals.c.s:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/hashset/hashset_vals.c.s
+.PHONY : data_structures/hashset/hashset_vals.c.s
 
 data_structures/list/list_add_first.o: data_structures/list/list_add_first.c.o
 
@@ -1311,32 +2175,32 @@ data_structures/max_pq/max_pq_peek.c.s:
 	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/max_pq/max_pq_peek.c.s
 .PHONY : data_structures/max_pq/max_pq_peek.c.s
 
-data_structures/max_pq/max_pq_remove.o: data_structures/max_pq/max_pq_remove.c.o
+data_structures/max_pq/max_pq_pop.o: data_structures/max_pq/max_pq_pop.c.o
 
-.PHONY : data_structures/max_pq/max_pq_remove.o
+.PHONY : data_structures/max_pq/max_pq_pop.o
 
 # target to build an object file
-data_structures/max_pq/max_pq_remove.c.o:
-	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/max_pq/max_pq_remove.c.o
-.PHONY : data_structures/max_pq/max_pq_remove.c.o
+data_structures/max_pq/max_pq_pop.c.o:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/max_pq/max_pq_pop.c.o
+.PHONY : data_structures/max_pq/max_pq_pop.c.o
 
-data_structures/max_pq/max_pq_remove.i: data_structures/max_pq/max_pq_remove.c.i
+data_structures/max_pq/max_pq_pop.i: data_structures/max_pq/max_pq_pop.c.i
 
-.PHONY : data_structures/max_pq/max_pq_remove.i
+.PHONY : data_structures/max_pq/max_pq_pop.i
 
 # target to preprocess a source file
-data_structures/max_pq/max_pq_remove.c.i:
-	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/max_pq/max_pq_remove.c.i
-.PHONY : data_structures/max_pq/max_pq_remove.c.i
+data_structures/max_pq/max_pq_pop.c.i:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/max_pq/max_pq_pop.c.i
+.PHONY : data_structures/max_pq/max_pq_pop.c.i
 
-data_structures/max_pq/max_pq_remove.s: data_structures/max_pq/max_pq_remove.c.s
+data_structures/max_pq/max_pq_pop.s: data_structures/max_pq/max_pq_pop.c.s
 
-.PHONY : data_structures/max_pq/max_pq_remove.s
+.PHONY : data_structures/max_pq/max_pq_pop.s
 
 # target to generate assembly for a file
-data_structures/max_pq/max_pq_remove.c.s:
-	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/max_pq/max_pq_remove.c.s
-.PHONY : data_structures/max_pq/max_pq_remove.c.s
+data_structures/max_pq/max_pq_pop.c.s:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/max_pq/max_pq_pop.c.s
+.PHONY : data_structures/max_pq/max_pq_pop.c.s
 
 data_structures/max_pq/max_pq_size.o: data_structures/max_pq/max_pq_size.c.o
 
@@ -1500,32 +2364,32 @@ data_structures/min_pq/min_pq_peek.c.s:
 	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/min_pq/min_pq_peek.c.s
 .PHONY : data_structures/min_pq/min_pq_peek.c.s
 
-data_structures/min_pq/min_pq_remove.o: data_structures/min_pq/min_pq_remove.c.o
+data_structures/min_pq/min_pq_pop.o: data_structures/min_pq/min_pq_pop.c.o
 
-.PHONY : data_structures/min_pq/min_pq_remove.o
+.PHONY : data_structures/min_pq/min_pq_pop.o
 
 # target to build an object file
-data_structures/min_pq/min_pq_remove.c.o:
-	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/min_pq/min_pq_remove.c.o
-.PHONY : data_structures/min_pq/min_pq_remove.c.o
+data_structures/min_pq/min_pq_pop.c.o:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/min_pq/min_pq_pop.c.o
+.PHONY : data_structures/min_pq/min_pq_pop.c.o
 
-data_structures/min_pq/min_pq_remove.i: data_structures/min_pq/min_pq_remove.c.i
+data_structures/min_pq/min_pq_pop.i: data_structures/min_pq/min_pq_pop.c.i
 
-.PHONY : data_structures/min_pq/min_pq_remove.i
+.PHONY : data_structures/min_pq/min_pq_pop.i
 
 # target to preprocess a source file
-data_structures/min_pq/min_pq_remove.c.i:
-	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/min_pq/min_pq_remove.c.i
-.PHONY : data_structures/min_pq/min_pq_remove.c.i
+data_structures/min_pq/min_pq_pop.c.i:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/min_pq/min_pq_pop.c.i
+.PHONY : data_structures/min_pq/min_pq_pop.c.i
 
-data_structures/min_pq/min_pq_remove.s: data_structures/min_pq/min_pq_remove.c.s
+data_structures/min_pq/min_pq_pop.s: data_structures/min_pq/min_pq_pop.c.s
 
-.PHONY : data_structures/min_pq/min_pq_remove.s
+.PHONY : data_structures/min_pq/min_pq_pop.s
 
 # target to generate assembly for a file
-data_structures/min_pq/min_pq_remove.c.s:
-	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/min_pq/min_pq_remove.c.s
-.PHONY : data_structures/min_pq/min_pq_remove.c.s
+data_structures/min_pq/min_pq_pop.c.s:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/min_pq/min_pq_pop.c.s
+.PHONY : data_structures/min_pq/min_pq_pop.c.s
 
 data_structures/min_pq/min_pq_size.o: data_structures/min_pq/min_pq_size.c.o
 
@@ -1770,6 +2634,33 @@ data_structures/rbt/rbt_ceil.c.s:
 	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/rbt/rbt_ceil.c.s
 .PHONY : data_structures/rbt/rbt_ceil.c.s
 
+data_structures/rbt/rbt_contains.o: data_structures/rbt/rbt_contains.c.o
+
+.PHONY : data_structures/rbt/rbt_contains.o
+
+# target to build an object file
+data_structures/rbt/rbt_contains.c.o:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/rbt/rbt_contains.c.o
+.PHONY : data_structures/rbt/rbt_contains.c.o
+
+data_structures/rbt/rbt_contains.i: data_structures/rbt/rbt_contains.c.i
+
+.PHONY : data_structures/rbt/rbt_contains.i
+
+# target to preprocess a source file
+data_structures/rbt/rbt_contains.c.i:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/rbt/rbt_contains.c.i
+.PHONY : data_structures/rbt/rbt_contains.c.i
+
+data_structures/rbt/rbt_contains.s: data_structures/rbt/rbt_contains.c.s
+
+.PHONY : data_structures/rbt/rbt_contains.s
+
+# target to generate assembly for a file
+data_structures/rbt/rbt_contains.c.s:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/rbt/rbt_contains.c.s
+.PHONY : data_structures/rbt/rbt_contains.c.s
+
 data_structures/rbt/rbt_delete.o: data_structures/rbt/rbt_delete.c.o
 
 .PHONY : data_structures/rbt/rbt_delete.o
@@ -1878,32 +2769,32 @@ data_structures/rbt/rbt_height.c.s:
 	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/rbt/rbt_height.c.s
 .PHONY : data_structures/rbt/rbt_height.c.s
 
-data_structures/rbt/rbt_inorder.o: data_structures/rbt/rbt_inorder.c.o
+data_structures/rbt/rbt_keys.o: data_structures/rbt/rbt_keys.c.o
 
-.PHONY : data_structures/rbt/rbt_inorder.o
+.PHONY : data_structures/rbt/rbt_keys.o
 
 # target to build an object file
-data_structures/rbt/rbt_inorder.c.o:
-	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/rbt/rbt_inorder.c.o
-.PHONY : data_structures/rbt/rbt_inorder.c.o
+data_structures/rbt/rbt_keys.c.o:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/rbt/rbt_keys.c.o
+.PHONY : data_structures/rbt/rbt_keys.c.o
 
-data_structures/rbt/rbt_inorder.i: data_structures/rbt/rbt_inorder.c.i
+data_structures/rbt/rbt_keys.i: data_structures/rbt/rbt_keys.c.i
 
-.PHONY : data_structures/rbt/rbt_inorder.i
+.PHONY : data_structures/rbt/rbt_keys.i
 
 # target to preprocess a source file
-data_structures/rbt/rbt_inorder.c.i:
-	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/rbt/rbt_inorder.c.i
-.PHONY : data_structures/rbt/rbt_inorder.c.i
+data_structures/rbt/rbt_keys.c.i:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/rbt/rbt_keys.c.i
+.PHONY : data_structures/rbt/rbt_keys.c.i
 
-data_structures/rbt/rbt_inorder.s: data_structures/rbt/rbt_inorder.c.s
+data_structures/rbt/rbt_keys.s: data_structures/rbt/rbt_keys.c.s
 
-.PHONY : data_structures/rbt/rbt_inorder.s
+.PHONY : data_structures/rbt/rbt_keys.s
 
 # target to generate assembly for a file
-data_structures/rbt/rbt_inorder.c.s:
-	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/rbt/rbt_inorder.c.s
-.PHONY : data_structures/rbt/rbt_inorder.c.s
+data_structures/rbt/rbt_keys.c.s:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/rbt/rbt_keys.c.s
+.PHONY : data_structures/rbt/rbt_keys.c.s
 
 data_structures/rbt/rbt_max.o: data_structures/rbt/rbt_max.c.o
 
@@ -2067,59 +2958,194 @@ data_structures/rbt/rbt_size.c.s:
 	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/rbt/rbt_size.c.s
 .PHONY : data_structures/rbt/rbt_size.c.s
 
-data_structures/rbt/rbt_utils_1.o: data_structures/rbt/rbt_utils_1.c.o
+data_structures/rbt/rbt_vals.o: data_structures/rbt/rbt_vals.c.o
 
-.PHONY : data_structures/rbt/rbt_utils_1.o
-
-# target to build an object file
-data_structures/rbt/rbt_utils_1.c.o:
-	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/rbt/rbt_utils_1.c.o
-.PHONY : data_structures/rbt/rbt_utils_1.c.o
-
-data_structures/rbt/rbt_utils_1.i: data_structures/rbt/rbt_utils_1.c.i
-
-.PHONY : data_structures/rbt/rbt_utils_1.i
-
-# target to preprocess a source file
-data_structures/rbt/rbt_utils_1.c.i:
-	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/rbt/rbt_utils_1.c.i
-.PHONY : data_structures/rbt/rbt_utils_1.c.i
-
-data_structures/rbt/rbt_utils_1.s: data_structures/rbt/rbt_utils_1.c.s
-
-.PHONY : data_structures/rbt/rbt_utils_1.s
-
-# target to generate assembly for a file
-data_structures/rbt/rbt_utils_1.c.s:
-	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/rbt/rbt_utils_1.c.s
-.PHONY : data_structures/rbt/rbt_utils_1.c.s
-
-data_structures/rbt/rbt_utils_2.o: data_structures/rbt/rbt_utils_2.c.o
-
-.PHONY : data_structures/rbt/rbt_utils_2.o
+.PHONY : data_structures/rbt/rbt_vals.o
 
 # target to build an object file
-data_structures/rbt/rbt_utils_2.c.o:
-	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/rbt/rbt_utils_2.c.o
-.PHONY : data_structures/rbt/rbt_utils_2.c.o
+data_structures/rbt/rbt_vals.c.o:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/rbt/rbt_vals.c.o
+.PHONY : data_structures/rbt/rbt_vals.c.o
 
-data_structures/rbt/rbt_utils_2.i: data_structures/rbt/rbt_utils_2.c.i
+data_structures/rbt/rbt_vals.i: data_structures/rbt/rbt_vals.c.i
 
-.PHONY : data_structures/rbt/rbt_utils_2.i
+.PHONY : data_structures/rbt/rbt_vals.i
 
 # target to preprocess a source file
-data_structures/rbt/rbt_utils_2.c.i:
-	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/rbt/rbt_utils_2.c.i
-.PHONY : data_structures/rbt/rbt_utils_2.c.i
+data_structures/rbt/rbt_vals.c.i:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/rbt/rbt_vals.c.i
+.PHONY : data_structures/rbt/rbt_vals.c.i
 
-data_structures/rbt/rbt_utils_2.s: data_structures/rbt/rbt_utils_2.c.s
+data_structures/rbt/rbt_vals.s: data_structures/rbt/rbt_vals.c.s
 
-.PHONY : data_structures/rbt/rbt_utils_2.s
+.PHONY : data_structures/rbt/rbt_vals.s
 
 # target to generate assembly for a file
-data_structures/rbt/rbt_utils_2.c.s:
-	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/rbt/rbt_utils_2.c.s
-.PHONY : data_structures/rbt/rbt_utils_2.c.s
+data_structures/rbt/rbt_vals.c.s:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/rbt/rbt_vals.c.s
+.PHONY : data_structures/rbt/rbt_vals.c.s
+
+data_structures/rbt/utils/rbt_flip_color.o: data_structures/rbt/utils/rbt_flip_color.c.o
+
+.PHONY : data_structures/rbt/utils/rbt_flip_color.o
+
+# target to build an object file
+data_structures/rbt/utils/rbt_flip_color.c.o:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/rbt/utils/rbt_flip_color.c.o
+.PHONY : data_structures/rbt/utils/rbt_flip_color.c.o
+
+data_structures/rbt/utils/rbt_flip_color.i: data_structures/rbt/utils/rbt_flip_color.c.i
+
+.PHONY : data_structures/rbt/utils/rbt_flip_color.i
+
+# target to preprocess a source file
+data_structures/rbt/utils/rbt_flip_color.c.i:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/rbt/utils/rbt_flip_color.c.i
+.PHONY : data_structures/rbt/utils/rbt_flip_color.c.i
+
+data_structures/rbt/utils/rbt_flip_color.s: data_structures/rbt/utils/rbt_flip_color.c.s
+
+.PHONY : data_structures/rbt/utils/rbt_flip_color.s
+
+# target to generate assembly for a file
+data_structures/rbt/utils/rbt_flip_color.c.s:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/rbt/utils/rbt_flip_color.c.s
+.PHONY : data_structures/rbt/utils/rbt_flip_color.c.s
+
+data_structures/rbt/utils/rbt_is_red_node.o: data_structures/rbt/utils/rbt_is_red_node.c.o
+
+.PHONY : data_structures/rbt/utils/rbt_is_red_node.o
+
+# target to build an object file
+data_structures/rbt/utils/rbt_is_red_node.c.o:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/rbt/utils/rbt_is_red_node.c.o
+.PHONY : data_structures/rbt/utils/rbt_is_red_node.c.o
+
+data_structures/rbt/utils/rbt_is_red_node.i: data_structures/rbt/utils/rbt_is_red_node.c.i
+
+.PHONY : data_structures/rbt/utils/rbt_is_red_node.i
+
+# target to preprocess a source file
+data_structures/rbt/utils/rbt_is_red_node.c.i:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/rbt/utils/rbt_is_red_node.c.i
+.PHONY : data_structures/rbt/utils/rbt_is_red_node.c.i
+
+data_structures/rbt/utils/rbt_is_red_node.s: data_structures/rbt/utils/rbt_is_red_node.c.s
+
+.PHONY : data_structures/rbt/utils/rbt_is_red_node.s
+
+# target to generate assembly for a file
+data_structures/rbt/utils/rbt_is_red_node.c.s:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/rbt/utils/rbt_is_red_node.c.s
+.PHONY : data_structures/rbt/utils/rbt_is_red_node.c.s
+
+data_structures/rbt/utils/rbt_make_node.o: data_structures/rbt/utils/rbt_make_node.c.o
+
+.PHONY : data_structures/rbt/utils/rbt_make_node.o
+
+# target to build an object file
+data_structures/rbt/utils/rbt_make_node.c.o:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/rbt/utils/rbt_make_node.c.o
+.PHONY : data_structures/rbt/utils/rbt_make_node.c.o
+
+data_structures/rbt/utils/rbt_make_node.i: data_structures/rbt/utils/rbt_make_node.c.i
+
+.PHONY : data_structures/rbt/utils/rbt_make_node.i
+
+# target to preprocess a source file
+data_structures/rbt/utils/rbt_make_node.c.i:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/rbt/utils/rbt_make_node.c.i
+.PHONY : data_structures/rbt/utils/rbt_make_node.c.i
+
+data_structures/rbt/utils/rbt_make_node.s: data_structures/rbt/utils/rbt_make_node.c.s
+
+.PHONY : data_structures/rbt/utils/rbt_make_node.s
+
+# target to generate assembly for a file
+data_structures/rbt/utils/rbt_make_node.c.s:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/rbt/utils/rbt_make_node.c.s
+.PHONY : data_structures/rbt/utils/rbt_make_node.c.s
+
+data_structures/rbt/utils/rbt_rotate_left.o: data_structures/rbt/utils/rbt_rotate_left.c.o
+
+.PHONY : data_structures/rbt/utils/rbt_rotate_left.o
+
+# target to build an object file
+data_structures/rbt/utils/rbt_rotate_left.c.o:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/rbt/utils/rbt_rotate_left.c.o
+.PHONY : data_structures/rbt/utils/rbt_rotate_left.c.o
+
+data_structures/rbt/utils/rbt_rotate_left.i: data_structures/rbt/utils/rbt_rotate_left.c.i
+
+.PHONY : data_structures/rbt/utils/rbt_rotate_left.i
+
+# target to preprocess a source file
+data_structures/rbt/utils/rbt_rotate_left.c.i:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/rbt/utils/rbt_rotate_left.c.i
+.PHONY : data_structures/rbt/utils/rbt_rotate_left.c.i
+
+data_structures/rbt/utils/rbt_rotate_left.s: data_structures/rbt/utils/rbt_rotate_left.c.s
+
+.PHONY : data_structures/rbt/utils/rbt_rotate_left.s
+
+# target to generate assembly for a file
+data_structures/rbt/utils/rbt_rotate_left.c.s:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/rbt/utils/rbt_rotate_left.c.s
+.PHONY : data_structures/rbt/utils/rbt_rotate_left.c.s
+
+data_structures/rbt/utils/rbt_rotate_right.o: data_structures/rbt/utils/rbt_rotate_right.c.o
+
+.PHONY : data_structures/rbt/utils/rbt_rotate_right.o
+
+# target to build an object file
+data_structures/rbt/utils/rbt_rotate_right.c.o:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/rbt/utils/rbt_rotate_right.c.o
+.PHONY : data_structures/rbt/utils/rbt_rotate_right.c.o
+
+data_structures/rbt/utils/rbt_rotate_right.i: data_structures/rbt/utils/rbt_rotate_right.c.i
+
+.PHONY : data_structures/rbt/utils/rbt_rotate_right.i
+
+# target to preprocess a source file
+data_structures/rbt/utils/rbt_rotate_right.c.i:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/rbt/utils/rbt_rotate_right.c.i
+.PHONY : data_structures/rbt/utils/rbt_rotate_right.c.i
+
+data_structures/rbt/utils/rbt_rotate_right.s: data_structures/rbt/utils/rbt_rotate_right.c.s
+
+.PHONY : data_structures/rbt/utils/rbt_rotate_right.s
+
+# target to generate assembly for a file
+data_structures/rbt/utils/rbt_rotate_right.c.s:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/rbt/utils/rbt_rotate_right.c.s
+.PHONY : data_structures/rbt/utils/rbt_rotate_right.c.s
+
+data_structures/rbt/utils/rbt_size_subtree.o: data_structures/rbt/utils/rbt_size_subtree.c.o
+
+.PHONY : data_structures/rbt/utils/rbt_size_subtree.o
+
+# target to build an object file
+data_structures/rbt/utils/rbt_size_subtree.c.o:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/rbt/utils/rbt_size_subtree.c.o
+.PHONY : data_structures/rbt/utils/rbt_size_subtree.c.o
+
+data_structures/rbt/utils/rbt_size_subtree.i: data_structures/rbt/utils/rbt_size_subtree.c.i
+
+.PHONY : data_structures/rbt/utils/rbt_size_subtree.i
+
+# target to preprocess a source file
+data_structures/rbt/utils/rbt_size_subtree.c.i:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/rbt/utils/rbt_size_subtree.c.i
+.PHONY : data_structures/rbt/utils/rbt_size_subtree.c.i
+
+data_structures/rbt/utils/rbt_size_subtree.s: data_structures/rbt/utils/rbt_size_subtree.c.s
+
+.PHONY : data_structures/rbt/utils/rbt_size_subtree.s
+
+# target to generate assembly for a file
+data_structures/rbt/utils/rbt_size_subtree.c.s:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/rbt/utils/rbt_size_subtree.c.s
+.PHONY : data_structures/rbt/utils/rbt_size_subtree.c.s
 
 data_structures/stack/stack_delete.o: data_structures/stack/stack_delete.c.o
 
@@ -2309,6 +3335,168 @@ data_structures/stack/stack_size.s: data_structures/stack/stack_size.c.s
 data_structures/stack/stack_size.c.s:
 	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/stack/stack_size.c.s
 .PHONY : data_structures/stack/stack_size.c.s
+
+data_structures/union_find/union_find_count.o: data_structures/union_find/union_find_count.c.o
+
+.PHONY : data_structures/union_find/union_find_count.o
+
+# target to build an object file
+data_structures/union_find/union_find_count.c.o:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/union_find/union_find_count.c.o
+.PHONY : data_structures/union_find/union_find_count.c.o
+
+data_structures/union_find/union_find_count.i: data_structures/union_find/union_find_count.c.i
+
+.PHONY : data_structures/union_find/union_find_count.i
+
+# target to preprocess a source file
+data_structures/union_find/union_find_count.c.i:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/union_find/union_find_count.c.i
+.PHONY : data_structures/union_find/union_find_count.c.i
+
+data_structures/union_find/union_find_count.s: data_structures/union_find/union_find_count.c.s
+
+.PHONY : data_structures/union_find/union_find_count.s
+
+# target to generate assembly for a file
+data_structures/union_find/union_find_count.c.s:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/union_find/union_find_count.c.s
+.PHONY : data_structures/union_find/union_find_count.c.s
+
+data_structures/union_find/union_find_delete.o: data_structures/union_find/union_find_delete.c.o
+
+.PHONY : data_structures/union_find/union_find_delete.o
+
+# target to build an object file
+data_structures/union_find/union_find_delete.c.o:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/union_find/union_find_delete.c.o
+.PHONY : data_structures/union_find/union_find_delete.c.o
+
+data_structures/union_find/union_find_delete.i: data_structures/union_find/union_find_delete.c.i
+
+.PHONY : data_structures/union_find/union_find_delete.i
+
+# target to preprocess a source file
+data_structures/union_find/union_find_delete.c.i:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/union_find/union_find_delete.c.i
+.PHONY : data_structures/union_find/union_find_delete.c.i
+
+data_structures/union_find/union_find_delete.s: data_structures/union_find/union_find_delete.c.s
+
+.PHONY : data_structures/union_find/union_find_delete.s
+
+# target to generate assembly for a file
+data_structures/union_find/union_find_delete.c.s:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/union_find/union_find_delete.c.s
+.PHONY : data_structures/union_find/union_find_delete.c.s
+
+data_structures/union_find/union_find_find.o: data_structures/union_find/union_find_find.c.o
+
+.PHONY : data_structures/union_find/union_find_find.o
+
+# target to build an object file
+data_structures/union_find/union_find_find.c.o:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/union_find/union_find_find.c.o
+.PHONY : data_structures/union_find/union_find_find.c.o
+
+data_structures/union_find/union_find_find.i: data_structures/union_find/union_find_find.c.i
+
+.PHONY : data_structures/union_find/union_find_find.i
+
+# target to preprocess a source file
+data_structures/union_find/union_find_find.c.i:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/union_find/union_find_find.c.i
+.PHONY : data_structures/union_find/union_find_find.c.i
+
+data_structures/union_find/union_find_find.s: data_structures/union_find/union_find_find.c.s
+
+.PHONY : data_structures/union_find/union_find_find.s
+
+# target to generate assembly for a file
+data_structures/union_find/union_find_find.c.s:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/union_find/union_find_find.c.s
+.PHONY : data_structures/union_find/union_find_find.c.s
+
+data_structures/union_find/union_find_new.o: data_structures/union_find/union_find_new.c.o
+
+.PHONY : data_structures/union_find/union_find_new.o
+
+# target to build an object file
+data_structures/union_find/union_find_new.c.o:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/union_find/union_find_new.c.o
+.PHONY : data_structures/union_find/union_find_new.c.o
+
+data_structures/union_find/union_find_new.i: data_structures/union_find/union_find_new.c.i
+
+.PHONY : data_structures/union_find/union_find_new.i
+
+# target to preprocess a source file
+data_structures/union_find/union_find_new.c.i:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/union_find/union_find_new.c.i
+.PHONY : data_structures/union_find/union_find_new.c.i
+
+data_structures/union_find/union_find_new.s: data_structures/union_find/union_find_new.c.s
+
+.PHONY : data_structures/union_find/union_find_new.s
+
+# target to generate assembly for a file
+data_structures/union_find/union_find_new.c.s:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/union_find/union_find_new.c.s
+.PHONY : data_structures/union_find/union_find_new.c.s
+
+data_structures/union_find/union_find_size.o: data_structures/union_find/union_find_size.c.o
+
+.PHONY : data_structures/union_find/union_find_size.o
+
+# target to build an object file
+data_structures/union_find/union_find_size.c.o:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/union_find/union_find_size.c.o
+.PHONY : data_structures/union_find/union_find_size.c.o
+
+data_structures/union_find/union_find_size.i: data_structures/union_find/union_find_size.c.i
+
+.PHONY : data_structures/union_find/union_find_size.i
+
+# target to preprocess a source file
+data_structures/union_find/union_find_size.c.i:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/union_find/union_find_size.c.i
+.PHONY : data_structures/union_find/union_find_size.c.i
+
+data_structures/union_find/union_find_size.s: data_structures/union_find/union_find_size.c.s
+
+.PHONY : data_structures/union_find/union_find_size.s
+
+# target to generate assembly for a file
+data_structures/union_find/union_find_size.c.s:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/union_find/union_find_size.c.s
+.PHONY : data_structures/union_find/union_find_size.c.s
+
+data_structures/union_find/union_find_union.o: data_structures/union_find/union_find_union.c.o
+
+.PHONY : data_structures/union_find/union_find_union.o
+
+# target to build an object file
+data_structures/union_find/union_find_union.c.o:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/union_find/union_find_union.c.o
+.PHONY : data_structures/union_find/union_find_union.c.o
+
+data_structures/union_find/union_find_union.i: data_structures/union_find/union_find_union.c.i
+
+.PHONY : data_structures/union_find/union_find_union.i
+
+# target to preprocess a source file
+data_structures/union_find/union_find_union.c.i:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/union_find/union_find_union.c.i
+.PHONY : data_structures/union_find/union_find_union.c.i
+
+data_structures/union_find/union_find_union.s: data_structures/union_find/union_find_union.c.s
+
+.PHONY : data_structures/union_find/union_find_union.s
+
+# target to generate assembly for a file
+data_structures/union_find/union_find_union.c.s:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/union_find/union_find_union.c.s
+.PHONY : data_structures/union_find/union_find_union.c.s
 
 ft_printf/src/complete_specifier/complete_specifier.o: ft_printf/src/complete_specifier/complete_specifier.c.o
 
@@ -5766,32 +6954,32 @@ main.c.s:
 	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/main.c.s
 .PHONY : main.c.s
 
-types/type_bst_node.o: types/type_bst_node.c.o
+types/type_array.o: types/type_array.c.o
 
-.PHONY : types/type_bst_node.o
+.PHONY : types/type_array.o
 
 # target to build an object file
-types/type_bst_node.c.o:
-	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/types/type_bst_node.c.o
-.PHONY : types/type_bst_node.c.o
+types/type_array.c.o:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/types/type_array.c.o
+.PHONY : types/type_array.c.o
 
-types/type_bst_node.i: types/type_bst_node.c.i
+types/type_array.i: types/type_array.c.i
 
-.PHONY : types/type_bst_node.i
+.PHONY : types/type_array.i
 
 # target to preprocess a source file
-types/type_bst_node.c.i:
-	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/types/type_bst_node.c.i
-.PHONY : types/type_bst_node.c.i
+types/type_array.c.i:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/types/type_array.c.i
+.PHONY : types/type_array.c.i
 
-types/type_bst_node.s: types/type_bst_node.c.s
+types/type_array.s: types/type_array.c.s
 
-.PHONY : types/type_bst_node.s
+.PHONY : types/type_array.s
 
 # target to generate assembly for a file
-types/type_bst_node.c.s:
-	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/types/type_bst_node.c.s
-.PHONY : types/type_bst_node.c.s
+types/type_array.c.s:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/types/type_array.c.s
+.PHONY : types/type_array.c.s
 
 types/type_char.o: types/type_char.c.o
 
@@ -5847,6 +7035,33 @@ types/type_float.c.s:
 	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/types/type_float.c.s
 .PHONY : types/type_float.c.s
 
+types/type_hashset.o: types/type_hashset.c.o
+
+.PHONY : types/type_hashset.o
+
+# target to build an object file
+types/type_hashset.c.o:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/types/type_hashset.c.o
+.PHONY : types/type_hashset.c.o
+
+types/type_hashset.i: types/type_hashset.c.i
+
+.PHONY : types/type_hashset.i
+
+# target to preprocess a source file
+types/type_hashset.c.i:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/types/type_hashset.c.i
+.PHONY : types/type_hashset.c.i
+
+types/type_hashset.s: types/type_hashset.c.s
+
+.PHONY : types/type_hashset.s
+
+# target to generate assembly for a file
+types/type_hashset.c.s:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/types/type_hashset.c.s
+.PHONY : types/type_hashset.c.s
+
 types/type_int.o: types/type_int.c.o
 
 .PHONY : types/type_int.o
@@ -5873,33 +7088,6 @@ types/type_int.s: types/type_int.c.s
 types/type_int.c.s:
 	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/types/type_int.c.s
 .PHONY : types/type_int.c.s
-
-types/type_rbt_node.o: types/type_rbt_node.c.o
-
-.PHONY : types/type_rbt_node.o
-
-# target to build an object file
-types/type_rbt_node.c.o:
-	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/types/type_rbt_node.c.o
-.PHONY : types/type_rbt_node.c.o
-
-types/type_rbt_node.i: types/type_rbt_node.c.i
-
-.PHONY : types/type_rbt_node.i
-
-# target to preprocess a source file
-types/type_rbt_node.c.i:
-	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/types/type_rbt_node.c.i
-.PHONY : types/type_rbt_node.c.i
-
-types/type_rbt_node.s: types/type_rbt_node.c.s
-
-.PHONY : types/type_rbt_node.s
-
-# target to generate assembly for a file
-types/type_rbt_node.c.s:
-	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/types/type_rbt_node.c.s
-.PHONY : types/type_rbt_node.c.s
 
 types/type_str.o: types/type_str.c.o
 
@@ -5928,59 +7116,59 @@ types/type_str.c.s:
 	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/types/type_str.c.s
 .PHONY : types/type_str.c.s
 
-utils/data2ptr.o: utils/data2ptr.c.o
+types/utils/data2ptr.o: types/utils/data2ptr.c.o
 
-.PHONY : utils/data2ptr.o
-
-# target to build an object file
-utils/data2ptr.c.o:
-	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/utils/data2ptr.c.o
-.PHONY : utils/data2ptr.c.o
-
-utils/data2ptr.i: utils/data2ptr.c.i
-
-.PHONY : utils/data2ptr.i
-
-# target to preprocess a source file
-utils/data2ptr.c.i:
-	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/utils/data2ptr.c.i
-.PHONY : utils/data2ptr.c.i
-
-utils/data2ptr.s: utils/data2ptr.c.s
-
-.PHONY : utils/data2ptr.s
-
-# target to generate assembly for a file
-utils/data2ptr.c.s:
-	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/utils/data2ptr.c.s
-.PHONY : utils/data2ptr.c.s
-
-utils/ptr2data.o: utils/ptr2data.c.o
-
-.PHONY : utils/ptr2data.o
+.PHONY : types/utils/data2ptr.o
 
 # target to build an object file
-utils/ptr2data.c.o:
-	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/utils/ptr2data.c.o
-.PHONY : utils/ptr2data.c.o
+types/utils/data2ptr.c.o:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/types/utils/data2ptr.c.o
+.PHONY : types/utils/data2ptr.c.o
 
-utils/ptr2data.i: utils/ptr2data.c.i
+types/utils/data2ptr.i: types/utils/data2ptr.c.i
 
-.PHONY : utils/ptr2data.i
+.PHONY : types/utils/data2ptr.i
 
 # target to preprocess a source file
-utils/ptr2data.c.i:
-	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/utils/ptr2data.c.i
-.PHONY : utils/ptr2data.c.i
+types/utils/data2ptr.c.i:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/types/utils/data2ptr.c.i
+.PHONY : types/utils/data2ptr.c.i
 
-utils/ptr2data.s: utils/ptr2data.c.s
+types/utils/data2ptr.s: types/utils/data2ptr.c.s
 
-.PHONY : utils/ptr2data.s
+.PHONY : types/utils/data2ptr.s
 
 # target to generate assembly for a file
-utils/ptr2data.c.s:
-	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/utils/ptr2data.c.s
-.PHONY : utils/ptr2data.c.s
+types/utils/data2ptr.c.s:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/types/utils/data2ptr.c.s
+.PHONY : types/utils/data2ptr.c.s
+
+types/utils/ptr2data.o: types/utils/ptr2data.c.o
+
+.PHONY : types/utils/ptr2data.o
+
+# target to build an object file
+types/utils/ptr2data.c.o:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/types/utils/ptr2data.c.o
+.PHONY : types/utils/ptr2data.c.o
+
+types/utils/ptr2data.i: types/utils/ptr2data.c.i
+
+.PHONY : types/utils/ptr2data.i
+
+# target to preprocess a source file
+types/utils/ptr2data.c.i:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/types/utils/ptr2data.c.i
+.PHONY : types/utils/ptr2data.c.i
+
+types/utils/ptr2data.s: types/utils/ptr2data.c.s
+
+.PHONY : types/utils/ptr2data.s
+
+# target to generate assembly for a file
+types/utils/ptr2data.c.s:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/types/utils/ptr2data.c.s
+.PHONY : types/utils/ptr2data.c.s
 
 # Help Target
 help:
@@ -5991,9 +7179,24 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... algorithms"
+	@echo "... algorithms/sorts/insertion_sort/array_insertion_sort.o"
+	@echo "... algorithms/sorts/insertion_sort/array_insertion_sort.i"
+	@echo "... algorithms/sorts/insertion_sort/array_insertion_sort.s"
+	@echo "... algorithms/sorts/merge_sort/array_merge_sort.o"
+	@echo "... algorithms/sorts/merge_sort/array_merge_sort.i"
+	@echo "... algorithms/sorts/merge_sort/array_merge_sort.s"
+	@echo "... algorithms/sorts/merge_sort/list_merge_sort.o"
+	@echo "... algorithms/sorts/merge_sort/list_merge_sort.i"
+	@echo "... algorithms/sorts/merge_sort/list_merge_sort.s"
+	@echo "... algorithms/sorts/quick_sort/array_quick_sort.o"
+	@echo "... algorithms/sorts/quick_sort/array_quick_sort.i"
+	@echo "... algorithms/sorts/quick_sort/array_quick_sort.s"
 	@echo "... data_structures/array/array_append.o"
 	@echo "... data_structures/array/array_append.i"
 	@echo "... data_structures/array/array_append.s"
+	@echo "... data_structures/array/array_copy.o"
+	@echo "... data_structures/array/array_copy.i"
+	@echo "... data_structures/array/array_copy.s"
 	@echo "... data_structures/array/array_delete.o"
 	@echo "... data_structures/array/array_delete.i"
 	@echo "... data_structures/array/array_delete.s"
@@ -6003,27 +7206,15 @@ help:
 	@echo "... data_structures/array/array_insert.o"
 	@echo "... data_structures/array/array_insert.i"
 	@echo "... data_structures/array/array_insert.s"
-	@echo "... data_structures/array/array_insertion_sort.o"
-	@echo "... data_structures/array/array_insertion_sort.i"
-	@echo "... data_structures/array/array_insertion_sort.s"
-	@echo "... data_structures/array/array_merge_sort.o"
-	@echo "... data_structures/array/array_merge_sort.i"
-	@echo "... data_structures/array/array_merge_sort.s"
 	@echo "... data_structures/array/array_new.o"
 	@echo "... data_structures/array/array_new.i"
 	@echo "... data_structures/array/array_new.s"
-	@echo "... data_structures/array/array_new_size.o"
-	@echo "... data_structures/array/array_new_size.i"
-	@echo "... data_structures/array/array_new_size.s"
 	@echo "... data_structures/array/array_pop.o"
 	@echo "... data_structures/array/array_pop.i"
 	@echo "... data_structures/array/array_pop.s"
 	@echo "... data_structures/array/array_print.o"
 	@echo "... data_structures/array/array_print.i"
 	@echo "... data_structures/array/array_print.s"
-	@echo "... data_structures/array/array_quick_sort.o"
-	@echo "... data_structures/array/array_quick_sort.i"
-	@echo "... data_structures/array/array_quick_sort.s"
 	@echo "... data_structures/array/array_remove.o"
 	@echo "... data_structures/array/array_remove.i"
 	@echo "... data_structures/array/array_remove.s"
@@ -6033,15 +7224,24 @@ help:
 	@echo "... data_structures/array/array_size.o"
 	@echo "... data_structures/array/array_size.i"
 	@echo "... data_structures/array/array_size.s"
+	@echo "... data_structures/array/array_sort.o"
+	@echo "... data_structures/array/array_sort.i"
+	@echo "... data_structures/array/array_sort.s"
 	@echo "... data_structures/array/array_sorted.o"
 	@echo "... data_structures/array/array_sorted.i"
 	@echo "... data_structures/array/array_sorted.s"
 	@echo "... data_structures/array/array_swap.o"
 	@echo "... data_structures/array/array_swap.i"
 	@echo "... data_structures/array/array_swap.s"
+	@echo "... data_structures/array/array_to_queue.o"
+	@echo "... data_structures/array/array_to_queue.i"
+	@echo "... data_structures/array/array_to_queue.s"
 	@echo "... data_structures/array/array_utils.o"
 	@echo "... data_structures/array/array_utils.i"
 	@echo "... data_structures/array/array_utils.s"
+	@echo "... data_structures/array/array_zeros.o"
+	@echo "... data_structures/array/array_zeros.i"
+	@echo "... data_structures/array/array_zeros.s"
 	@echo "... data_structures/bst/bst_delete.o"
 	@echo "... data_structures/bst/bst_delete.i"
 	@echo "... data_structures/bst/bst_delete.s"
@@ -6060,6 +7260,90 @@ help:
 	@echo "... data_structures/bst/bst_size.o"
 	@echo "... data_structures/bst/bst_size.i"
 	@echo "... data_structures/bst/bst_size.s"
+	@echo "... data_structures/graph/graph_E.o"
+	@echo "... data_structures/graph/graph_E.i"
+	@echo "... data_structures/graph/graph_E.s"
+	@echo "... data_structures/graph/graph_V.o"
+	@echo "... data_structures/graph/graph_V.i"
+	@echo "... data_structures/graph/graph_V.s"
+	@echo "... data_structures/graph/graph_add_edge.o"
+	@echo "... data_structures/graph/graph_add_edge.i"
+	@echo "... data_structures/graph/graph_add_edge.s"
+	@echo "... data_structures/graph/graph_add_vertex.o"
+	@echo "... data_structures/graph/graph_add_vertex.i"
+	@echo "... data_structures/graph/graph_add_vertex.s"
+	@echo "... data_structures/graph/graph_adjacency.o"
+	@echo "... data_structures/graph/graph_adjacency.i"
+	@echo "... data_structures/graph/graph_adjacency.s"
+	@echo "... data_structures/graph/graph_adjacent.o"
+	@echo "... data_structures/graph/graph_adjacent.i"
+	@echo "... data_structures/graph/graph_adjacent.s"
+	@echo "... data_structures/graph/graph_delete.o"
+	@echo "... data_structures/graph/graph_delete.i"
+	@echo "... data_structures/graph/graph_delete.s"
+	@echo "... data_structures/graph/graph_new.o"
+	@echo "... data_structures/graph/graph_new.i"
+	@echo "... data_structures/graph/graph_new.s"
+	@echo "... data_structures/graph/graph_vertices.o"
+	@echo "... data_structures/graph/graph_vertices.i"
+	@echo "... data_structures/graph/graph_vertices.s"
+	@echo "... data_structures/hashmap/hashmap_contains.o"
+	@echo "... data_structures/hashmap/hashmap_contains.i"
+	@echo "... data_structures/hashmap/hashmap_contains.s"
+	@echo "... data_structures/hashmap/hashmap_delete.o"
+	@echo "... data_structures/hashmap/hashmap_delete.i"
+	@echo "... data_structures/hashmap/hashmap_delete.s"
+	@echo "... data_structures/hashmap/hashmap_get.o"
+	@echo "... data_structures/hashmap/hashmap_get.i"
+	@echo "... data_structures/hashmap/hashmap_get.s"
+	@echo "... data_structures/hashmap/hashmap_keys.o"
+	@echo "... data_structures/hashmap/hashmap_keys.i"
+	@echo "... data_structures/hashmap/hashmap_keys.s"
+	@echo "... data_structures/hashmap/hashmap_new.o"
+	@echo "... data_structures/hashmap/hashmap_new.i"
+	@echo "... data_structures/hashmap/hashmap_new.s"
+	@echo "... data_structures/hashmap/hashmap_put.o"
+	@echo "... data_structures/hashmap/hashmap_put.i"
+	@echo "... data_structures/hashmap/hashmap_put.s"
+	@echo "... data_structures/hashmap/hashmap_remove.o"
+	@echo "... data_structures/hashmap/hashmap_remove.i"
+	@echo "... data_structures/hashmap/hashmap_remove.s"
+	@echo "... data_structures/hashmap/hashmap_size.o"
+	@echo "... data_structures/hashmap/hashmap_size.i"
+	@echo "... data_structures/hashmap/hashmap_size.s"
+	@echo "... data_structures/hashmap/hashmap_utils.o"
+	@echo "... data_structures/hashmap/hashmap_utils.i"
+	@echo "... data_structures/hashmap/hashmap_utils.s"
+	@echo "... data_structures/hashmap/hashmap_vals.o"
+	@echo "... data_structures/hashmap/hashmap_vals.i"
+	@echo "... data_structures/hashmap/hashmap_vals.s"
+	@echo "... data_structures/hashset/hashset_contains.o"
+	@echo "... data_structures/hashset/hashset_contains.i"
+	@echo "... data_structures/hashset/hashset_contains.s"
+	@echo "... data_structures/hashset/hashset_copy.o"
+	@echo "... data_structures/hashset/hashset_copy.i"
+	@echo "... data_structures/hashset/hashset_copy.s"
+	@echo "... data_structures/hashset/hashset_delete.o"
+	@echo "... data_structures/hashset/hashset_delete.i"
+	@echo "... data_structures/hashset/hashset_delete.s"
+	@echo "... data_structures/hashset/hashset_new.o"
+	@echo "... data_structures/hashset/hashset_new.i"
+	@echo "... data_structures/hashset/hashset_new.s"
+	@echo "... data_structures/hashset/hashset_put.o"
+	@echo "... data_structures/hashset/hashset_put.i"
+	@echo "... data_structures/hashset/hashset_put.s"
+	@echo "... data_structures/hashset/hashset_remove.o"
+	@echo "... data_structures/hashset/hashset_remove.i"
+	@echo "... data_structures/hashset/hashset_remove.s"
+	@echo "... data_structures/hashset/hashset_size.o"
+	@echo "... data_structures/hashset/hashset_size.i"
+	@echo "... data_structures/hashset/hashset_size.s"
+	@echo "... data_structures/hashset/hashset_utils.o"
+	@echo "... data_structures/hashset/hashset_utils.i"
+	@echo "... data_structures/hashset/hashset_utils.s"
+	@echo "... data_structures/hashset/hashset_vals.o"
+	@echo "... data_structures/hashset/hashset_vals.i"
+	@echo "... data_structures/hashset/hashset_vals.s"
 	@echo "... data_structures/list/list_add_first.o"
 	@echo "... data_structures/list/list_add_first.i"
 	@echo "... data_structures/list/list_add_first.s"
@@ -6123,9 +7407,9 @@ help:
 	@echo "... data_structures/max_pq/max_pq_peek.o"
 	@echo "... data_structures/max_pq/max_pq_peek.i"
 	@echo "... data_structures/max_pq/max_pq_peek.s"
-	@echo "... data_structures/max_pq/max_pq_remove.o"
-	@echo "... data_structures/max_pq/max_pq_remove.i"
-	@echo "... data_structures/max_pq/max_pq_remove.s"
+	@echo "... data_structures/max_pq/max_pq_pop.o"
+	@echo "... data_structures/max_pq/max_pq_pop.i"
+	@echo "... data_structures/max_pq/max_pq_pop.s"
 	@echo "... data_structures/max_pq/max_pq_size.o"
 	@echo "... data_structures/max_pq/max_pq_size.i"
 	@echo "... data_structures/max_pq/max_pq_size.s"
@@ -6144,9 +7428,9 @@ help:
 	@echo "... data_structures/min_pq/min_pq_peek.o"
 	@echo "... data_structures/min_pq/min_pq_peek.i"
 	@echo "... data_structures/min_pq/min_pq_peek.s"
-	@echo "... data_structures/min_pq/min_pq_remove.o"
-	@echo "... data_structures/min_pq/min_pq_remove.i"
-	@echo "... data_structures/min_pq/min_pq_remove.s"
+	@echo "... data_structures/min_pq/min_pq_pop.o"
+	@echo "... data_structures/min_pq/min_pq_pop.i"
+	@echo "... data_structures/min_pq/min_pq_pop.s"
 	@echo "... data_structures/min_pq/min_pq_size.o"
 	@echo "... data_structures/min_pq/min_pq_size.i"
 	@echo "... data_structures/min_pq/min_pq_size.s"
@@ -6174,6 +7458,9 @@ help:
 	@echo "... data_structures/rbt/rbt_ceil.o"
 	@echo "... data_structures/rbt/rbt_ceil.i"
 	@echo "... data_structures/rbt/rbt_ceil.s"
+	@echo "... data_structures/rbt/rbt_contains.o"
+	@echo "... data_structures/rbt/rbt_contains.i"
+	@echo "... data_structures/rbt/rbt_contains.s"
 	@echo "... data_structures/rbt/rbt_delete.o"
 	@echo "... data_structures/rbt/rbt_delete.i"
 	@echo "... data_structures/rbt/rbt_delete.s"
@@ -6186,9 +7473,9 @@ help:
 	@echo "... data_structures/rbt/rbt_height.o"
 	@echo "... data_structures/rbt/rbt_height.i"
 	@echo "... data_structures/rbt/rbt_height.s"
-	@echo "... data_structures/rbt/rbt_inorder.o"
-	@echo "... data_structures/rbt/rbt_inorder.i"
-	@echo "... data_structures/rbt/rbt_inorder.s"
+	@echo "... data_structures/rbt/rbt_keys.o"
+	@echo "... data_structures/rbt/rbt_keys.i"
+	@echo "... data_structures/rbt/rbt_keys.s"
 	@echo "... data_structures/rbt/rbt_max.o"
 	@echo "... data_structures/rbt/rbt_max.i"
 	@echo "... data_structures/rbt/rbt_max.s"
@@ -6207,12 +7494,27 @@ help:
 	@echo "... data_structures/rbt/rbt_size.o"
 	@echo "... data_structures/rbt/rbt_size.i"
 	@echo "... data_structures/rbt/rbt_size.s"
-	@echo "... data_structures/rbt/rbt_utils_1.o"
-	@echo "... data_structures/rbt/rbt_utils_1.i"
-	@echo "... data_structures/rbt/rbt_utils_1.s"
-	@echo "... data_structures/rbt/rbt_utils_2.o"
-	@echo "... data_structures/rbt/rbt_utils_2.i"
-	@echo "... data_structures/rbt/rbt_utils_2.s"
+	@echo "... data_structures/rbt/rbt_vals.o"
+	@echo "... data_structures/rbt/rbt_vals.i"
+	@echo "... data_structures/rbt/rbt_vals.s"
+	@echo "... data_structures/rbt/utils/rbt_flip_color.o"
+	@echo "... data_structures/rbt/utils/rbt_flip_color.i"
+	@echo "... data_structures/rbt/utils/rbt_flip_color.s"
+	@echo "... data_structures/rbt/utils/rbt_is_red_node.o"
+	@echo "... data_structures/rbt/utils/rbt_is_red_node.i"
+	@echo "... data_structures/rbt/utils/rbt_is_red_node.s"
+	@echo "... data_structures/rbt/utils/rbt_make_node.o"
+	@echo "... data_structures/rbt/utils/rbt_make_node.i"
+	@echo "... data_structures/rbt/utils/rbt_make_node.s"
+	@echo "... data_structures/rbt/utils/rbt_rotate_left.o"
+	@echo "... data_structures/rbt/utils/rbt_rotate_left.i"
+	@echo "... data_structures/rbt/utils/rbt_rotate_left.s"
+	@echo "... data_structures/rbt/utils/rbt_rotate_right.o"
+	@echo "... data_structures/rbt/utils/rbt_rotate_right.i"
+	@echo "... data_structures/rbt/utils/rbt_rotate_right.s"
+	@echo "... data_structures/rbt/utils/rbt_size_subtree.o"
+	@echo "... data_structures/rbt/utils/rbt_size_subtree.i"
+	@echo "... data_structures/rbt/utils/rbt_size_subtree.s"
 	@echo "... data_structures/stack/stack_delete.o"
 	@echo "... data_structures/stack/stack_delete.i"
 	@echo "... data_structures/stack/stack_delete.s"
@@ -6234,6 +7536,24 @@ help:
 	@echo "... data_structures/stack/stack_size.o"
 	@echo "... data_structures/stack/stack_size.i"
 	@echo "... data_structures/stack/stack_size.s"
+	@echo "... data_structures/union_find/union_find_count.o"
+	@echo "... data_structures/union_find/union_find_count.i"
+	@echo "... data_structures/union_find/union_find_count.s"
+	@echo "... data_structures/union_find/union_find_delete.o"
+	@echo "... data_structures/union_find/union_find_delete.i"
+	@echo "... data_structures/union_find/union_find_delete.s"
+	@echo "... data_structures/union_find/union_find_find.o"
+	@echo "... data_structures/union_find/union_find_find.i"
+	@echo "... data_structures/union_find/union_find_find.s"
+	@echo "... data_structures/union_find/union_find_new.o"
+	@echo "... data_structures/union_find/union_find_new.i"
+	@echo "... data_structures/union_find/union_find_new.s"
+	@echo "... data_structures/union_find/union_find_size.o"
+	@echo "... data_structures/union_find/union_find_size.i"
+	@echo "... data_structures/union_find/union_find_size.s"
+	@echo "... data_structures/union_find/union_find_union.o"
+	@echo "... data_structures/union_find/union_find_union.i"
+	@echo "... data_structures/union_find/union_find_union.s"
 	@echo "... ft_printf/src/complete_specifier/complete_specifier.o"
 	@echo "... ft_printf/src/complete_specifier/complete_specifier.i"
 	@echo "... ft_printf/src/complete_specifier/complete_specifier.s"
@@ -6618,30 +7938,30 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... types/type_bst_node.o"
-	@echo "... types/type_bst_node.i"
-	@echo "... types/type_bst_node.s"
+	@echo "... types/type_array.o"
+	@echo "... types/type_array.i"
+	@echo "... types/type_array.s"
 	@echo "... types/type_char.o"
 	@echo "... types/type_char.i"
 	@echo "... types/type_char.s"
 	@echo "... types/type_float.o"
 	@echo "... types/type_float.i"
 	@echo "... types/type_float.s"
+	@echo "... types/type_hashset.o"
+	@echo "... types/type_hashset.i"
+	@echo "... types/type_hashset.s"
 	@echo "... types/type_int.o"
 	@echo "... types/type_int.i"
 	@echo "... types/type_int.s"
-	@echo "... types/type_rbt_node.o"
-	@echo "... types/type_rbt_node.i"
-	@echo "... types/type_rbt_node.s"
 	@echo "... types/type_str.o"
 	@echo "... types/type_str.i"
 	@echo "... types/type_str.s"
-	@echo "... utils/data2ptr.o"
-	@echo "... utils/data2ptr.i"
-	@echo "... utils/data2ptr.s"
-	@echo "... utils/ptr2data.o"
-	@echo "... utils/ptr2data.i"
-	@echo "... utils/ptr2data.s"
+	@echo "... types/utils/data2ptr.o"
+	@echo "... types/utils/data2ptr.i"
+	@echo "... types/utils/data2ptr.s"
+	@echo "... types/utils/ptr2data.o"
+	@echo "... types/utils/ptr2data.i"
+	@echo "... types/utils/ptr2data.s"
 .PHONY : help
 
 

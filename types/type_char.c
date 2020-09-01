@@ -6,13 +6,13 @@
 /*   By: unite <marvin@42.fr>                       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/07/16 22:27:52 by unite             #+#    #+#             */
-/*   Updated: 2020/07/18 20:50:01 by unite            ###   ########.fr       */
+/*   Updated: 2020/07/21 23:40:54 by unite            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "types.h"
 
-void	*type_char_copy(const void *c)
+void				*type_char_copy(const void *c)
 {
 	char	*copy;
 
@@ -22,7 +22,7 @@ void	*type_char_copy(const void *c)
 	return (copy);
 }
 
-int		type_char_cmp(const void *c1, const void *c2)
+int					type_char_cmp(const void *c1, const void *c2)
 {
 	if (!c1 && !c2)
 		return (0);
@@ -37,12 +37,17 @@ int		type_char_cmp(const void *c1, const void *c2)
 	return (0);
 }
 
-void	type_char_print(const void *c)
+void				type_char_print(const void *c)
 {
 	if (!c)
 		ft_putstr("(null)");
 	else
 		ft_printf("%c", *(char *)c);
+}
+
+size_t				type_char_hash(const void *c, size_t M)
+{
+	return (*(size_t *)c % M);
 }
 
 static const t_type	g_type_char_struct = {
@@ -51,6 +56,7 @@ static const t_type	g_type_char_struct = {
 	.del = &free,
 	.cmp = &type_char_cmp,
 	.print = &type_char_print,
+	.hash = &type_char_hash,
 };
 
 const t_type		*g_type_char = &g_type_char_struct;
