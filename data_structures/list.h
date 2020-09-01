@@ -6,7 +6,7 @@
 /*   By: unite <marvin@42.fr>                       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/07/16 17:12:34 by unite             #+#    #+#             */
-/*   Updated: 2020/07/22 10:10:29 by unite            ###   ########.fr       */
+/*   Updated: 2020/09/01 17:25:49 by unite            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -45,7 +45,7 @@ void				*list_peek_last(const t_list *alst);
 void				*list_peek(const t_list *alst, size_t index);
 size_t				list_size(const t_list *alst);
 t_list				*list_new(const t_type *type);
-int					list_sort(t_list *alst);
+int					list_merge_sort(t_list *alst);
 void				list_print(const t_list *alst);
 t_list				*list_copy(const t_list *alst);
 

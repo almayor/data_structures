@@ -22,7 +22,7 @@ t_list		*list_copy(const t_list *alst)
 	link = alst->head;
 	while (link)
 	{
-		list_add_first(copy, link->content);
+		list_add_last(copy, link->content);
 		link = link->next;
 	}
 	return (copy);

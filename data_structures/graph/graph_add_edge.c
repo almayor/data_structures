@@ -6,7 +6,7 @@
 /*   By: unite <marvin@42.fr>                       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/07/22 00:55:53 by unite             #+#    #+#             */
-/*   Updated: 2020/07/22 15:19:03 by unite            ###   ########.fr       */
+/*   Updated: 2020/09/01 17:32:54 by unite            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,6 +26,6 @@ int		graph_add_edge(t_graph *graph, const void *v1, const void *v2)
 	if (array_append(array_v1, v2) ||
 		array_append(array_v2, v1))
 		return (1);
-	graph->E++;
+	graph->e++;
 	return (0);
 }

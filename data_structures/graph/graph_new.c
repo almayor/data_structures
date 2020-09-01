@@ -6,7 +6,7 @@
 /*   By: unite <marvin@42.fr>                       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/07/22 00:44:01 by unite             #+#    #+#             */
-/*   Updated: 2020/07/22 14:56:48 by unite            ###   ########.fr       */
+/*   Updated: 2020/09/01 17:32:24 by unite            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,8 +23,8 @@ t_graph	*graph_new(const t_type *type)
 		graph_delete(graph);
 		return (NULL);
 	}
-	graph->V = 0;
-	graph->E = 0;
+	graph->v = 0;
+	graph->e = 0;
 	graph->type = type;
 	return (graph);
 }

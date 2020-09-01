@@ -6,11 +6,11 @@
 /*   By: unite <marvin@42.fr>                       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/07/18 22:35:24 by unite             #+#    #+#             */
-/*   Updated: 2020/07/22 08:33:17 by unite            ###   ########.fr       */
+/*   Updated: 2020/09/01 17:25:38 by unite            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "sorts.h"
+#include "list.h"
 
 static t_link	*link_jump(t_list *alst, t_link *start, size_t n)
 {

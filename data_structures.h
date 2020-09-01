@@ -1,25 +1,25 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   sorts.h                                            :+:      :+:    :+:   */
+/*   data_structures.h                                  :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: unite <marvin@42.fr>                       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2020/07/22 08:35:17 by unite             #+#    #+#             */
-/*   Updated: 2020/07/22 08:36:21 by unite            ###   ########.fr       */
+/*   Created: 2020/07/16 22:42:07 by unite             #+#    #+#             */
+/*   Updated: 2020/07/19 00:24:16 by unite            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef SORTS_H
+#ifndef DATA_STRUCTURES_H
 
-# define SORTS_H
+# define DATA_STRUCTURES_H
 
-# include "array.h"
-# include "list.h"
+# include <errno.h>
+# include <sys/types.h>
+# include "types.h"
+# include "libft.h"
+# include "ft_printf.h"
 
-int	array_insertion_sort(t_array *array);
-int	array_merge_sort(t_array *array);
-int	array_quick_sort(t_array *array);
-int	list_merge_sort(t_list *alst);
+//# include "array.h"
 
 #endif

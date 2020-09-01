@@ -22,16 +22,13 @@ int	array_insert(t_array *array, size_t index, const void *content)
 		errno = EINVAL;
 		return (1);
 	}
+	array->size++;
 	if (array->size == array->capacity && array_grow(array))
 		return (1);
-	i = index;
-	while (i < array->size)
-	{
-		array->arr[i + 1] = array->arr[i];
-		i++;
-	}
+	i = array->size;
+	while (i-- > index)
+		array->arr[i] = array->arr[i - 1];
 	if (!(array->arr[index] = array->type->copy(content)))
 		return (1);
-	array->size++;
 	return (0);
 }

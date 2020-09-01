@@ -6,11 +6,11 @@
 /*   By: unite <marvin@42.fr>                       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/07/19 16:16:40 by unite             #+#    #+#             */
-/*   Updated: 2020/07/19 16:29:07 by unite            ###   ########.fr       */
+/*   Updated: 2020/09/01 17:24:38 by unite            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "sorts.h"
+#include "array.h"
 
 static void	array_insert_next(t_array *array, size_t j)
 {
@@ -24,7 +24,7 @@ static void	array_insert_next(t_array *array, size_t j)
 	}
 }
 
-int	array_insertion_sort(t_array *array)
+int			array_insertion_sort(t_array *array)
 {
 	size_t	i;
 	size_t	j;

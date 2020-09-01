@@ -123,114 +123,6 @@ algorithms/fast:
 	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/build
 .PHONY : algorithms/fast
 
-algorithms/sorts/insertion_sort/array_insertion_sort.o: algorithms/sorts/insertion_sort/array_insertion_sort.c.o
-
-.PHONY : algorithms/sorts/insertion_sort/array_insertion_sort.o
-
-# target to build an object file
-algorithms/sorts/insertion_sort/array_insertion_sort.c.o:
-	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/algorithms/sorts/insertion_sort/array_insertion_sort.c.o
-.PHONY : algorithms/sorts/insertion_sort/array_insertion_sort.c.o
-
-algorithms/sorts/insertion_sort/array_insertion_sort.i: algorithms/sorts/insertion_sort/array_insertion_sort.c.i
-
-.PHONY : algorithms/sorts/insertion_sort/array_insertion_sort.i
-
-# target to preprocess a source file
-algorithms/sorts/insertion_sort/array_insertion_sort.c.i:
-	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/algorithms/sorts/insertion_sort/array_insertion_sort.c.i
-.PHONY : algorithms/sorts/insertion_sort/array_insertion_sort.c.i
-
-algorithms/sorts/insertion_sort/array_insertion_sort.s: algorithms/sorts/insertion_sort/array_insertion_sort.c.s
-
-.PHONY : algorithms/sorts/insertion_sort/array_insertion_sort.s
-
-# target to generate assembly for a file
-algorithms/sorts/insertion_sort/array_insertion_sort.c.s:
-	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/algorithms/sorts/insertion_sort/array_insertion_sort.c.s
-.PHONY : algorithms/sorts/insertion_sort/array_insertion_sort.c.s
-
-algorithms/sorts/merge_sort/array_merge_sort.o: algorithms/sorts/merge_sort/array_merge_sort.c.o
-
-.PHONY : algorithms/sorts/merge_sort/array_merge_sort.o
-
-# target to build an object file
-algorithms/sorts/merge_sort/array_merge_sort.c.o:
-	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/algorithms/sorts/merge_sort/array_merge_sort.c.o
-.PHONY : algorithms/sorts/merge_sort/array_merge_sort.c.o
-
-algorithms/sorts/merge_sort/array_merge_sort.i: algorithms/sorts/merge_sort/array_merge_sort.c.i
-
-.PHONY : algorithms/sorts/merge_sort/array_merge_sort.i
-
-# target to preprocess a source file
-algorithms/sorts/merge_sort/array_merge_sort.c.i:
-	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/algorithms/sorts/merge_sort/array_merge_sort.c.i
-.PHONY : algorithms/sorts/merge_sort/array_merge_sort.c.i
-
-algorithms/sorts/merge_sort/array_merge_sort.s: algorithms/sorts/merge_sort/array_merge_sort.c.s
-
-.PHONY : algorithms/sorts/merge_sort/array_merge_sort.s
-
-# target to generate assembly for a file
-algorithms/sorts/merge_sort/array_merge_sort.c.s:
-	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/algorithms/sorts/merge_sort/array_merge_sort.c.s
-.PHONY : algorithms/sorts/merge_sort/array_merge_sort.c.s
-
-algorithms/sorts/merge_sort/list_merge_sort.o: algorithms/sorts/merge_sort/list_merge_sort.c.o
-
-.PHONY : algorithms/sorts/merge_sort/list_merge_sort.o
-
-# target to build an object file
-algorithms/sorts/merge_sort/list_merge_sort.c.o:
-	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/algorithms/sorts/merge_sort/list_merge_sort.c.o
-.PHONY : algorithms/sorts/merge_sort/list_merge_sort.c.o
-
-algorithms/sorts/merge_sort/list_merge_sort.i: algorithms/sorts/merge_sort/list_merge_sort.c.i
-
-.PHONY : algorithms/sorts/merge_sort/list_merge_sort.i
-
-# target to preprocess a source file
-algorithms/sorts/merge_sort/list_merge_sort.c.i:
-	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/algorithms/sorts/merge_sort/list_merge_sort.c.i
-.PHONY : algorithms/sorts/merge_sort/list_merge_sort.c.i
-
-algorithms/sorts/merge_sort/list_merge_sort.s: algorithms/sorts/merge_sort/list_merge_sort.c.s
-
-.PHONY : algorithms/sorts/merge_sort/list_merge_sort.s
-
-# target to generate assembly for a file
-algorithms/sorts/merge_sort/list_merge_sort.c.s:
-	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/algorithms/sorts/merge_sort/list_merge_sort.c.s
-.PHONY : algorithms/sorts/merge_sort/list_merge_sort.c.s
-
-algorithms/sorts/quick_sort/array_quick_sort.o: algorithms/sorts/quick_sort/array_quick_sort.c.o
-
-.PHONY : algorithms/sorts/quick_sort/array_quick_sort.o
-
-# target to build an object file
-algorithms/sorts/quick_sort/array_quick_sort.c.o:
-	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/algorithms/sorts/quick_sort/array_quick_sort.c.o
-.PHONY : algorithms/sorts/quick_sort/array_quick_sort.c.o
-
-algorithms/sorts/quick_sort/array_quick_sort.i: algorithms/sorts/quick_sort/array_quick_sort.c.i
-
-.PHONY : algorithms/sorts/quick_sort/array_quick_sort.i
-
-# target to preprocess a source file
-algorithms/sorts/quick_sort/array_quick_sort.c.i:
-	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/algorithms/sorts/quick_sort/array_quick_sort.c.i
-.PHONY : algorithms/sorts/quick_sort/array_quick_sort.c.i
-
-algorithms/sorts/quick_sort/array_quick_sort.s: algorithms/sorts/quick_sort/array_quick_sort.c.s
-
-.PHONY : algorithms/sorts/quick_sort/array_quick_sort.s
-
-# target to generate assembly for a file
-algorithms/sorts/quick_sort/array_quick_sort.c.s:
-	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/algorithms/sorts/quick_sort/array_quick_sort.c.s
-.PHONY : algorithms/sorts/quick_sort/array_quick_sort.c.s
-
 data_structures/array/array_append.o: data_structures/array/array_append.c.o
 
 .PHONY : data_structures/array/array_append.o
@@ -366,6 +258,60 @@ data_structures/array/array_insert.c.s:
 	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/array/array_insert.c.s
 .PHONY : data_structures/array/array_insert.c.s
 
+data_structures/array/array_insertion_sort.o: data_structures/array/array_insertion_sort.c.o
+
+.PHONY : data_structures/array/array_insertion_sort.o
+
+# target to build an object file
+data_structures/array/array_insertion_sort.c.o:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/array/array_insertion_sort.c.o
+.PHONY : data_structures/array/array_insertion_sort.c.o
+
+data_structures/array/array_insertion_sort.i: data_structures/array/array_insertion_sort.c.i
+
+.PHONY : data_structures/array/array_insertion_sort.i
+
+# target to preprocess a source file
+data_structures/array/array_insertion_sort.c.i:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/array/array_insertion_sort.c.i
+.PHONY : data_structures/array/array_insertion_sort.c.i
+
+data_structures/array/array_insertion_sort.s: data_structures/array/array_insertion_sort.c.s
+
+.PHONY : data_structures/array/array_insertion_sort.s
+
+# target to generate assembly for a file
+data_structures/array/array_insertion_sort.c.s:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/array/array_insertion_sort.c.s
+.PHONY : data_structures/array/array_insertion_sort.c.s
+
+data_structures/array/array_merge_sort.o: data_structures/array/array_merge_sort.c.o
+
+.PHONY : data_structures/array/array_merge_sort.o
+
+# target to build an object file
+data_structures/array/array_merge_sort.c.o:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/array/array_merge_sort.c.o
+.PHONY : data_structures/array/array_merge_sort.c.o
+
+data_structures/array/array_merge_sort.i: data_structures/array/array_merge_sort.c.i
+
+.PHONY : data_structures/array/array_merge_sort.i
+
+# target to preprocess a source file
+data_structures/array/array_merge_sort.c.i:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/array/array_merge_sort.c.i
+.PHONY : data_structures/array/array_merge_sort.c.i
+
+data_structures/array/array_merge_sort.s: data_structures/array/array_merge_sort.c.s
+
+.PHONY : data_structures/array/array_merge_sort.s
+
+# target to generate assembly for a file
+data_structures/array/array_merge_sort.c.s:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/array/array_merge_sort.c.s
+.PHONY : data_structures/array/array_merge_sort.c.s
+
 data_structures/array/array_new.o: data_structures/array/array_new.c.o
 
 .PHONY : data_structures/array/array_new.o
@@ -447,6 +393,33 @@ data_structures/array/array_print.c.s:
 	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/array/array_print.c.s
 .PHONY : data_structures/array/array_print.c.s
 
+data_structures/array/array_quick_sort.o: data_structures/array/array_quick_sort.c.o
+
+.PHONY : data_structures/array/array_quick_sort.o
+
+# target to build an object file
+data_structures/array/array_quick_sort.c.o:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/array/array_quick_sort.c.o
+.PHONY : data_structures/array/array_quick_sort.c.o
+
+data_structures/array/array_quick_sort.i: data_structures/array/array_quick_sort.c.i
+
+.PHONY : data_structures/array/array_quick_sort.i
+
+# target to preprocess a source file
+data_structures/array/array_quick_sort.c.i:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/array/array_quick_sort.c.i
+.PHONY : data_structures/array/array_quick_sort.c.i
+
+data_structures/array/array_quick_sort.s: data_structures/array/array_quick_sort.c.s
+
+.PHONY : data_structures/array/array_quick_sort.s
+
+# target to generate assembly for a file
+data_structures/array/array_quick_sort.c.s:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/array/array_quick_sort.c.s
+.PHONY : data_structures/array/array_quick_sort.c.s
+
 data_structures/array/array_remove.o: data_structures/array/array_remove.c.o
 
 .PHONY : data_structures/array/array_remove.o
@@ -527,33 +500,6 @@ data_structures/array/array_size.s: data_structures/array/array_size.c.s
 data_structures/array/array_size.c.s:
 	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/array/array_size.c.s
 .PHONY : data_structures/array/array_size.c.s
-
-data_structures/array/array_sort.o: data_structures/array/array_sort.c.o
-
-.PHONY : data_structures/array/array_sort.o
-
-# target to build an object file
-data_structures/array/array_sort.c.o:
-	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/array/array_sort.c.o
-.PHONY : data_structures/array/array_sort.c.o
-
-data_structures/array/array_sort.i: data_structures/array/array_sort.c.i
-
-.PHONY : data_structures/array/array_sort.i
-
-# target to preprocess a source file
-data_structures/array/array_sort.c.i:
-	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/array/array_sort.c.i
-.PHONY : data_structures/array/array_sort.c.i
-
-data_structures/array/array_sort.s: data_structures/array/array_sort.c.s
-
-.PHONY : data_structures/array/array_sort.s
-
-# target to generate assembly for a file
-data_structures/array/array_sort.c.s:
-	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/array/array_sort.c.s
-.PHONY : data_structures/array/array_sort.c.s
 
 data_structures/array/array_sorted.o: data_structures/array/array_sorted.c.o
 
@@ -851,60 +797,6 @@ data_structures/bst/bst_size.s: data_structures/bst/bst_size.c.s
 data_structures/bst/bst_size.c.s:
 	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/bst/bst_size.c.s
 .PHONY : data_structures/bst/bst_size.c.s
-
-data_structures/graph/graph_E.o: data_structures/graph/graph_E.c.o
-
-.PHONY : data_structures/graph/graph_E.o
-
-# target to build an object file
-data_structures/graph/graph_E.c.o:
-	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/graph/graph_E.c.o
-.PHONY : data_structures/graph/graph_E.c.o
-
-data_structures/graph/graph_E.i: data_structures/graph/graph_E.c.i
-
-.PHONY : data_structures/graph/graph_E.i
-
-# target to preprocess a source file
-data_structures/graph/graph_E.c.i:
-	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/graph/graph_E.c.i
-.PHONY : data_structures/graph/graph_E.c.i
-
-data_structures/graph/graph_E.s: data_structures/graph/graph_E.c.s
-
-.PHONY : data_structures/graph/graph_E.s
-
-# target to generate assembly for a file
-data_structures/graph/graph_E.c.s:
-	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/graph/graph_E.c.s
-.PHONY : data_structures/graph/graph_E.c.s
-
-data_structures/graph/graph_V.o: data_structures/graph/graph_V.c.o
-
-.PHONY : data_structures/graph/graph_V.o
-
-# target to build an object file
-data_structures/graph/graph_V.c.o:
-	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/graph/graph_V.c.o
-.PHONY : data_structures/graph/graph_V.c.o
-
-data_structures/graph/graph_V.i: data_structures/graph/graph_V.c.i
-
-.PHONY : data_structures/graph/graph_V.i
-
-# target to preprocess a source file
-data_structures/graph/graph_V.c.i:
-	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/graph/graph_V.c.i
-.PHONY : data_structures/graph/graph_V.c.i
-
-data_structures/graph/graph_V.s: data_structures/graph/graph_V.c.s
-
-.PHONY : data_structures/graph/graph_V.s
-
-# target to generate assembly for a file
-data_structures/graph/graph_V.c.s:
-	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/graph/graph_V.c.s
-.PHONY : data_structures/graph/graph_V.c.s
 
 data_structures/graph/graph_add_edge.o: data_structures/graph/graph_add_edge.c.o
 
@@ -1662,6 +1554,33 @@ data_structures/list/list_add_last.c.s:
 	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/list/list_add_last.c.s
 .PHONY : data_structures/list/list_add_last.c.s
 
+data_structures/list/list_copy.o: data_structures/list/list_copy.c.o
+
+.PHONY : data_structures/list/list_copy.o
+
+# target to build an object file
+data_structures/list/list_copy.c.o:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/list/list_copy.c.o
+.PHONY : data_structures/list/list_copy.c.o
+
+data_structures/list/list_copy.i: data_structures/list/list_copy.c.i
+
+.PHONY : data_structures/list/list_copy.i
+
+# target to preprocess a source file
+data_structures/list/list_copy.c.i:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/list/list_copy.c.i
+.PHONY : data_structures/list/list_copy.c.i
+
+data_structures/list/list_copy.s: data_structures/list/list_copy.c.s
+
+.PHONY : data_structures/list/list_copy.s
+
+# target to generate assembly for a file
+data_structures/list/list_copy.c.s:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/list/list_copy.c.s
+.PHONY : data_structures/list/list_copy.c.s
+
 data_structures/list/list_delete.o: data_structures/list/list_delete.c.o
 
 .PHONY : data_structures/list/list_delete.o
@@ -1688,6 +1607,33 @@ data_structures/list/list_delete.s: data_structures/list/list_delete.c.s
 data_structures/list/list_delete.c.s:
 	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/list/list_delete.c.s
 .PHONY : data_structures/list/list_delete.c.s
+
+data_structures/list/list_merge_sort.o: data_structures/list/list_merge_sort.c.o
+
+.PHONY : data_structures/list/list_merge_sort.o
+
+# target to build an object file
+data_structures/list/list_merge_sort.c.o:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/list/list_merge_sort.c.o
+.PHONY : data_structures/list/list_merge_sort.c.o
+
+data_structures/list/list_merge_sort.i: data_structures/list/list_merge_sort.c.i
+
+.PHONY : data_structures/list/list_merge_sort.i
+
+# target to preprocess a source file
+data_structures/list/list_merge_sort.c.i:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/list/list_merge_sort.c.i
+.PHONY : data_structures/list/list_merge_sort.c.i
+
+data_structures/list/list_merge_sort.s: data_structures/list/list_merge_sort.c.s
+
+.PHONY : data_structures/list/list_merge_sort.s
+
+# target to generate assembly for a file
+data_structures/list/list_merge_sort.c.s:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/list/list_merge_sort.c.s
+.PHONY : data_structures/list/list_merge_sort.c.s
 
 data_structures/list/list_new.o: data_structures/list/list_new.c.o
 
@@ -1932,33 +1878,6 @@ data_structures/list/list_size.c.s:
 	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/list/list_size.c.s
 .PHONY : data_structures/list/list_size.c.s
 
-data_structures/list/list_sort.o: data_structures/list/list_sort.c.o
-
-.PHONY : data_structures/list/list_sort.o
-
-# target to build an object file
-data_structures/list/list_sort.c.o:
-	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/list/list_sort.c.o
-.PHONY : data_structures/list/list_sort.c.o
-
-data_structures/list/list_sort.i: data_structures/list/list_sort.c.i
-
-.PHONY : data_structures/list/list_sort.i
-
-# target to preprocess a source file
-data_structures/list/list_sort.c.i:
-	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/list/list_sort.c.i
-.PHONY : data_structures/list/list_sort.c.i
-
-data_structures/list/list_sort.s: data_structures/list/list_sort.c.s
-
-.PHONY : data_structures/list/list_sort.s
-
-# target to generate assembly for a file
-data_structures/list/list_sort.c.s:
-	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/list/list_sort.c.s
-.PHONY : data_structures/list/list_sort.c.s
-
 data_structures/list/list_unlink.o: data_structures/list/list_unlink.c.o
 
 .PHONY : data_structures/list/list_unlink.o
@@ -2066,6 +1985,33 @@ data_structures/max_pq/max_pq_add.s: data_structures/max_pq/max_pq_add.c.s
 data_structures/max_pq/max_pq_add.c.s:
 	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/max_pq/max_pq_add.c.s
 .PHONY : data_structures/max_pq/max_pq_add.c.s
+
+data_structures/max_pq/max_pq_copy.o: data_structures/max_pq/max_pq_copy.c.o
+
+.PHONY : data_structures/max_pq/max_pq_copy.o
+
+# target to build an object file
+data_structures/max_pq/max_pq_copy.c.o:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/max_pq/max_pq_copy.c.o
+.PHONY : data_structures/max_pq/max_pq_copy.c.o
+
+data_structures/max_pq/max_pq_copy.i: data_structures/max_pq/max_pq_copy.c.i
+
+.PHONY : data_structures/max_pq/max_pq_copy.i
+
+# target to preprocess a source file
+data_structures/max_pq/max_pq_copy.c.i:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/max_pq/max_pq_copy.c.i
+.PHONY : data_structures/max_pq/max_pq_copy.c.i
+
+data_structures/max_pq/max_pq_copy.s: data_structures/max_pq/max_pq_copy.c.s
+
+.PHONY : data_structures/max_pq/max_pq_copy.s
+
+# target to generate assembly for a file
+data_structures/max_pq/max_pq_copy.c.s:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/max_pq/max_pq_copy.c.s
+.PHONY : data_structures/max_pq/max_pq_copy.c.s
 
 data_structures/max_pq/max_pq_delete.o: data_structures/max_pq/max_pq_delete.c.o
 
@@ -2256,6 +2202,33 @@ data_structures/min_pq/min_pq_add.c.s:
 	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/min_pq/min_pq_add.c.s
 .PHONY : data_structures/min_pq/min_pq_add.c.s
 
+data_structures/min_pq/min_pq_copy.o: data_structures/min_pq/min_pq_copy.c.o
+
+.PHONY : data_structures/min_pq/min_pq_copy.o
+
+# target to build an object file
+data_structures/min_pq/min_pq_copy.c.o:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/min_pq/min_pq_copy.c.o
+.PHONY : data_structures/min_pq/min_pq_copy.c.o
+
+data_structures/min_pq/min_pq_copy.i: data_structures/min_pq/min_pq_copy.c.i
+
+.PHONY : data_structures/min_pq/min_pq_copy.i
+
+# target to preprocess a source file
+data_structures/min_pq/min_pq_copy.c.i:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/min_pq/min_pq_copy.c.i
+.PHONY : data_structures/min_pq/min_pq_copy.c.i
+
+data_structures/min_pq/min_pq_copy.s: data_structures/min_pq/min_pq_copy.c.s
+
+.PHONY : data_structures/min_pq/min_pq_copy.s
+
+# target to generate assembly for a file
+data_structures/min_pq/min_pq_copy.c.s:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/min_pq/min_pq_copy.c.s
+.PHONY : data_structures/min_pq/min_pq_copy.c.s
+
 data_structures/min_pq/min_pq_delete.o: data_structures/min_pq/min_pq_delete.c.o
 
 .PHONY : data_structures/min_pq/min_pq_delete.o
@@ -2417,6 +2390,33 @@ data_structures/min_pq/min_pq_size.s: data_structures/min_pq/min_pq_size.c.s
 data_structures/min_pq/min_pq_size.c.s:
 	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/min_pq/min_pq_size.c.s
 .PHONY : data_structures/min_pq/min_pq_size.c.s
+
+data_structures/queue/queue_copy.o: data_structures/queue/queue_copy.c.o
+
+.PHONY : data_structures/queue/queue_copy.o
+
+# target to build an object file
+data_structures/queue/queue_copy.c.o:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/queue/queue_copy.c.o
+.PHONY : data_structures/queue/queue_copy.c.o
+
+data_structures/queue/queue_copy.i: data_structures/queue/queue_copy.c.i
+
+.PHONY : data_structures/queue/queue_copy.i
+
+# target to preprocess a source file
+data_structures/queue/queue_copy.c.i:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/queue/queue_copy.c.i
+.PHONY : data_structures/queue/queue_copy.c.i
+
+data_structures/queue/queue_copy.s: data_structures/queue/queue_copy.c.s
+
+.PHONY : data_structures/queue/queue_copy.s
+
+# target to generate assembly for a file
+data_structures/queue/queue_copy.c.s:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/queue/queue_copy.c.s
+.PHONY : data_structures/queue/queue_copy.c.s
 
 data_structures/queue/queue_delete.o: data_structures/queue/queue_delete.c.o
 
@@ -3146,6 +3146,33 @@ data_structures/rbt/utils/rbt_size_subtree.s: data_structures/rbt/utils/rbt_size
 data_structures/rbt/utils/rbt_size_subtree.c.s:
 	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/rbt/utils/rbt_size_subtree.c.s
 .PHONY : data_structures/rbt/utils/rbt_size_subtree.c.s
+
+data_structures/stack/stack_copy.o: data_structures/stack/stack_copy.c.o
+
+.PHONY : data_structures/stack/stack_copy.o
+
+# target to build an object file
+data_structures/stack/stack_copy.c.o:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/stack/stack_copy.c.o
+.PHONY : data_structures/stack/stack_copy.c.o
+
+data_structures/stack/stack_copy.i: data_structures/stack/stack_copy.c.i
+
+.PHONY : data_structures/stack/stack_copy.i
+
+# target to preprocess a source file
+data_structures/stack/stack_copy.c.i:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/stack/stack_copy.c.i
+.PHONY : data_structures/stack/stack_copy.c.i
+
+data_structures/stack/stack_copy.s: data_structures/stack/stack_copy.c.s
+
+.PHONY : data_structures/stack/stack_copy.s
+
+# target to generate assembly for a file
+data_structures/stack/stack_copy.c.s:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/data_structures/stack/stack_copy.c.s
+.PHONY : data_structures/stack/stack_copy.c.s
 
 data_structures/stack/stack_delete.o: data_structures/stack/stack_delete.c.o
 
@@ -6927,32 +6954,221 @@ libft/src/ft_toupper.c.s:
 	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/libft/src/ft_toupper.c.s
 .PHONY : libft/src/ft_toupper.c.s
 
-main.o: main.c.o
+test/Unity/unity.o: test/Unity/unity.c.o
 
-.PHONY : main.o
+.PHONY : test/Unity/unity.o
 
 # target to build an object file
-main.c.o:
-	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/main.c.o
-.PHONY : main.c.o
+test/Unity/unity.c.o:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/test/Unity/unity.c.o
+.PHONY : test/Unity/unity.c.o
 
-main.i: main.c.i
+test/Unity/unity.i: test/Unity/unity.c.i
 
-.PHONY : main.i
+.PHONY : test/Unity/unity.i
 
 # target to preprocess a source file
-main.c.i:
-	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/main.c.i
-.PHONY : main.c.i
+test/Unity/unity.c.i:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/test/Unity/unity.c.i
+.PHONY : test/Unity/unity.c.i
 
-main.s: main.c.s
+test/Unity/unity.s: test/Unity/unity.c.s
 
-.PHONY : main.s
+.PHONY : test/Unity/unity.s
 
 # target to generate assembly for a file
-main.c.s:
-	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/main.c.s
-.PHONY : main.c.s
+test/Unity/unity.c.s:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/test/Unity/unity.c.s
+.PHONY : test/Unity/unity.c.s
+
+test/main.o: test/main.c.o
+
+.PHONY : test/main.o
+
+# target to build an object file
+test/main.c.o:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/test/main.c.o
+.PHONY : test/main.c.o
+
+test/main.i: test/main.c.i
+
+.PHONY : test/main.i
+
+# target to preprocess a source file
+test/main.c.i:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/test/main.c.i
+.PHONY : test/main.c.i
+
+test/main.s: test/main.c.s
+
+.PHONY : test/main.s
+
+# target to generate assembly for a file
+test/main.c.s:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/test/main.c.s
+.PHONY : test/main.c.s
+
+test/suite_array.o: test/suite_array.c.o
+
+.PHONY : test/suite_array.o
+
+# target to build an object file
+test/suite_array.c.o:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/test/suite_array.c.o
+.PHONY : test/suite_array.c.o
+
+test/suite_array.i: test/suite_array.c.i
+
+.PHONY : test/suite_array.i
+
+# target to preprocess a source file
+test/suite_array.c.i:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/test/suite_array.c.i
+.PHONY : test/suite_array.c.i
+
+test/suite_array.s: test/suite_array.c.s
+
+.PHONY : test/suite_array.s
+
+# target to generate assembly for a file
+test/suite_array.c.s:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/test/suite_array.c.s
+.PHONY : test/suite_array.c.s
+
+test/suite_list.o: test/suite_list.c.o
+
+.PHONY : test/suite_list.o
+
+# target to build an object file
+test/suite_list.c.o:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/test/suite_list.c.o
+.PHONY : test/suite_list.c.o
+
+test/suite_list.i: test/suite_list.c.i
+
+.PHONY : test/suite_list.i
+
+# target to preprocess a source file
+test/suite_list.c.i:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/test/suite_list.c.i
+.PHONY : test/suite_list.c.i
+
+test/suite_list.s: test/suite_list.c.s
+
+.PHONY : test/suite_list.s
+
+# target to generate assembly for a file
+test/suite_list.c.s:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/test/suite_list.c.s
+.PHONY : test/suite_list.c.s
+
+test/suite_max_pq.o: test/suite_max_pq.c.o
+
+.PHONY : test/suite_max_pq.o
+
+# target to build an object file
+test/suite_max_pq.c.o:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/test/suite_max_pq.c.o
+.PHONY : test/suite_max_pq.c.o
+
+test/suite_max_pq.i: test/suite_max_pq.c.i
+
+.PHONY : test/suite_max_pq.i
+
+# target to preprocess a source file
+test/suite_max_pq.c.i:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/test/suite_max_pq.c.i
+.PHONY : test/suite_max_pq.c.i
+
+test/suite_max_pq.s: test/suite_max_pq.c.s
+
+.PHONY : test/suite_max_pq.s
+
+# target to generate assembly for a file
+test/suite_max_pq.c.s:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/test/suite_max_pq.c.s
+.PHONY : test/suite_max_pq.c.s
+
+test/suite_min_pq.o: test/suite_min_pq.c.o
+
+.PHONY : test/suite_min_pq.o
+
+# target to build an object file
+test/suite_min_pq.c.o:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/test/suite_min_pq.c.o
+.PHONY : test/suite_min_pq.c.o
+
+test/suite_min_pq.i: test/suite_min_pq.c.i
+
+.PHONY : test/suite_min_pq.i
+
+# target to preprocess a source file
+test/suite_min_pq.c.i:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/test/suite_min_pq.c.i
+.PHONY : test/suite_min_pq.c.i
+
+test/suite_min_pq.s: test/suite_min_pq.c.s
+
+.PHONY : test/suite_min_pq.s
+
+# target to generate assembly for a file
+test/suite_min_pq.c.s:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/test/suite_min_pq.c.s
+.PHONY : test/suite_min_pq.c.s
+
+test/suite_queue.o: test/suite_queue.c.o
+
+.PHONY : test/suite_queue.o
+
+# target to build an object file
+test/suite_queue.c.o:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/test/suite_queue.c.o
+.PHONY : test/suite_queue.c.o
+
+test/suite_queue.i: test/suite_queue.c.i
+
+.PHONY : test/suite_queue.i
+
+# target to preprocess a source file
+test/suite_queue.c.i:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/test/suite_queue.c.i
+.PHONY : test/suite_queue.c.i
+
+test/suite_queue.s: test/suite_queue.c.s
+
+.PHONY : test/suite_queue.s
+
+# target to generate assembly for a file
+test/suite_queue.c.s:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/test/suite_queue.c.s
+.PHONY : test/suite_queue.c.s
+
+test/suite_stack.o: test/suite_stack.c.o
+
+.PHONY : test/suite_stack.o
+
+# target to build an object file
+test/suite_stack.c.o:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/test/suite_stack.c.o
+.PHONY : test/suite_stack.c.o
+
+test/suite_stack.i: test/suite_stack.c.i
+
+.PHONY : test/suite_stack.i
+
+# target to preprocess a source file
+test/suite_stack.c.i:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/test/suite_stack.c.i
+.PHONY : test/suite_stack.c.i
+
+test/suite_stack.s: test/suite_stack.c.s
+
+.PHONY : test/suite_stack.s
+
+# target to generate assembly for a file
+test/suite_stack.c.s:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/test/suite_stack.c.s
+.PHONY : test/suite_stack.c.s
 
 types/type_array.o: types/type_array.c.o
 
@@ -7179,18 +7395,6 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... algorithms"
-	@echo "... algorithms/sorts/insertion_sort/array_insertion_sort.o"
-	@echo "... algorithms/sorts/insertion_sort/array_insertion_sort.i"
-	@echo "... algorithms/sorts/insertion_sort/array_insertion_sort.s"
-	@echo "... algorithms/sorts/merge_sort/array_merge_sort.o"
-	@echo "... algorithms/sorts/merge_sort/array_merge_sort.i"
-	@echo "... algorithms/sorts/merge_sort/array_merge_sort.s"
-	@echo "... algorithms/sorts/merge_sort/list_merge_sort.o"
-	@echo "... algorithms/sorts/merge_sort/list_merge_sort.i"
-	@echo "... algorithms/sorts/merge_sort/list_merge_sort.s"
-	@echo "... algorithms/sorts/quick_sort/array_quick_sort.o"
-	@echo "... algorithms/sorts/quick_sort/array_quick_sort.i"
-	@echo "... algorithms/sorts/quick_sort/array_quick_sort.s"
 	@echo "... data_structures/array/array_append.o"
 	@echo "... data_structures/array/array_append.i"
 	@echo "... data_structures/array/array_append.s"
@@ -7206,6 +7410,12 @@ help:
 	@echo "... data_structures/array/array_insert.o"
 	@echo "... data_structures/array/array_insert.i"
 	@echo "... data_structures/array/array_insert.s"
+	@echo "... data_structures/array/array_insertion_sort.o"
+	@echo "... data_structures/array/array_insertion_sort.i"
+	@echo "... data_structures/array/array_insertion_sort.s"
+	@echo "... data_structures/array/array_merge_sort.o"
+	@echo "... data_structures/array/array_merge_sort.i"
+	@echo "... data_structures/array/array_merge_sort.s"
 	@echo "... data_structures/array/array_new.o"
 	@echo "... data_structures/array/array_new.i"
 	@echo "... data_structures/array/array_new.s"
@@ -7215,6 +7425,9 @@ help:
 	@echo "... data_structures/array/array_print.o"
 	@echo "... data_structures/array/array_print.i"
 	@echo "... data_structures/array/array_print.s"
+	@echo "... data_structures/array/array_quick_sort.o"
+	@echo "... data_structures/array/array_quick_sort.i"
+	@echo "... data_structures/array/array_quick_sort.s"
 	@echo "... data_structures/array/array_remove.o"
 	@echo "... data_structures/array/array_remove.i"
 	@echo "... data_structures/array/array_remove.s"
@@ -7224,9 +7437,6 @@ help:
 	@echo "... data_structures/array/array_size.o"
 	@echo "... data_structures/array/array_size.i"
 	@echo "... data_structures/array/array_size.s"
-	@echo "... data_structures/array/array_sort.o"
-	@echo "... data_structures/array/array_sort.i"
-	@echo "... data_structures/array/array_sort.s"
 	@echo "... data_structures/array/array_sorted.o"
 	@echo "... data_structures/array/array_sorted.i"
 	@echo "... data_structures/array/array_sorted.s"
@@ -7260,12 +7470,6 @@ help:
 	@echo "... data_structures/bst/bst_size.o"
 	@echo "... data_structures/bst/bst_size.i"
 	@echo "... data_structures/bst/bst_size.s"
-	@echo "... data_structures/graph/graph_E.o"
-	@echo "... data_structures/graph/graph_E.i"
-	@echo "... data_structures/graph/graph_E.s"
-	@echo "... data_structures/graph/graph_V.o"
-	@echo "... data_structures/graph/graph_V.i"
-	@echo "... data_structures/graph/graph_V.s"
 	@echo "... data_structures/graph/graph_add_edge.o"
 	@echo "... data_structures/graph/graph_add_edge.i"
 	@echo "... data_structures/graph/graph_add_edge.s"
@@ -7350,9 +7554,15 @@ help:
 	@echo "... data_structures/list/list_add_last.o"
 	@echo "... data_structures/list/list_add_last.i"
 	@echo "... data_structures/list/list_add_last.s"
+	@echo "... data_structures/list/list_copy.o"
+	@echo "... data_structures/list/list_copy.i"
+	@echo "... data_structures/list/list_copy.s"
 	@echo "... data_structures/list/list_delete.o"
 	@echo "... data_structures/list/list_delete.i"
 	@echo "... data_structures/list/list_delete.s"
+	@echo "... data_structures/list/list_merge_sort.o"
+	@echo "... data_structures/list/list_merge_sort.i"
+	@echo "... data_structures/list/list_merge_sort.s"
 	@echo "... data_structures/list/list_new.o"
 	@echo "... data_structures/list/list_new.i"
 	@echo "... data_structures/list/list_new.s"
@@ -7380,9 +7590,6 @@ help:
 	@echo "... data_structures/list/list_size.o"
 	@echo "... data_structures/list/list_size.i"
 	@echo "... data_structures/list/list_size.s"
-	@echo "... data_structures/list/list_sort.o"
-	@echo "... data_structures/list/list_sort.i"
-	@echo "... data_structures/list/list_sort.s"
 	@echo "... data_structures/list/list_unlink.o"
 	@echo "... data_structures/list/list_unlink.i"
 	@echo "... data_structures/list/list_unlink.s"
@@ -7395,6 +7602,9 @@ help:
 	@echo "... data_structures/max_pq/max_pq_add.o"
 	@echo "... data_structures/max_pq/max_pq_add.i"
 	@echo "... data_structures/max_pq/max_pq_add.s"
+	@echo "... data_structures/max_pq/max_pq_copy.o"
+	@echo "... data_structures/max_pq/max_pq_copy.i"
+	@echo "... data_structures/max_pq/max_pq_copy.s"
 	@echo "... data_structures/max_pq/max_pq_delete.o"
 	@echo "... data_structures/max_pq/max_pq_delete.i"
 	@echo "... data_structures/max_pq/max_pq_delete.s"
@@ -7416,6 +7626,9 @@ help:
 	@echo "... data_structures/min_pq/min_pq_add.o"
 	@echo "... data_structures/min_pq/min_pq_add.i"
 	@echo "... data_structures/min_pq/min_pq_add.s"
+	@echo "... data_structures/min_pq/min_pq_copy.o"
+	@echo "... data_structures/min_pq/min_pq_copy.i"
+	@echo "... data_structures/min_pq/min_pq_copy.s"
 	@echo "... data_structures/min_pq/min_pq_delete.o"
 	@echo "... data_structures/min_pq/min_pq_delete.i"
 	@echo "... data_structures/min_pq/min_pq_delete.s"
@@ -7434,6 +7647,9 @@ help:
 	@echo "... data_structures/min_pq/min_pq_size.o"
 	@echo "... data_structures/min_pq/min_pq_size.i"
 	@echo "... data_structures/min_pq/min_pq_size.s"
+	@echo "... data_structures/queue/queue_copy.o"
+	@echo "... data_structures/queue/queue_copy.i"
+	@echo "... data_structures/queue/queue_copy.s"
 	@echo "... data_structures/queue/queue_delete.o"
 	@echo "... data_structures/queue/queue_delete.i"
 	@echo "... data_structures/queue/queue_delete.s"
@@ -7515,6 +7731,9 @@ help:
 	@echo "... data_structures/rbt/utils/rbt_size_subtree.o"
 	@echo "... data_structures/rbt/utils/rbt_size_subtree.i"
 	@echo "... data_structures/rbt/utils/rbt_size_subtree.s"
+	@echo "... data_structures/stack/stack_copy.o"
+	@echo "... data_structures/stack/stack_copy.i"
+	@echo "... data_structures/stack/stack_copy.s"
 	@echo "... data_structures/stack/stack_delete.o"
 	@echo "... data_structures/stack/stack_delete.i"
 	@echo "... data_structures/stack/stack_delete.s"
@@ -7935,9 +8154,30 @@ help:
 	@echo "... libft/src/ft_toupper.o"
 	@echo "... libft/src/ft_toupper.i"
 	@echo "... libft/src/ft_toupper.s"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... test/Unity/unity.o"
+	@echo "... test/Unity/unity.i"
+	@echo "... test/Unity/unity.s"
+	@echo "... test/main.o"
+	@echo "... test/main.i"
+	@echo "... test/main.s"
+	@echo "... test/suite_array.o"
+	@echo "... test/suite_array.i"
+	@echo "... test/suite_array.s"
+	@echo "... test/suite_list.o"
+	@echo "... test/suite_list.i"
+	@echo "... test/suite_list.s"
+	@echo "... test/suite_max_pq.o"
+	@echo "... test/suite_max_pq.i"
+	@echo "... test/suite_max_pq.s"
+	@echo "... test/suite_min_pq.o"
+	@echo "... test/suite_min_pq.i"
+	@echo "... test/suite_min_pq.s"
+	@echo "... test/suite_queue.o"
+	@echo "... test/suite_queue.i"
+	@echo "... test/suite_queue.s"
+	@echo "... test/suite_stack.o"
+	@echo "... test/suite_stack.i"
+	@echo "... test/suite_stack.s"
 	@echo "... types/type_array.o"
 	@echo "... types/type_array.i"
 	@echo "... types/type_array.s"

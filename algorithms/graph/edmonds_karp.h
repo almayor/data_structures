@@ -14,7 +14,7 @@
 
 # define EDMONDS_KARP_H
 
-# include "array.h";
+# include "array.h"
 # include "graph.h"
 
 t_array	*edmonds_karp(const t_graph *graph, const void *source, const void *sink);

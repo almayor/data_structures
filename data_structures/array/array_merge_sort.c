@@ -6,11 +6,11 @@
 /*   By: unite <marvin@42.fr>                       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/07/19 14:38:23 by unite             #+#    #+#             */
-/*   Updated: 2020/07/19 16:57:35 by unite            ###   ########.fr       */
+/*   Updated: 2020/09/01 17:24:09 by unite            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "sorts.h"
+#include "array.h"
 
 static void array_copy_slice(t_array *array, t_array *aux, size_t lo, size_t hi)
 {

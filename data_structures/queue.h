@@ -17,7 +17,7 @@
 # include "data_structures.h"
 # include "list.h"
 
-typedef t_list	t_queue;
+typedef struct s_list	t_queue;
 
 int				queue_enqueue(t_queue *queue, const void *data);
 void			*queue_dequeue(t_queue *queue);

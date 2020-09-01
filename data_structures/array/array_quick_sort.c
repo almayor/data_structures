@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "sorts.h"
+#include "array.h"
 
 static size_t	array_partition(t_array *array, size_t lo, size_t hi)
 {
