@@ -6,7 +6,7 @@
 /*   By: unite <marvin@42.fr>                       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/07/16 22:42:07 by unite             #+#    #+#             */
-/*   Updated: 2020/09/03 23:58:23 by unite            ###   ########.fr       */
+/*   Updated: 2020/09/04 00:28:47 by unite            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,5 +24,6 @@
 # include "rbt.h"
 # include "hashset.h"
 # include "hashmap.h"
+# include "types.h"
 
 #endif
