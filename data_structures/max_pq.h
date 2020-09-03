@@ -6,7 +6,7 @@
 /*   By: unite <marvin@42.fr>                       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/07/16 18:46:03 by unite             #+#    #+#             */
-/*   Updated: 2020/07/22 10:12:29 by unite            ###   ########.fr       */
+/*   Updated: 2020/09/04 00:00:20 by unite            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,10 @@
 
 # define MAX_PQ_H
 
-# include "data_structures.h"
+# include <errno.h>
+# include <sys/types.h>
+# include "types.h"
+# include "libft.h"
 # include "array.h"
 
 typedef t_array	t_max_pq;

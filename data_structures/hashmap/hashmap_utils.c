@@ -6,7 +6,7 @@
 /*   By: unite <marvin@42.fr>                       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/07/21 19:19:37 by unite             #+#    #+#             */
-/*   Updated: 2020/07/22 01:47:07 by unite            ###   ########.fr       */
+/*   Updated: 2020/09/03 22:27:08 by unite            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,26 +23,14 @@ static void	hashmap_rehash(t_hashmap *hm, void **old_keys, void **old_vals,
 	{
 		if (old_keys[i] != NULL)
 		{
-			ind = hashmap_index(hm, old_keys[i]);
-			hm->keys[ind] = old_keys[i];
-			hm->vals[ind] = old_vals[i];
+			hashmap_put(hm, old_keys[i], old_vals[i]);
+			hm->key_type->del(old_keys[i]);
+			hm->val_type->del(old_vals[i]);
 		}
 		i++;
 	}
-}
-
-size_t	hashmap_index(const t_hashmap *hm, const void *key)
-{
-	size_t	i;
-
-	i = hm->key_type->hash(key, hm->capacity);
-	while (hm->keys[i] != NULL)
-	{
-		if (hm->key_type->cmp(hm->keys[i], key) == 0)
-			return (i);
-		i = (i + 1) % hm->capacity;
-	}
-	return (i);
+	free(old_keys);
+	free(old_vals);
 }
 
 int		hashmap_grow(t_hashmap *hm)

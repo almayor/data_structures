@@ -6,27 +6,73 @@
 
 #IncludeRegexTransform: 
 
-../data_structures.h
+../data_structures/array.h
 errno.h
 -
 sys/types.h
 -
 types.h
-../types.h
+../data_structures/types.h
 libft.h
-../libft.h
+../data_structures/libft.h
 ft_printf.h
-../ft_printf.h
+../data_structures/ft_printf.h
+queue.h
+../data_structures/queue.h
+
+../data_structures/graph.h
+errno.h
+-
+sys/types.h
+-
+types.h
+../data_structures/types.h
+libft.h
+../data_structures/libft.h
+array.h
+../data_structures/array.h
+rbt.h
+../data_structures/rbt.h
 
 ../data_structures/list.h
-data_structures.h
-../data_structures/data_structures.h
+errno.h
+-
+sys/types.h
+-
+types.h
+../data_structures/types.h
+libft.h
+../data_structures/libft.h
+ft_printf.h
+../data_structures/ft_printf.h
 
 ../data_structures/queue.h
-data_structures.h
-../data_structures/data_structures.h
+errno.h
+-
+sys/types.h
+-
+types.h
+../data_structures/types.h
+libft.h
+../data_structures/libft.h
+ft_printf.h
+../data_structures/ft_printf.h
 list.h
 ../data_structures/list.h
+
+../data_structures/rbt.h
+errno.h
+-
+sys/types.h
+-
+types.h
+../data_structures/types.h
+libft.h
+../data_structures/libft.h
+ft_printf.h
+../data_structures/ft_printf.h
+queue.h
+../data_structures/queue.h
 
 ../ft_printf/ft_printf.h
 stdarg.h
@@ -78,15 +124,9 @@ utils.h
 
 ../types/utils/utils.h
 
-/Users/almayor/Documents/programming/42/algorithms/test/main.c
+/Users/almayor/Documents/programming/42/algorithms/test/suite_graph.c
 unity.h
 /Users/almayor/Documents/programming/42/algorithms/test/unity.h
-
-/Users/almayor/Documents/programming/42/algorithms/test/suite_queue.c
-unity.h
-/Users/almayor/Documents/programming/42/algorithms/test/unity.h
-data_structures.h
-/Users/almayor/Documents/programming/42/algorithms/test/data_structures.h
-queue.h
-/Users/almayor/Documents/programming/42/algorithms/test/queue.h
+graph.h
+/Users/almayor/Documents/programming/42/algorithms/test/graph.h
 

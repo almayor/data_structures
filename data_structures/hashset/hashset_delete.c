@@ -6,7 +6,7 @@
 /*   By: unite <marvin@42.fr>                       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/07/21 19:04:25 by unite             #+#    #+#             */
-/*   Updated: 2020/07/22 01:51:05 by unite            ###   ########.fr       */
+/*   Updated: 2020/09/03 22:29:58 by unite            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,6 +23,7 @@ void	hashset_delete(t_hashset *hs)
 		i = 0;
 		while (i < hs->capacity)
 			hs->type->del(hs->vals[i++]);
+		free(hs->vals);
 	}
 	free(hs);
 }

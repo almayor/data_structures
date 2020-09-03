@@ -3437,9 +3437,87 @@ CMakeFiles/algorithms.dir/test/suite_min_pq.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/algorithms.dir/test/suite_min_pq.c.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/almayor/Documents/programming/42/algorithms/test/suite_min_pq.c -o CMakeFiles/algorithms.dir/test/suite_min_pq.c.s
 
+CMakeFiles/algorithms.dir/test/suite_bst.c.o: CMakeFiles/algorithms.dir/flags.make
+CMakeFiles/algorithms.dir/test/suite_bst.c.o: ../test/suite_bst.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/almayor/Documents/programming/42/algorithms/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_261) "Building C object CMakeFiles/algorithms.dir/test/suite_bst.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/algorithms.dir/test/suite_bst.c.o   -c /Users/almayor/Documents/programming/42/algorithms/test/suite_bst.c
+
+CMakeFiles/algorithms.dir/test/suite_bst.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/algorithms.dir/test/suite_bst.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/almayor/Documents/programming/42/algorithms/test/suite_bst.c > CMakeFiles/algorithms.dir/test/suite_bst.c.i
+
+CMakeFiles/algorithms.dir/test/suite_bst.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/algorithms.dir/test/suite_bst.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/almayor/Documents/programming/42/algorithms/test/suite_bst.c -o CMakeFiles/algorithms.dir/test/suite_bst.c.s
+
+CMakeFiles/algorithms.dir/test/suite_rbt.c.o: CMakeFiles/algorithms.dir/flags.make
+CMakeFiles/algorithms.dir/test/suite_rbt.c.o: ../test/suite_rbt.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/almayor/Documents/programming/42/algorithms/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_262) "Building C object CMakeFiles/algorithms.dir/test/suite_rbt.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/algorithms.dir/test/suite_rbt.c.o   -c /Users/almayor/Documents/programming/42/algorithms/test/suite_rbt.c
+
+CMakeFiles/algorithms.dir/test/suite_rbt.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/algorithms.dir/test/suite_rbt.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/almayor/Documents/programming/42/algorithms/test/suite_rbt.c > CMakeFiles/algorithms.dir/test/suite_rbt.c.i
+
+CMakeFiles/algorithms.dir/test/suite_rbt.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/algorithms.dir/test/suite_rbt.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/almayor/Documents/programming/42/algorithms/test/suite_rbt.c -o CMakeFiles/algorithms.dir/test/suite_rbt.c.s
+
+CMakeFiles/algorithms.dir/test/suite_hashset.c.o: CMakeFiles/algorithms.dir/flags.make
+CMakeFiles/algorithms.dir/test/suite_hashset.c.o: ../test/suite_hashset.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/almayor/Documents/programming/42/algorithms/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_263) "Building C object CMakeFiles/algorithms.dir/test/suite_hashset.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/algorithms.dir/test/suite_hashset.c.o   -c /Users/almayor/Documents/programming/42/algorithms/test/suite_hashset.c
+
+CMakeFiles/algorithms.dir/test/suite_hashset.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/algorithms.dir/test/suite_hashset.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/almayor/Documents/programming/42/algorithms/test/suite_hashset.c > CMakeFiles/algorithms.dir/test/suite_hashset.c.i
+
+CMakeFiles/algorithms.dir/test/suite_hashset.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/algorithms.dir/test/suite_hashset.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/almayor/Documents/programming/42/algorithms/test/suite_hashset.c -o CMakeFiles/algorithms.dir/test/suite_hashset.c.s
+
+CMakeFiles/algorithms.dir/test/suite_hashmap.c.o: CMakeFiles/algorithms.dir/flags.make
+CMakeFiles/algorithms.dir/test/suite_hashmap.c.o: ../test/suite_hashmap.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/almayor/Documents/programming/42/algorithms/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_264) "Building C object CMakeFiles/algorithms.dir/test/suite_hashmap.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/algorithms.dir/test/suite_hashmap.c.o   -c /Users/almayor/Documents/programming/42/algorithms/test/suite_hashmap.c
+
+CMakeFiles/algorithms.dir/test/suite_hashmap.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/algorithms.dir/test/suite_hashmap.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/almayor/Documents/programming/42/algorithms/test/suite_hashmap.c > CMakeFiles/algorithms.dir/test/suite_hashmap.c.i
+
+CMakeFiles/algorithms.dir/test/suite_hashmap.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/algorithms.dir/test/suite_hashmap.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/almayor/Documents/programming/42/algorithms/test/suite_hashmap.c -o CMakeFiles/algorithms.dir/test/suite_hashmap.c.s
+
+CMakeFiles/algorithms.dir/test/suite_union_find.c.o: CMakeFiles/algorithms.dir/flags.make
+CMakeFiles/algorithms.dir/test/suite_union_find.c.o: ../test/suite_union_find.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/almayor/Documents/programming/42/algorithms/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_265) "Building C object CMakeFiles/algorithms.dir/test/suite_union_find.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/algorithms.dir/test/suite_union_find.c.o   -c /Users/almayor/Documents/programming/42/algorithms/test/suite_union_find.c
+
+CMakeFiles/algorithms.dir/test/suite_union_find.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/algorithms.dir/test/suite_union_find.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/almayor/Documents/programming/42/algorithms/test/suite_union_find.c > CMakeFiles/algorithms.dir/test/suite_union_find.c.i
+
+CMakeFiles/algorithms.dir/test/suite_union_find.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/algorithms.dir/test/suite_union_find.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/almayor/Documents/programming/42/algorithms/test/suite_union_find.c -o CMakeFiles/algorithms.dir/test/suite_union_find.c.s
+
+CMakeFiles/algorithms.dir/test/suite_graph.c.o: CMakeFiles/algorithms.dir/flags.make
+CMakeFiles/algorithms.dir/test/suite_graph.c.o: ../test/suite_graph.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/almayor/Documents/programming/42/algorithms/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_266) "Building C object CMakeFiles/algorithms.dir/test/suite_graph.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/algorithms.dir/test/suite_graph.c.o   -c /Users/almayor/Documents/programming/42/algorithms/test/suite_graph.c
+
+CMakeFiles/algorithms.dir/test/suite_graph.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/algorithms.dir/test/suite_graph.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/almayor/Documents/programming/42/algorithms/test/suite_graph.c > CMakeFiles/algorithms.dir/test/suite_graph.c.i
+
+CMakeFiles/algorithms.dir/test/suite_graph.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/algorithms.dir/test/suite_graph.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/almayor/Documents/programming/42/algorithms/test/suite_graph.c -o CMakeFiles/algorithms.dir/test/suite_graph.c.s
+
 CMakeFiles/algorithms.dir/test/main.c.o: CMakeFiles/algorithms.dir/flags.make
 CMakeFiles/algorithms.dir/test/main.c.o: ../test/main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/almayor/Documents/programming/42/algorithms/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_261) "Building C object CMakeFiles/algorithms.dir/test/main.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/almayor/Documents/programming/42/algorithms/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_267) "Building C object CMakeFiles/algorithms.dir/test/main.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/algorithms.dir/test/main.c.o   -c /Users/almayor/Documents/programming/42/algorithms/test/main.c
 
 CMakeFiles/algorithms.dir/test/main.c.i: cmake_force
@@ -3452,7 +3530,7 @@ CMakeFiles/algorithms.dir/test/main.c.s: cmake_force
 
 CMakeFiles/algorithms.dir/types/utils/data2ptr.c.o: CMakeFiles/algorithms.dir/flags.make
 CMakeFiles/algorithms.dir/types/utils/data2ptr.c.o: ../types/utils/data2ptr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/almayor/Documents/programming/42/algorithms/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_262) "Building C object CMakeFiles/algorithms.dir/types/utils/data2ptr.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/almayor/Documents/programming/42/algorithms/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_268) "Building C object CMakeFiles/algorithms.dir/types/utils/data2ptr.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/algorithms.dir/types/utils/data2ptr.c.o   -c /Users/almayor/Documents/programming/42/algorithms/types/utils/data2ptr.c
 
 CMakeFiles/algorithms.dir/types/utils/data2ptr.c.i: cmake_force
@@ -3465,7 +3543,7 @@ CMakeFiles/algorithms.dir/types/utils/data2ptr.c.s: cmake_force
 
 CMakeFiles/algorithms.dir/types/utils/ptr2data.c.o: CMakeFiles/algorithms.dir/flags.make
 CMakeFiles/algorithms.dir/types/utils/ptr2data.c.o: ../types/utils/ptr2data.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/almayor/Documents/programming/42/algorithms/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_263) "Building C object CMakeFiles/algorithms.dir/types/utils/ptr2data.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/almayor/Documents/programming/42/algorithms/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_269) "Building C object CMakeFiles/algorithms.dir/types/utils/ptr2data.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/algorithms.dir/types/utils/ptr2data.c.o   -c /Users/almayor/Documents/programming/42/algorithms/types/utils/ptr2data.c
 
 CMakeFiles/algorithms.dir/types/utils/ptr2data.c.i: cmake_force
@@ -3478,7 +3556,7 @@ CMakeFiles/algorithms.dir/types/utils/ptr2data.c.s: cmake_force
 
 CMakeFiles/algorithms.dir/types/type_array.c.o: CMakeFiles/algorithms.dir/flags.make
 CMakeFiles/algorithms.dir/types/type_array.c.o: ../types/type_array.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/almayor/Documents/programming/42/algorithms/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_264) "Building C object CMakeFiles/algorithms.dir/types/type_array.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/almayor/Documents/programming/42/algorithms/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_270) "Building C object CMakeFiles/algorithms.dir/types/type_array.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/algorithms.dir/types/type_array.c.o   -c /Users/almayor/Documents/programming/42/algorithms/types/type_array.c
 
 CMakeFiles/algorithms.dir/types/type_array.c.i: cmake_force
@@ -3491,7 +3569,7 @@ CMakeFiles/algorithms.dir/types/type_array.c.s: cmake_force
 
 CMakeFiles/algorithms.dir/types/type_char.c.o: CMakeFiles/algorithms.dir/flags.make
 CMakeFiles/algorithms.dir/types/type_char.c.o: ../types/type_char.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/almayor/Documents/programming/42/algorithms/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_265) "Building C object CMakeFiles/algorithms.dir/types/type_char.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/almayor/Documents/programming/42/algorithms/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_271) "Building C object CMakeFiles/algorithms.dir/types/type_char.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/algorithms.dir/types/type_char.c.o   -c /Users/almayor/Documents/programming/42/algorithms/types/type_char.c
 
 CMakeFiles/algorithms.dir/types/type_char.c.i: cmake_force
@@ -3504,7 +3582,7 @@ CMakeFiles/algorithms.dir/types/type_char.c.s: cmake_force
 
 CMakeFiles/algorithms.dir/types/type_float.c.o: CMakeFiles/algorithms.dir/flags.make
 CMakeFiles/algorithms.dir/types/type_float.c.o: ../types/type_float.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/almayor/Documents/programming/42/algorithms/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_266) "Building C object CMakeFiles/algorithms.dir/types/type_float.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/almayor/Documents/programming/42/algorithms/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_272) "Building C object CMakeFiles/algorithms.dir/types/type_float.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/algorithms.dir/types/type_float.c.o   -c /Users/almayor/Documents/programming/42/algorithms/types/type_float.c
 
 CMakeFiles/algorithms.dir/types/type_float.c.i: cmake_force
@@ -3517,7 +3595,7 @@ CMakeFiles/algorithms.dir/types/type_float.c.s: cmake_force
 
 CMakeFiles/algorithms.dir/types/type_hashset.c.o: CMakeFiles/algorithms.dir/flags.make
 CMakeFiles/algorithms.dir/types/type_hashset.c.o: ../types/type_hashset.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/almayor/Documents/programming/42/algorithms/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_267) "Building C object CMakeFiles/algorithms.dir/types/type_hashset.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/almayor/Documents/programming/42/algorithms/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_273) "Building C object CMakeFiles/algorithms.dir/types/type_hashset.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/algorithms.dir/types/type_hashset.c.o   -c /Users/almayor/Documents/programming/42/algorithms/types/type_hashset.c
 
 CMakeFiles/algorithms.dir/types/type_hashset.c.i: cmake_force
@@ -3530,7 +3608,7 @@ CMakeFiles/algorithms.dir/types/type_hashset.c.s: cmake_force
 
 CMakeFiles/algorithms.dir/types/type_int.c.o: CMakeFiles/algorithms.dir/flags.make
 CMakeFiles/algorithms.dir/types/type_int.c.o: ../types/type_int.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/almayor/Documents/programming/42/algorithms/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_268) "Building C object CMakeFiles/algorithms.dir/types/type_int.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/almayor/Documents/programming/42/algorithms/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_274) "Building C object CMakeFiles/algorithms.dir/types/type_int.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/algorithms.dir/types/type_int.c.o   -c /Users/almayor/Documents/programming/42/algorithms/types/type_int.c
 
 CMakeFiles/algorithms.dir/types/type_int.c.i: cmake_force
@@ -3543,7 +3621,7 @@ CMakeFiles/algorithms.dir/types/type_int.c.s: cmake_force
 
 CMakeFiles/algorithms.dir/types/type_str.c.o: CMakeFiles/algorithms.dir/flags.make
 CMakeFiles/algorithms.dir/types/type_str.c.o: ../types/type_str.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/almayor/Documents/programming/42/algorithms/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_269) "Building C object CMakeFiles/algorithms.dir/types/type_str.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/almayor/Documents/programming/42/algorithms/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_275) "Building C object CMakeFiles/algorithms.dir/types/type_str.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/algorithms.dir/types/type_str.c.o   -c /Users/almayor/Documents/programming/42/algorithms/types/type_str.c
 
 CMakeFiles/algorithms.dir/types/type_str.c.i: cmake_force
@@ -3816,6 +3894,12 @@ algorithms_OBJECTS = \
 "CMakeFiles/algorithms.dir/test/suite_queue.c.o" \
 "CMakeFiles/algorithms.dir/test/suite_max_pq.c.o" \
 "CMakeFiles/algorithms.dir/test/suite_min_pq.c.o" \
+"CMakeFiles/algorithms.dir/test/suite_bst.c.o" \
+"CMakeFiles/algorithms.dir/test/suite_rbt.c.o" \
+"CMakeFiles/algorithms.dir/test/suite_hashset.c.o" \
+"CMakeFiles/algorithms.dir/test/suite_hashmap.c.o" \
+"CMakeFiles/algorithms.dir/test/suite_union_find.c.o" \
+"CMakeFiles/algorithms.dir/test/suite_graph.c.o" \
 "CMakeFiles/algorithms.dir/test/main.c.o" \
 "CMakeFiles/algorithms.dir/types/utils/data2ptr.c.o" \
 "CMakeFiles/algorithms.dir/types/utils/ptr2data.c.o" \
@@ -4089,6 +4173,12 @@ algorithms: CMakeFiles/algorithms.dir/test/suite_stack.c.o
 algorithms: CMakeFiles/algorithms.dir/test/suite_queue.c.o
 algorithms: CMakeFiles/algorithms.dir/test/suite_max_pq.c.o
 algorithms: CMakeFiles/algorithms.dir/test/suite_min_pq.c.o
+algorithms: CMakeFiles/algorithms.dir/test/suite_bst.c.o
+algorithms: CMakeFiles/algorithms.dir/test/suite_rbt.c.o
+algorithms: CMakeFiles/algorithms.dir/test/suite_hashset.c.o
+algorithms: CMakeFiles/algorithms.dir/test/suite_hashmap.c.o
+algorithms: CMakeFiles/algorithms.dir/test/suite_union_find.c.o
+algorithms: CMakeFiles/algorithms.dir/test/suite_graph.c.o
 algorithms: CMakeFiles/algorithms.dir/test/main.c.o
 algorithms: CMakeFiles/algorithms.dir/types/utils/data2ptr.c.o
 algorithms: CMakeFiles/algorithms.dir/types/utils/ptr2data.c.o
@@ -4100,7 +4190,7 @@ algorithms: CMakeFiles/algorithms.dir/types/type_int.c.o
 algorithms: CMakeFiles/algorithms.dir/types/type_str.c.o
 algorithms: CMakeFiles/algorithms.dir/build.make
 algorithms: CMakeFiles/algorithms.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/almayor/Documents/programming/42/algorithms/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_270) "Linking C executable algorithms"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/almayor/Documents/programming/42/algorithms/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_276) "Linking C executable algorithms"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/algorithms.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

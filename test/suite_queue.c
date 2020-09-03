@@ -1,5 +1,4 @@
 #include "unity.h"
-#include "data_structures.h"
 #include "queue.h"
 
 void test_queue_new(void) {

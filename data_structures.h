@@ -6,7 +6,7 @@
 /*   By: unite <marvin@42.fr>                       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/07/16 22:42:07 by unite             #+#    #+#             */
-/*   Updated: 2020/07/19 00:24:16 by unite            ###   ########.fr       */
+/*   Updated: 2020/09/03 23:58:23 by unite            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,12 +14,15 @@
 
 # define DATA_STRUCTURES_H
 
-# include <errno.h>
-# include <sys/types.h>
-# include "types.h"
-# include "libft.h"
-# include "ft_printf.h"
-
-//# include "array.h"
+# include "array.h"
+# include "list.h"
+# include "queue.h"
+# include "stack.h"
+# include "min_pq.h"
+# include "max_pq.h"
+# include "bst.h"
+# include "rbt.h"
+# include "hashset.h"
+# include "hashmap.h"
 
 #endif

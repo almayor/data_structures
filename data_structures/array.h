@@ -6,7 +6,7 @@
 /*   By: unite <marvin@42.fr>                       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/07/16 17:32:17 by unite             #+#    #+#             */
-/*   Updated: 2020/09/01 17:24:50 by unite            ###   ########.fr       */
+/*   Updated: 2020/09/04 00:00:08 by unite            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,11 @@
 
 # define ARRAY_INIT_CAPACITY	4
 
-# include "data_structures.h"
+# include <errno.h>
+# include <sys/types.h>
+# include "types.h"
+# include "libft.h"
+# include "ft_printf.h"
 # include "queue.h"
 
 typedef struct	s_array

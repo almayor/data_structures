@@ -6,7 +6,7 @@
 /*   By: unite <marvin@42.fr>                       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/07/17 22:00:24 by unite             #+#    #+#             */
-/*   Updated: 2020/07/18 16:54:45 by unite            ###   ########.fr       */
+/*   Updated: 2020/09/04 00:00:55 by unite            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,10 @@
 
 # define BST_H
 
-# include "data_structures.h"
+# include <errno.h>
+# include <sys/types.h>
+# include "types.h"
+# include "libft.h"
 
 typedef struct	s_bst_node
 {

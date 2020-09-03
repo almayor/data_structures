@@ -12,17 +12,17 @@
 
 #include "utils.h"
 
-int		ptr2int(void *ptr)
+int		ptr2int(const void *ptr)
 {
 	return (*(int *)ptr);
 }
 
-float	ptr2float(void *ptr)
+float	ptr2float(const void *ptr)
 {
 	return (*(float *)ptr);
 }
 
-char	ptr2char(void *ptr)
+char	ptr2char(const void *ptr)
 {
 	return (*(char *)ptr);
 }

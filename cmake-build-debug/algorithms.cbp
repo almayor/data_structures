@@ -936,6 +936,18 @@
 		<Unit filename="/Users/almayor/Documents/programming/42/algorithms/test/suite_array.c">
 			<Option target="algorithms"/>
 		</Unit>
+		<Unit filename="/Users/almayor/Documents/programming/42/algorithms/test/suite_bst.c">
+			<Option target="algorithms"/>
+		</Unit>
+		<Unit filename="/Users/almayor/Documents/programming/42/algorithms/test/suite_graph.c">
+			<Option target="algorithms"/>
+		</Unit>
+		<Unit filename="/Users/almayor/Documents/programming/42/algorithms/test/suite_hashmap.c">
+			<Option target="algorithms"/>
+		</Unit>
+		<Unit filename="/Users/almayor/Documents/programming/42/algorithms/test/suite_hashset.c">
+			<Option target="algorithms"/>
+		</Unit>
 		<Unit filename="/Users/almayor/Documents/programming/42/algorithms/test/suite_list.c">
 			<Option target="algorithms"/>
 		</Unit>
@@ -948,7 +960,13 @@
 		<Unit filename="/Users/almayor/Documents/programming/42/algorithms/test/suite_queue.c">
 			<Option target="algorithms"/>
 		</Unit>
+		<Unit filename="/Users/almayor/Documents/programming/42/algorithms/test/suite_rbt.c">
+			<Option target="algorithms"/>
+		</Unit>
 		<Unit filename="/Users/almayor/Documents/programming/42/algorithms/test/suite_stack.c">
+			<Option target="algorithms"/>
+		</Unit>
+		<Unit filename="/Users/almayor/Documents/programming/42/algorithms/test/suite_union_find.c">
 			<Option target="algorithms"/>
 		</Unit>
 		<Unit filename="/Users/almayor/Documents/programming/42/algorithms/types.h">

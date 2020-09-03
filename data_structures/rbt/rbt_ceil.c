@@ -36,5 +36,5 @@ void	*rbt_ceil(const t_rbt *rbt, const void *key)
 	if (!rbt || !key)
 		return (NULL);
 	node = rbt_ceil_recur(rbt, rbt->root, key);
-	return (node->key);
+	return (node ? node->key : NULL);
 }

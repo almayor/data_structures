@@ -18,8 +18,8 @@ int		*int2ptr(int a);
 char	*char2ptr(char a);
 float	*float2ptr(float a);
 
-int		ptr2int(void *ptr);
-char	ptr2char(void *ptr);
-float	ptr2float(void *ptr);
+int		ptr2int(const void *ptr);
+char	ptr2char(const void *ptr);
+float	ptr2float(const void *ptr);
 
 #endif

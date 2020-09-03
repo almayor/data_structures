@@ -6,7 +6,7 @@
 /*   By: unite <marvin@42.fr>                       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/07/21 21:49:30 by unite             #+#    #+#             */
-/*   Updated: 2020/07/21 22:35:23 by unite            ###   ########.fr       */
+/*   Updated: 2020/09/04 00:00:23 by unite            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,10 @@
 
 # define UNION_FIND
 
-# include "data_structures.h"
+# include <errno.h>
+# include <sys/types.h>
+# include "types.h"
+# include "libft.h"
 
 typedef struct	s_union_find
 {

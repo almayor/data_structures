@@ -6,7 +6,7 @@
 /*   By: unite <marvin@42.fr>                       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/07/16 17:12:34 by unite             #+#    #+#             */
-/*   Updated: 2020/09/01 17:25:49 by unite            ###   ########.fr       */
+/*   Updated: 2020/09/03 23:59:41 by unite            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,11 @@
 
 # define LIST_H
 
-# include "data_structures.h"
+# include <errno.h>
+# include <sys/types.h>
+# include "types.h"
+# include "libft.h"
+# include "ft_printf.h"
 
 typedef struct		s_link
 {

@@ -1,5 +1,4 @@
 #include "unity.h"
-#include "data_structures.h"
 #include "min_pq.h"
 #include <stdlib.h>
 

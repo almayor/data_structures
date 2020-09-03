@@ -6,7 +6,7 @@
 /*   By: unite <marvin@42.fr>                       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/07/16 20:41:50 by unite             #+#    #+#             */
-/*   Updated: 2020/07/22 15:53:52 by unite            ###   ########.fr       */
+/*   Updated: 2020/09/04 00:00:31 by unite            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,11 @@
 
 # define RBT_H
 
-# include "data_structures.h"
+# include <errno.h>
+# include <sys/types.h>
+# include "types.h"
+# include "libft.h"
+# include "ft_printf.h"
 # include "queue.h"
 
 typedef enum	e_rbt_node_color

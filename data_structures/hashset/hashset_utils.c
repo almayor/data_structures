@@ -6,7 +6,7 @@
 /*   By: unite <marvin@42.fr>                       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/07/21 19:19:37 by unite             #+#    #+#             */
-/*   Updated: 2020/07/22 01:50:40 by unite            ###   ########.fr       */
+/*   Updated: 2020/09/03 22:47:48 by unite            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,25 +22,12 @@ void	hashset_rehash(t_hashset *hs, void **old_vals, size_t old_capacity)
 	{
 		if (old_vals[i] != NULL)
 		{
-			ind = hashset_index(hs, old_vals[i]);
-			hs->vals[ind] = old_vals[i];
+			hashset_put(hs, old_vals[i]);
+			hs->type->del(old_vals[i]);
 		}
 		i++;
 	}
-}
-
-size_t	hashset_index(const t_hashset *hs, const void *val)
-{
-	size_t	i;
-
-	i = hs->type->hash(val, hs->capacity);
-	while (hs->vals[i] != NULL)
-	{
-		if (hs->type->cmp(hs->vals[i], val) == 0)
-			return (i);
-		i = (i + 1) % hs->capacity;
-	}
-	return (-1);
+	free(old_vals);
 }
 
 int		hashset_grow(t_hashset *hs)

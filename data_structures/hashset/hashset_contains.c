@@ -6,7 +6,7 @@
 /*   By: unite <marvin@42.fr>                       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/07/21 19:53:13 by unite             #+#    #+#             */
-/*   Updated: 2020/07/22 01:51:16 by unite            ###   ########.fr       */
+/*   Updated: 2020/09/03 22:50:14 by unite            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,5 +15,14 @@
 
 int		hashset_contains(const t_hashset *hs, const void *val)
 {
-	return (hs->vals[hashset_index(hs, val)] != NULL);
+	size_t	ind;
+
+	ind = hs->type->hash(val, hs->capacity);
+	while (hs->vals[ind] != NULL)
+	{
+		if (hs->type->cmp(hs->vals[ind], val) == 0)
+			return (1);
+		ind = (ind + 1) % hs->capacity;
+	}
+	return (0);
 }

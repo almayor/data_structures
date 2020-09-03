@@ -16,6 +16,8 @@ int		graph_add_vertex(t_graph *graph, const void *v)
 {
 	t_array	*array;
 
+	if (rbt_contains(graph->adj, v))
+		return (0);
 	if (!(array = array_new(graph->type)))
 		return (1);
 	rbt_put(graph->adj, v, array);

@@ -1,5 +1,4 @@
 #include "unity.h"
-#include "data_structures.h"
 #include "stack.h"
 
 void test_stack_new(void) {

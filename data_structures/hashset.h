@@ -6,7 +6,7 @@
 /*   By: unite <marvin@42.fr>                       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/07/21 18:15:39 by unite             #+#    #+#             */
-/*   Updated: 2020/07/22 02:02:23 by unite            ###   ########.fr       */
+/*   Updated: 2020/09/04 00:00:37 by unite            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,10 @@
 
 # define HASHSET_H
 
-# include "data_structures.h"
+# include <errno.h>
+# include <sys/types.h>
+# include "types.h"
+# include "libft.h"
 # include "queue.h"
 
 # define HASHSET_INIT_CAPACITY	51

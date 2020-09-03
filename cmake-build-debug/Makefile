@@ -7035,6 +7035,114 @@ test/suite_array.c.s:
 	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/test/suite_array.c.s
 .PHONY : test/suite_array.c.s
 
+test/suite_bst.o: test/suite_bst.c.o
+
+.PHONY : test/suite_bst.o
+
+# target to build an object file
+test/suite_bst.c.o:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/test/suite_bst.c.o
+.PHONY : test/suite_bst.c.o
+
+test/suite_bst.i: test/suite_bst.c.i
+
+.PHONY : test/suite_bst.i
+
+# target to preprocess a source file
+test/suite_bst.c.i:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/test/suite_bst.c.i
+.PHONY : test/suite_bst.c.i
+
+test/suite_bst.s: test/suite_bst.c.s
+
+.PHONY : test/suite_bst.s
+
+# target to generate assembly for a file
+test/suite_bst.c.s:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/test/suite_bst.c.s
+.PHONY : test/suite_bst.c.s
+
+test/suite_graph.o: test/suite_graph.c.o
+
+.PHONY : test/suite_graph.o
+
+# target to build an object file
+test/suite_graph.c.o:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/test/suite_graph.c.o
+.PHONY : test/suite_graph.c.o
+
+test/suite_graph.i: test/suite_graph.c.i
+
+.PHONY : test/suite_graph.i
+
+# target to preprocess a source file
+test/suite_graph.c.i:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/test/suite_graph.c.i
+.PHONY : test/suite_graph.c.i
+
+test/suite_graph.s: test/suite_graph.c.s
+
+.PHONY : test/suite_graph.s
+
+# target to generate assembly for a file
+test/suite_graph.c.s:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/test/suite_graph.c.s
+.PHONY : test/suite_graph.c.s
+
+test/suite_hashmap.o: test/suite_hashmap.c.o
+
+.PHONY : test/suite_hashmap.o
+
+# target to build an object file
+test/suite_hashmap.c.o:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/test/suite_hashmap.c.o
+.PHONY : test/suite_hashmap.c.o
+
+test/suite_hashmap.i: test/suite_hashmap.c.i
+
+.PHONY : test/suite_hashmap.i
+
+# target to preprocess a source file
+test/suite_hashmap.c.i:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/test/suite_hashmap.c.i
+.PHONY : test/suite_hashmap.c.i
+
+test/suite_hashmap.s: test/suite_hashmap.c.s
+
+.PHONY : test/suite_hashmap.s
+
+# target to generate assembly for a file
+test/suite_hashmap.c.s:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/test/suite_hashmap.c.s
+.PHONY : test/suite_hashmap.c.s
+
+test/suite_hashset.o: test/suite_hashset.c.o
+
+.PHONY : test/suite_hashset.o
+
+# target to build an object file
+test/suite_hashset.c.o:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/test/suite_hashset.c.o
+.PHONY : test/suite_hashset.c.o
+
+test/suite_hashset.i: test/suite_hashset.c.i
+
+.PHONY : test/suite_hashset.i
+
+# target to preprocess a source file
+test/suite_hashset.c.i:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/test/suite_hashset.c.i
+.PHONY : test/suite_hashset.c.i
+
+test/suite_hashset.s: test/suite_hashset.c.s
+
+.PHONY : test/suite_hashset.s
+
+# target to generate assembly for a file
+test/suite_hashset.c.s:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/test/suite_hashset.c.s
+.PHONY : test/suite_hashset.c.s
+
 test/suite_list.o: test/suite_list.c.o
 
 .PHONY : test/suite_list.o
@@ -7143,6 +7251,33 @@ test/suite_queue.c.s:
 	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/test/suite_queue.c.s
 .PHONY : test/suite_queue.c.s
 
+test/suite_rbt.o: test/suite_rbt.c.o
+
+.PHONY : test/suite_rbt.o
+
+# target to build an object file
+test/suite_rbt.c.o:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/test/suite_rbt.c.o
+.PHONY : test/suite_rbt.c.o
+
+test/suite_rbt.i: test/suite_rbt.c.i
+
+.PHONY : test/suite_rbt.i
+
+# target to preprocess a source file
+test/suite_rbt.c.i:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/test/suite_rbt.c.i
+.PHONY : test/suite_rbt.c.i
+
+test/suite_rbt.s: test/suite_rbt.c.s
+
+.PHONY : test/suite_rbt.s
+
+# target to generate assembly for a file
+test/suite_rbt.c.s:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/test/suite_rbt.c.s
+.PHONY : test/suite_rbt.c.s
+
 test/suite_stack.o: test/suite_stack.c.o
 
 .PHONY : test/suite_stack.o
@@ -7169,6 +7304,33 @@ test/suite_stack.s: test/suite_stack.c.s
 test/suite_stack.c.s:
 	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/test/suite_stack.c.s
 .PHONY : test/suite_stack.c.s
+
+test/suite_union_find.o: test/suite_union_find.c.o
+
+.PHONY : test/suite_union_find.o
+
+# target to build an object file
+test/suite_union_find.c.o:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/test/suite_union_find.c.o
+.PHONY : test/suite_union_find.c.o
+
+test/suite_union_find.i: test/suite_union_find.c.i
+
+.PHONY : test/suite_union_find.i
+
+# target to preprocess a source file
+test/suite_union_find.c.i:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/test/suite_union_find.c.i
+.PHONY : test/suite_union_find.c.i
+
+test/suite_union_find.s: test/suite_union_find.c.s
+
+.PHONY : test/suite_union_find.s
+
+# target to generate assembly for a file
+test/suite_union_find.c.s:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/test/suite_union_find.c.s
+.PHONY : test/suite_union_find.c.s
 
 types/type_array.o: types/type_array.c.o
 
@@ -8163,6 +8325,18 @@ help:
 	@echo "... test/suite_array.o"
 	@echo "... test/suite_array.i"
 	@echo "... test/suite_array.s"
+	@echo "... test/suite_bst.o"
+	@echo "... test/suite_bst.i"
+	@echo "... test/suite_bst.s"
+	@echo "... test/suite_graph.o"
+	@echo "... test/suite_graph.i"
+	@echo "... test/suite_graph.s"
+	@echo "... test/suite_hashmap.o"
+	@echo "... test/suite_hashmap.i"
+	@echo "... test/suite_hashmap.s"
+	@echo "... test/suite_hashset.o"
+	@echo "... test/suite_hashset.i"
+	@echo "... test/suite_hashset.s"
 	@echo "... test/suite_list.o"
 	@echo "... test/suite_list.i"
 	@echo "... test/suite_list.s"
@@ -8175,9 +8349,15 @@ help:
 	@echo "... test/suite_queue.o"
 	@echo "... test/suite_queue.i"
 	@echo "... test/suite_queue.s"
+	@echo "... test/suite_rbt.o"
+	@echo "... test/suite_rbt.i"
+	@echo "... test/suite_rbt.s"
 	@echo "... test/suite_stack.o"
 	@echo "... test/suite_stack.i"
 	@echo "... test/suite_stack.s"
+	@echo "... test/suite_union_find.o"
+	@echo "... test/suite_union_find.i"
+	@echo "... test/suite_union_find.s"
 	@echo "... types/type_array.o"
 	@echo "... types/type_array.i"
 	@echo "... types/type_array.s"

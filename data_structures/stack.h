@@ -6,7 +6,7 @@
 /*   By: unite <marvin@42.fr>                       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/07/16 17:19:03 by unite             #+#    #+#             */
-/*   Updated: 2020/07/22 10:14:28 by unite            ###   ########.fr       */
+/*   Updated: 2020/09/04 00:00:26 by unite            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,10 @@
 
 # define STACK_H
 
-# include "data_structures.h"
+# include <errno.h>
+# include <sys/types.h>
+# include "types.h"
+# include "libft.h"
 # include "array.h"
 
 typedef t_array	t_stack;

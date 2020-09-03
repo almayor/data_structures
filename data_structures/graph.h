@@ -6,7 +6,7 @@
 /*   By: unite <marvin@42.fr>                       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/07/22 00:10:11 by unite             #+#    #+#             */
-/*   Updated: 2020/09/01 17:33:15 by unite            ###   ########.fr       */
+/*   Updated: 2020/09/04 00:00:46 by unite            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,10 @@
 
 # define GRAPH_H
 
-# include "data_structures.h"
+# include <errno.h>
+# include <sys/types.h>
+# include "types.h"
+# include "libft.h"
 # include "array.h"
 # include "rbt.h"
 

@@ -49,7 +49,7 @@ size_t				type_int_hash(const void *i, size_t M)
 {
 	if (!i)
 		return (0);
-	return (*(size_t *)i % M);
+	return ((size_t)ptr2int(i) % M);
 }
 
 static const t_type	g_type_int_struct = {
