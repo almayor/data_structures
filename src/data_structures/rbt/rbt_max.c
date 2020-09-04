@@ -6,7 +6,7 @@
 /*   By: unite <marvin@42.fr>                       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/07/18 19:17:38 by unite             #+#    #+#             */
-/*   Updated: 2020/07/18 20:13:31 by unite            ###   ########.fr       */
+/*   Updated: 2020/09/04 20:03:19 by unite            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,5 +21,5 @@ void	*rbt_max(const t_rbt *rbt)
 	node = rbt->root;
 	while (node->right)
 		node = node->right;
-	return (node->val);
+	return (node->key);
 }

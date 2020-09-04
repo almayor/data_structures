@@ -6,7 +6,7 @@
 /*   By: unite <marvin@42.fr>                       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/07/16 22:13:11 by unite             #+#    #+#             */
-/*   Updated: 2020/07/21 23:40:24 by unite            ###   ########.fr       */
+/*   Updated: 2020/09/04 23:03:34 by unite            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,6 @@
 
 # include <stdlib.h>
 # include "libft.h"
-# include "ft_printf.h"
 # include "utils.h"
 
 typedef struct	s_type
@@ -25,7 +24,6 @@ typedef struct	s_type
 	void		*(*copy)(const void *);
 	void		(*del)(void *);
 	int			(*cmp)(const void *, const void *);
-	void		(*print)(const void *);
 	size_t		(*hash)(const void *, size_t);
 }				t_type;
 

@@ -6,7 +6,7 @@
 /*   By: unite <marvin@42.fr>                       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/07/16 17:19:03 by unite             #+#    #+#             */
-/*   Updated: 2020/09/04 15:08:58 by unite            ###   ########.fr       */
+/*   Updated: 2020/09/04 22:48:39 by unite            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,6 @@
 # include <errno.h>
 # include <sys/types.h>
 # include "types.h"
-# include "libft.h"
 # include "array.h"
 
 /*
@@ -29,7 +28,7 @@ typedef t_array	t_stack;
 
 /*
 ** Copy the item and add it to the stack.
-** @param Item to be added
+** @param data The item to be added
 ** @return 0 on success, 1 on failure. In case of an error, `errno` is set
 ** accordingly.
 */

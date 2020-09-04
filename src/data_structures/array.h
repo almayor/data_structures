@@ -6,7 +6,7 @@
 /*   By: unite <marvin@42.fr>                       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/07/16 17:32:17 by unite             #+#    #+#             */
-/*   Updated: 2020/09/04 16:10:07 by unite            ###   ########.fr       */
+/*   Updated: 2020/09/04 22:50:58 by unite            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,16 +25,15 @@
 # include <errno.h>
 # include <sys/types.h>
 # include "types.h"
-# include "libft.h"
-# include "ft_printf.h"
 # include "queue.h"
 
 /*
+** @struct s_array
 ** @brief A resizable array holding generic items.
 ** @details The array will double in size when its capacity is filled,
 ** and halve its size when only `1/4` of its capacity is used.
 ** @var s_array::size
-** @briefThe number of items in this array
+** @brief The number of items in this array
 ** @var s_array::capacity
 ** @brief The capacity of this array
 ** @var s_array::arr
@@ -74,8 +73,8 @@ void			*array_get(const t_array *array, size_t index);
 ** set accordingly.
 ** @param index 	The index (0-based counting)
 ** @param content	The item to be copied.
-** @exception `ENOMEM`	Memory allocation error
-** @exception `EINVAL`	Index is out of range
+** @exception ENOMEM	Memory allocation error
+** @exception EINVAL	Index is out of range
 */
 
 int				array_set(t_array *array, size_t index, const void *content);
@@ -108,7 +107,7 @@ int				array_swap(t_array *array, size_t ind1, size_t ind2);
 
 /*
 ** Returns the number of elements in this array.
-** @return the number of elements in this array.
+** @return The number of elements in this array.
 */
 
 size_t			array_size(const t_array *array);
@@ -131,15 +130,6 @@ t_array			*array_new(const t_type *type);
 */
 
 t_array			*array_zeros(const t_type *type, size_t size);
-
-/*
-** Prints a string representation of this array to standard output.
-** @remark For this function to work, the datatype in this array must be
-** printable (i.e. implement the `print` function). Otherwise, an exception
-** will occur.
-*/
-
-void			array_print(const t_array *array);
 
 /*
 ** Deletes the item at the specified index.

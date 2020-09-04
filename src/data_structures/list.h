@@ -6,7 +6,7 @@
 /*   By: unite <marvin@42.fr>                       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/07/16 17:12:34 by unite             #+#    #+#             */
-/*   Updated: 2020/09/04 15:50:06 by unite            ###   ########.fr       */
+/*   Updated: 2020/09/04 22:50:29 by unite            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,10 +17,9 @@
 # include <errno.h>
 # include <sys/types.h>
 # include "types.h"
-# include "libft.h"
-# include "ft_printf.h"
 
 /*
+** @struct s_link
 ** @brief A link in a doubly-linked list.
 ** @var s_link::content
 ** @brief The content
@@ -38,6 +37,7 @@ typedef struct		s_link
 }					t_link;
 
 /*
+** @struct s_list
 ** @brief Doubly-linked list of generic items
 ** @var s_list::head
 ** @brief The first link
@@ -173,15 +173,6 @@ t_list				*list_new(const t_type *type);
 */
 
 int					list_merge_sort(t_list *alst);
-
-/*
-** Prints a string representation of this list to standard output.
-** @remark For this function to work, the datatype in list array must be
-** printable (i.e. implement the `print` function). Otherwise, an exception
-** will occur.
-*/
-
-void				list_print(const t_list *alst);
 
 /*
 ** Copies an list and all it contents.

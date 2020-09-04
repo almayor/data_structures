@@ -1,0 +1,10 @@
+<map id="src/data_structures/graph.h" name="src/data_structures/graph.h">
+<area shape="rect" id="node1" title=" " alt="" coords="605,5,739,47"/>
+<area shape="rect" id="node2" href="$graph__add__edge_8c.html" title=" " alt="" coords="5,95,173,136"/>
+<area shape="rect" id="node3" href="$graph__add__vertex_8c.html" title=" " alt="" coords="197,95,373,136"/>
+<area shape="rect" id="node4" href="$graph__adjacency_8c.html" title=" " alt="" coords="398,95,567,136"/>
+<area shape="rect" id="node5" href="$graph__adjacent_8c.html" title=" " alt="" coords="591,95,753,136"/>
+<area shape="rect" id="node6" href="$graph__delete_8c.html" title=" " alt="" coords="777,95,924,136"/>
+<area shape="rect" id="node7" href="$graph__new_8c.html" title=" " alt="" coords="949,95,1083,136"/>
+<area shape="rect" id="node8" href="$graph__vertices_8c.html" title=" " alt="" coords="1107,95,1266,136"/>
+</map>

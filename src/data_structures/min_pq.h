@@ -6,7 +6,7 @@
 /*   By: unite <marvin@42.fr>                       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/07/16 18:46:03 by unite             #+#    #+#             */
-/*   Updated: 2020/09/04 16:08:44 by unite            ###   ########.fr       */
+/*   Updated: 2020/09/04 22:50:13 by unite            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,8 +17,6 @@
 # include <errno.h>
 # include <sys/types.h>
 # include "types.h"
-# include "libft.h"
-# include "ft_printf.h"
 # include "array.h"
 
 /*

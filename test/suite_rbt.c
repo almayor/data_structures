@@ -48,8 +48,8 @@ void test_rbt_min_max(void) {
 	rbt_put(rbt, int2ptr(15), "Oolo");
 	rbt_put(rbt, int2ptr(20), "Arctic");
 
-	TEST_ASSERT_EQUAL_STRING("Velcro", rbt_min(rbt));
-	TEST_ASSERT_EQUAL_STRING("Arctic", rbt_max(rbt));
+	TEST_ASSERT_EQUAL_INT(8, ptr2int(rbt_min(rbt)));
+	TEST_ASSERT_EQUAL_INT(20, ptr2int(rbt_max(rbt)));
 	rbt_delete(rbt);
 }
 

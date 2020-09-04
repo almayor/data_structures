@@ -6,7 +6,7 @@
 /*   By: unite <marvin@42.fr>                       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/07/16 17:17:07 by unite             #+#    #+#             */
-/*   Updated: 2020/09/04 15:48:14 by unite            ###   ########.fr       */
+/*   Updated: 2020/09/04 22:50:00 by unite            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,8 +17,6 @@
 # include <errno.h>
 # include <sys/types.h>
 # include "types.h"
-# include "libft.h"
-# include "ft_printf.h"
 # include "list.h"
 
 /*
@@ -55,14 +53,15 @@ void			*queue_dequeue(t_queue *queue);
 void			*queue_peek(const t_queue *queue);
 
 /*
-** Deletes the queue and frees all memory taken by its contents.
+** Deletes the queue and frees all memory taken by its contents, or does
+** nothing if the argument is `NULL`.
 */
 
 void			queue_delete(t_queue *queue);
 
 /*
 ** Returns the number of items in this queue.
-** @return the number of items in this queue
+** @return The number of items in this queue
 */
 
 size_t			queue_size(const t_queue *queue);
@@ -75,15 +74,6 @@ size_t			queue_size(const t_queue *queue);
 */
 
 t_queue			*queue_new(const t_type *type);
-
-/*
-** Prints a string representation of this queue to standard output.
-** @remark For this function to work, the datatype in the queue must be
-** printable (i.e. implement the `print` function). Otherwise, an exception
-** will occur.
-*/
-
-void			queue_print(const t_queue *queue);
 
 /*
 ** Copies a queue and all it contents.

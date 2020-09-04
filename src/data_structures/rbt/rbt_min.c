@@ -6,7 +6,7 @@
 /*   By: unite <marvin@42.fr>                       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/07/18 19:16:19 by unite             #+#    #+#             */
-/*   Updated: 2020/07/18 20:13:27 by unite            ###   ########.fr       */
+/*   Updated: 2020/09/04 20:03:14 by unite            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,5 +21,5 @@ void	*rbt_min(const t_rbt *rbt)
 	node = rbt->root;
 	while (node->left)
 		node = node->left;
-	return (node->val);
+	return (node->key);
 }

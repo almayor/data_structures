@@ -6,7 +6,7 @@
 /*   By: unite <marvin@42.fr>                       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/07/16 22:27:52 by unite             #+#    #+#             */
-/*   Updated: 2020/07/21 23:40:59 by unite            ###   ########.fr       */
+/*   Updated: 2020/09/04 22:54:38 by unite            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,14 +37,6 @@ int					type_float_cmp(const void *f1, const void *f2)
 	return (0);
 }
 
-void				type_float_print(const void *f)
-{
-	if (!f)
-		ft_putstr("(null)");
-	else
-		ft_printf("%f", *(float *)f);
-}
-
 size_t				type_float_hash(const void *f, size_t M)
 {
 	if (!f)
@@ -57,7 +49,6 @@ static const t_type	g_type_float_struct = {
 	.copy = &type_float_copy,
 	.del = &free,
 	.cmp = &type_float_cmp,
-	.print = &type_float_print,
 	.hash = &type_float_hash,
 };
 

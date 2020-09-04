@@ -6,7 +6,7 @@
 /*   By: unite <marvin@42.fr>                       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/07/17 22:00:24 by unite             #+#    #+#             */
-/*   Updated: 2020/09/04 16:09:43 by unite            ###   ########.fr       */
+/*   Updated: 2020/09/04 22:46:57 by unite            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,9 +17,9 @@
 # include <errno.h>
 # include <sys/types.h>
 # include "types.h"
-# include "libft.h"
 
 /*
+** @struct s_bst_node
 ** @brief A node in a binary search tree
 ** @var s_bst_node::key
 ** @brief The key
@@ -40,7 +40,8 @@ typedef struct	s_bst_node
 }				t_bst_node;
 
 /*
-** @brief Binary search tree
+** @struct s_bst
+** @brief A binary search tree
 ** @var s_bst::root
 ** @brief The root of the tree
 ** @var s_bst::size
@@ -95,7 +96,6 @@ void			*bst_get(const t_bst *bst, const void *key);
 ** @return the number of elements in this tree.
 */
 
-
 size_t			bst_size(const t_bst *bst);
 
 /*
@@ -108,6 +108,7 @@ void			bst_delete(t_bst *bst);
 /*
 ** Returns the number of tiers in the tree.
 ** @return The number of tiers
+** @note (used primarily for debugging purposes)
 */
 
 size_t			bst_height(const t_bst *bst);
