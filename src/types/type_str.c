@@ -6,7 +6,7 @@
 /*   By: unite <marvin@42.fr>                       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/07/16 22:21:44 by unite             #+#    #+#             */
-/*   Updated: 2020/09/04 23:04:16 by unite            ###   ########.fr       */
+/*   Updated: 2020/09/05 19:15:31 by unite            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,12 +16,12 @@ void		*type_str_copy(const void *str)
 {
 	if (!str)
 		return (NULL);
-	return (ft_strdup(str));
+	return (ds_strdup(str));
 }
 
 int			type_str_cmp(const void *str1, const void *str2)
 {
-	return (ft_strcmp(str1, str2));
+	return (ds_strcmp(str1, str2));
 }
 
 size_t		type_str_hash(const void *str, size_t M)

@@ -6,7 +6,7 @@
 /*   By: unite <marvin@42.fr>                       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/07/21 19:19:37 by unite             #+#    #+#             */
-/*   Updated: 2020/09/03 22:47:48 by unite            ###   ########.fr       */
+/*   Updated: 2020/09/05 19:09:40 by unite            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,7 +37,7 @@ int		hashset_grow(t_hashset *hs)
 
 	old_vals = hs->vals;
 	old_capacity = hs->capacity;
-	if (!(hs->vals = ft_calloc(sizeof(void *), hs->capacity * 2)))
+	if (!(hs->vals = ds_calloc(sizeof(void *), hs->capacity * 2)))
 	{
 		hs->vals = old_vals;
 		return (1);
@@ -55,7 +55,7 @@ int		hashset_shrink(t_hashset *hs)
 
 	old_vals = hs->vals;
 	old_capacity = hs->capacity;
-	if (!(hs->vals = ft_calloc(sizeof(void *), hs->size * 2)))
+	if (!(hs->vals = ds_calloc(sizeof(void *), hs->size * 2)))
 	{
 		hs->vals = old_vals;
 		return (1);

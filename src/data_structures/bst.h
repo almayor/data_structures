@@ -6,7 +6,7 @@
 /*   By: unite <marvin@42.fr>                       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/07/17 22:00:24 by unite             #+#    #+#             */
-/*   Updated: 2020/09/04 22:46:57 by unite            ###   ########.fr       */
+/*   Updated: 2020/09/05 18:56:05 by unite            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,6 +17,7 @@
 # include <errno.h>
 # include <sys/types.h>
 # include "types.h"
+# include "utils.h"
 
 /*
 ** @struct s_bst_node

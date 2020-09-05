@@ -6,7 +6,7 @@
 /*   By: unite <marvin@42.fr>                       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/07/19 01:53:35 by unite             #+#    #+#             */
-/*   Updated: 2020/09/05 16:20:30 by unite            ###   ########.fr       */
+/*   Updated: 2020/09/05 20:20:36 by unite            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,40 +14,12 @@
 
 # define UTILS_H
 
-/*
-** Converts `int` to `int*`
-*/
+# include <string.h>
 
-int		*int2ptr(int a);
-
-/*
-** Converts `char` to `char*`
-*/
-
-char	*char2ptr(char a);
-
-/*
-** Converts `float` to `float*`
-*/
-
-float	*float2ptr(float a);
-
-/*
-** Converts `int*` to `int`
-*/
-
-int		ptr2int(const void *ptr);
-
-/*
-** Converts `char*` to `char`
-*/
-
-char	ptr2char(const void *ptr);
-
-/*
-** Converts `float*` to `float`
-*/
-
-float	ptr2float(const void *ptr);
+void	ds_bzero(void *s, size_t n);
+size_t	ds_strlen(const char *s);
+int		ds_strcmp(const char *s1, const char *s2);
+void	*ds_calloc(size_t count, size_t size);
+char	*ds_strdup(const char *s1);
 
 #endif

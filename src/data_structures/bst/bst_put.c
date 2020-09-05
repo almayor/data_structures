@@ -6,7 +6,7 @@
 /*   By: unite <marvin@42.fr>                       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/07/17 22:09:18 by unite             #+#    #+#             */
-/*   Updated: 2020/07/18 14:14:13 by unite            ###   ########.fr       */
+/*   Updated: 2020/09/05 19:12:48 by unite            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,7 @@ static t_bst_node	*bst_make_node(t_bst *bst, const void *key, const void *val)
 {
 	t_bst_node	*node;
 
-	if (!(node = ft_calloc(sizeof(t_bst_node), 1)))
+	if (!(node = ds_calloc(sizeof(t_bst_node), 1)))
 		return (NULL);
 	node->key = bst->key_type->copy(key);
 	node->val = bst->val_type->copy(val);

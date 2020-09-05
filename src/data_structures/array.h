@@ -6,7 +6,7 @@
 /*   By: unite <marvin@42.fr>                       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/07/16 17:32:17 by unite             #+#    #+#             */
-/*   Updated: 2020/09/04 22:50:58 by unite            ###   ########.fr       */
+/*   Updated: 2020/09/05 18:56:08 by unite            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,6 +26,7 @@
 # include <sys/types.h>
 # include "types.h"
 # include "queue.h"
+# include "utils.h"
 
 /*
 ** @struct s_array
@@ -61,7 +62,7 @@ void			array_delete(t_array *array);
 ** Returns the item at the specified position in this list.
 ** @return The item or `NULL` if the index is out of range.
 ** @param index	The index (0-based counting)
-** @exception `EINVAL`  Index is out of range
+** @exception EINVAL  Index is out of range
 */
 
 void			*array_get(const t_array *array, size_t index);

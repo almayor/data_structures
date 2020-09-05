@@ -6,7 +6,7 @@
 /*   By: unite <marvin@42.fr>                       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/07/16 18:46:03 by unite             #+#    #+#             */
-/*   Updated: 2020/09/04 22:48:24 by unite            ###   ########.fr       */
+/*   Updated: 2020/09/05 18:55:56 by unite            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,6 +18,7 @@
 # include <sys/types.h>
 # include "types.h"
 # include "array.h"
+# include "utils.h"
 
 /*
 ** @brief A priority queue of generic keys.

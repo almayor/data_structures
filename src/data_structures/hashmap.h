@@ -6,7 +6,7 @@
 /*   By: unite <marvin@42.fr>                       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/07/21 18:15:39 by unite             #+#    #+#             */
-/*   Updated: 2020/09/04 22:47:46 by unite            ###   ########.fr       */
+/*   Updated: 2020/09/05 18:56:02 by unite            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,6 +18,7 @@
 # include <sys/types.h>
 # include "types.h"
 # include "queue.h"
+# include "utils.h"
 
 /*
 ** The default initial capacity of a newly initialized hashmap

@@ -1,29 +1,27 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   bst_new.c                                          :+:      :+:    :+:   */
+/*   ds_strlen.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: unite <marvin@42.fr>                       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2020/07/17 22:05:33 by unite             #+#    #+#             */
-/*   Updated: 2020/09/05 19:12:22 by unite            ###   ########.fr       */
+/*   Created: 2019/09/04 22:48:19 by unite             #+#    #+#             */
+/*   Updated: 2020/09/05 18:50:37 by unite            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "bst.h"
+#include "utils.h"
 
-t_bst	*bst_new(const t_type *key_type, const t_type *val_type)
+/*
+** Replicates behaviour of `strlen` from `libc`.
+*/
+
+size_t	ds_strlen(const char *s)
 {
-	t_bst	*bst;
+	size_t	i;
 
-	if (!key_type->cmp)
-	{
-		errno = EINVAL;
-		return (NULL);
-	}
-	if (!(bst = ds_calloc(sizeof(t_bst), 1)))
-		return (NULL);
-	bst->key_type = key_type;
-	bst->val_type = val_type;
-	return (bst);
+	i = 0;
+	while (s[i])
+		i++;
+	return (i);
 }

@@ -6,7 +6,7 @@
 /*   By: unite <marvin@42.fr>                       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/07/21 19:19:37 by unite             #+#    #+#             */
-/*   Updated: 2020/09/03 22:27:08 by unite            ###   ########.fr       */
+/*   Updated: 2020/09/05 19:11:24 by unite            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -42,8 +42,8 @@ int		hashmap_grow(t_hashmap *hm)
 	old_keys = hm->keys;
 	old_vals = hm->vals;
 	old_capacity = hm->capacity;
-	if (!(hm->keys = ft_calloc(sizeof(void *), hm->capacity * 2)) ||
-		!(hm->vals = ft_calloc(sizeof(void *), hm->capacity * 2)))
+	if (!(hm->keys = ds_calloc(sizeof(void *), hm->capacity * 2)) ||
+		!(hm->vals = ds_calloc(sizeof(void *), hm->capacity * 2)))
 	{
 		free(hm->keys);
 		hm->keys = old_keys;
@@ -66,8 +66,8 @@ int		hashmap_shrink(t_hashmap *hm)
 	old_keys = hm->keys;
 	old_vals = hm->vals;
 	old_capacity = hm->capacity;
-	if (!(hm->keys = ft_calloc(sizeof(void *), hm->size * 2)) ||
-		!(hm->vals = ft_calloc(sizeof(void *), hm->size * 2)))
+	if (!(hm->keys = ds_calloc(sizeof(void *), hm->size * 2)) ||
+		!(hm->vals = ds_calloc(sizeof(void *), hm->size * 2)))
 	{
 		free(hm->keys);
 		hm->keys = old_keys;

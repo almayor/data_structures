@@ -1,29 +1,34 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   bst_new.c                                          :+:      :+:    :+:   */
+/*   ds_strcmp.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: unite <marvin@42.fr>                       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2020/07/17 22:05:33 by unite             #+#    #+#             */
-/*   Updated: 2020/09/05 19:12:22 by unite            ###   ########.fr       */
+/*   Created: 2019/09/19 19:33:19 by unite             #+#    #+#             */
+/*   Updated: 2020/09/05 18:50:30 by unite            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "bst.h"
+#include "utils.h"
 
-t_bst	*bst_new(const t_type *key_type, const t_type *val_type)
+/*
+** Replicates `strcmp` from `libc`.
+*/
+
+int	ds_strcmp(const char *s1, const char *s2)
 {
-	t_bst	*bst;
+	unsigned char	*s1u;
+	unsigned char	*s2u;
 
-	if (!key_type->cmp)
+	s1u = (unsigned char *)s1;
+	s2u = (unsigned char *)s2;
+	while (*s1u || *s2u)
 	{
-		errno = EINVAL;
-		return (NULL);
+		if (*s1u - *s2u)
+			return (*s1u - *s2u);
+		s1u++;
+		s2u++;
 	}
-	if (!(bst = ds_calloc(sizeof(t_bst), 1)))
-		return (NULL);
-	bst->key_type = key_type;
-	bst->val_type = val_type;
-	return (bst);
+	return (0);
 }

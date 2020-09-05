@@ -6,7 +6,7 @@
 /*   By: unite <marvin@42.fr>                       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/07/16 22:13:11 by unite             #+#    #+#             */
-/*   Updated: 2020/09/05 16:13:40 by unite            ###   ########.fr       */
+/*   Updated: 2020/09/05 19:07:09 by unite            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,6 @@
 # define TYPES_H
 
 # include <stdlib.h>
-# include "libft.h"
 # include "utils.h"
 
 /*
@@ -82,5 +81,41 @@ extern const t_type *g_type_str;
 */
 
 extern const t_type *g_type_array;
+
+/*
+** Converts `int` to `int*`
+*/
+
+int		*int2ptr(int a);
+
+/*
+** Converts `char` to `char*`
+*/
+
+char	*char2ptr(char a);
+
+/*
+** Converts `float` to `float*`
+*/
+
+float	*float2ptr(float a);
+
+/*
+** Converts `int*` to `int`
+*/
+
+int		ptr2int(const void *ptr);
+
+/*
+** Converts `char*` to `char`
+*/
+
+char	ptr2char(const void *ptr);
+
+/*
+** Converts `float*` to `float`
+*/
+
+float	ptr2float(const void *ptr);
 
 #endif

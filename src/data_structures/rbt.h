@@ -6,7 +6,7 @@
 /*   By: unite <marvin@42.fr>                       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/07/16 20:41:50 by unite             #+#    #+#             */
-/*   Updated: 2020/09/05 16:18:11 by unite            ###   ########.fr       */
+/*   Updated: 2020/09/05 18:55:50 by unite            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,6 +18,7 @@
 # include <sys/types.h>
 # include "types.h"
 # include "queue.h"
+# include "utils.h"
 
 /*
 ** @enum e_rbt_node_color

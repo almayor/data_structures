@@ -1,29 +1,28 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   bst_new.c                                          :+:      :+:    :+:   */
+/*   ds_bzero.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: unite <marvin@42.fr>                       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2020/07/17 22:05:33 by unite             #+#    #+#             */
-/*   Updated: 2020/09/05 19:12:22 by unite            ###   ########.fr       */
+/*   Created: 2019/09/05 16:17:11 by unite             #+#    #+#             */
+/*   Updated: 2020/09/05 20:21:21 by unite            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "bst.h"
+#include "utils.h"
 
-t_bst	*bst_new(const t_type *key_type, const t_type *val_type)
+/*
+** Replicates behaviour of `bzero` from `libc`.
+*/
+
+void	ds_bzero(void *s, size_t n)
 {
-	t_bst	*bst;
+	size_t			i;
+	unsigned char	*s1;
 
-	if (!key_type->cmp)
-	{
-		errno = EINVAL;
-		return (NULL);
-	}
-	if (!(bst = ds_calloc(sizeof(t_bst), 1)))
-		return (NULL);
-	bst->key_type = key_type;
-	bst->val_type = val_type;
-	return (bst);
+	i = 0;
+	s1 = (unsigned char *)s;
+	while (i < n)
+		s1[i++] = 0;
 }

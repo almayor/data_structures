@@ -1,29 +1,34 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   bst_new.c                                          :+:      :+:    :+:   */
+/*   ds_strdup.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: unite <marvin@42.fr>                       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2020/07/17 22:05:33 by unite             #+#    #+#             */
-/*   Updated: 2020/09/05 19:12:22 by unite            ###   ########.fr       */
+/*   Created: 2019/09/04 22:50:26 by unite             #+#    #+#             */
+/*   Updated: 2020/09/05 20:22:54 by unite            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "bst.h"
+#include "utils.h"
 
-t_bst	*bst_new(const t_type *key_type, const t_type *val_type)
+/*
+** Replicates behaviour of `strdup` from `libc`.
+*/
+
+char	*ds_strdup(const char *s1)
 {
-	t_bst	*bst;
+	size_t	i;
+	char	*cpy;
 
-	if (!key_type->cmp)
+	if (!(cpy = ds_calloc(sizeof(char), ds_strlen(s1) + 1)))
+		return (NULL);
+	i = 0;
+	while (s1[i])
 	{
-		errno = EINVAL;
-		return (NULL);
+		cpy[i] = s1[i];
+		i++;
 	}
-	if (!(bst = ds_calloc(sizeof(t_bst), 1)))
-		return (NULL);
-	bst->key_type = key_type;
-	bst->val_type = val_type;
-	return (bst);
+	cpy[i] = 0;
+	return (cpy);
 }

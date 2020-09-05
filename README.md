@@ -18,15 +18,15 @@
 	* binary search tree
 	* red-black tree
 	* union-find
-* The project (with the exception of tests) is consistent with the [Norme](docs/norme.en.pdf), the code standard accepted at *School 42*. In particular, this means that
+* The project (with the exception of tests) is consistent with the [Norme](docs/norme.en.pdf), the code standard accepted at School 42. In particular, this means that
 	* no comments inline or inside functions
 	* `for` loops and `switch` statements are forbidden
 	* each function must be maximum 25 lines
 
 ## Usage and testing
 
-* First, compile the library by running `make`, and include `data_structures.h` in your projects.
-* You can run unit tests with `make test`
+* To compile the library, run `make`, include `data_structures.h` in your projects.
+* You can run unit tests with `make test`.
 
 ## Acknowledgements
 

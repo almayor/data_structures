@@ -6,7 +6,7 @@
 /*   By: unite <marvin@42.fr>                       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/07/22 00:10:11 by unite             #+#    #+#             */
-/*   Updated: 2020/09/04 22:47:53 by unite            ###   ########.fr       */
+/*   Updated: 2020/09/05 18:56:03 by unite            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,6 +19,7 @@
 # include "types.h"
 # include "array.h"
 # include "rbt.h"
+# include "utils.h"
 
 /*
 ** @struct s_graph
