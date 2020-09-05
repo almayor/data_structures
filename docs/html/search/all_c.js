@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['parent_283',['parent',['../structs__union__find.html#a95ac64a173a308bd877c3f9a91e57961',1,'s_union_find']]],
-  ['prev_284',['prev',['../structs__link.html#a3c7530e04b763d544ce62e510b666b1a',1,'s_link']]],
-  ['ptr2data_2ec_285',['ptr2data.c',['../ptr2data_8c.html',1,'']]]
+  ['name_268',['name',['../structs__type.html#a1ebf8afa3786ea67e2531f5d75cd5b30',1,'s_type']]],
+  ['nchild_269',['nchild',['../structs__union__find.html#a2ea13014caf304f4cbe247709bc07cb8',1,'s_union_find']]],
+  ['next_270',['next',['../structs__link.html#a7dfdffee2e3c14c4f52ab78da2204cc9',1,'s_link']]]
 ];

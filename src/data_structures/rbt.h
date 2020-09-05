@@ -6,7 +6,7 @@
 /*   By: unite <marvin@42.fr>                       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/07/16 20:41:50 by unite             #+#    #+#             */
-/*   Updated: 2020/09/04 22:49:50 by unite            ###   ########.fr       */
+/*   Updated: 2020/09/05 16:18:11 by unite            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -42,7 +42,7 @@ typedef enum	e_rbt_node_color
 ** @brief The right child
 ** @var s_rbt_node::color
 ** @brief The color
-** @var s_rbt_count::count
+** @var s_rbt_node::count
 ** @brief The number of this node's children
 */
 
@@ -61,8 +61,6 @@ typedef struct	s_rbt_node
 ** @brief A left-leaning red-black binary search tree
 ** @var s_rbt::root
 ** @brief The root of the tree
-** @var s_rbt::size
-** @brief The number of elements in this tree
 ** @var s_rbt::key_type
 ** @brief The type of keys in the tree
 ** @var s_rbt::val_type
@@ -97,7 +95,6 @@ t_rbt			*rbt_new(const t_type *key_type, const t_type *val_type);
 */
 
 int				rbt_put(t_rbt *rbt, const void *key, const void *val);
-
 
 /*
 ** Returns the value associated with a specified key.

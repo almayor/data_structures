@@ -77,8 +77,6 @@ $(function() {
 <div class="textblock"><code>#include &lt;errno.h&gt;</code><br />
 <code>#include &lt;sys/types.h&gt;</code><br />
 <code>#include &quot;<a class="el" href="types_8h_source.html">types.h</a>&quot;</code><br />
-<code>#include &quot;<a class="elRef" href="https://almayor.github.io/libft/html/libft_8h.html">libft.h</a>&quot;</code><br />
-<code>#include &quot;<a class="elRef" href="https://almayor.github.io/ft_printf/html/ft__printf_8h.html">ft_printf.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="queue_8h_source.html">queue.h</a>&quot;</code><br />
 </div><div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Include dependency graph for array.h:</div>
@@ -87,16 +85,15 @@ $(function() {
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="array_8h__incl.png" border="0" usemap="#src_2data__structures_2array_8h" alt=""/></div>
 <map name="src_2data__structures_2array_8h" id="src_2data__structures_2array_8h">
-<area shape="rect" title=" " alt="" coords="193,5,327,47"/>
-<area shape="rect" title=" " alt="" coords="29,244,91,271"/>
-<area shape="rect" title=" " alt="" coords="308,244,399,271"/>
-<area shape="rect" href="types_8h.html" title=" " alt="" coords="167,244,233,271"/>
-<area shape="rect" href="https://almayor.github.io/libft/html/libft_8h.html" title=" " alt="" coords="370,319,425,345"/>
-<area shape="rect" href="https://almayor.github.io/ft_printf/html/ft__printf_8h.html" title=" " alt="" coords="5,319,83,345"/>
-<area shape="rect" href="queue_8h.html" title=" " alt="" coords="175,95,243,121"/>
-<area shape="rect" title=" " alt="" coords="205,319,269,345"/>
-<area shape="rect" href="utils_8h.html" title=" " alt="" coords="123,319,181,345"/>
-<area shape="rect" href="list_8h.html" title=" " alt="" coords="121,169,172,196"/>
+<area shape="rect" title=" " alt="" coords="18,5,153,47"/>
+<area shape="rect" title=" " alt="" coords="14,244,77,271"/>
+<area shape="rect" title=" " alt="" coords="102,244,192,271"/>
+<area shape="rect" href="types_8h.html" title=" " alt="" coords="229,244,294,271"/>
+<area shape="rect" href="queue_8h.html" title=" " alt="" coords="102,95,170,121"/>
+<area shape="rect" title=" " alt="" coords="146,319,210,345"/>
+<area shape="rect" href="https://almayor.github.io/libft/html/libft_8h.html" title=" " alt="" coords="234,319,289,345"/>
+<area shape="rect" href="utils_8h.html" title=" " alt="" coords="313,319,370,345"/>
+<area shape="rect" href="list_8h.html" title=" " alt="" coords="174,169,224,196"/>
 </map>
 </div>
 </div>
@@ -149,9 +146,6 @@ Functions</h2></td></tr>
 <tr class="memitem:a093f413353143959bbaa65190960065d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structs__array.html">t_array</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="array_8h.html#a093f413353143959bbaa65190960065d">array_zeros</a> (const <a class="el" href="structs__type.html">t_type</a> *type, size_t size)</td></tr>
 <tr class="memdesc:a093f413353143959bbaa65190960065d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes a new array of the specified size, filled with zeros.  <a href="array_8h.html#a093f413353143959bbaa65190960065d">More...</a><br /></td></tr>
 <tr class="separator:a093f413353143959bbaa65190960065d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3a99773c90d2483a2dc56dd2adb06642"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="array_8h.html#a3a99773c90d2483a2dc56dd2adb06642">array_print</a> (const <a class="el" href="structs__array.html">t_array</a> *array)</td></tr>
-<tr class="memdesc:a3a99773c90d2483a2dc56dd2adb06642"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prints a string representation of this array to standard output.  <a href="array_8h.html#a3a99773c90d2483a2dc56dd2adb06642">More...</a><br /></td></tr>
-<tr class="separator:a3a99773c90d2483a2dc56dd2adb06642"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a573498b6318b686be6527b50f35529d3"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="array_8h.html#a573498b6318b686be6527b50f35529d3">array_remove</a> (<a class="el" href="structs__array.html">t_array</a> *array, size_t index)</td></tr>
 <tr class="memdesc:a573498b6318b686be6527b50f35529d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deletes the item at the specified index.  <a href="array_8h.html#a573498b6318b686be6527b50f35529d3">More...</a><br /></td></tr>
 <tr class="separator:a573498b6318b686be6527b50f35529d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -472,29 +466,6 @@ Functions</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>The item at the end of this array, or <code>NULL</code> if the array is empty. </dd></dl>
 
 <p class="definition">Definition at line <a class="el" href="array__pop_8c_source.html#l00017">17</a> of file <a class="el" href="array__pop_8c_source.html">array_pop.c</a>.</p>
-
-</div>
-</div>
-<a id="a3a99773c90d2483a2dc56dd2adb06642"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3a99773c90d2483a2dc56dd2adb06642">&#9670;&nbsp;</a></span>array_print()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void array_print </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="structs__array.html">t_array</a> *&#160;</td>
-          <td class="paramname"><em>array</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Prints a string representation of this array to standard output. </p>
-<dl class="section remark"><dt>Remarks</dt><dd>For this function to work, the datatype in this array must be printable (i.e. implement the <code>print</code> function). Otherwise, an exception will occur. </dd></dl>
-
-<p class="definition">Definition at line <a class="el" href="array__print_8c_source.html#l00016">16</a> of file <a class="el" href="array__print_8c_source.html">array_print.c</a>.</p>
 
 </div>
 </div>

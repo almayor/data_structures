@@ -1,11 +1,10 @@
 <map id="src/data_structures/list/list_merge_sort.c" name="src/data_structures/list/list_merge_sort.c">
-<area shape="rect" id="node1" title=" " alt="" coords="147,5,294,47"/>
-<area shape="rect" id="node2" href="$list_8h.html" title=" " alt="" coords="195,95,246,121"/>
+<area shape="rect" id="node1" title=" " alt="" coords="65,5,211,47"/>
+<area shape="rect" id="node2" href="$list_8h.html" title=" " alt="" coords="113,95,163,121"/>
 <area shape="rect" id="node3" title=" " alt="" coords="5,169,68,196"/>
 <area shape="rect" id="node4" title=" " alt="" coords="93,169,183,196"/>
-<area shape="rect" id="node5" href="$types_8h.html" title=" " alt="" coords="259,169,324,196"/>
-<area shape="rect" id="node7" href="/Users/almayor/Documents/programming/42/c_data_structures/libft/docs/.doxygen/libft.tag$libft_8h.html" title=" " alt="" coords="137,244,192,271"/>
-<area shape="rect" id="node8" href="/Users/almayor/Documents/programming/42/c_data_structures/ft_printf/docs/.doxygen/ft_printf.tag$ft__printf_8h.html" title=" " alt="" coords="387,244,465,271"/>
-<area shape="rect" id="node6" title=" " alt="" coords="217,244,281,271"/>
-<area shape="rect" id="node9" href="$utils_8h.html" title=" " alt="" coords="305,244,363,271"/>
+<area shape="rect" id="node5" href="$types_8h.html" title=" " alt="" coords="208,169,273,196"/>
+<area shape="rect" id="node6" title=" " alt="" coords="125,244,189,271"/>
+<area shape="rect" id="node7" href="/Users/almayor/Documents/programming/42/c_data_structures/libft/docs/.doxygen/libft.tag$libft_8h.html" title=" " alt="" coords="213,244,268,271"/>
+<area shape="rect" id="node8" href="$utils_8h.html" title=" " alt="" coords="292,244,349,271"/>
 </map>

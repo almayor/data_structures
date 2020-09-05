@@ -1,6 +1,22 @@
 <?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
 <tagfile>
   <compound kind="file">
+    <name>data_structures.h</name>
+    <path>/Users/almayor/Documents/programming/42/c_data_structures/</path>
+    <filename>data__structures_8h</filename>
+    <includes id="array_8h" name="array.h" local="yes" imported="no">array.h</includes>
+    <includes id="list_8h" name="list.h" local="yes" imported="no">list.h</includes>
+    <includes id="queue_8h" name="queue.h" local="yes" imported="no">queue.h</includes>
+    <includes id="stack_8h" name="stack.h" local="yes" imported="no">stack.h</includes>
+    <includes id="min__pq_8h" name="min_pq.h" local="yes" imported="no">min_pq.h</includes>
+    <includes id="max__pq_8h" name="max_pq.h" local="yes" imported="no">max_pq.h</includes>
+    <includes id="bst_8h" name="bst.h" local="yes" imported="no">bst.h</includes>
+    <includes id="rbt_8h" name="rbt.h" local="yes" imported="no">rbt.h</includes>
+    <includes id="hashset_8h" name="hashset.h" local="yes" imported="no">hashset.h</includes>
+    <includes id="hashmap_8h" name="hashmap.h" local="yes" imported="no">hashmap.h</includes>
+    <includes id="types_8h" name="types.h" local="yes" imported="no">types.h</includes>
+  </compound>
+  <compound kind="file">
     <name>array.h</name>
     <path>/Users/almayor/Documents/programming/42/c_data_structures/src/data_structures/</path>
     <filename>array_8h</filename>
@@ -76,13 +92,6 @@
       <anchorfile>array_8h.html</anchorfile>
       <anchor>a093f413353143959bbaa65190960065d</anchor>
       <arglist>(const t_type *type, size_t size)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>array_print</name>
-      <anchorfile>array_8h.html</anchorfile>
-      <anchor>a3a99773c90d2483a2dc56dd2adb06642</anchor>
-      <arglist>(const t_array *array)</arglist>
     </member>
     <member kind="function">
       <type>int</type>
@@ -259,19 +268,6 @@
       <anchorfile>array__pop_8c.html</anchorfile>
       <anchor>afee8ee5dbfa21f14dbaf5e6cf3dc1e11</anchor>
       <arglist>(t_array *array)</arglist>
-    </member>
-  </compound>
-  <compound kind="file">
-    <name>array_print.c</name>
-    <path>/Users/almayor/Documents/programming/42/c_data_structures/src/data_structures/array/</path>
-    <filename>array__print_8c</filename>
-    <includes id="array_8h" name="array.h" local="yes" imported="no">array.h</includes>
-    <member kind="function">
-      <type>void</type>
-      <name>array_print</name>
-      <anchorfile>array__print_8c.html</anchorfile>
-      <anchor>a3a99773c90d2483a2dc56dd2adb06642</anchor>
-      <arglist>(const t_array *array)</arglist>
     </member>
   </compound>
   <compound kind="file">
@@ -1181,13 +1177,6 @@
       <arglist>(t_list *alst)</arglist>
     </member>
     <member kind="function">
-      <type>void</type>
-      <name>list_print</name>
-      <anchorfile>list_8h.html</anchorfile>
-      <anchor>abd4a3b4462a8f85364d2cc3093685801</anchor>
-      <arglist>(const t_list *alst)</arglist>
-    </member>
-    <member kind="function">
       <type>t_list *</type>
       <name>list_copy</name>
       <anchorfile>list_8h.html</anchorfile>
@@ -1309,19 +1298,6 @@
       <name>list_peek_last</name>
       <anchorfile>list__peek__last_8c.html</anchorfile>
       <anchor>a0694ae8b653d0f982d65c29daeaf0d73</anchor>
-      <arglist>(const t_list *alst)</arglist>
-    </member>
-  </compound>
-  <compound kind="file">
-    <name>list_print.c</name>
-    <path>/Users/almayor/Documents/programming/42/c_data_structures/src/data_structures/list/</path>
-    <filename>list__print_8c</filename>
-    <includes id="list_8h" name="list.h" local="yes" imported="no">list.h</includes>
-    <member kind="function">
-      <type>void</type>
-      <name>list_print</name>
-      <anchorfile>list__print_8c.html</anchorfile>
-      <anchor>abd4a3b4462a8f85364d2cc3093685801</anchor>
       <arglist>(const t_list *alst)</arglist>
     </member>
   </compound>
@@ -1780,13 +1756,6 @@
       <arglist>(const t_type *type)</arglist>
     </member>
     <member kind="function">
-      <type>void</type>
-      <name>queue_print</name>
-      <anchorfile>queue_8h.html</anchorfile>
-      <anchor>ab9623100a41197d107e1cb1c166d0e92</anchor>
-      <arglist>(const t_queue *queue)</arglist>
-    </member>
-    <member kind="function">
       <type>t_queue *</type>
       <name>queue_copy</name>
       <anchorfile>queue_8h.html</anchorfile>
@@ -1873,19 +1842,6 @@
     </member>
   </compound>
   <compound kind="file">
-    <name>queue_print.c</name>
-    <path>/Users/almayor/Documents/programming/42/c_data_structures/src/data_structures/queue/</path>
-    <filename>queue__print_8c</filename>
-    <includes id="queue_8h" name="queue.h" local="yes" imported="no">queue.h</includes>
-    <member kind="function">
-      <type>void</type>
-      <name>queue_print</name>
-      <anchorfile>queue__print_8c.html</anchorfile>
-      <anchor>ab9623100a41197d107e1cb1c166d0e92</anchor>
-      <arglist>(const t_queue *queue)</arglist>
-    </member>
-  </compound>
-  <compound kind="file">
     <name>queue_size.c</name>
     <path>/Users/almayor/Documents/programming/42/c_data_structures/src/data_structures/queue/</path>
     <filename>queue__size_8c</filename>
@@ -1953,13 +1909,6 @@
       <name>rbt_height</name>
       <anchorfile>rbt_8h.html</anchorfile>
       <anchor>a70fac3b861d8e8d3248b80469ddf96ed</anchor>
-      <arglist>(const t_rbt *rbt)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>rbt_print</name>
-      <anchorfile>rbt_8h.html</anchorfile>
-      <anchor>a71748ad54c1d83f71705b732080e0fb4</anchor>
       <arglist>(const t_rbt *rbt)</arglist>
     </member>
     <member kind="function">
@@ -2382,19 +2331,6 @@
     </member>
   </compound>
   <compound kind="file">
-    <name>stack_print.c</name>
-    <path>/Users/almayor/Documents/programming/42/c_data_structures/src/data_structures/stack/</path>
-    <filename>stack__print_8c</filename>
-    <includes id="stack_8h" name="stack.h" local="yes" imported="no">stack.h</includes>
-    <member kind="function">
-      <type>void</type>
-      <name>stack_print</name>
-      <anchorfile>stack__print_8c.html</anchorfile>
-      <anchor>a7149ce2f0633c48805a1a60e5ba19c04</anchor>
-      <arglist>(const t_stack *stack)</arglist>
-    </member>
-  </compound>
-  <compound kind="file">
     <name>stack_push.c</name>
     <path>/Users/almayor/Documents/programming/42/c_data_structures/src/data_structures/stack/</path>
     <filename>stack__push_8c</filename>
@@ -2553,18 +2489,39 @@
     <filename>type__array_8c</filename>
     <includes id="types_8h" name="types.h" local="yes" imported="no">types.h</includes>
     <includes id="array_8h" name="array.h" local="yes" imported="no">array.h</includes>
+    <member kind="variable">
+      <type>const t_type *</type>
+      <name>g_type_array</name>
+      <anchorfile>type__array_8c.html</anchorfile>
+      <anchor>abc5ccb1d2d6754827295ec02c1955268</anchor>
+      <arglist></arglist>
+    </member>
   </compound>
   <compound kind="file">
     <name>type_char.c</name>
     <path>/Users/almayor/Documents/programming/42/c_data_structures/src/types/</path>
     <filename>type__char_8c</filename>
     <includes id="types_8h" name="types.h" local="yes" imported="no">types.h</includes>
+    <member kind="variable">
+      <type>const t_type *</type>
+      <name>g_type_char</name>
+      <anchorfile>type__char_8c.html</anchorfile>
+      <anchor>a9d04a5e94044f6e27f8221f550734a50</anchor>
+      <arglist></arglist>
+    </member>
   </compound>
   <compound kind="file">
     <name>type_float.c</name>
     <path>/Users/almayor/Documents/programming/42/c_data_structures/src/types/</path>
     <filename>type__float_8c</filename>
     <includes id="types_8h" name="types.h" local="yes" imported="no">types.h</includes>
+    <member kind="variable">
+      <type>const t_type *</type>
+      <name>g_type_float</name>
+      <anchorfile>type__float_8c.html</anchorfile>
+      <anchor>a1e36cd7c196c22e8ed243a4d87bf58f5</anchor>
+      <arglist></arglist>
+    </member>
   </compound>
   <compound kind="file">
     <name>type_hashset.c</name>
@@ -2578,12 +2535,26 @@
     <path>/Users/almayor/Documents/programming/42/c_data_structures/src/types/</path>
     <filename>type__int_8c</filename>
     <includes id="types_8h" name="types.h" local="yes" imported="no">types.h</includes>
+    <member kind="variable">
+      <type>const t_type *</type>
+      <name>g_type_int</name>
+      <anchorfile>type__int_8c.html</anchorfile>
+      <anchor>af215681a167e8f582280d5b7c751385e</anchor>
+      <arglist></arglist>
+    </member>
   </compound>
   <compound kind="file">
     <name>type_str.c</name>
     <path>/Users/almayor/Documents/programming/42/c_data_structures/src/types/</path>
     <filename>type__str_8c</filename>
     <includes id="types_8h" name="types.h" local="yes" imported="no">types.h</includes>
+    <member kind="variable">
+      <type>const t_type *</type>
+      <name>g_type_str</name>
+      <anchorfile>type__str_8c.html</anchorfile>
+      <anchor>a8278aff799b837e44a459484cc2f5fdb</anchor>
+      <arglist></arglist>
+    </member>
   </compound>
   <compound kind="file">
     <name>types.h</name>
@@ -2591,23 +2562,142 @@
     <filename>types_8h</filename>
     <includes id="utils_8h" name="utils.h" local="yes" imported="no">utils.h</includes>
     <class kind="struct">s_type</class>
+    <member kind="variable">
+      <type>const t_type *</type>
+      <name>g_type_char</name>
+      <anchorfile>types_8h.html</anchorfile>
+      <anchor>a9d04a5e94044f6e27f8221f550734a50</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>const t_type *</type>
+      <name>g_type_float</name>
+      <anchorfile>types_8h.html</anchorfile>
+      <anchor>a1e36cd7c196c22e8ed243a4d87bf58f5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>const t_type *</type>
+      <name>g_type_int</name>
+      <anchorfile>types_8h.html</anchorfile>
+      <anchor>af215681a167e8f582280d5b7c751385e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>const t_type *</type>
+      <name>g_type_str</name>
+      <anchorfile>types_8h.html</anchorfile>
+      <anchor>a8278aff799b837e44a459484cc2f5fdb</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>const t_type *</type>
+      <name>g_type_array</name>
+      <anchorfile>types_8h.html</anchorfile>
+      <anchor>abc5ccb1d2d6754827295ec02c1955268</anchor>
+      <arglist></arglist>
+    </member>
   </compound>
   <compound kind="file">
     <name>data2ptr.c</name>
     <path>/Users/almayor/Documents/programming/42/c_data_structures/src/types/utils/</path>
     <filename>data2ptr_8c</filename>
     <includes id="utils_8h" name="utils.h" local="yes" imported="no">utils.h</includes>
+    <member kind="function">
+      <type>int *</type>
+      <name>int2ptr</name>
+      <anchorfile>data2ptr_8c.html</anchorfile>
+      <anchor>a80c0883d3c307b9567e7dc63e1206203</anchor>
+      <arglist>(int a)</arglist>
+    </member>
+    <member kind="function">
+      <type>char *</type>
+      <name>char2ptr</name>
+      <anchorfile>data2ptr_8c.html</anchorfile>
+      <anchor>ac428bba0c8e57c7085fd8c4da80b4397</anchor>
+      <arglist>(char a)</arglist>
+    </member>
+    <member kind="function">
+      <type>float *</type>
+      <name>float2ptr</name>
+      <anchorfile>data2ptr_8c.html</anchorfile>
+      <anchor>af97288f8ddb7a62b9af17617090da281</anchor>
+      <arglist>(float a)</arglist>
+    </member>
   </compound>
   <compound kind="file">
     <name>ptr2data.c</name>
     <path>/Users/almayor/Documents/programming/42/c_data_structures/src/types/utils/</path>
     <filename>ptr2data_8c</filename>
     <includes id="utils_8h" name="utils.h" local="yes" imported="no">utils.h</includes>
+    <member kind="function">
+      <type>int</type>
+      <name>ptr2int</name>
+      <anchorfile>ptr2data_8c.html</anchorfile>
+      <anchor>aa404616716f45e363e8e86971bc8690a</anchor>
+      <arglist>(const void *ptr)</arglist>
+    </member>
+    <member kind="function">
+      <type>float</type>
+      <name>ptr2float</name>
+      <anchorfile>ptr2data_8c.html</anchorfile>
+      <anchor>a34d308c396b5d1843dca4dc455a6ecc2</anchor>
+      <arglist>(const void *ptr)</arglist>
+    </member>
+    <member kind="function">
+      <type>char</type>
+      <name>ptr2char</name>
+      <anchorfile>ptr2data_8c.html</anchorfile>
+      <anchor>aed5a1898315a6858320d0708ab75849f</anchor>
+      <arglist>(const void *ptr)</arglist>
+    </member>
   </compound>
   <compound kind="file">
     <name>utils.h</name>
     <path>/Users/almayor/Documents/programming/42/c_data_structures/src/types/utils/</path>
     <filename>utils_8h</filename>
+    <member kind="function">
+      <type>int *</type>
+      <name>int2ptr</name>
+      <anchorfile>utils_8h.html</anchorfile>
+      <anchor>a80c0883d3c307b9567e7dc63e1206203</anchor>
+      <arglist>(int a)</arglist>
+    </member>
+    <member kind="function">
+      <type>char *</type>
+      <name>char2ptr</name>
+      <anchorfile>utils_8h.html</anchorfile>
+      <anchor>ac428bba0c8e57c7085fd8c4da80b4397</anchor>
+      <arglist>(char a)</arglist>
+    </member>
+    <member kind="function">
+      <type>float *</type>
+      <name>float2ptr</name>
+      <anchorfile>utils_8h.html</anchorfile>
+      <anchor>af97288f8ddb7a62b9af17617090da281</anchor>
+      <arglist>(float a)</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>ptr2int</name>
+      <anchorfile>utils_8h.html</anchorfile>
+      <anchor>aa404616716f45e363e8e86971bc8690a</anchor>
+      <arglist>(const void *ptr)</arglist>
+    </member>
+    <member kind="function">
+      <type>char</type>
+      <name>ptr2char</name>
+      <anchorfile>utils_8h.html</anchorfile>
+      <anchor>aed5a1898315a6858320d0708ab75849f</anchor>
+      <arglist>(const void *ptr)</arglist>
+    </member>
+    <member kind="function">
+      <type>float</type>
+      <name>ptr2float</name>
+      <anchorfile>utils_8h.html</anchorfile>
+      <anchor>a34d308c396b5d1843dca4dc455a6ecc2</anchor>
+      <arglist>(const void *ptr)</arglist>
+    </member>
   </compound>
   <compound kind="struct">
     <name>s_array</name>
@@ -2935,10 +3025,52 @@
       <anchor>a2d2bafcafb31fc71fa1a7b738a2ba605</anchor>
       <arglist></arglist>
     </member>
+    <member kind="variable">
+      <type>size_t</type>
+      <name>count</name>
+      <anchorfile>structs__rbt__node.html</anchorfile>
+      <anchor>a1252f44812fe15020cb458712a9fa79b</anchor>
+      <arglist></arglist>
+    </member>
   </compound>
   <compound kind="struct">
     <name>s_type</name>
     <filename>structs__type.html</filename>
+    <member kind="variable">
+      <type>char *</type>
+      <name>name</name>
+      <anchorfile>structs__type.html</anchorfile>
+      <anchor>a1ebf8afa3786ea67e2531f5d75cd5b30</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>void *(*</type>
+      <name>copy</name>
+      <anchorfile>structs__type.html</anchorfile>
+      <anchor>a9b525f19979fe7919661d68afcbb622c</anchor>
+      <arglist>)(const void *)</arglist>
+    </member>
+    <member kind="variable">
+      <type>void(*</type>
+      <name>del</name>
+      <anchorfile>structs__type.html</anchorfile>
+      <anchor>ac820bed406ee8c3aa26b1cfe110cc63d</anchor>
+      <arglist>)(void *)</arglist>
+    </member>
+    <member kind="variable">
+      <type>int(*</type>
+      <name>cmp</name>
+      <anchorfile>structs__type.html</anchorfile>
+      <anchor>a446d2d46d66404fe85cb99a2977ee65e</anchor>
+      <arglist>)(const void *, const void *)</arglist>
+    </member>
+    <member kind="variable">
+      <type>size_t(*</type>
+      <name>hash</name>
+      <anchorfile>structs__type.html</anchorfile>
+      <anchor>a979748f91ffbaacacdcf3a51864a9560</anchor>
+      <arglist>)(const void *, size_t)</arglist>
+    </member>
   </compound>
   <compound kind="struct">
     <name>s_union_find</name>
@@ -2971,5 +3103,12 @@
       <anchor>a7f7d0fc02d73f8bd0a9b06d19f7ef6e3</anchor>
       <arglist></arglist>
     </member>
+  </compound>
+  <compound kind="page">
+    <name>index</name>
+    <title></title>
+    <filename>index</filename>
+    <docanchor file="index">Overview</docanchor>
+    <docanchor file="index">Acknowledgements</docanchor>
   </compound>
 </tagfile>

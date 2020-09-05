@@ -75,7 +75,6 @@ $(function() {
 <div class="contents">
 <div class="textblock"><code>#include &lt;stdlib.h&gt;</code><br />
 <code>#include &quot;<a class="elRef" href="https://almayor.github.io/libft/html/libft_8h.html">libft.h</a>&quot;</code><br />
-<code>#include &quot;<a class="elRef" href="https://almayor.github.io/ft_printf/html/ft__printf_8h.html">ft_printf.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="utils_8h_source.html">utils.h</a>&quot;</code><br />
 </div><div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Include dependency graph for types.h:</div>
@@ -84,11 +83,10 @@ $(function() {
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="types_8h__incl.png" border="0" usemap="#src_2types_2types_8h" alt=""/></div>
 <map name="src_2types_2types_8h" id="src_2types_2types_8h">
-<area shape="rect" title=" " alt="" coords="105,5,228,32"/>
+<area shape="rect" title=" " alt="" coords="60,5,183,32"/>
 <area shape="rect" title=" " alt="" coords="5,80,69,107"/>
 <area shape="rect" href="https://almayor.github.io/libft/html/libft_8h.html" title=" " alt="" coords="94,80,149,107"/>
-<area shape="rect" href="https://almayor.github.io/ft_printf/html/ft__printf_8h.html" title=" " alt="" coords="173,80,251,107"/>
-<area shape="rect" href="utils_8h.html" title=" " alt="" coords="275,80,333,107"/>
+<area shape="rect" href="utils_8h.html" title=" " alt="" coords="173,80,230,107"/>
 </map>
 </div>
 </div>
@@ -97,6 +95,7 @@ $(function() {
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Data Structures</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structs__type.html">s_type</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A full representation of a data type, used to achieve polymorphism in the implementation of data structures.  <a href="structs__type.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
@@ -107,22 +106,113 @@ typedef struct <a class="el" href="structs__type.html">s_type</a>&#160;</td><td 
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:a9d04a5e94044f6e27f8221f550734a50"><td class="memItemLeft" align="right" valign="top"><a id="a9d04a5e94044f6e27f8221f550734a50"></a>
-const <a class="el" href="structs__type.html">t_type</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>g_type_char</b></td></tr>
+<tr class="memitem:a9d04a5e94044f6e27f8221f550734a50"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="structs__type.html">t_type</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="types_8h.html#a9d04a5e94044f6e27f8221f550734a50">g_type_char</a></td></tr>
+<tr class="memdesc:a9d04a5e94044f6e27f8221f550734a50"><td class="mdescLeft">&#160;</td><td class="mdescRight">A representation of the <code>char</code> data type.  <a href="types_8h.html#a9d04a5e94044f6e27f8221f550734a50">More...</a><br /></td></tr>
 <tr class="separator:a9d04a5e94044f6e27f8221f550734a50"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1e36cd7c196c22e8ed243a4d87bf58f5"><td class="memItemLeft" align="right" valign="top"><a id="a1e36cd7c196c22e8ed243a4d87bf58f5"></a>
-const <a class="el" href="structs__type.html">t_type</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>g_type_float</b></td></tr>
+<tr class="memitem:a1e36cd7c196c22e8ed243a4d87bf58f5"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="structs__type.html">t_type</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="types_8h.html#a1e36cd7c196c22e8ed243a4d87bf58f5">g_type_float</a></td></tr>
+<tr class="memdesc:a1e36cd7c196c22e8ed243a4d87bf58f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">A representation of the <code>float</code> data type.  <a href="types_8h.html#a1e36cd7c196c22e8ed243a4d87bf58f5">More...</a><br /></td></tr>
 <tr class="separator:a1e36cd7c196c22e8ed243a4d87bf58f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af215681a167e8f582280d5b7c751385e"><td class="memItemLeft" align="right" valign="top"><a id="af215681a167e8f582280d5b7c751385e"></a>
-const <a class="el" href="structs__type.html">t_type</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>g_type_int</b></td></tr>
+<tr class="memitem:af215681a167e8f582280d5b7c751385e"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="structs__type.html">t_type</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="types_8h.html#af215681a167e8f582280d5b7c751385e">g_type_int</a></td></tr>
+<tr class="memdesc:af215681a167e8f582280d5b7c751385e"><td class="mdescLeft">&#160;</td><td class="mdescRight">A representation of the <code>int</code> data type.  <a href="types_8h.html#af215681a167e8f582280d5b7c751385e">More...</a><br /></td></tr>
 <tr class="separator:af215681a167e8f582280d5b7c751385e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8278aff799b837e44a459484cc2f5fdb"><td class="memItemLeft" align="right" valign="top"><a id="a8278aff799b837e44a459484cc2f5fdb"></a>
-const <a class="el" href="structs__type.html">t_type</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>g_type_str</b></td></tr>
+<tr class="memitem:a8278aff799b837e44a459484cc2f5fdb"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="structs__type.html">t_type</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="types_8h.html#a8278aff799b837e44a459484cc2f5fdb">g_type_str</a></td></tr>
+<tr class="memdesc:a8278aff799b837e44a459484cc2f5fdb"><td class="mdescLeft">&#160;</td><td class="mdescRight">A representation of the <code>char*</code> data type.  <a href="types_8h.html#a8278aff799b837e44a459484cc2f5fdb">More...</a><br /></td></tr>
 <tr class="separator:a8278aff799b837e44a459484cc2f5fdb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abc5ccb1d2d6754827295ec02c1955268"><td class="memItemLeft" align="right" valign="top"><a id="abc5ccb1d2d6754827295ec02c1955268"></a>
-const <a class="el" href="structs__type.html">t_type</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>g_type_array</b></td></tr>
+<tr class="memitem:abc5ccb1d2d6754827295ec02c1955268"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="structs__type.html">t_type</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="types_8h.html#abc5ccb1d2d6754827295ec02c1955268">g_type_array</a></td></tr>
+<tr class="memdesc:abc5ccb1d2d6754827295ec02c1955268"><td class="mdescLeft">&#160;</td><td class="mdescRight">A representation of the <code>t_array</code> data type.  <a href="types_8h.html#abc5ccb1d2d6754827295ec02c1955268">More...</a><br /></td></tr>
 <tr class="separator:abc5ccb1d2d6754827295ec02c1955268"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Variable Documentation</h2>
+<a id="abc5ccb1d2d6754827295ec02c1955268"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abc5ccb1d2d6754827295ec02c1955268">&#9670;&nbsp;</a></span>g_type_array</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="structs__type.html">t_type</a>* g_type_array</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>A representation of the <code>t_array</code> data type. </p>
+
+<p class="definition">Definition at line <a class="el" href="type__array_8c_source.html#l00033">33</a> of file <a class="el" href="type__array_8c_source.html">type_array.c</a>.</p>
+
+</div>
+</div>
+<a id="a9d04a5e94044f6e27f8221f550734a50"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9d04a5e94044f6e27f8221f550734a50">&#9670;&nbsp;</a></span>g_type_char</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="structs__type.html">t_type</a>* g_type_char</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>A representation of the <code>char</code> data type. </p>
+
+<p class="definition">Definition at line <a class="el" href="type__char_8c_source.html#l00054">54</a> of file <a class="el" href="type__char_8c_source.html">type_char.c</a>.</p>
+
+</div>
+</div>
+<a id="a1e36cd7c196c22e8ed243a4d87bf58f5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1e36cd7c196c22e8ed243a4d87bf58f5">&#9670;&nbsp;</a></span>g_type_float</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="structs__type.html">t_type</a>* g_type_float</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>A representation of the <code>float</code> data type. </p>
+
+<p class="definition">Definition at line <a class="el" href="type__float_8c_source.html#l00056">56</a> of file <a class="el" href="type__float_8c_source.html">type_float.c</a>.</p>
+
+</div>
+</div>
+<a id="af215681a167e8f582280d5b7c751385e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af215681a167e8f582280d5b7c751385e">&#9670;&nbsp;</a></span>g_type_int</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="structs__type.html">t_type</a>* g_type_int</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>A representation of the <code>int</code> data type. </p>
+
+<p class="definition">Definition at line <a class="el" href="type__int_8c_source.html#l00056">56</a> of file <a class="el" href="type__int_8c_source.html">type_int.c</a>.</p>
+
+</div>
+</div>
+<a id="a8278aff799b837e44a459484cc2f5fdb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8278aff799b837e44a459484cc2f5fdb">&#9670;&nbsp;</a></span>g_type_str</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="structs__type.html">t_type</a>* g_type_str</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>A representation of the <code>char*</code> data type. </p>
+
+<p class="definition">Definition at line <a class="el" href="type__str_8c_source.html#l00051">51</a> of file <a class="el" href="type__str_8c_source.html">type_str.c</a>.</p>
+
+</div>
+</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

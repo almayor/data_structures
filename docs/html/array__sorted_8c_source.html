@@ -87,7 +87,7 @@ $(function() {
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;{</div>
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    <span class="keywordtype">size_t</span>  i;</div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160; </div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    <span class="keywordflow">if</span> (array-&gt;<a class="code" href="structs__array.html#a8c3652bc84ab1ac58ad4a50402cf0b41">type</a>-&gt;cmp == NULL)</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    <span class="keywordflow">if</span> (array-&gt;<a class="code" href="structs__array.html#a8c3652bc84ab1ac58ad4a50402cf0b41">type</a>-&gt;<a class="code" href="structs__type.html#a446d2d46d66404fe85cb99a2977ee65e">cmp</a> == NULL)</div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    {</div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;        errno = ENOTSUP;</div>
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;        <span class="keywordflow">return</span> (-1);</div>
@@ -95,7 +95,7 @@ $(function() {
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    i = 0;</div>
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    <span class="keywordflow">while</span> (i &lt; array-&gt;size - 1)</div>
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    {</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;        <span class="keywordflow">if</span> (array-&gt;<a class="code" href="structs__array.html#a8c3652bc84ab1ac58ad4a50402cf0b41">type</a>-&gt;cmp(array-&gt;<a class="code" href="structs__array.html#af3619b8a829a3212c36ace76cb6d24eb">arr</a>[i], array-&gt;<a class="code" href="structs__array.html#af3619b8a829a3212c36ace76cb6d24eb">arr</a>[i + 1]) &gt; 0)</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;        <span class="keywordflow">if</span> (array-&gt;<a class="code" href="structs__array.html#a8c3652bc84ab1ac58ad4a50402cf0b41">type</a>-&gt;<a class="code" href="structs__type.html#a446d2d46d66404fe85cb99a2977ee65e">cmp</a>(array-&gt;<a class="code" href="structs__array.html#af3619b8a829a3212c36ace76cb6d24eb">arr</a>[i], array-&gt;<a class="code" href="structs__array.html#af3619b8a829a3212c36ace76cb6d24eb">arr</a>[i + 1]) &gt; 0)</div>
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;            <span class="keywordflow">return</span> (0);</div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;        i++;</div>
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    }</div>
@@ -103,10 +103,11 @@ $(function() {
 <div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;}</div>
 </div><!-- fragment --></div><!-- contents -->
 <div class="ttc" id="aarray__sorted_8c_html_aed1fc215a1f3c19cc5637a9a1ffcf118"><div class="ttname"><a href="array__sorted_8c.html#aed1fc215a1f3c19cc5637a9a1ffcf118">array_sorted</a></div><div class="ttdeci">int array_sorted(const t_array *array)</div><div class="ttdoc">Checks if an array is sorted in ascending order.</div><div class="ttdef"><b>Definition:</b> <a href="array__sorted_8c_source.html#l00016">array_sorted.c:16</a></div></div>
+<div class="ttc" id="astructs__type_html_a446d2d46d66404fe85cb99a2977ee65e"><div class="ttname"><a href="structs__type.html#a446d2d46d66404fe85cb99a2977ee65e">s_type::cmp</a></div><div class="ttdeci">int(* cmp)(const void *, const void *)</div><div class="ttdoc">(optional) A function ponter used to compare members of this data type</div><div class="ttdef"><b>Definition:</b> <a href="types_8h_source.html#l00053">types.h:53</a></div></div>
 <div class="ttc" id="aarray_8h_html"><div class="ttname"><a href="array_8h.html">array.h</a></div></div>
-<div class="ttc" id="astructs__array_html_a8c3652bc84ab1ac58ad4a50402cf0b41"><div class="ttname"><a href="structs__array.html#a8c3652bc84ab1ac58ad4a50402cf0b41">s_array::type</a></div><div class="ttdeci">const t_type * type</div><div class="ttdoc">The type of items in this array.</div><div class="ttdef"><b>Definition:</b> <a href="array_8h_source.html#l00053">array.h:53</a></div></div>
-<div class="ttc" id="astructs__array_html_af3619b8a829a3212c36ace76cb6d24eb"><div class="ttname"><a href="structs__array.html#af3619b8a829a3212c36ace76cb6d24eb">s_array::arr</a></div><div class="ttdeci">void ** arr</div><div class="ttdoc">The data.</div><div class="ttdef"><b>Definition:</b> <a href="array_8h_source.html#l00052">array.h:52</a></div></div>
-<div class="ttc" id="astructs__array_html"><div class="ttname"><a href="structs__array.html">s_array</a></div><div class="ttdoc">A resizable array holding generic items.</div><div class="ttdef"><b>Definition:</b> <a href="array_8h_source.html#l00048">array.h:48</a></div></div>
+<div class="ttc" id="astructs__array_html_a8c3652bc84ab1ac58ad4a50402cf0b41"><div class="ttname"><a href="structs__array.html#a8c3652bc84ab1ac58ad4a50402cf0b41">s_array::type</a></div><div class="ttdeci">const t_type * type</div><div class="ttdoc">The type of items in this array.</div><div class="ttdef"><b>Definition:</b> <a href="array_8h_source.html#l00051">array.h:51</a></div></div>
+<div class="ttc" id="astructs__array_html_af3619b8a829a3212c36ace76cb6d24eb"><div class="ttname"><a href="structs__array.html#af3619b8a829a3212c36ace76cb6d24eb">s_array::arr</a></div><div class="ttdeci">void ** arr</div><div class="ttdoc">The data.</div><div class="ttdef"><b>Definition:</b> <a href="array_8h_source.html#l00050">array.h:50</a></div></div>
+<div class="ttc" id="astructs__array_html"><div class="ttname"><a href="structs__array.html">s_array</a></div><div class="ttdoc">A resizable array holding generic items.</div><div class="ttdef"><b>Definition:</b> <a href="array_8h_source.html#l00046">array.h:46</a></div></div>
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
 Generated by &#160;<a href="http://www.doxygen.org/index.html">

@@ -67,32 +67,131 @@ $(function() {
 <div class="title">s_type Struct Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>A full representation of a data type, used to achieve polymorphism in the implementation of data structures.  
+ <a href="structs__type.html#details">More...</a></p>
+
+<p><code>#include &lt;<a class="el" href="types_8h_source.html">types.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Data Fields</h2></td></tr>
-<tr class="memitem:a2b80ce89df5a3c7e4e1ab14cc98da3a6"><td class="memItemLeft" align="right" valign="top"><a id="a2b80ce89df5a3c7e4e1ab14cc98da3a6"></a>
-char *&#160;</td><td class="memItemRight" valign="bottom"><b>name</b></td></tr>
-<tr class="separator:a2b80ce89df5a3c7e4e1ab14cc98da3a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abb422b2fcd110cd361d555673e5358a1"><td class="memItemLeft" align="right" valign="top"><a id="abb422b2fcd110cd361d555673e5358a1"></a>
-void *(*&#160;</td><td class="memItemRight" valign="bottom"><b>copy</b> )(const void *)</td></tr>
-<tr class="separator:abb422b2fcd110cd361d555673e5358a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abcef6d40576929abf2cdcf952addb2f2"><td class="memItemLeft" align="right" valign="top"><a id="abcef6d40576929abf2cdcf952addb2f2"></a>
-void(*&#160;</td><td class="memItemRight" valign="bottom"><b>del</b> )(void *)</td></tr>
-<tr class="separator:abcef6d40576929abf2cdcf952addb2f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aabcef6369b2b6a9c2fea4ef3f8a1646a"><td class="memItemLeft" align="right" valign="top"><a id="aabcef6369b2b6a9c2fea4ef3f8a1646a"></a>
-int(*&#160;</td><td class="memItemRight" valign="bottom"><b>cmp</b> )(const void *, const void *)</td></tr>
-<tr class="separator:aabcef6369b2b6a9c2fea4ef3f8a1646a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaa2fbc4303b4c2bf7b89e16a6ae071a3"><td class="memItemLeft" align="right" valign="top"><a id="aaa2fbc4303b4c2bf7b89e16a6ae071a3"></a>
-void(*&#160;</td><td class="memItemRight" valign="bottom"><b>print</b> )(const void *)</td></tr>
-<tr class="separator:aaa2fbc4303b4c2bf7b89e16a6ae071a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa22494ff8e9e58d71b283db9af50bf28"><td class="memItemLeft" align="right" valign="top"><a id="aa22494ff8e9e58d71b283db9af50bf28"></a>
-size_t(*&#160;</td><td class="memItemRight" valign="bottom"><b>hash</b> )(const void *, size_t)</td></tr>
-<tr class="separator:aa22494ff8e9e58d71b283db9af50bf28"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1ebf8afa3786ea67e2531f5d75cd5b30"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structs__type.html#a1ebf8afa3786ea67e2531f5d75cd5b30">name</a></td></tr>
+<tr class="memdesc:a1ebf8afa3786ea67e2531f5d75cd5b30"><td class="mdescLeft">&#160;</td><td class="mdescRight">The name of a datatype as a string.  <a href="structs__type.html#a1ebf8afa3786ea67e2531f5d75cd5b30">More...</a><br /></td></tr>
+<tr class="separator:a1ebf8afa3786ea67e2531f5d75cd5b30"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9b525f19979fe7919661d68afcbb622c"><td class="memItemLeft" align="right" valign="top">void *(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structs__type.html#a9b525f19979fe7919661d68afcbb622c">copy</a> )(const void *)</td></tr>
+<tr class="memdesc:a9b525f19979fe7919661d68afcbb622c"><td class="mdescLeft">&#160;</td><td class="mdescRight">A function pointer used to copy the data type.  <a href="structs__type.html#a9b525f19979fe7919661d68afcbb622c">More...</a><br /></td></tr>
+<tr class="separator:a9b525f19979fe7919661d68afcbb622c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac820bed406ee8c3aa26b1cfe110cc63d"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structs__type.html#ac820bed406ee8c3aa26b1cfe110cc63d">del</a> )(void *)</td></tr>
+<tr class="memdesc:ac820bed406ee8c3aa26b1cfe110cc63d"><td class="mdescLeft">&#160;</td><td class="mdescRight">A function pointer used to free the memory taken by the data type.  <a href="structs__type.html#ac820bed406ee8c3aa26b1cfe110cc63d">More...</a><br /></td></tr>
+<tr class="separator:ac820bed406ee8c3aa26b1cfe110cc63d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a446d2d46d66404fe85cb99a2977ee65e"><td class="memItemLeft" align="right" valign="top">int(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structs__type.html#a446d2d46d66404fe85cb99a2977ee65e">cmp</a> )(const void *, const void *)</td></tr>
+<tr class="memdesc:a446d2d46d66404fe85cb99a2977ee65e"><td class="mdescLeft">&#160;</td><td class="mdescRight">(optional) A function ponter used to compare members of this data type  <a href="structs__type.html#a446d2d46d66404fe85cb99a2977ee65e">More...</a><br /></td></tr>
+<tr class="separator:a446d2d46d66404fe85cb99a2977ee65e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a979748f91ffbaacacdcf3a51864a9560"><td class="memItemLeft" align="right" valign="top">size_t(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structs__type.html#a979748f91ffbaacacdcf3a51864a9560">hash</a> )(const void *, size_t)</td></tr>
+<tr class="memdesc:a979748f91ffbaacacdcf3a51864a9560"><td class="mdescLeft">&#160;</td><td class="mdescRight">(optional) A function pointer used to get a hash value of this data type  <a href="structs__type.html#a979748f91ffbaacacdcf3a51864a9560">More...</a><br /></td></tr>
+<tr class="separator:a979748f91ffbaacacdcf3a51864a9560"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock">
-<p class="definition">Definition at line <a class="el" href="types_8h_source.html#l00023">23</a> of file <a class="el" href="types_8h_source.html">types.h</a>.</p>
-</div><hr/>The documentation for this struct was generated from the following file:<ul>
+<div class="textblock"><p>A full representation of a data type, used to achieve polymorphism in the implementation of data structures. </p>
+<dl class="section remark"><dt>Remarks</dt><dd>Because polymorphism is achieved with <code>void</code> pointers, primitive data types, such as <code>int</code> and <code>char</code>, must be converted to pointers. </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><code><a class="el" href="data2ptr_8c.html">data2ptr.c</a></code> </dd>
+<dd>
+<code><a class="el" href="ptr2data_8c.html">ptr2data.c</a></code></dd></dl>
+<p>It contains pointers to all the functions needed to work with this data type. New <code>type</code>'s can be defined to extend the types that the data structures in this library can work with. </p>
+
+<p class="definition">Definition at line <a class="el" href="types_8h_source.html#l00048">48</a> of file <a class="el" href="types_8h_source.html">types.h</a>.</p>
+</div><h2 class="groupheader">Field Documentation</h2>
+<a id="a446d2d46d66404fe85cb99a2977ee65e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a446d2d46d66404fe85cb99a2977ee65e">&#9670;&nbsp;</a></span>cmp</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">s_type::cmp</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>(optional) A function ponter used to compare members of this data type </p>
+
+<p class="definition">Definition at line <a class="el" href="types_8h_source.html#l00053">53</a> of file <a class="el" href="types_8h_source.html">types.h</a>.</p>
+
+</div>
+</div>
+<a id="a9b525f19979fe7919661d68afcbb622c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9b525f19979fe7919661d68afcbb622c">&#9670;&nbsp;</a></span>copy</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">s_type::copy</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>A function pointer used to copy the data type. </p>
+
+<p class="definition">Definition at line <a class="el" href="types_8h_source.html#l00051">51</a> of file <a class="el" href="types_8h_source.html">types.h</a>.</p>
+
+</div>
+</div>
+<a id="ac820bed406ee8c3aa26b1cfe110cc63d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac820bed406ee8c3aa26b1cfe110cc63d">&#9670;&nbsp;</a></span>del</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">s_type::del</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>A function pointer used to free the memory taken by the data type. </p>
+
+<p class="definition">Definition at line <a class="el" href="types_8h_source.html#l00052">52</a> of file <a class="el" href="types_8h_source.html">types.h</a>.</p>
+
+</div>
+</div>
+<a id="a979748f91ffbaacacdcf3a51864a9560"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a979748f91ffbaacacdcf3a51864a9560">&#9670;&nbsp;</a></span>hash</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">s_type::hash</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>(optional) A function pointer used to get a hash value of this data type </p>
+
+<p class="definition">Definition at line <a class="el" href="types_8h_source.html#l00054">54</a> of file <a class="el" href="types_8h_source.html">types.h</a>.</p>
+
+</div>
+</div>
+<a id="a1ebf8afa3786ea67e2531f5d75cd5b30"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1ebf8afa3786ea67e2531f5d75cd5b30">&#9670;&nbsp;</a></span>name</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">s_type::name</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>The name of a datatype as a string. </p>
+
+<p class="definition">Definition at line <a class="el" href="types_8h_source.html#l00050">50</a> of file <a class="el" href="types_8h_source.html">types.h</a>.</p>
+
+</div>
+</div>
+<hr/>The documentation for this struct was generated from the following file:<ul>
 <li>src/types/<a class="el" href="types_8h_source.html">types.h</a></li>
 </ul>
 </div><!-- contents -->

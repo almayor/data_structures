@@ -1,8 +1,7 @@
 <map id="src/types/type_str.c" name="src/types/type_str.c">
-<area shape="rect" id="node1" title=" " alt="" coords="98,5,235,32"/>
-<area shape="rect" id="node2" href="$types_8h.html" title=" " alt="" coords="134,80,199,107"/>
+<area shape="rect" id="node1" title=" " alt="" coords="53,5,190,32"/>
+<area shape="rect" id="node2" href="$types_8h.html" title=" " alt="" coords="89,80,154,107"/>
 <area shape="rect" id="node3" title=" " alt="" coords="5,155,69,181"/>
 <area shape="rect" id="node4" href="/Users/almayor/Documents/programming/42/c_data_structures/libft/docs/.doxygen/libft.tag$libft_8h.html" title=" " alt="" coords="94,155,149,181"/>
-<area shape="rect" id="node5" href="/Users/almayor/Documents/programming/42/c_data_structures/ft_printf/docs/.doxygen/ft_printf.tag$ft__printf_8h.html" title=" " alt="" coords="173,155,251,181"/>
-<area shape="rect" id="node6" href="$utils_8h.html" title=" " alt="" coords="275,155,333,181"/>
+<area shape="rect" id="node5" href="$utils_8h.html" title=" " alt="" coords="173,155,230,181"/>
 </map>

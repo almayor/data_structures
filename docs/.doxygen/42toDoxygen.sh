@@ -8,11 +8,11 @@ command -v doxygen >/dev/null
 if [ $? -ne 0 ]; then
 	echo "Please install Doxygen!"
 else
-	find src -type f \
+	find data_structures.h src -type f \
 		-exec sed -i '1s#^#///\\file\n#' {} \; \
 		-exec perl -i -pe 's#^\/\*$#/\*\*#' {} \;
 	doxygen docs/.doxygen/Doxyfile
-	find src -type f \
+	find data_structures.h src -type f \
 		-exec sed -i '/\/\/\/\\file/d' {} \; \
 		-exec perl -i -pe 's#^\/\*\*$#/\*#' {} \;
 fi

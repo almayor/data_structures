@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['parent_788',['parent',['../structs__union__find.html#a95ac64a173a308bd877c3f9a91e57961',1,'s_union_find']]],
-  ['prev_789',['prev',['../structs__link.html#a3c7530e04b763d544ce62e510b666b1a',1,'s_link']]]
+  ['left_757',['left',['../structs__bst__node.html#ab0d1ae31cc0b1aacdcdbb7d5b402b34c',1,'s_bst_node::left()'],['../structs__rbt__node.html#a9ed491c816fca4273b0bfd8b371e4a55',1,'s_rbt_node::left()']]]
 ];

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['ft_5fprintf_28_29_20family_807',['ft_printf() family',['https://almayor.github.io/ft_printf/html/group__ft__printf.html',1,'']]]
+  ['ptr_769',['Ptr',['../group__ptr.html',1,'']]]
 ];

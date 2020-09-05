@@ -1,7 +1,4 @@
 var searchData=
 [
-  ['v_795',['v',['../structs__graph.html#a8c53fba75f8d22ad19cf98d6beb2d301',1,'s_graph']]],
-  ['val_796',['val',['../structs__bst__node.html#ae1cf718daaf0413b74d39ff108213f89',1,'s_bst_node::val()'],['../structs__rbt__node.html#a17a01c1cacf23a22b8aac62834a73122',1,'s_rbt_node::val()']]],
-  ['val_5ftype_797',['val_type',['../structs__bst.html#a202cc14ed0c4359f990c3cb6f4b75bf9',1,'s_bst::val_type()'],['../structs__hashmap.html#a3d63e67145074b1fda6a744f6926814e',1,'s_hashmap::val_type()'],['../structs__rbt.html#ae3b3ef5b524630e747bea6f02ab1a761',1,'s_rbt::val_type()']]],
-  ['vals_798',['vals',['../structs__hashmap.html#ae6d153e2544bae1acb8de7cb02085fe1',1,'s_hashmap::vals()'],['../structs__hashset.html#aa4390dd34833ffcf103fcf64b05f434a',1,'s_hashset::vals()']]]
+  ['size_765',['size',['../structs__array.html#a0626ef6ec47ebb005269b3b0d7f9c246',1,'s_array::size()'],['../structs__bst.html#ae1777c7231e7dde94251e9086d3888dc',1,'s_bst::size()'],['../structs__hashmap.html#a67c25c43af7ac90e984dfe6b9f62c7b4',1,'s_hashmap::size()'],['../structs__hashset.html#ae78ddeec0627a0af2c668bf918c6d1a3',1,'s_hashset::size()'],['../structs__list.html#ac322563dbbb8c1dafd814734cfa689f1',1,'s_list::size()'],['../structs__union__find.html#ade01768e69d02fafcec44fe1451c6a1f',1,'s_union_find::size()']]]
 ];

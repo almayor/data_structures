@@ -77,8 +77,6 @@ $(function() {
 <div class="textblock"><code>#include &lt;errno.h&gt;</code><br />
 <code>#include &lt;sys/types.h&gt;</code><br />
 <code>#include &quot;<a class="el" href="types_8h_source.html">types.h</a>&quot;</code><br />
-<code>#include &quot;<a class="elRef" href="https://almayor.github.io/libft/html/libft_8h.html">libft.h</a>&quot;</code><br />
-<code>#include &quot;<a class="elRef" href="https://almayor.github.io/ft_printf/html/ft__printf_8h.html">ft_printf.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="queue_8h_source.html">queue.h</a>&quot;</code><br />
 </div><div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Include dependency graph for rbt.h:</div>
@@ -87,16 +85,15 @@ $(function() {
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="rbt_8h__incl.png" border="0" usemap="#src_2data__structures_2rbt_8h" alt=""/></div>
 <map name="src_2data__structures_2rbt_8h" id="src_2data__structures_2rbt_8h">
-<area shape="rect" title=" " alt="" coords="193,5,327,47"/>
-<area shape="rect" title=" " alt="" coords="29,244,91,271"/>
-<area shape="rect" title=" " alt="" coords="308,244,399,271"/>
-<area shape="rect" href="types_8h.html" title=" " alt="" coords="167,244,233,271"/>
-<area shape="rect" href="https://almayor.github.io/libft/html/libft_8h.html" title=" " alt="" coords="370,319,425,345"/>
-<area shape="rect" href="https://almayor.github.io/ft_printf/html/ft__printf_8h.html" title=" " alt="" coords="5,319,83,345"/>
-<area shape="rect" href="queue_8h.html" title=" " alt="" coords="175,95,243,121"/>
-<area shape="rect" title=" " alt="" coords="205,319,269,345"/>
-<area shape="rect" href="utils_8h.html" title=" " alt="" coords="123,319,181,345"/>
-<area shape="rect" href="list_8h.html" title=" " alt="" coords="121,169,172,196"/>
+<area shape="rect" title=" " alt="" coords="18,5,153,47"/>
+<area shape="rect" title=" " alt="" coords="14,244,77,271"/>
+<area shape="rect" title=" " alt="" coords="102,244,192,271"/>
+<area shape="rect" href="types_8h.html" title=" " alt="" coords="229,244,294,271"/>
+<area shape="rect" href="queue_8h.html" title=" " alt="" coords="102,95,170,121"/>
+<area shape="rect" title=" " alt="" coords="146,319,210,345"/>
+<area shape="rect" href="https://almayor.github.io/libft/html/libft_8h.html" title=" " alt="" coords="234,319,289,345"/>
+<area shape="rect" href="utils_8h.html" title=" " alt="" coords="313,319,370,345"/>
+<area shape="rect" href="list_8h.html" title=" " alt="" coords="174,169,224,196"/>
 </map>
 </div>
 </div>
@@ -151,9 +148,6 @@ Functions</h2></td></tr>
 <tr class="memitem:a70fac3b861d8e8d3248b80469ddf96ed"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rbt_8h.html#a70fac3b861d8e8d3248b80469ddf96ed">rbt_height</a> (const <a class="el" href="structs__rbt.html">t_rbt</a> *rbt)</td></tr>
 <tr class="memdesc:a70fac3b861d8e8d3248b80469ddf96ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the number of tiers in the tree.  <a href="rbt_8h.html#a70fac3b861d8e8d3248b80469ddf96ed">More...</a><br /></td></tr>
 <tr class="separator:a70fac3b861d8e8d3248b80469ddf96ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a71748ad54c1d83f71705b732080e0fb4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rbt_8h.html#a71748ad54c1d83f71705b732080e0fb4">rbt_print</a> (const <a class="el" href="structs__rbt.html">t_rbt</a> *rbt)</td></tr>
-<tr class="memdesc:a71748ad54c1d83f71705b732080e0fb4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prints the items in the tree, tier by tier, to standard output.  <a href="rbt_8h.html#a71748ad54c1d83f71705b732080e0fb4">More...</a><br /></td></tr>
-<tr class="separator:a71748ad54c1d83f71705b732080e0fb4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5902d3ffdd967ed27eaf06dbf9bc3fb6"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rbt_8h.html#a5902d3ffdd967ed27eaf06dbf9bc3fb6">rbt_min</a> (const <a class="el" href="structs__rbt.html">t_rbt</a> *rbt)</td></tr>
 <tr class="memdesc:a5902d3ffdd967ed27eaf06dbf9bc3fb6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the smallest key in the tree.  <a href="rbt_8h.html#a5902d3ffdd967ed27eaf06dbf9bc3fb6">More...</a><br /></td></tr>
 <tr class="separator:a5902d3ffdd967ed27eaf06dbf9bc3fb6"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -194,7 +188,7 @@ Functions</h2></td></tr>
 
 <p>The color of a node in a red-black tree. </p>
 
-<p class="definition">Definition at line <a class="el" href="rbt_8h_source.html#l00030">30</a> of file <a class="el" href="rbt_8h_source.html">rbt.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rbt_8h_source.html#l00028">28</a> of file <a class="el" href="rbt_8h_source.html">rbt.h</a>.</p>
 
 </div>
 </div>
@@ -509,27 +503,6 @@ Functions</h2></td></tr>
 <dl class="section remark"><dt>Remarks</dt><dd>For this function to work, the datatype in this array must be comparable (i.e. implement the <code>cmp</code> function). </dd></dl>
 
 <p class="definition">Definition at line <a class="el" href="rbt__new_8c_source.html#l00016">16</a> of file <a class="el" href="rbt__new_8c_source.html">rbt_new.c</a>.</p>
-
-</div>
-</div>
-<a id="a71748ad54c1d83f71705b732080e0fb4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a71748ad54c1d83f71705b732080e0fb4">&#9670;&nbsp;</a></span>rbt_print()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void rbt_print </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="structs__rbt.html">t_rbt</a> *&#160;</td>
-          <td class="paramname"><em>rbt</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Prints the items in the tree, tier by tier, to standard output. </p>
-<dl class="section remark"><dt>Remarks</dt><dd>For this function to work, the datatype in list array must be printable (i.e. implement the <code>print</code> function). Otherwise, an exception will occur. </dd></dl>
 
 </div>
 </div>

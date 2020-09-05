@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['tail_793',['tail',['../structs__list.html#a34c85ecf7803f11cb86886c9e9967c19',1,'s_list']]],
-  ['type_794',['type',['../structs__array.html#a8c3652bc84ab1ac58ad4a50402cf0b41',1,'s_array::type()'],['../structs__graph.html#aba431eb336a8b87ce63400cbb1a866ac',1,'s_graph::type()'],['../structs__hashset.html#a720835a1fea5473618c2f27611a7817f',1,'s_hashset::type()'],['../structs__list.html#a8b1086c63e25d077e429f1e76b9b4981',1,'s_list::type()']]]
+  ['right_763',['right',['../structs__bst__node.html#a4b640bf754c2a9eb1236aead6685d41f',1,'s_bst_node::right()'],['../structs__rbt__node.html#ad0d181c3b183be02f0c8ba292e2620cc',1,'s_rbt_node::right()']]],
+  ['root_764',['root',['../structs__bst.html#a9d6a4569a61b72711275f46aaee6a257',1,'s_bst::root()'],['../structs__rbt.html#ae4f3d3a24ce75d50949dd04e7e33635e',1,'s_rbt::root()']]]
 ];

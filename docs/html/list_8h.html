@@ -76,8 +76,6 @@ $(function() {
 <div class="textblock"><code>#include &lt;errno.h&gt;</code><br />
 <code>#include &lt;sys/types.h&gt;</code><br />
 <code>#include &quot;<a class="el" href="types_8h_source.html">types.h</a>&quot;</code><br />
-<code>#include &quot;<a class="elRef" href="https://almayor.github.io/libft/html/libft_8h.html">libft.h</a>&quot;</code><br />
-<code>#include &quot;<a class="elRef" href="https://almayor.github.io/ft_printf/html/ft__printf_8h.html">ft_printf.h</a>&quot;</code><br />
 </div><div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Include dependency graph for list.h:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
@@ -85,14 +83,13 @@ $(function() {
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="list_8h__incl.png" border="0" usemap="#src_2data__structures_2list_8h" alt=""/></div>
 <map name="src_2data__structures_2list_8h" id="src_2data__structures_2list_8h">
-<area shape="rect" title=" " alt="" coords="153,5,288,47"/>
+<area shape="rect" title=" " alt="" coords="71,5,205,47"/>
 <area shape="rect" title=" " alt="" coords="5,95,68,121"/>
 <area shape="rect" title=" " alt="" coords="93,95,183,121"/>
-<area shape="rect" href="types_8h.html" title=" " alt="" coords="259,95,324,121"/>
-<area shape="rect" href="https://almayor.github.io/libft/html/libft_8h.html" title=" " alt="" coords="137,169,192,196"/>
-<area shape="rect" href="https://almayor.github.io/ft_printf/html/ft__printf_8h.html" title=" " alt="" coords="387,169,465,196"/>
-<area shape="rect" title=" " alt="" coords="217,169,281,196"/>
-<area shape="rect" href="utils_8h.html" title=" " alt="" coords="305,169,363,196"/>
+<area shape="rect" href="types_8h.html" title=" " alt="" coords="208,95,273,121"/>
+<area shape="rect" title=" " alt="" coords="125,169,189,196"/>
+<area shape="rect" href="https://almayor.github.io/libft/html/libft_8h.html" title=" " alt="" coords="213,169,268,196"/>
+<area shape="rect" href="utils_8h.html" title=" " alt="" coords="292,169,349,196"/>
 </map>
 </div>
 </div>
@@ -163,9 +160,6 @@ Functions</h2></td></tr>
 <tr class="memitem:a1dda1c174502914f3782fc584c16d415"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="list_8h.html#a1dda1c174502914f3782fc584c16d415">list_merge_sort</a> (<a class="el" href="structs__list.html">t_list</a> *alst)</td></tr>
 <tr class="memdesc:a1dda1c174502914f3782fc584c16d415"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sorts this list in ascending order using in-place merge sort.  <a href="list_8h.html#a1dda1c174502914f3782fc584c16d415">More...</a><br /></td></tr>
 <tr class="separator:a1dda1c174502914f3782fc584c16d415"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abd4a3b4462a8f85364d2cc3093685801"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="list_8h.html#abd4a3b4462a8f85364d2cc3093685801">list_print</a> (const <a class="el" href="structs__list.html">t_list</a> *alst)</td></tr>
-<tr class="memdesc:abd4a3b4462a8f85364d2cc3093685801"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prints a string representation of this list to standard output.  <a href="list_8h.html#abd4a3b4462a8f85364d2cc3093685801">More...</a><br /></td></tr>
-<tr class="separator:abd4a3b4462a8f85364d2cc3093685801"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8b78db030df295c946fca502ded311cc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structs__list.html">t_list</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="list_8h.html#a8b78db030df295c946fca502ded311cc">list_copy</a> (const <a class="el" href="structs__list.html">t_list</a> *alst)</td></tr>
 <tr class="memdesc:a8b78db030df295c946fca502ded311cc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copies an list and all it contents.  <a href="list_8h.html#a8b78db030df295c946fca502ded311cc">More...</a><br /></td></tr>
 <tr class="separator:a8b78db030df295c946fca502ded311cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -424,29 +418,6 @@ Functions</h2></td></tr>
 <p>The item is kept in the list. </p><dl class="section return"><dt>Returns</dt><dd>The item, or <code>NULL</code> if the list is empty. </dd></dl>
 
 <p class="definition">Definition at line <a class="el" href="list__peek__last_8c_source.html#l00016">16</a> of file <a class="el" href="list__peek__last_8c_source.html">list_peek_last.c</a>.</p>
-
-</div>
-</div>
-<a id="abd4a3b4462a8f85364d2cc3093685801"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abd4a3b4462a8f85364d2cc3093685801">&#9670;&nbsp;</a></span>list_print()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void list_print </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="structs__list.html">t_list</a> *&#160;</td>
-          <td class="paramname"><em>alst</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Prints a string representation of this list to standard output. </p>
-<dl class="section remark"><dt>Remarks</dt><dd>For this function to work, the datatype in list array must be printable (i.e. implement the <code>print</code> function). Otherwise, an exception will occur. </dd></dl>
-
-<p class="definition">Definition at line <a class="el" href="list__print_8c_source.html#l00016">16</a> of file <a class="el" href="list__print_8c_source.html">list_print.c</a>.</p>
 
 </div>
 </div>

@@ -75,8 +75,6 @@ $(function() {
 <div class="textblock"><code>#include &lt;errno.h&gt;</code><br />
 <code>#include &lt;sys/types.h&gt;</code><br />
 <code>#include &quot;<a class="el" href="types_8h_source.html">types.h</a>&quot;</code><br />
-<code>#include &quot;<a class="elRef" href="https://almayor.github.io/libft/html/libft_8h.html">libft.h</a>&quot;</code><br />
-<code>#include &quot;<a class="elRef" href="https://almayor.github.io/ft_printf/html/ft__printf_8h.html">ft_printf.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="list_8h_source.html">list.h</a>&quot;</code><br />
 </div><div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Include dependency graph for queue.h:</div>
@@ -85,15 +83,14 @@ $(function() {
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="queue_8h__incl.png" border="0" usemap="#src_2data__structures_2queue_8h" alt=""/></div>
 <map name="src_2data__structures_2queue_8h" id="src_2data__structures_2queue_8h">
-<area shape="rect" title=" " alt="" coords="134,5,269,47"/>
-<area shape="rect" title=" " alt="" coords="22,169,85,196"/>
-<area shape="rect" title=" " alt="" coords="110,169,200,196"/>
-<area shape="rect" href="types_8h.html" title=" " alt="" coords="276,169,341,196"/>
-<area shape="rect" href="https://almayor.github.io/libft/html/libft_8h.html" title=" " alt="" coords="126,244,181,271"/>
-<area shape="rect" href="https://almayor.github.io/ft_printf/html/ft__printf_8h.html" title=" " alt="" coords="376,244,454,271"/>
-<area shape="rect" href="list_8h.html" title=" " alt="" coords="203,95,254,121"/>
-<area shape="rect" title=" " alt="" coords="206,244,270,271"/>
-<area shape="rect" href="utils_8h.html" title=" " alt="" coords="294,244,352,271"/>
+<area shape="rect" title=" " alt="" coords="83,5,217,47"/>
+<area shape="rect" title=" " alt="" coords="5,169,68,196"/>
+<area shape="rect" title=" " alt="" coords="93,169,183,196"/>
+<area shape="rect" href="types_8h.html" title=" " alt="" coords="208,169,273,196"/>
+<area shape="rect" href="list_8h.html" title=" " alt="" coords="94,95,145,121"/>
+<area shape="rect" title=" " alt="" coords="125,244,189,271"/>
+<area shape="rect" href="https://almayor.github.io/libft/html/libft_8h.html" title=" " alt="" coords="213,244,268,271"/>
+<area shape="rect" href="utils_8h.html" title=" " alt="" coords="292,244,349,271"/>
 </map>
 </div>
 </div>
@@ -125,9 +122,6 @@ Functions</h2></td></tr>
 <tr class="memitem:ac891e81f9bb5f1c93752088716b9199e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="queue_8h.html#a3c4d3efef4db98e495895a0cb288e6a4">t_queue</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="queue_8h.html#ac891e81f9bb5f1c93752088716b9199e">queue_new</a> (const <a class="el" href="structs__type.html">t_type</a> *type)</td></tr>
 <tr class="memdesc:ac891e81f9bb5f1c93752088716b9199e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Allocates memory and initializes an empty queue.  <a href="queue_8h.html#ac891e81f9bb5f1c93752088716b9199e">More...</a><br /></td></tr>
 <tr class="separator:ac891e81f9bb5f1c93752088716b9199e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab9623100a41197d107e1cb1c166d0e92"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="queue_8h.html#ab9623100a41197d107e1cb1c166d0e92">queue_print</a> (const <a class="el" href="queue_8h.html#a3c4d3efef4db98e495895a0cb288e6a4">t_queue</a> *queue)</td></tr>
-<tr class="memdesc:ab9623100a41197d107e1cb1c166d0e92"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prints a string representation of this queue to standard output.  <a href="queue_8h.html#ab9623100a41197d107e1cb1c166d0e92">More...</a><br /></td></tr>
-<tr class="separator:ab9623100a41197d107e1cb1c166d0e92"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1c579a1c2112ada2eb835bf65e6ba49b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="queue_8h.html#a3c4d3efef4db98e495895a0cb288e6a4">t_queue</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="queue_8h.html#a1c579a1c2112ada2eb835bf65e6ba49b">queue_copy</a> (const <a class="el" href="queue_8h.html#a3c4d3efef4db98e495895a0cb288e6a4">t_queue</a> *queue)</td></tr>
 <tr class="memdesc:a1c579a1c2112ada2eb835bf65e6ba49b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copies a queue and all it contents.  <a href="queue_8h.html#a1c579a1c2112ada2eb835bf65e6ba49b">More...</a><br /></td></tr>
 <tr class="separator:a1c579a1c2112ada2eb835bf65e6ba49b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -148,7 +142,7 @@ Functions</h2></td></tr>
 <p>Represents a first-in-first-out (FIFO) queue of generic items. </p>
 <p>This implementation uses a doubly-linked list. </p>
 
-<p class="definition">Definition at line <a class="el" href="queue_8h_source.html#l00030">30</a> of file <a class="el" href="queue_8h_source.html">queue.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="queue_8h_source.html#l00028">28</a> of file <a class="el" href="queue_8h_source.html">queue.h</a>.</p>
 
 </div>
 </div>
@@ -309,29 +303,6 @@ Functions</h2></td></tr>
 <p>The item is kepts on the queue. </p><dl class="section return"><dt>Returns</dt><dd>The item that was least recently added, or <code>NULL</code> if the queue is empty. </dd></dl>
 
 <p class="definition">Definition at line <a class="el" href="queue__peek_8c_source.html#l00016">16</a> of file <a class="el" href="queue__peek_8c_source.html">queue_peek.c</a>.</p>
-
-</div>
-</div>
-<a id="ab9623100a41197d107e1cb1c166d0e92"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab9623100a41197d107e1cb1c166d0e92">&#9670;&nbsp;</a></span>queue_print()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void queue_print </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="queue_8h.html#a3c4d3efef4db98e495895a0cb288e6a4">t_queue</a> *&#160;</td>
-          <td class="paramname"><em>queue</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Prints a string representation of this queue to standard output. </p>
-<dl class="section remark"><dt>Remarks</dt><dd>For this function to work, the datatype in the queue must be printable (i.e. implement the <code>print</code> function). Otherwise, an exception will occur. </dd></dl>
-
-<p class="definition">Definition at line <a class="el" href="queue__print_8c_source.html#l00016">16</a> of file <a class="el" href="queue__print_8c_source.html">queue_print.c</a>.</p>
 
 </div>
 </div>

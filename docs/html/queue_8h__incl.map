@@ -1,11 +1,10 @@
 <map id="src/data_structures/queue.h" name="src/data_structures/queue.h">
-<area shape="rect" id="node1" title=" " alt="" coords="134,5,269,47"/>
-<area shape="rect" id="node2" title=" " alt="" coords="22,169,85,196"/>
-<area shape="rect" id="node3" title=" " alt="" coords="110,169,200,196"/>
-<area shape="rect" id="node4" href="$types_8h.html" title=" " alt="" coords="276,169,341,196"/>
-<area shape="rect" id="node6" href="/Users/almayor/Documents/programming/42/c_data_structures/libft/docs/.doxygen/libft.tag$libft_8h.html" title=" " alt="" coords="126,244,181,271"/>
-<area shape="rect" id="node7" href="/Users/almayor/Documents/programming/42/c_data_structures/ft_printf/docs/.doxygen/ft_printf.tag$ft__printf_8h.html" title=" " alt="" coords="376,244,454,271"/>
-<area shape="rect" id="node9" href="$list_8h.html" title=" " alt="" coords="203,95,254,121"/>
-<area shape="rect" id="node5" title=" " alt="" coords="206,244,270,271"/>
-<area shape="rect" id="node8" href="$utils_8h.html" title=" " alt="" coords="294,244,352,271"/>
+<area shape="rect" id="node1" title=" " alt="" coords="83,5,217,47"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,169,68,196"/>
+<area shape="rect" id="node3" title=" " alt="" coords="93,169,183,196"/>
+<area shape="rect" id="node4" href="$types_8h.html" title=" " alt="" coords="208,169,273,196"/>
+<area shape="rect" id="node8" href="$list_8h.html" title=" " alt="" coords="94,95,145,121"/>
+<area shape="rect" id="node5" title=" " alt="" coords="125,244,189,271"/>
+<area shape="rect" id="node6" href="/Users/almayor/Documents/programming/42/c_data_structures/libft/docs/.doxygen/libft.tag$libft_8h.html" title=" " alt="" coords="213,244,268,271"/>
+<area shape="rect" id="node7" href="$utils_8h.html" title=" " alt="" coords="292,244,349,271"/>
 </map>
