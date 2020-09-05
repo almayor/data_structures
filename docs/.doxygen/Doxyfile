@@ -23,5 +23,3 @@ PROJECT_NAME = data_structures
 RECURSIVE = YES
 REFERENCES_RELATION = NO
 SOURCE_BROWSER = YES
-TAGFILES = libft/docs/.doxygen/libft.tag=https://almayor.github.io/libft/html/ \
-ft_printf/docs/.doxygen/ft_printf.tag=https://almayor.github.io/ft_printf/html/

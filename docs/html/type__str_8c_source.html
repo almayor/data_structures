@@ -77,7 +77,7 @@ $(function() {
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="comment">/*   By: unite &lt;marvin@42.fr&gt;                       +#+  +:+       +#+        */</span></div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="comment">/*                                                +#+#+#+#+#+   +#+           */</span></div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="comment">/*   Created: 2020/07/16 22:21:44 by unite             #+#    #+#             */</span></div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="comment">/*   Updated: 2020/09/04 23:04:16 by unite            ###   ########.fr       */</span></div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="comment">/*   Updated: 2020/09/05 19:15:31 by unite            ###   ########.fr       */</span></div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="comment">/*                                                                            */</span></div>
 <div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="comment">/* ************************************************************************** */</span></div>
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160; </div>
@@ -87,12 +87,12 @@ $(function() {
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;{</div>
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    <span class="keywordflow">if</span> (!str)</div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;        <span class="keywordflow">return</span> (NULL);</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    <span class="keywordflow">return</span> (<a class="codeRef" href="https://almayor.github.io/libft/html/libft_8h.html#aada5f5ba69c0c2c97a1322b4e2554709">ft_strdup</a>(str));</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    <span class="keywordflow">return</span> (<a class="code" href="ds__strdup_8c.html#a54e5f987803a4699c0a1c8d826e10e68">ds_strdup</a>(str));</div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;}</div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160; </div>
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="keywordtype">int</span>         type_str_cmp(<span class="keyword">const</span> <span class="keywordtype">void</span> *str1, <span class="keyword">const</span> <span class="keywordtype">void</span> *str2)</div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;{</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    <span class="keywordflow">return</span> (<a class="codeRef" href="https://almayor.github.io/libft/html/libft_8h.html#a1f2ff2312e5994560c9537cd9173be94">ft_strcmp</a>(str1, str2));</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    <span class="keywordflow">return</span> (<a class="code" href="ds__strcmp_8c.html#a08baeb3e1b8f615dc8b94700fcea8e5a">ds_strcmp</a>(str1, str2));</div>
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;}</div>
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160; </div>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="keywordtype">size_t</span>      type_str_hash(<span class="keyword">const</span> <span class="keywordtype">void</span> *str, <span class="keywordtype">size_t</span> M)</div>
@@ -120,12 +120,12 @@ $(function() {
 <div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160; </div>
 <div class="line"><a name="l00051"></a><span class="lineno"><a class="line" href="types_8h.html#a8278aff799b837e44a459484cc2f5fdb">   51</a></span>&#160;<span class="keyword">const</span> <a class="code" href="structs__type.html">t_type</a>        *<a class="code" href="type__str_8c.html#a8278aff799b837e44a459484cc2f5fdb">g_type_str</a> = &amp;g_type_str_struct;</div>
 </div><!-- fragment --></div><!-- contents -->
-<div class="ttc" id="astructs__type_html_a1ebf8afa3786ea67e2531f5d75cd5b30"><div class="ttname"><a href="structs__type.html#a1ebf8afa3786ea67e2531f5d75cd5b30">s_type::name</a></div><div class="ttdeci">char * name</div><div class="ttdoc">The name of a datatype as a string.</div><div class="ttdef"><b>Definition:</b> <a href="types_8h_source.html#l00050">types.h:50</a></div></div>
+<div class="ttc" id="astructs__type_html_a1ebf8afa3786ea67e2531f5d75cd5b30"><div class="ttname"><a href="structs__type.html#a1ebf8afa3786ea67e2531f5d75cd5b30">s_type::name</a></div><div class="ttdeci">char * name</div><div class="ttdoc">The name of a datatype as a string.</div><div class="ttdef"><b>Definition:</b> <a href="types_8h_source.html#l00049">types.h:49</a></div></div>
 <div class="ttc" id="atypes_8h_html"><div class="ttname"><a href="types_8h.html">types.h</a></div></div>
-<div class="ttc" id="alibft_8h_html_a1f2ff2312e5994560c9537cd9173be94"><div class="ttname"><a href="https://almayor.github.io/libft/html/libft_8h.html#a1f2ff2312e5994560c9537cd9173be94">ft_strcmp</a></div><div class="ttdeci">int ft_strcmp(const char *s1, const char *s2)</div></div>
+<div class="ttc" id="ads__strcmp_8c_html_a08baeb3e1b8f615dc8b94700fcea8e5a"><div class="ttname"><a href="ds__strcmp_8c.html#a08baeb3e1b8f615dc8b94700fcea8e5a">ds_strcmp</a></div><div class="ttdeci">int ds_strcmp(const char *s1, const char *s2)</div><div class="ttdoc">Replicates strcmp from libc.</div><div class="ttdef"><b>Definition:</b> <a href="ds__strcmp_8c_source.html#l00020">ds_strcmp.c:20</a></div></div>
 <div class="ttc" id="atype__str_8c_html_a8278aff799b837e44a459484cc2f5fdb"><div class="ttname"><a href="type__str_8c.html#a8278aff799b837e44a459484cc2f5fdb">g_type_str</a></div><div class="ttdeci">const t_type * g_type_str</div><div class="ttdoc">A representation of the char* data type.</div><div class="ttdef"><b>Definition:</b> <a href="type__str_8c_source.html#l00051">type_str.c:51</a></div></div>
-<div class="ttc" id="astructs__type_html"><div class="ttname"><a href="structs__type.html">s_type</a></div><div class="ttdoc">A full representation of a data type, used to achieve polymorphism in the implementation of data stru...</div><div class="ttdef"><b>Definition:</b> <a href="types_8h_source.html#l00048">types.h:48</a></div></div>
-<div class="ttc" id="alibft_8h_html_aada5f5ba69c0c2c97a1322b4e2554709"><div class="ttname"><a href="https://almayor.github.io/libft/html/libft_8h.html#aada5f5ba69c0c2c97a1322b4e2554709">ft_strdup</a></div><div class="ttdeci">char * ft_strdup(const char *s1)</div></div>
+<div class="ttc" id="astructs__type_html"><div class="ttname"><a href="structs__type.html">s_type</a></div><div class="ttdoc">A full representation of a data type, used to achieve polymorphism in the implementation of data stru...</div><div class="ttdef"><b>Definition:</b> <a href="types_8h_source.html#l00047">types.h:47</a></div></div>
+<div class="ttc" id="ads__strdup_8c_html_a54e5f987803a4699c0a1c8d826e10e68"><div class="ttname"><a href="ds__strdup_8c.html#a54e5f987803a4699c0a1c8d826e10e68">ds_strdup</a></div><div class="ttdeci">char * ds_strdup(const char *s1)</div><div class="ttdoc">Replicates behaviour of strdup from libc.</div><div class="ttdef"><b>Definition:</b> <a href="ds__strdup_8c_source.html#l00020">ds_strdup.c:20</a></div></div>
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
 Generated by &#160;<a href="http://www.doxygen.org/index.html">

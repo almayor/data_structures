@@ -6,7 +6,7 @@
 #    By: unite <marvin@42.fr>                       +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2020/09/05 18:17:42 by unite             #+#    #+#              #
-#    Updated: 2020/09/05 20:22:41 by unite            ###   ########.fr        #
+#    Updated: 2020/09/05 20:31:03 by unite            ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -245,7 +245,7 @@ DEP += $(patsubst %.c, $(TEST_PATHO)/%.d, $(TEST_SRC_NAME))
 
 .DEFAULT_GOAL = all
 
-.PHONY : all clean fclean re test
+.PHONY : all clean fclean re test docs
 
 all : $(NAME)
 
@@ -261,6 +261,9 @@ re : fclean all
 
 test: all $(TEST_BIN)
 	./$(TEST_BIN)
+
+docs :
+	sh docs/.doxygen/42toDoxygen.sh
 
 ################################################################################
 

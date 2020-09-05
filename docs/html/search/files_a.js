@@ -1,25 +1,11 @@
 var searchData=
 [
-  ['rbt_2eh_574',['rbt.h',['../rbt_8h.html',1,'']]],
-  ['rbt_5fceil_2ec_575',['rbt_ceil.c',['../rbt__ceil_8c.html',1,'']]],
-  ['rbt_5fcontains_2ec_576',['rbt_contains.c',['../rbt__contains_8c.html',1,'']]],
-  ['rbt_5fdelete_2ec_577',['rbt_delete.c',['../rbt__delete_8c.html',1,'']]],
-  ['rbt_5fflip_5fcolor_2ec_578',['rbt_flip_color.c',['../rbt__flip__color_8c.html',1,'']]],
-  ['rbt_5ffloor_2ec_579',['rbt_floor.c',['../rbt__floor_8c.html',1,'']]],
-  ['rbt_5fget_2ec_580',['rbt_get.c',['../rbt__get_8c.html',1,'']]],
-  ['rbt_5fheight_2ec_581',['rbt_height.c',['../rbt__height_8c.html',1,'']]],
-  ['rbt_5fis_5fred_5fnode_2ec_582',['rbt_is_red_node.c',['../rbt__is__red__node_8c.html',1,'']]],
-  ['rbt_5fkeys_2ec_583',['rbt_keys.c',['../rbt__keys_8c.html',1,'']]],
-  ['rbt_5fmake_5fnode_2ec_584',['rbt_make_node.c',['../rbt__make__node_8c.html',1,'']]],
-  ['rbt_5fmax_2ec_585',['rbt_max.c',['../rbt__max_8c.html',1,'']]],
-  ['rbt_5fmin_2ec_586',['rbt_min.c',['../rbt__min_8c.html',1,'']]],
-  ['rbt_5fnew_2ec_587',['rbt_new.c',['../rbt__new_8c.html',1,'']]],
-  ['rbt_5fput_2ec_588',['rbt_put.c',['../rbt__put_8c.html',1,'']]],
-  ['rbt_5frank_2ec_589',['rbt_rank.c',['../rbt__rank_8c.html',1,'']]],
-  ['rbt_5frotate_5fleft_2ec_590',['rbt_rotate_left.c',['../rbt__rotate__left_8c.html',1,'']]],
-  ['rbt_5frotate_5fright_2ec_591',['rbt_rotate_right.c',['../rbt__rotate__right_8c.html',1,'']]],
-  ['rbt_5fsize_2ec_592',['rbt_size.c',['../rbt__size_8c.html',1,'']]],
-  ['rbt_5fsize_5fsubtree_2ec_593',['rbt_size_subtree.c',['../rbt__size__subtree_8c.html',1,'']]],
-  ['rbt_5futils_2eh_594',['rbt_utils.h',['../rbt__utils_8h.html',1,'']]],
-  ['rbt_5fvals_2ec_595',['rbt_vals.c',['../rbt__vals_8c.html',1,'']]]
+  ['stack_2eh_471',['stack.h',['../stack_8h.html',1,'']]],
+  ['stack_5fcopy_2ec_472',['stack_copy.c',['../stack__copy_8c.html',1,'']]],
+  ['stack_5fdelete_2ec_473',['stack_delete.c',['../stack__delete_8c.html',1,'']]],
+  ['stack_5fnew_2ec_474',['stack_new.c',['../stack__new_8c.html',1,'']]],
+  ['stack_5fpeek_2ec_475',['stack_peek.c',['../stack__peek_8c.html',1,'']]],
+  ['stack_5fpop_2ec_476',['stack_pop.c',['../stack__pop_8c.html',1,'']]],
+  ['stack_5fpush_2ec_477',['stack_push.c',['../stack__push_8c.html',1,'']]],
+  ['stack_5fsize_2ec_478',['stack_size.c',['../stack__size_8c.html',1,'']]]
 ];

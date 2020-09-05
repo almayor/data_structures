@@ -1,12 +1,12 @@
 <map id="src/data_structures/rbt/rbt_floor.c" name="src/data_structures/rbt/rbt_floor.c">
-<area shape="rect" id="node1" title=" " alt="" coords="19,5,153,47"/>
-<area shape="rect" id="node2" href="$rbt_8h.html" title=" " alt="" coords="62,95,110,121"/>
-<area shape="rect" id="node3" title=" " alt="" coords="15,319,77,345"/>
-<area shape="rect" id="node4" title=" " alt="" coords="102,319,193,345"/>
-<area shape="rect" id="node5" href="$types_8h.html" title=" " alt="" coords="229,319,295,345"/>
-<area shape="rect" id="node9" href="$queue_8h.html" title=" " alt="" coords="103,169,171,196"/>
-<area shape="rect" id="node6" title=" " alt="" coords="146,393,210,420"/>
-<area shape="rect" id="node7" href="/Users/almayor/Documents/programming/42/c_data_structures/libft/docs/.doxygen/libft.tag$libft_8h.html" title=" " alt="" coords="235,393,289,420"/>
-<area shape="rect" id="node8" href="$utils_8h.html" title=" " alt="" coords="313,393,371,420"/>
-<area shape="rect" id="node10" href="$list_8h.html" title=" " alt="" coords="174,244,225,271"/>
+<area shape="rect" id="node1" title=" " alt="" coords="54,5,189,47"/>
+<area shape="rect" id="node2" href="$rbt_8h.html" title=" " alt="" coords="97,95,145,121"/>
+<area shape="rect" id="node3" title=" " alt="" coords="27,319,90,345"/>
+<area shape="rect" id="node4" title=" " alt="" coords="165,319,256,345"/>
+<area shape="rect" id="node5" href="$types_8h.html" title=" " alt="" coords="281,319,346,345"/>
+<area shape="rect" id="node7" href="$utils_8h.html" title=" " alt="" coords="30,393,87,420"/>
+<area shape="rect" id="node9" href="$queue_8h.html" title=" " alt="" coords="87,169,155,196"/>
+<area shape="rect" id="node6" title=" " alt="" coords="281,393,345,420"/>
+<area shape="rect" id="node8" title=" " alt="" coords="26,468,91,495"/>
+<area shape="rect" id="node10" href="$list_8h.html" title=" " alt="" coords="96,244,147,271"/>
 </map>

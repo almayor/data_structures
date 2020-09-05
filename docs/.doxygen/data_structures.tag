@@ -2,7 +2,7 @@
 <tagfile>
   <compound kind="file">
     <name>data_structures.h</name>
-    <path>/Users/almayor/Documents/programming/42/c_data_structures/</path>
+    <path>/Users/almayor/Documents/programming/42/data_structures/</path>
     <filename>data__structures_8h</filename>
     <includes id="array_8h" name="array.h" local="yes" imported="no">array.h</includes>
     <includes id="list_8h" name="list.h" local="yes" imported="no">list.h</includes>
@@ -18,10 +18,11 @@
   </compound>
   <compound kind="file">
     <name>array.h</name>
-    <path>/Users/almayor/Documents/programming/42/c_data_structures/src/data_structures/</path>
+    <path>/Users/almayor/Documents/programming/42/data_structures/src/data_structures/</path>
     <filename>array_8h</filename>
     <includes id="types_8h" name="types.h" local="yes" imported="no">types.h</includes>
     <includes id="queue_8h" name="queue.h" local="yes" imported="no">queue.h</includes>
+    <includes id="utils_8h" name="utils.h" local="yes" imported="no">utils.h</includes>
     <class kind="struct">s_array</class>
     <member kind="define">
       <type>#define</type>
@@ -152,7 +153,7 @@
   </compound>
   <compound kind="file">
     <name>array_append.c</name>
-    <path>/Users/almayor/Documents/programming/42/c_data_structures/src/data_structures/array/</path>
+    <path>/Users/almayor/Documents/programming/42/data_structures/src/data_structures/array/</path>
     <filename>array__append_8c</filename>
     <includes id="array_8h" name="array.h" local="yes" imported="no">array.h</includes>
     <includes id="array__utils_8h" name="array_utils.h" local="yes" imported="no">array_utils.h</includes>
@@ -166,7 +167,7 @@
   </compound>
   <compound kind="file">
     <name>array_copy.c</name>
-    <path>/Users/almayor/Documents/programming/42/c_data_structures/src/data_structures/array/</path>
+    <path>/Users/almayor/Documents/programming/42/data_structures/src/data_structures/array/</path>
     <filename>array__copy_8c</filename>
     <includes id="array_8h" name="array.h" local="yes" imported="no">array.h</includes>
     <member kind="function">
@@ -179,7 +180,7 @@
   </compound>
   <compound kind="file">
     <name>array_delete.c</name>
-    <path>/Users/almayor/Documents/programming/42/c_data_structures/src/data_structures/array/</path>
+    <path>/Users/almayor/Documents/programming/42/data_structures/src/data_structures/array/</path>
     <filename>array__delete_8c</filename>
     <includes id="array_8h" name="array.h" local="yes" imported="no">array.h</includes>
     <member kind="function">
@@ -192,7 +193,7 @@
   </compound>
   <compound kind="file">
     <name>array_get.c</name>
-    <path>/Users/almayor/Documents/programming/42/c_data_structures/src/data_structures/array/</path>
+    <path>/Users/almayor/Documents/programming/42/data_structures/src/data_structures/array/</path>
     <filename>array__get_8c</filename>
     <includes id="array_8h" name="array.h" local="yes" imported="no">array.h</includes>
     <member kind="function">
@@ -205,7 +206,7 @@
   </compound>
   <compound kind="file">
     <name>array_insert.c</name>
-    <path>/Users/almayor/Documents/programming/42/c_data_structures/src/data_structures/array/</path>
+    <path>/Users/almayor/Documents/programming/42/data_structures/src/data_structures/array/</path>
     <filename>array__insert_8c</filename>
     <includes id="array_8h" name="array.h" local="yes" imported="no">array.h</includes>
     <includes id="array__utils_8h" name="array_utils.h" local="yes" imported="no">array_utils.h</includes>
@@ -219,7 +220,7 @@
   </compound>
   <compound kind="file">
     <name>array_insertion_sort.c</name>
-    <path>/Users/almayor/Documents/programming/42/c_data_structures/src/data_structures/array/</path>
+    <path>/Users/almayor/Documents/programming/42/data_structures/src/data_structures/array/</path>
     <filename>array__insertion__sort_8c</filename>
     <includes id="array_8h" name="array.h" local="yes" imported="no">array.h</includes>
     <member kind="function">
@@ -232,7 +233,7 @@
   </compound>
   <compound kind="file">
     <name>array_merge_sort.c</name>
-    <path>/Users/almayor/Documents/programming/42/c_data_structures/src/data_structures/array/</path>
+    <path>/Users/almayor/Documents/programming/42/data_structures/src/data_structures/array/</path>
     <filename>array__merge__sort_8c</filename>
     <includes id="array_8h" name="array.h" local="yes" imported="no">array.h</includes>
     <member kind="function">
@@ -245,7 +246,7 @@
   </compound>
   <compound kind="file">
     <name>array_new.c</name>
-    <path>/Users/almayor/Documents/programming/42/c_data_structures/src/data_structures/array/</path>
+    <path>/Users/almayor/Documents/programming/42/data_structures/src/data_structures/array/</path>
     <filename>array__new_8c</filename>
     <includes id="array_8h" name="array.h" local="yes" imported="no">array.h</includes>
     <member kind="function">
@@ -258,7 +259,7 @@
   </compound>
   <compound kind="file">
     <name>array_pop.c</name>
-    <path>/Users/almayor/Documents/programming/42/c_data_structures/src/data_structures/array/</path>
+    <path>/Users/almayor/Documents/programming/42/data_structures/src/data_structures/array/</path>
     <filename>array__pop_8c</filename>
     <includes id="array_8h" name="array.h" local="yes" imported="no">array.h</includes>
     <includes id="array__utils_8h" name="array_utils.h" local="yes" imported="no">array_utils.h</includes>
@@ -272,7 +273,7 @@
   </compound>
   <compound kind="file">
     <name>array_quick_sort.c</name>
-    <path>/Users/almayor/Documents/programming/42/c_data_structures/src/data_structures/array/</path>
+    <path>/Users/almayor/Documents/programming/42/data_structures/src/data_structures/array/</path>
     <filename>array__quick__sort_8c</filename>
     <includes id="array_8h" name="array.h" local="yes" imported="no">array.h</includes>
     <member kind="function">
@@ -285,7 +286,7 @@
   </compound>
   <compound kind="file">
     <name>array_remove.c</name>
-    <path>/Users/almayor/Documents/programming/42/c_data_structures/src/data_structures/array/</path>
+    <path>/Users/almayor/Documents/programming/42/data_structures/src/data_structures/array/</path>
     <filename>array__remove_8c</filename>
     <includes id="array_8h" name="array.h" local="yes" imported="no">array.h</includes>
     <includes id="array__utils_8h" name="array_utils.h" local="yes" imported="no">array_utils.h</includes>
@@ -299,7 +300,7 @@
   </compound>
   <compound kind="file">
     <name>array_set.c</name>
-    <path>/Users/almayor/Documents/programming/42/c_data_structures/src/data_structures/array/</path>
+    <path>/Users/almayor/Documents/programming/42/data_structures/src/data_structures/array/</path>
     <filename>array__set_8c</filename>
     <includes id="array_8h" name="array.h" local="yes" imported="no">array.h</includes>
     <member kind="function">
@@ -312,7 +313,7 @@
   </compound>
   <compound kind="file">
     <name>array_size.c</name>
-    <path>/Users/almayor/Documents/programming/42/c_data_structures/src/data_structures/array/</path>
+    <path>/Users/almayor/Documents/programming/42/data_structures/src/data_structures/array/</path>
     <filename>array__size_8c</filename>
     <includes id="array_8h" name="array.h" local="yes" imported="no">array.h</includes>
     <member kind="function">
@@ -325,7 +326,7 @@
   </compound>
   <compound kind="file">
     <name>array_sorted.c</name>
-    <path>/Users/almayor/Documents/programming/42/c_data_structures/src/data_structures/array/</path>
+    <path>/Users/almayor/Documents/programming/42/data_structures/src/data_structures/array/</path>
     <filename>array__sorted_8c</filename>
     <includes id="array_8h" name="array.h" local="yes" imported="no">array.h</includes>
     <member kind="function">
@@ -338,7 +339,7 @@
   </compound>
   <compound kind="file">
     <name>array_swap.c</name>
-    <path>/Users/almayor/Documents/programming/42/c_data_structures/src/data_structures/array/</path>
+    <path>/Users/almayor/Documents/programming/42/data_structures/src/data_structures/array/</path>
     <filename>array__swap_8c</filename>
     <includes id="array_8h" name="array.h" local="yes" imported="no">array.h</includes>
     <member kind="function">
@@ -351,7 +352,7 @@
   </compound>
   <compound kind="file">
     <name>array_to_queue.c</name>
-    <path>/Users/almayor/Documents/programming/42/c_data_structures/src/data_structures/array/</path>
+    <path>/Users/almayor/Documents/programming/42/data_structures/src/data_structures/array/</path>
     <filename>array__to__queue_8c</filename>
     <includes id="array_8h" name="array.h" local="yes" imported="no">array.h</includes>
     <member kind="function">
@@ -364,19 +365,19 @@
   </compound>
   <compound kind="file">
     <name>array_utils.c</name>
-    <path>/Users/almayor/Documents/programming/42/c_data_structures/src/data_structures/array/</path>
+    <path>/Users/almayor/Documents/programming/42/data_structures/src/data_structures/array/</path>
     <filename>array__utils_8c</filename>
     <includes id="array_8h" name="array.h" local="yes" imported="no">array.h</includes>
   </compound>
   <compound kind="file">
     <name>array_utils.h</name>
-    <path>/Users/almayor/Documents/programming/42/c_data_structures/src/data_structures/array/</path>
+    <path>/Users/almayor/Documents/programming/42/data_structures/src/data_structures/array/</path>
     <filename>array__utils_8h</filename>
     <includes id="array_8h" name="array.h" local="yes" imported="no">array.h</includes>
   </compound>
   <compound kind="file">
     <name>array_zeros.c</name>
-    <path>/Users/almayor/Documents/programming/42/c_data_structures/src/data_structures/array/</path>
+    <path>/Users/almayor/Documents/programming/42/data_structures/src/data_structures/array/</path>
     <filename>array__zeros_8c</filename>
     <includes id="array_8h" name="array.h" local="yes" imported="no">array.h</includes>
     <member kind="function">
@@ -389,9 +390,10 @@
   </compound>
   <compound kind="file">
     <name>bst.h</name>
-    <path>/Users/almayor/Documents/programming/42/c_data_structures/src/data_structures/</path>
+    <path>/Users/almayor/Documents/programming/42/data_structures/src/data_structures/</path>
     <filename>bst_8h</filename>
     <includes id="types_8h" name="types.h" local="yes" imported="no">types.h</includes>
+    <includes id="utils_8h" name="utils.h" local="yes" imported="no">utils.h</includes>
     <class kind="struct">s_bst_node</class>
     <class kind="struct">s_bst</class>
     <member kind="function">
@@ -439,7 +441,7 @@
   </compound>
   <compound kind="file">
     <name>bst_delete.c</name>
-    <path>/Users/almayor/Documents/programming/42/c_data_structures/src/data_structures/bst/</path>
+    <path>/Users/almayor/Documents/programming/42/data_structures/src/data_structures/bst/</path>
     <filename>bst__delete_8c</filename>
     <includes id="bst_8h" name="bst.h" local="yes" imported="no">bst.h</includes>
     <member kind="function">
@@ -452,7 +454,7 @@
   </compound>
   <compound kind="file">
     <name>bst_get.c</name>
-    <path>/Users/almayor/Documents/programming/42/c_data_structures/src/data_structures/bst/</path>
+    <path>/Users/almayor/Documents/programming/42/data_structures/src/data_structures/bst/</path>
     <filename>bst__get_8c</filename>
     <includes id="bst_8h" name="bst.h" local="yes" imported="no">bst.h</includes>
     <member kind="function">
@@ -465,7 +467,7 @@
   </compound>
   <compound kind="file">
     <name>bst_height.c</name>
-    <path>/Users/almayor/Documents/programming/42/c_data_structures/src/data_structures/bst/</path>
+    <path>/Users/almayor/Documents/programming/42/data_structures/src/data_structures/bst/</path>
     <filename>bst__height_8c</filename>
     <includes id="bst_8h" name="bst.h" local="yes" imported="no">bst.h</includes>
     <member kind="function">
@@ -478,7 +480,7 @@
   </compound>
   <compound kind="file">
     <name>bst_new.c</name>
-    <path>/Users/almayor/Documents/programming/42/c_data_structures/src/data_structures/bst/</path>
+    <path>/Users/almayor/Documents/programming/42/data_structures/src/data_structures/bst/</path>
     <filename>bst__new_8c</filename>
     <includes id="bst_8h" name="bst.h" local="yes" imported="no">bst.h</includes>
     <member kind="function">
@@ -491,7 +493,7 @@
   </compound>
   <compound kind="file">
     <name>bst_put.c</name>
-    <path>/Users/almayor/Documents/programming/42/c_data_structures/src/data_structures/bst/</path>
+    <path>/Users/almayor/Documents/programming/42/data_structures/src/data_structures/bst/</path>
     <filename>bst__put_8c</filename>
     <includes id="bst_8h" name="bst.h" local="yes" imported="no">bst.h</includes>
     <member kind="function">
@@ -504,7 +506,7 @@
   </compound>
   <compound kind="file">
     <name>bst_size.c</name>
-    <path>/Users/almayor/Documents/programming/42/c_data_structures/src/data_structures/bst/</path>
+    <path>/Users/almayor/Documents/programming/42/data_structures/src/data_structures/bst/</path>
     <filename>bst__size_8c</filename>
     <includes id="bst_8h" name="bst.h" local="yes" imported="no">bst.h</includes>
     <member kind="function">
@@ -517,11 +519,12 @@
   </compound>
   <compound kind="file">
     <name>graph.h</name>
-    <path>/Users/almayor/Documents/programming/42/c_data_structures/src/data_structures/</path>
+    <path>/Users/almayor/Documents/programming/42/data_structures/src/data_structures/</path>
     <filename>graph_8h</filename>
     <includes id="types_8h" name="types.h" local="yes" imported="no">types.h</includes>
     <includes id="array_8h" name="array.h" local="yes" imported="no">array.h</includes>
     <includes id="rbt_8h" name="rbt.h" local="yes" imported="no">rbt.h</includes>
+    <includes id="utils_8h" name="utils.h" local="yes" imported="no">utils.h</includes>
     <class kind="struct">s_graph</class>
     <member kind="function">
       <type>t_graph *</type>
@@ -575,7 +578,7 @@
   </compound>
   <compound kind="file">
     <name>graph_add_edge.c</name>
-    <path>/Users/almayor/Documents/programming/42/c_data_structures/src/data_structures/graph/</path>
+    <path>/Users/almayor/Documents/programming/42/data_structures/src/data_structures/graph/</path>
     <filename>graph__add__edge_8c</filename>
     <includes id="graph_8h" name="graph.h" local="yes" imported="no">graph.h</includes>
     <member kind="function">
@@ -588,7 +591,7 @@
   </compound>
   <compound kind="file">
     <name>graph_add_vertex.c</name>
-    <path>/Users/almayor/Documents/programming/42/c_data_structures/src/data_structures/graph/</path>
+    <path>/Users/almayor/Documents/programming/42/data_structures/src/data_structures/graph/</path>
     <filename>graph__add__vertex_8c</filename>
     <includes id="graph_8h" name="graph.h" local="yes" imported="no">graph.h</includes>
     <member kind="function">
@@ -601,7 +604,7 @@
   </compound>
   <compound kind="file">
     <name>graph_adjacency.c</name>
-    <path>/Users/almayor/Documents/programming/42/c_data_structures/src/data_structures/graph/</path>
+    <path>/Users/almayor/Documents/programming/42/data_structures/src/data_structures/graph/</path>
     <filename>graph__adjacency_8c</filename>
     <includes id="graph_8h" name="graph.h" local="yes" imported="no">graph.h</includes>
     <member kind="function">
@@ -614,7 +617,7 @@
   </compound>
   <compound kind="file">
     <name>graph_adjacent.c</name>
-    <path>/Users/almayor/Documents/programming/42/c_data_structures/src/data_structures/graph/</path>
+    <path>/Users/almayor/Documents/programming/42/data_structures/src/data_structures/graph/</path>
     <filename>graph__adjacent_8c</filename>
     <includes id="graph_8h" name="graph.h" local="yes" imported="no">graph.h</includes>
     <member kind="function">
@@ -627,7 +630,7 @@
   </compound>
   <compound kind="file">
     <name>graph_delete.c</name>
-    <path>/Users/almayor/Documents/programming/42/c_data_structures/src/data_structures/graph/</path>
+    <path>/Users/almayor/Documents/programming/42/data_structures/src/data_structures/graph/</path>
     <filename>graph__delete_8c</filename>
     <includes id="graph_8h" name="graph.h" local="yes" imported="no">graph.h</includes>
     <member kind="function">
@@ -640,7 +643,7 @@
   </compound>
   <compound kind="file">
     <name>graph_new.c</name>
-    <path>/Users/almayor/Documents/programming/42/c_data_structures/src/data_structures/graph/</path>
+    <path>/Users/almayor/Documents/programming/42/data_structures/src/data_structures/graph/</path>
     <filename>graph__new_8c</filename>
     <includes id="graph_8h" name="graph.h" local="yes" imported="no">graph.h</includes>
     <member kind="function">
@@ -653,7 +656,7 @@
   </compound>
   <compound kind="file">
     <name>graph_vertices.c</name>
-    <path>/Users/almayor/Documents/programming/42/c_data_structures/src/data_structures/graph/</path>
+    <path>/Users/almayor/Documents/programming/42/data_structures/src/data_structures/graph/</path>
     <filename>graph__vertices_8c</filename>
     <includes id="graph_8h" name="graph.h" local="yes" imported="no">graph.h</includes>
     <member kind="function">
@@ -666,10 +669,11 @@
   </compound>
   <compound kind="file">
     <name>hashmap.h</name>
-    <path>/Users/almayor/Documents/programming/42/c_data_structures/src/data_structures/</path>
+    <path>/Users/almayor/Documents/programming/42/data_structures/src/data_structures/</path>
     <filename>hashmap_8h</filename>
     <includes id="types_8h" name="types.h" local="yes" imported="no">types.h</includes>
     <includes id="queue_8h" name="queue.h" local="yes" imported="no">queue.h</includes>
+    <includes id="utils_8h" name="utils.h" local="yes" imported="no">utils.h</includes>
     <class kind="struct">s_hashmap</class>
     <member kind="define">
       <type>#define</type>
@@ -744,7 +748,7 @@
   </compound>
   <compound kind="file">
     <name>hashmap_contains.c</name>
-    <path>/Users/almayor/Documents/programming/42/c_data_structures/src/data_structures/hashmap/</path>
+    <path>/Users/almayor/Documents/programming/42/data_structures/src/data_structures/hashmap/</path>
     <filename>hashmap__contains_8c</filename>
     <includes id="hashmap_8h" name="hashmap.h" local="yes" imported="no">hashmap.h</includes>
     <member kind="function">
@@ -757,7 +761,7 @@
   </compound>
   <compound kind="file">
     <name>hashmap_delete.c</name>
-    <path>/Users/almayor/Documents/programming/42/c_data_structures/src/data_structures/hashmap/</path>
+    <path>/Users/almayor/Documents/programming/42/data_structures/src/data_structures/hashmap/</path>
     <filename>hashmap__delete_8c</filename>
     <includes id="hashmap_8h" name="hashmap.h" local="yes" imported="no">hashmap.h</includes>
     <member kind="function">
@@ -770,7 +774,7 @@
   </compound>
   <compound kind="file">
     <name>hashmap_get.c</name>
-    <path>/Users/almayor/Documents/programming/42/c_data_structures/src/data_structures/hashmap/</path>
+    <path>/Users/almayor/Documents/programming/42/data_structures/src/data_structures/hashmap/</path>
     <filename>hashmap__get_8c</filename>
     <includes id="hashmap_8h" name="hashmap.h" local="yes" imported="no">hashmap.h</includes>
     <includes id="hashmap__utils_8h" name="hashmap_utils.h" local="yes" imported="no">hashmap_utils.h</includes>
@@ -784,7 +788,7 @@
   </compound>
   <compound kind="file">
     <name>hashmap_keys.c</name>
-    <path>/Users/almayor/Documents/programming/42/c_data_structures/src/data_structures/hashmap/</path>
+    <path>/Users/almayor/Documents/programming/42/data_structures/src/data_structures/hashmap/</path>
     <filename>hashmap__keys_8c</filename>
     <includes id="hashmap_8h" name="hashmap.h" local="yes" imported="no">hashmap.h</includes>
     <member kind="function">
@@ -797,7 +801,7 @@
   </compound>
   <compound kind="file">
     <name>hashmap_new.c</name>
-    <path>/Users/almayor/Documents/programming/42/c_data_structures/src/data_structures/hashmap/</path>
+    <path>/Users/almayor/Documents/programming/42/data_structures/src/data_structures/hashmap/</path>
     <filename>hashmap__new_8c</filename>
     <includes id="hashmap_8h" name="hashmap.h" local="yes" imported="no">hashmap.h</includes>
     <member kind="function">
@@ -810,7 +814,7 @@
   </compound>
   <compound kind="file">
     <name>hashmap_put.c</name>
-    <path>/Users/almayor/Documents/programming/42/c_data_structures/src/data_structures/hashmap/</path>
+    <path>/Users/almayor/Documents/programming/42/data_structures/src/data_structures/hashmap/</path>
     <filename>hashmap__put_8c</filename>
     <includes id="hashmap_8h" name="hashmap.h" local="yes" imported="no">hashmap.h</includes>
     <includes id="hashmap__utils_8h" name="hashmap_utils.h" local="yes" imported="no">hashmap_utils.h</includes>
@@ -824,7 +828,7 @@
   </compound>
   <compound kind="file">
     <name>hashmap_remove.c</name>
-    <path>/Users/almayor/Documents/programming/42/c_data_structures/src/data_structures/hashmap/</path>
+    <path>/Users/almayor/Documents/programming/42/data_structures/src/data_structures/hashmap/</path>
     <filename>hashmap__remove_8c</filename>
     <includes id="hashmap_8h" name="hashmap.h" local="yes" imported="no">hashmap.h</includes>
     <includes id="hashmap__utils_8h" name="hashmap_utils.h" local="yes" imported="no">hashmap_utils.h</includes>
@@ -838,7 +842,7 @@
   </compound>
   <compound kind="file">
     <name>hashmap_size.c</name>
-    <path>/Users/almayor/Documents/programming/42/c_data_structures/src/data_structures/hashmap/</path>
+    <path>/Users/almayor/Documents/programming/42/data_structures/src/data_structures/hashmap/</path>
     <filename>hashmap__size_8c</filename>
     <includes id="hashmap_8h" name="hashmap.h" local="yes" imported="no">hashmap.h</includes>
     <member kind="function">
@@ -851,19 +855,19 @@
   </compound>
   <compound kind="file">
     <name>hashmap_utils.c</name>
-    <path>/Users/almayor/Documents/programming/42/c_data_structures/src/data_structures/hashmap/</path>
+    <path>/Users/almayor/Documents/programming/42/data_structures/src/data_structures/hashmap/</path>
     <filename>hashmap__utils_8c</filename>
     <includes id="hashmap__utils_8h" name="hashmap_utils.h" local="yes" imported="no">hashmap_utils.h</includes>
   </compound>
   <compound kind="file">
     <name>hashmap_utils.h</name>
-    <path>/Users/almayor/Documents/programming/42/c_data_structures/src/data_structures/hashmap/</path>
+    <path>/Users/almayor/Documents/programming/42/data_structures/src/data_structures/hashmap/</path>
     <filename>hashmap__utils_8h</filename>
     <includes id="hashmap_8h" name="hashmap.h" local="yes" imported="no">hashmap.h</includes>
   </compound>
   <compound kind="file">
     <name>hashmap_vals.c</name>
-    <path>/Users/almayor/Documents/programming/42/c_data_structures/src/data_structures/hashmap/</path>
+    <path>/Users/almayor/Documents/programming/42/data_structures/src/data_structures/hashmap/</path>
     <filename>hashmap__vals_8c</filename>
     <includes id="hashmap_8h" name="hashmap.h" local="yes" imported="no">hashmap.h</includes>
     <member kind="function">
@@ -876,10 +880,11 @@
   </compound>
   <compound kind="file">
     <name>hashset.h</name>
-    <path>/Users/almayor/Documents/programming/42/c_data_structures/src/data_structures/</path>
+    <path>/Users/almayor/Documents/programming/42/data_structures/src/data_structures/</path>
     <filename>hashset_8h</filename>
     <includes id="types_8h" name="types.h" local="yes" imported="no">types.h</includes>
     <includes id="queue_8h" name="queue.h" local="yes" imported="no">queue.h</includes>
+    <includes id="utils_8h" name="utils.h" local="yes" imported="no">utils.h</includes>
     <class kind="struct">s_hashset</class>
     <member kind="define">
       <type>#define</type>
@@ -947,7 +952,7 @@
   </compound>
   <compound kind="file">
     <name>hashset_contains.c</name>
-    <path>/Users/almayor/Documents/programming/42/c_data_structures/src/data_structures/hashset/</path>
+    <path>/Users/almayor/Documents/programming/42/data_structures/src/data_structures/hashset/</path>
     <filename>hashset__contains_8c</filename>
     <includes id="hashset_8h" name="hashset.h" local="yes" imported="no">hashset.h</includes>
     <includes id="hashset__utils_8h" name="hashset_utils.h" local="yes" imported="no">hashset_utils.h</includes>
@@ -961,7 +966,7 @@
   </compound>
   <compound kind="file">
     <name>hashset_copy.c</name>
-    <path>/Users/almayor/Documents/programming/42/c_data_structures/src/data_structures/hashset/</path>
+    <path>/Users/almayor/Documents/programming/42/data_structures/src/data_structures/hashset/</path>
     <filename>hashset__copy_8c</filename>
     <includes id="hashset_8h" name="hashset.h" local="yes" imported="no">hashset.h</includes>
     <member kind="function">
@@ -974,7 +979,7 @@
   </compound>
   <compound kind="file">
     <name>hashset_delete.c</name>
-    <path>/Users/almayor/Documents/programming/42/c_data_structures/src/data_structures/hashset/</path>
+    <path>/Users/almayor/Documents/programming/42/data_structures/src/data_structures/hashset/</path>
     <filename>hashset__delete_8c</filename>
     <includes id="hashset_8h" name="hashset.h" local="yes" imported="no">hashset.h</includes>
     <member kind="function">
@@ -987,7 +992,7 @@
   </compound>
   <compound kind="file">
     <name>hashset_new.c</name>
-    <path>/Users/almayor/Documents/programming/42/c_data_structures/src/data_structures/hashset/</path>
+    <path>/Users/almayor/Documents/programming/42/data_structures/src/data_structures/hashset/</path>
     <filename>hashset__new_8c</filename>
     <includes id="hashset_8h" name="hashset.h" local="yes" imported="no">hashset.h</includes>
     <member kind="function">
@@ -1000,7 +1005,7 @@
   </compound>
   <compound kind="file">
     <name>hashset_put.c</name>
-    <path>/Users/almayor/Documents/programming/42/c_data_structures/src/data_structures/hashset/</path>
+    <path>/Users/almayor/Documents/programming/42/data_structures/src/data_structures/hashset/</path>
     <filename>hashset__put_8c</filename>
     <includes id="hashset_8h" name="hashset.h" local="yes" imported="no">hashset.h</includes>
     <includes id="hashset__utils_8h" name="hashset_utils.h" local="yes" imported="no">hashset_utils.h</includes>
@@ -1014,7 +1019,7 @@
   </compound>
   <compound kind="file">
     <name>hashset_remove.c</name>
-    <path>/Users/almayor/Documents/programming/42/c_data_structures/src/data_structures/hashset/</path>
+    <path>/Users/almayor/Documents/programming/42/data_structures/src/data_structures/hashset/</path>
     <filename>hashset__remove_8c</filename>
     <includes id="hashset_8h" name="hashset.h" local="yes" imported="no">hashset.h</includes>
     <includes id="hashset__utils_8h" name="hashset_utils.h" local="yes" imported="no">hashset_utils.h</includes>
@@ -1028,7 +1033,7 @@
   </compound>
   <compound kind="file">
     <name>hashset_size.c</name>
-    <path>/Users/almayor/Documents/programming/42/c_data_structures/src/data_structures/hashset/</path>
+    <path>/Users/almayor/Documents/programming/42/data_structures/src/data_structures/hashset/</path>
     <filename>hashset__size_8c</filename>
     <includes id="hashset_8h" name="hashset.h" local="yes" imported="no">hashset.h</includes>
     <member kind="function">
@@ -1041,19 +1046,19 @@
   </compound>
   <compound kind="file">
     <name>hashset_utils.c</name>
-    <path>/Users/almayor/Documents/programming/42/c_data_structures/src/data_structures/hashset/</path>
+    <path>/Users/almayor/Documents/programming/42/data_structures/src/data_structures/hashset/</path>
     <filename>hashset__utils_8c</filename>
     <includes id="hashset__utils_8h" name="hashset_utils.h" local="yes" imported="no">hashset_utils.h</includes>
   </compound>
   <compound kind="file">
     <name>hashset_utils.h</name>
-    <path>/Users/almayor/Documents/programming/42/c_data_structures/src/data_structures/hashset/</path>
+    <path>/Users/almayor/Documents/programming/42/data_structures/src/data_structures/hashset/</path>
     <filename>hashset__utils_8h</filename>
     <includes id="hashset_8h" name="hashset.h" local="yes" imported="no">hashset.h</includes>
   </compound>
   <compound kind="file">
     <name>hashset_vals.c</name>
-    <path>/Users/almayor/Documents/programming/42/c_data_structures/src/data_structures/hashset/</path>
+    <path>/Users/almayor/Documents/programming/42/data_structures/src/data_structures/hashset/</path>
     <filename>hashset__vals_8c</filename>
     <includes id="hashset_8h" name="hashset.h" local="yes" imported="no">hashset.h</includes>
     <member kind="function">
@@ -1066,9 +1071,10 @@
   </compound>
   <compound kind="file">
     <name>list.h</name>
-    <path>/Users/almayor/Documents/programming/42/c_data_structures/src/data_structures/</path>
+    <path>/Users/almayor/Documents/programming/42/data_structures/src/data_structures/</path>
     <filename>list_8h</filename>
     <includes id="types_8h" name="types.h" local="yes" imported="no">types.h</includes>
+    <includes id="utils_8h" name="utils.h" local="yes" imported="no">utils.h</includes>
     <class kind="struct">s_link</class>
     <class kind="struct">s_list</class>
     <member kind="function">
@@ -1186,7 +1192,7 @@
   </compound>
   <compound kind="file">
     <name>list_add_first.c</name>
-    <path>/Users/almayor/Documents/programming/42/c_data_structures/src/data_structures/list/</path>
+    <path>/Users/almayor/Documents/programming/42/data_structures/src/data_structures/list/</path>
     <filename>list__add__first_8c</filename>
     <includes id="list_8h" name="list.h" local="yes" imported="no">list.h</includes>
     <member kind="function">
@@ -1199,7 +1205,7 @@
   </compound>
   <compound kind="file">
     <name>list_add_last.c</name>
-    <path>/Users/almayor/Documents/programming/42/c_data_structures/src/data_structures/list/</path>
+    <path>/Users/almayor/Documents/programming/42/data_structures/src/data_structures/list/</path>
     <filename>list__add__last_8c</filename>
     <includes id="list_8h" name="list.h" local="yes" imported="no">list.h</includes>
     <member kind="function">
@@ -1212,7 +1218,7 @@
   </compound>
   <compound kind="file">
     <name>list_copy.c</name>
-    <path>/Users/almayor/Documents/programming/42/c_data_structures/src/data_structures/list/</path>
+    <path>/Users/almayor/Documents/programming/42/data_structures/src/data_structures/list/</path>
     <filename>list__copy_8c</filename>
     <includes id="list_8h" name="list.h" local="yes" imported="no">list.h</includes>
     <member kind="function">
@@ -1225,7 +1231,7 @@
   </compound>
   <compound kind="file">
     <name>list_delete.c</name>
-    <path>/Users/almayor/Documents/programming/42/c_data_structures/src/data_structures/list/</path>
+    <path>/Users/almayor/Documents/programming/42/data_structures/src/data_structures/list/</path>
     <filename>list__delete_8c</filename>
     <includes id="list_8h" name="list.h" local="yes" imported="no">list.h</includes>
     <member kind="function">
@@ -1238,7 +1244,7 @@
   </compound>
   <compound kind="file">
     <name>list_merge_sort.c</name>
-    <path>/Users/almayor/Documents/programming/42/c_data_structures/src/data_structures/list/</path>
+    <path>/Users/almayor/Documents/programming/42/data_structures/src/data_structures/list/</path>
     <filename>list__merge__sort_8c</filename>
     <includes id="list_8h" name="list.h" local="yes" imported="no">list.h</includes>
     <member kind="function">
@@ -1251,7 +1257,7 @@
   </compound>
   <compound kind="file">
     <name>list_new.c</name>
-    <path>/Users/almayor/Documents/programming/42/c_data_structures/src/data_structures/list/</path>
+    <path>/Users/almayor/Documents/programming/42/data_structures/src/data_structures/list/</path>
     <filename>list__new_8c</filename>
     <includes id="list_8h" name="list.h" local="yes" imported="no">list.h</includes>
     <member kind="function">
@@ -1264,7 +1270,7 @@
   </compound>
   <compound kind="file">
     <name>list_peek.c</name>
-    <path>/Users/almayor/Documents/programming/42/c_data_structures/src/data_structures/list/</path>
+    <path>/Users/almayor/Documents/programming/42/data_structures/src/data_structures/list/</path>
     <filename>list__peek_8c</filename>
     <includes id="list_8h" name="list.h" local="yes" imported="no">list.h</includes>
     <member kind="function">
@@ -1277,7 +1283,7 @@
   </compound>
   <compound kind="file">
     <name>list_peek_first.c</name>
-    <path>/Users/almayor/Documents/programming/42/c_data_structures/src/data_structures/list/</path>
+    <path>/Users/almayor/Documents/programming/42/data_structures/src/data_structures/list/</path>
     <filename>list__peek__first_8c</filename>
     <includes id="list_8h" name="list.h" local="yes" imported="no">list.h</includes>
     <member kind="function">
@@ -1290,7 +1296,7 @@
   </compound>
   <compound kind="file">
     <name>list_peek_last.c</name>
-    <path>/Users/almayor/Documents/programming/42/c_data_structures/src/data_structures/list/</path>
+    <path>/Users/almayor/Documents/programming/42/data_structures/src/data_structures/list/</path>
     <filename>list__peek__last_8c</filename>
     <includes id="list_8h" name="list.h" local="yes" imported="no">list.h</includes>
     <member kind="function">
@@ -1303,7 +1309,7 @@
   </compound>
   <compound kind="file">
     <name>list_remove.c</name>
-    <path>/Users/almayor/Documents/programming/42/c_data_structures/src/data_structures/list/</path>
+    <path>/Users/almayor/Documents/programming/42/data_structures/src/data_structures/list/</path>
     <filename>list__remove_8c</filename>
     <includes id="list_8h" name="list.h" local="yes" imported="no">list.h</includes>
     <member kind="function">
@@ -1316,7 +1322,7 @@
   </compound>
   <compound kind="file">
     <name>list_remove_first.c</name>
-    <path>/Users/almayor/Documents/programming/42/c_data_structures/src/data_structures/list/</path>
+    <path>/Users/almayor/Documents/programming/42/data_structures/src/data_structures/list/</path>
     <filename>list__remove__first_8c</filename>
     <includes id="list_8h" name="list.h" local="yes" imported="no">list.h</includes>
     <member kind="function">
@@ -1329,7 +1335,7 @@
   </compound>
   <compound kind="file">
     <name>list_remove_last.c</name>
-    <path>/Users/almayor/Documents/programming/42/c_data_structures/src/data_structures/list/</path>
+    <path>/Users/almayor/Documents/programming/42/data_structures/src/data_structures/list/</path>
     <filename>list__remove__last_8c</filename>
     <includes id="list_8h" name="list.h" local="yes" imported="no">list.h</includes>
     <member kind="function">
@@ -1342,7 +1348,7 @@
   </compound>
   <compound kind="file">
     <name>list_size.c</name>
-    <path>/Users/almayor/Documents/programming/42/c_data_structures/src/data_structures/list/</path>
+    <path>/Users/almayor/Documents/programming/42/data_structures/src/data_structures/list/</path>
     <filename>list__size_8c</filename>
     <includes id="list_8h" name="list.h" local="yes" imported="no">list.h</includes>
     <member kind="function">
@@ -1355,7 +1361,7 @@
   </compound>
   <compound kind="file">
     <name>list_unlink.c</name>
-    <path>/Users/almayor/Documents/programming/42/c_data_structures/src/data_structures/list/</path>
+    <path>/Users/almayor/Documents/programming/42/data_structures/src/data_structures/list/</path>
     <filename>list__unlink_8c</filename>
     <includes id="list_8h" name="list.h" local="yes" imported="no">list.h</includes>
     <member kind="function">
@@ -1368,7 +1374,7 @@
   </compound>
   <compound kind="file">
     <name>list_unlink_first.c</name>
-    <path>/Users/almayor/Documents/programming/42/c_data_structures/src/data_structures/list/</path>
+    <path>/Users/almayor/Documents/programming/42/data_structures/src/data_structures/list/</path>
     <filename>list__unlink__first_8c</filename>
     <includes id="list_8h" name="list.h" local="yes" imported="no">list.h</includes>
     <member kind="function">
@@ -1381,7 +1387,7 @@
   </compound>
   <compound kind="file">
     <name>list_unlink_last.c</name>
-    <path>/Users/almayor/Documents/programming/42/c_data_structures/src/data_structures/list/</path>
+    <path>/Users/almayor/Documents/programming/42/data_structures/src/data_structures/list/</path>
     <filename>list__unlink__last_8c</filename>
     <includes id="list_8h" name="list.h" local="yes" imported="no">list.h</includes>
     <member kind="function">
@@ -1394,10 +1400,11 @@
   </compound>
   <compound kind="file">
     <name>max_pq.h</name>
-    <path>/Users/almayor/Documents/programming/42/c_data_structures/src/data_structures/</path>
+    <path>/Users/almayor/Documents/programming/42/data_structures/src/data_structures/</path>
     <filename>max__pq_8h</filename>
     <includes id="types_8h" name="types.h" local="yes" imported="no">types.h</includes>
     <includes id="array_8h" name="array.h" local="yes" imported="no">array.h</includes>
+    <includes id="utils_8h" name="utils.h" local="yes" imported="no">utils.h</includes>
     <member kind="typedef">
       <type>t_array</type>
       <name>t_max_pq</name>
@@ -1457,7 +1464,7 @@
   </compound>
   <compound kind="file">
     <name>max_pq_add.c</name>
-    <path>/Users/almayor/Documents/programming/42/c_data_structures/src/data_structures/max_pq/</path>
+    <path>/Users/almayor/Documents/programming/42/data_structures/src/data_structures/max_pq/</path>
     <filename>max__pq__add_8c</filename>
     <includes id="max__pq_8h" name="max_pq.h" local="yes" imported="no">max_pq.h</includes>
     <member kind="function">
@@ -1470,7 +1477,7 @@
   </compound>
   <compound kind="file">
     <name>max_pq_copy.c</name>
-    <path>/Users/almayor/Documents/programming/42/c_data_structures/src/data_structures/max_pq/</path>
+    <path>/Users/almayor/Documents/programming/42/data_structures/src/data_structures/max_pq/</path>
     <filename>max__pq__copy_8c</filename>
     <includes id="max__pq_8h" name="max_pq.h" local="yes" imported="no">max_pq.h</includes>
     <member kind="function">
@@ -1483,7 +1490,7 @@
   </compound>
   <compound kind="file">
     <name>max_pq_delete.c</name>
-    <path>/Users/almayor/Documents/programming/42/c_data_structures/src/data_structures/max_pq/</path>
+    <path>/Users/almayor/Documents/programming/42/data_structures/src/data_structures/max_pq/</path>
     <filename>max__pq__delete_8c</filename>
     <includes id="max__pq_8h" name="max_pq.h" local="yes" imported="no">max_pq.h</includes>
     <member kind="function">
@@ -1496,7 +1503,7 @@
   </compound>
   <compound kind="file">
     <name>max_pq_new.c</name>
-    <path>/Users/almayor/Documents/programming/42/c_data_structures/src/data_structures/max_pq/</path>
+    <path>/Users/almayor/Documents/programming/42/data_structures/src/data_structures/max_pq/</path>
     <filename>max__pq__new_8c</filename>
     <includes id="max__pq_8h" name="max_pq.h" local="yes" imported="no">max_pq.h</includes>
     <member kind="function">
@@ -1509,7 +1516,7 @@
   </compound>
   <compound kind="file">
     <name>max_pq_peek.c</name>
-    <path>/Users/almayor/Documents/programming/42/c_data_structures/src/data_structures/max_pq/</path>
+    <path>/Users/almayor/Documents/programming/42/data_structures/src/data_structures/max_pq/</path>
     <filename>max__pq__peek_8c</filename>
     <includes id="max__pq_8h" name="max_pq.h" local="yes" imported="no">max_pq.h</includes>
     <member kind="function">
@@ -1522,7 +1529,7 @@
   </compound>
   <compound kind="file">
     <name>max_pq_pop.c</name>
-    <path>/Users/almayor/Documents/programming/42/c_data_structures/src/data_structures/max_pq/</path>
+    <path>/Users/almayor/Documents/programming/42/data_structures/src/data_structures/max_pq/</path>
     <filename>max__pq__pop_8c</filename>
     <includes id="max__pq_8h" name="max_pq.h" local="yes" imported="no">max_pq.h</includes>
     <member kind="function">
@@ -1535,7 +1542,7 @@
   </compound>
   <compound kind="file">
     <name>max_pq_size.c</name>
-    <path>/Users/almayor/Documents/programming/42/c_data_structures/src/data_structures/max_pq/</path>
+    <path>/Users/almayor/Documents/programming/42/data_structures/src/data_structures/max_pq/</path>
     <filename>max__pq__size_8c</filename>
     <includes id="max__pq_8h" name="max_pq.h" local="yes" imported="no">max_pq.h</includes>
     <member kind="function">
@@ -1548,10 +1555,11 @@
   </compound>
   <compound kind="file">
     <name>min_pq.h</name>
-    <path>/Users/almayor/Documents/programming/42/c_data_structures/src/data_structures/</path>
+    <path>/Users/almayor/Documents/programming/42/data_structures/src/data_structures/</path>
     <filename>min__pq_8h</filename>
     <includes id="types_8h" name="types.h" local="yes" imported="no">types.h</includes>
     <includes id="array_8h" name="array.h" local="yes" imported="no">array.h</includes>
+    <includes id="utils_8h" name="utils.h" local="yes" imported="no">utils.h</includes>
     <member kind="typedef">
       <type>t_array</type>
       <name>t_min_pq</name>
@@ -1611,7 +1619,7 @@
   </compound>
   <compound kind="file">
     <name>min_pq_add.c</name>
-    <path>/Users/almayor/Documents/programming/42/c_data_structures/src/data_structures/min_pq/</path>
+    <path>/Users/almayor/Documents/programming/42/data_structures/src/data_structures/min_pq/</path>
     <filename>min__pq__add_8c</filename>
     <includes id="min__pq_8h" name="min_pq.h" local="yes" imported="no">min_pq.h</includes>
     <member kind="function">
@@ -1624,7 +1632,7 @@
   </compound>
   <compound kind="file">
     <name>min_pq_copy.c</name>
-    <path>/Users/almayor/Documents/programming/42/c_data_structures/src/data_structures/min_pq/</path>
+    <path>/Users/almayor/Documents/programming/42/data_structures/src/data_structures/min_pq/</path>
     <filename>min__pq__copy_8c</filename>
     <includes id="min__pq_8h" name="min_pq.h" local="yes" imported="no">min_pq.h</includes>
     <member kind="function">
@@ -1637,7 +1645,7 @@
   </compound>
   <compound kind="file">
     <name>min_pq_delete.c</name>
-    <path>/Users/almayor/Documents/programming/42/c_data_structures/src/data_structures/min_pq/</path>
+    <path>/Users/almayor/Documents/programming/42/data_structures/src/data_structures/min_pq/</path>
     <filename>min__pq__delete_8c</filename>
     <includes id="min__pq_8h" name="min_pq.h" local="yes" imported="no">min_pq.h</includes>
     <member kind="function">
@@ -1650,7 +1658,7 @@
   </compound>
   <compound kind="file">
     <name>min_pq_new.c</name>
-    <path>/Users/almayor/Documents/programming/42/c_data_structures/src/data_structures/min_pq/</path>
+    <path>/Users/almayor/Documents/programming/42/data_structures/src/data_structures/min_pq/</path>
     <filename>min__pq__new_8c</filename>
     <includes id="min__pq_8h" name="min_pq.h" local="yes" imported="no">min_pq.h</includes>
     <member kind="function">
@@ -1663,7 +1671,7 @@
   </compound>
   <compound kind="file">
     <name>min_pq_peek.c</name>
-    <path>/Users/almayor/Documents/programming/42/c_data_structures/src/data_structures/min_pq/</path>
+    <path>/Users/almayor/Documents/programming/42/data_structures/src/data_structures/min_pq/</path>
     <filename>min__pq__peek_8c</filename>
     <includes id="min__pq_8h" name="min_pq.h" local="yes" imported="no">min_pq.h</includes>
     <member kind="function">
@@ -1676,7 +1684,7 @@
   </compound>
   <compound kind="file">
     <name>min_pq_pop.c</name>
-    <path>/Users/almayor/Documents/programming/42/c_data_structures/src/data_structures/min_pq/</path>
+    <path>/Users/almayor/Documents/programming/42/data_structures/src/data_structures/min_pq/</path>
     <filename>min__pq__pop_8c</filename>
     <includes id="min__pq_8h" name="min_pq.h" local="yes" imported="no">min_pq.h</includes>
     <member kind="function">
@@ -1689,7 +1697,7 @@
   </compound>
   <compound kind="file">
     <name>min_pq_size.c</name>
-    <path>/Users/almayor/Documents/programming/42/c_data_structures/src/data_structures/min_pq/</path>
+    <path>/Users/almayor/Documents/programming/42/data_structures/src/data_structures/min_pq/</path>
     <filename>min__pq__size_8c</filename>
     <includes id="min__pq_8h" name="min_pq.h" local="yes" imported="no">min_pq.h</includes>
     <member kind="function">
@@ -1702,10 +1710,11 @@
   </compound>
   <compound kind="file">
     <name>queue.h</name>
-    <path>/Users/almayor/Documents/programming/42/c_data_structures/src/data_structures/</path>
+    <path>/Users/almayor/Documents/programming/42/data_structures/src/data_structures/</path>
     <filename>queue_8h</filename>
     <includes id="types_8h" name="types.h" local="yes" imported="no">types.h</includes>
     <includes id="list_8h" name="list.h" local="yes" imported="no">list.h</includes>
+    <includes id="utils_8h" name="utils.h" local="yes" imported="no">utils.h</includes>
     <member kind="typedef">
       <type>struct s_list</type>
       <name>t_queue</name>
@@ -1765,7 +1774,7 @@
   </compound>
   <compound kind="file">
     <name>queue_copy.c</name>
-    <path>/Users/almayor/Documents/programming/42/c_data_structures/src/data_structures/queue/</path>
+    <path>/Users/almayor/Documents/programming/42/data_structures/src/data_structures/queue/</path>
     <filename>queue__copy_8c</filename>
     <includes id="queue_8h" name="queue.h" local="yes" imported="no">queue.h</includes>
     <member kind="function">
@@ -1778,7 +1787,7 @@
   </compound>
   <compound kind="file">
     <name>queue_delete.c</name>
-    <path>/Users/almayor/Documents/programming/42/c_data_structures/src/data_structures/queue/</path>
+    <path>/Users/almayor/Documents/programming/42/data_structures/src/data_structures/queue/</path>
     <filename>queue__delete_8c</filename>
     <includes id="queue_8h" name="queue.h" local="yes" imported="no">queue.h</includes>
     <member kind="function">
@@ -1791,7 +1800,7 @@
   </compound>
   <compound kind="file">
     <name>queue_dequeue.c</name>
-    <path>/Users/almayor/Documents/programming/42/c_data_structures/src/data_structures/queue/</path>
+    <path>/Users/almayor/Documents/programming/42/data_structures/src/data_structures/queue/</path>
     <filename>queue__dequeue_8c</filename>
     <includes id="queue_8h" name="queue.h" local="yes" imported="no">queue.h</includes>
     <member kind="function">
@@ -1804,7 +1813,7 @@
   </compound>
   <compound kind="file">
     <name>queue_enqueue.c</name>
-    <path>/Users/almayor/Documents/programming/42/c_data_structures/src/data_structures/queue/</path>
+    <path>/Users/almayor/Documents/programming/42/data_structures/src/data_structures/queue/</path>
     <filename>queue__enqueue_8c</filename>
     <includes id="queue_8h" name="queue.h" local="yes" imported="no">queue.h</includes>
     <member kind="function">
@@ -1817,7 +1826,7 @@
   </compound>
   <compound kind="file">
     <name>queue_new.c</name>
-    <path>/Users/almayor/Documents/programming/42/c_data_structures/src/data_structures/queue/</path>
+    <path>/Users/almayor/Documents/programming/42/data_structures/src/data_structures/queue/</path>
     <filename>queue__new_8c</filename>
     <includes id="queue_8h" name="queue.h" local="yes" imported="no">queue.h</includes>
     <member kind="function">
@@ -1830,7 +1839,7 @@
   </compound>
   <compound kind="file">
     <name>queue_peek.c</name>
-    <path>/Users/almayor/Documents/programming/42/c_data_structures/src/data_structures/queue/</path>
+    <path>/Users/almayor/Documents/programming/42/data_structures/src/data_structures/queue/</path>
     <filename>queue__peek_8c</filename>
     <includes id="queue_8h" name="queue.h" local="yes" imported="no">queue.h</includes>
     <member kind="function">
@@ -1843,7 +1852,7 @@
   </compound>
   <compound kind="file">
     <name>queue_size.c</name>
-    <path>/Users/almayor/Documents/programming/42/c_data_structures/src/data_structures/queue/</path>
+    <path>/Users/almayor/Documents/programming/42/data_structures/src/data_structures/queue/</path>
     <filename>queue__size_8c</filename>
     <includes id="queue_8h" name="queue.h" local="yes" imported="no">queue.h</includes>
     <member kind="function">
@@ -1856,10 +1865,11 @@
   </compound>
   <compound kind="file">
     <name>rbt.h</name>
-    <path>/Users/almayor/Documents/programming/42/c_data_structures/src/data_structures/</path>
+    <path>/Users/almayor/Documents/programming/42/data_structures/src/data_structures/</path>
     <filename>rbt_8h</filename>
     <includes id="types_8h" name="types.h" local="yes" imported="no">types.h</includes>
     <includes id="queue_8h" name="queue.h" local="yes" imported="no">queue.h</includes>
+    <includes id="utils_8h" name="utils.h" local="yes" imported="no">utils.h</includes>
     <class kind="struct">s_rbt_node</class>
     <class kind="struct">s_rbt</class>
     <member kind="enumeration">
@@ -1970,7 +1980,7 @@
   </compound>
   <compound kind="file">
     <name>rbt_ceil.c</name>
-    <path>/Users/almayor/Documents/programming/42/c_data_structures/src/data_structures/rbt/</path>
+    <path>/Users/almayor/Documents/programming/42/data_structures/src/data_structures/rbt/</path>
     <filename>rbt__ceil_8c</filename>
     <includes id="rbt_8h" name="rbt.h" local="yes" imported="no">rbt.h</includes>
     <member kind="function">
@@ -1983,7 +1993,7 @@
   </compound>
   <compound kind="file">
     <name>rbt_contains.c</name>
-    <path>/Users/almayor/Documents/programming/42/c_data_structures/src/data_structures/rbt/</path>
+    <path>/Users/almayor/Documents/programming/42/data_structures/src/data_structures/rbt/</path>
     <filename>rbt__contains_8c</filename>
     <includes id="rbt_8h" name="rbt.h" local="yes" imported="no">rbt.h</includes>
     <member kind="function">
@@ -1996,7 +2006,7 @@
   </compound>
   <compound kind="file">
     <name>rbt_delete.c</name>
-    <path>/Users/almayor/Documents/programming/42/c_data_structures/src/data_structures/rbt/</path>
+    <path>/Users/almayor/Documents/programming/42/data_structures/src/data_structures/rbt/</path>
     <filename>rbt__delete_8c</filename>
     <includes id="rbt_8h" name="rbt.h" local="yes" imported="no">rbt.h</includes>
     <member kind="function">
@@ -2009,7 +2019,7 @@
   </compound>
   <compound kind="file">
     <name>rbt_floor.c</name>
-    <path>/Users/almayor/Documents/programming/42/c_data_structures/src/data_structures/rbt/</path>
+    <path>/Users/almayor/Documents/programming/42/data_structures/src/data_structures/rbt/</path>
     <filename>rbt__floor_8c</filename>
     <includes id="rbt_8h" name="rbt.h" local="yes" imported="no">rbt.h</includes>
     <member kind="function">
@@ -2022,7 +2032,7 @@
   </compound>
   <compound kind="file">
     <name>rbt_get.c</name>
-    <path>/Users/almayor/Documents/programming/42/c_data_structures/src/data_structures/rbt/</path>
+    <path>/Users/almayor/Documents/programming/42/data_structures/src/data_structures/rbt/</path>
     <filename>rbt__get_8c</filename>
     <includes id="rbt_8h" name="rbt.h" local="yes" imported="no">rbt.h</includes>
     <member kind="function">
@@ -2035,7 +2045,7 @@
   </compound>
   <compound kind="file">
     <name>rbt_height.c</name>
-    <path>/Users/almayor/Documents/programming/42/c_data_structures/src/data_structures/rbt/</path>
+    <path>/Users/almayor/Documents/programming/42/data_structures/src/data_structures/rbt/</path>
     <filename>rbt__height_8c</filename>
     <includes id="rbt_8h" name="rbt.h" local="yes" imported="no">rbt.h</includes>
     <member kind="function">
@@ -2048,7 +2058,7 @@
   </compound>
   <compound kind="file">
     <name>rbt_keys.c</name>
-    <path>/Users/almayor/Documents/programming/42/c_data_structures/src/data_structures/rbt/</path>
+    <path>/Users/almayor/Documents/programming/42/data_structures/src/data_structures/rbt/</path>
     <filename>rbt__keys_8c</filename>
     <includes id="rbt_8h" name="rbt.h" local="yes" imported="no">rbt.h</includes>
     <member kind="function">
@@ -2061,7 +2071,7 @@
   </compound>
   <compound kind="file">
     <name>rbt_max.c</name>
-    <path>/Users/almayor/Documents/programming/42/c_data_structures/src/data_structures/rbt/</path>
+    <path>/Users/almayor/Documents/programming/42/data_structures/src/data_structures/rbt/</path>
     <filename>rbt__max_8c</filename>
     <includes id="rbt_8h" name="rbt.h" local="yes" imported="no">rbt.h</includes>
     <member kind="function">
@@ -2074,7 +2084,7 @@
   </compound>
   <compound kind="file">
     <name>rbt_min.c</name>
-    <path>/Users/almayor/Documents/programming/42/c_data_structures/src/data_structures/rbt/</path>
+    <path>/Users/almayor/Documents/programming/42/data_structures/src/data_structures/rbt/</path>
     <filename>rbt__min_8c</filename>
     <includes id="rbt_8h" name="rbt.h" local="yes" imported="no">rbt.h</includes>
     <member kind="function">
@@ -2087,7 +2097,7 @@
   </compound>
   <compound kind="file">
     <name>rbt_new.c</name>
-    <path>/Users/almayor/Documents/programming/42/c_data_structures/src/data_structures/rbt/</path>
+    <path>/Users/almayor/Documents/programming/42/data_structures/src/data_structures/rbt/</path>
     <filename>rbt__new_8c</filename>
     <includes id="rbt_8h" name="rbt.h" local="yes" imported="no">rbt.h</includes>
     <member kind="function">
@@ -2100,7 +2110,7 @@
   </compound>
   <compound kind="file">
     <name>rbt_put.c</name>
-    <path>/Users/almayor/Documents/programming/42/c_data_structures/src/data_structures/rbt/</path>
+    <path>/Users/almayor/Documents/programming/42/data_structures/src/data_structures/rbt/</path>
     <filename>rbt__put_8c</filename>
     <includes id="rbt_8h" name="rbt.h" local="yes" imported="no">rbt.h</includes>
     <includes id="rbt__utils_8h" name="rbt_utils.h" local="yes" imported="no">rbt_utils.h</includes>
@@ -2114,7 +2124,7 @@
   </compound>
   <compound kind="file">
     <name>rbt_rank.c</name>
-    <path>/Users/almayor/Documents/programming/42/c_data_structures/src/data_structures/rbt/</path>
+    <path>/Users/almayor/Documents/programming/42/data_structures/src/data_structures/rbt/</path>
     <filename>rbt__rank_8c</filename>
     <includes id="rbt_8h" name="rbt.h" local="yes" imported="no">rbt.h</includes>
     <includes id="rbt__utils_8h" name="rbt_utils.h" local="yes" imported="no">rbt_utils.h</includes>
@@ -2128,7 +2138,7 @@
   </compound>
   <compound kind="file">
     <name>rbt_size.c</name>
-    <path>/Users/almayor/Documents/programming/42/c_data_structures/src/data_structures/rbt/</path>
+    <path>/Users/almayor/Documents/programming/42/data_structures/src/data_structures/rbt/</path>
     <filename>rbt__size_8c</filename>
     <includes id="rbt_8h" name="rbt.h" local="yes" imported="no">rbt.h</includes>
     <includes id="rbt__utils_8h" name="rbt_utils.h" local="yes" imported="no">rbt_utils.h</includes>
@@ -2142,13 +2152,13 @@
   </compound>
   <compound kind="file">
     <name>rbt_utils.h</name>
-    <path>/Users/almayor/Documents/programming/42/c_data_structures/src/data_structures/rbt/</path>
+    <path>/Users/almayor/Documents/programming/42/data_structures/src/data_structures/rbt/</path>
     <filename>rbt__utils_8h</filename>
     <includes id="rbt_8h" name="rbt.h" local="yes" imported="no">rbt.h</includes>
   </compound>
   <compound kind="file">
     <name>rbt_vals.c</name>
-    <path>/Users/almayor/Documents/programming/42/c_data_structures/src/data_structures/rbt/</path>
+    <path>/Users/almayor/Documents/programming/42/data_structures/src/data_structures/rbt/</path>
     <filename>rbt__vals_8c</filename>
     <includes id="rbt_8h" name="rbt.h" local="yes" imported="no">rbt.h</includes>
     <member kind="function">
@@ -2161,46 +2171,47 @@
   </compound>
   <compound kind="file">
     <name>rbt_flip_color.c</name>
-    <path>/Users/almayor/Documents/programming/42/c_data_structures/src/data_structures/rbt/utils/</path>
+    <path>/Users/almayor/Documents/programming/42/data_structures/src/data_structures/rbt/utils/</path>
     <filename>rbt__flip__color_8c</filename>
     <includes id="rbt__utils_8h" name="rbt_utils.h" local="yes" imported="no">rbt_utils.h</includes>
   </compound>
   <compound kind="file">
     <name>rbt_is_red_node.c</name>
-    <path>/Users/almayor/Documents/programming/42/c_data_structures/src/data_structures/rbt/utils/</path>
+    <path>/Users/almayor/Documents/programming/42/data_structures/src/data_structures/rbt/utils/</path>
     <filename>rbt__is__red__node_8c</filename>
     <includes id="rbt__utils_8h" name="rbt_utils.h" local="yes" imported="no">rbt_utils.h</includes>
   </compound>
   <compound kind="file">
     <name>rbt_make_node.c</name>
-    <path>/Users/almayor/Documents/programming/42/c_data_structures/src/data_structures/rbt/utils/</path>
+    <path>/Users/almayor/Documents/programming/42/data_structures/src/data_structures/rbt/utils/</path>
     <filename>rbt__make__node_8c</filename>
     <includes id="rbt__utils_8h" name="rbt_utils.h" local="yes" imported="no">rbt_utils.h</includes>
   </compound>
   <compound kind="file">
     <name>rbt_rotate_left.c</name>
-    <path>/Users/almayor/Documents/programming/42/c_data_structures/src/data_structures/rbt/utils/</path>
+    <path>/Users/almayor/Documents/programming/42/data_structures/src/data_structures/rbt/utils/</path>
     <filename>rbt__rotate__left_8c</filename>
     <includes id="rbt__utils_8h" name="rbt_utils.h" local="yes" imported="no">rbt_utils.h</includes>
   </compound>
   <compound kind="file">
     <name>rbt_rotate_right.c</name>
-    <path>/Users/almayor/Documents/programming/42/c_data_structures/src/data_structures/rbt/utils/</path>
+    <path>/Users/almayor/Documents/programming/42/data_structures/src/data_structures/rbt/utils/</path>
     <filename>rbt__rotate__right_8c</filename>
     <includes id="rbt__utils_8h" name="rbt_utils.h" local="yes" imported="no">rbt_utils.h</includes>
   </compound>
   <compound kind="file">
     <name>rbt_size_subtree.c</name>
-    <path>/Users/almayor/Documents/programming/42/c_data_structures/src/data_structures/rbt/utils/</path>
+    <path>/Users/almayor/Documents/programming/42/data_structures/src/data_structures/rbt/utils/</path>
     <filename>rbt__size__subtree_8c</filename>
     <includes id="rbt__utils_8h" name="rbt_utils.h" local="yes" imported="no">rbt_utils.h</includes>
   </compound>
   <compound kind="file">
     <name>stack.h</name>
-    <path>/Users/almayor/Documents/programming/42/c_data_structures/src/data_structures/</path>
+    <path>/Users/almayor/Documents/programming/42/data_structures/src/data_structures/</path>
     <filename>stack_8h</filename>
     <includes id="types_8h" name="types.h" local="yes" imported="no">types.h</includes>
     <includes id="array_8h" name="array.h" local="yes" imported="no">array.h</includes>
+    <includes id="utils_8h" name="utils.h" local="yes" imported="no">utils.h</includes>
     <member kind="typedef">
       <type>t_array</type>
       <name>t_stack</name>
@@ -2267,7 +2278,7 @@
   </compound>
   <compound kind="file">
     <name>stack_copy.c</name>
-    <path>/Users/almayor/Documents/programming/42/c_data_structures/src/data_structures/stack/</path>
+    <path>/Users/almayor/Documents/programming/42/data_structures/src/data_structures/stack/</path>
     <filename>stack__copy_8c</filename>
     <includes id="stack_8h" name="stack.h" local="yes" imported="no">stack.h</includes>
     <member kind="function">
@@ -2280,7 +2291,7 @@
   </compound>
   <compound kind="file">
     <name>stack_delete.c</name>
-    <path>/Users/almayor/Documents/programming/42/c_data_structures/src/data_structures/stack/</path>
+    <path>/Users/almayor/Documents/programming/42/data_structures/src/data_structures/stack/</path>
     <filename>stack__delete_8c</filename>
     <includes id="stack_8h" name="stack.h" local="yes" imported="no">stack.h</includes>
     <member kind="function">
@@ -2293,7 +2304,7 @@
   </compound>
   <compound kind="file">
     <name>stack_new.c</name>
-    <path>/Users/almayor/Documents/programming/42/c_data_structures/src/data_structures/stack/</path>
+    <path>/Users/almayor/Documents/programming/42/data_structures/src/data_structures/stack/</path>
     <filename>stack__new_8c</filename>
     <includes id="stack_8h" name="stack.h" local="yes" imported="no">stack.h</includes>
     <member kind="function">
@@ -2306,7 +2317,7 @@
   </compound>
   <compound kind="file">
     <name>stack_peek.c</name>
-    <path>/Users/almayor/Documents/programming/42/c_data_structures/src/data_structures/stack/</path>
+    <path>/Users/almayor/Documents/programming/42/data_structures/src/data_structures/stack/</path>
     <filename>stack__peek_8c</filename>
     <includes id="stack_8h" name="stack.h" local="yes" imported="no">stack.h</includes>
     <member kind="function">
@@ -2319,7 +2330,7 @@
   </compound>
   <compound kind="file">
     <name>stack_pop.c</name>
-    <path>/Users/almayor/Documents/programming/42/c_data_structures/src/data_structures/stack/</path>
+    <path>/Users/almayor/Documents/programming/42/data_structures/src/data_structures/stack/</path>
     <filename>stack__pop_8c</filename>
     <includes id="stack_8h" name="stack.h" local="yes" imported="no">stack.h</includes>
     <member kind="function">
@@ -2332,7 +2343,7 @@
   </compound>
   <compound kind="file">
     <name>stack_push.c</name>
-    <path>/Users/almayor/Documents/programming/42/c_data_structures/src/data_structures/stack/</path>
+    <path>/Users/almayor/Documents/programming/42/data_structures/src/data_structures/stack/</path>
     <filename>stack__push_8c</filename>
     <includes id="stack_8h" name="stack.h" local="yes" imported="no">stack.h</includes>
     <member kind="function">
@@ -2345,7 +2356,7 @@
   </compound>
   <compound kind="file">
     <name>stack_size.c</name>
-    <path>/Users/almayor/Documents/programming/42/c_data_structures/src/data_structures/stack/</path>
+    <path>/Users/almayor/Documents/programming/42/data_structures/src/data_structures/stack/</path>
     <filename>stack__size_8c</filename>
     <includes id="stack_8h" name="stack.h" local="yes" imported="no">stack.h</includes>
     <member kind="function">
@@ -2358,9 +2369,10 @@
   </compound>
   <compound kind="file">
     <name>union_find.h</name>
-    <path>/Users/almayor/Documents/programming/42/c_data_structures/src/data_structures/</path>
+    <path>/Users/almayor/Documents/programming/42/data_structures/src/data_structures/</path>
     <filename>union__find_8h</filename>
     <includes id="types_8h" name="types.h" local="yes" imported="no">types.h</includes>
+    <includes id="utils_8h" name="utils.h" local="yes" imported="no">utils.h</includes>
     <class kind="struct">s_union_find</class>
     <member kind="function">
       <type>t_union_find *</type>
@@ -2407,7 +2419,7 @@
   </compound>
   <compound kind="file">
     <name>union_find_count.c</name>
-    <path>/Users/almayor/Documents/programming/42/c_data_structures/src/data_structures/union_find/</path>
+    <path>/Users/almayor/Documents/programming/42/data_structures/src/data_structures/union_find/</path>
     <filename>union__find__count_8c</filename>
     <includes id="union__find_8h" name="union_find.h" local="yes" imported="no">union_find.h</includes>
     <member kind="function">
@@ -2420,7 +2432,7 @@
   </compound>
   <compound kind="file">
     <name>union_find_delete.c</name>
-    <path>/Users/almayor/Documents/programming/42/c_data_structures/src/data_structures/union_find/</path>
+    <path>/Users/almayor/Documents/programming/42/data_structures/src/data_structures/union_find/</path>
     <filename>union__find__delete_8c</filename>
     <includes id="union__find_8h" name="union_find.h" local="yes" imported="no">union_find.h</includes>
     <member kind="function">
@@ -2433,7 +2445,7 @@
   </compound>
   <compound kind="file">
     <name>union_find_find.c</name>
-    <path>/Users/almayor/Documents/programming/42/c_data_structures/src/data_structures/union_find/</path>
+    <path>/Users/almayor/Documents/programming/42/data_structures/src/data_structures/union_find/</path>
     <filename>union__find__find_8c</filename>
     <includes id="union__find_8h" name="union_find.h" local="yes" imported="no">union_find.h</includes>
     <member kind="function">
@@ -2446,7 +2458,7 @@
   </compound>
   <compound kind="file">
     <name>union_find_new.c</name>
-    <path>/Users/almayor/Documents/programming/42/c_data_structures/src/data_structures/union_find/</path>
+    <path>/Users/almayor/Documents/programming/42/data_structures/src/data_structures/union_find/</path>
     <filename>union__find__new_8c</filename>
     <includes id="union__find_8h" name="union_find.h" local="yes" imported="no">union_find.h</includes>
     <member kind="function">
@@ -2459,7 +2471,7 @@
   </compound>
   <compound kind="file">
     <name>union_find_size.c</name>
-    <path>/Users/almayor/Documents/programming/42/c_data_structures/src/data_structures/union_find/</path>
+    <path>/Users/almayor/Documents/programming/42/data_structures/src/data_structures/union_find/</path>
     <filename>union__find__size_8c</filename>
     <includes id="union__find_8h" name="union_find.h" local="yes" imported="no">union_find.h</includes>
     <member kind="function">
@@ -2472,7 +2484,7 @@
   </compound>
   <compound kind="file">
     <name>union_find_union.c</name>
-    <path>/Users/almayor/Documents/programming/42/c_data_structures/src/data_structures/union_find/</path>
+    <path>/Users/almayor/Documents/programming/42/data_structures/src/data_structures/union_find/</path>
     <filename>union__find__union_8c</filename>
     <includes id="union__find_8h" name="union_find.h" local="yes" imported="no">union_find.h</includes>
     <member kind="function">
@@ -2484,123 +2496,8 @@
     </member>
   </compound>
   <compound kind="file">
-    <name>type_array.c</name>
-    <path>/Users/almayor/Documents/programming/42/c_data_structures/src/types/</path>
-    <filename>type__array_8c</filename>
-    <includes id="types_8h" name="types.h" local="yes" imported="no">types.h</includes>
-    <includes id="array_8h" name="array.h" local="yes" imported="no">array.h</includes>
-    <member kind="variable">
-      <type>const t_type *</type>
-      <name>g_type_array</name>
-      <anchorfile>type__array_8c.html</anchorfile>
-      <anchor>abc5ccb1d2d6754827295ec02c1955268</anchor>
-      <arglist></arglist>
-    </member>
-  </compound>
-  <compound kind="file">
-    <name>type_char.c</name>
-    <path>/Users/almayor/Documents/programming/42/c_data_structures/src/types/</path>
-    <filename>type__char_8c</filename>
-    <includes id="types_8h" name="types.h" local="yes" imported="no">types.h</includes>
-    <member kind="variable">
-      <type>const t_type *</type>
-      <name>g_type_char</name>
-      <anchorfile>type__char_8c.html</anchorfile>
-      <anchor>a9d04a5e94044f6e27f8221f550734a50</anchor>
-      <arglist></arglist>
-    </member>
-  </compound>
-  <compound kind="file">
-    <name>type_float.c</name>
-    <path>/Users/almayor/Documents/programming/42/c_data_structures/src/types/</path>
-    <filename>type__float_8c</filename>
-    <includes id="types_8h" name="types.h" local="yes" imported="no">types.h</includes>
-    <member kind="variable">
-      <type>const t_type *</type>
-      <name>g_type_float</name>
-      <anchorfile>type__float_8c.html</anchorfile>
-      <anchor>a1e36cd7c196c22e8ed243a4d87bf58f5</anchor>
-      <arglist></arglist>
-    </member>
-  </compound>
-  <compound kind="file">
-    <name>type_hashset.c</name>
-    <path>/Users/almayor/Documents/programming/42/c_data_structures/src/types/</path>
-    <filename>type__hashset_8c</filename>
-    <includes id="types_8h" name="types.h" local="yes" imported="no">types.h</includes>
-    <includes id="hashset_8h" name="hashset.h" local="yes" imported="no">hashset.h</includes>
-  </compound>
-  <compound kind="file">
-    <name>type_int.c</name>
-    <path>/Users/almayor/Documents/programming/42/c_data_structures/src/types/</path>
-    <filename>type__int_8c</filename>
-    <includes id="types_8h" name="types.h" local="yes" imported="no">types.h</includes>
-    <member kind="variable">
-      <type>const t_type *</type>
-      <name>g_type_int</name>
-      <anchorfile>type__int_8c.html</anchorfile>
-      <anchor>af215681a167e8f582280d5b7c751385e</anchor>
-      <arglist></arglist>
-    </member>
-  </compound>
-  <compound kind="file">
-    <name>type_str.c</name>
-    <path>/Users/almayor/Documents/programming/42/c_data_structures/src/types/</path>
-    <filename>type__str_8c</filename>
-    <includes id="types_8h" name="types.h" local="yes" imported="no">types.h</includes>
-    <member kind="variable">
-      <type>const t_type *</type>
-      <name>g_type_str</name>
-      <anchorfile>type__str_8c.html</anchorfile>
-      <anchor>a8278aff799b837e44a459484cc2f5fdb</anchor>
-      <arglist></arglist>
-    </member>
-  </compound>
-  <compound kind="file">
-    <name>types.h</name>
-    <path>/Users/almayor/Documents/programming/42/c_data_structures/src/types/</path>
-    <filename>types_8h</filename>
-    <includes id="utils_8h" name="utils.h" local="yes" imported="no">utils.h</includes>
-    <class kind="struct">s_type</class>
-    <member kind="variable">
-      <type>const t_type *</type>
-      <name>g_type_char</name>
-      <anchorfile>types_8h.html</anchorfile>
-      <anchor>a9d04a5e94044f6e27f8221f550734a50</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable">
-      <type>const t_type *</type>
-      <name>g_type_float</name>
-      <anchorfile>types_8h.html</anchorfile>
-      <anchor>a1e36cd7c196c22e8ed243a4d87bf58f5</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable">
-      <type>const t_type *</type>
-      <name>g_type_int</name>
-      <anchorfile>types_8h.html</anchorfile>
-      <anchor>af215681a167e8f582280d5b7c751385e</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable">
-      <type>const t_type *</type>
-      <name>g_type_str</name>
-      <anchorfile>types_8h.html</anchorfile>
-      <anchor>a8278aff799b837e44a459484cc2f5fdb</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable">
-      <type>const t_type *</type>
-      <name>g_type_array</name>
-      <anchorfile>types_8h.html</anchorfile>
-      <anchor>abc5ccb1d2d6754827295ec02c1955268</anchor>
-      <arglist></arglist>
-    </member>
-  </compound>
-  <compound kind="file">
     <name>data2ptr.c</name>
-    <path>/Users/almayor/Documents/programming/42/c_data_structures/src/types/utils/</path>
+    <path>/Users/almayor/Documents/programming/42/data_structures/src/types/</path>
     <filename>data2ptr_8c</filename>
     <includes id="utils_8h" name="utils.h" local="yes" imported="no">utils.h</includes>
     <member kind="function">
@@ -2627,7 +2524,7 @@
   </compound>
   <compound kind="file">
     <name>ptr2data.c</name>
-    <path>/Users/almayor/Documents/programming/42/c_data_structures/src/types/utils/</path>
+    <path>/Users/almayor/Documents/programming/42/data_structures/src/types/</path>
     <filename>ptr2data_8c</filename>
     <includes id="utils_8h" name="utils.h" local="yes" imported="no">utils.h</includes>
     <member kind="function">
@@ -2653,50 +2550,265 @@
     </member>
   </compound>
   <compound kind="file">
-    <name>utils.h</name>
-    <path>/Users/almayor/Documents/programming/42/c_data_structures/src/types/utils/</path>
-    <filename>utils_8h</filename>
+    <name>type_array.c</name>
+    <path>/Users/almayor/Documents/programming/42/data_structures/src/types/</path>
+    <filename>type__array_8c</filename>
+    <includes id="types_8h" name="types.h" local="yes" imported="no">types.h</includes>
+    <includes id="array_8h" name="array.h" local="yes" imported="no">array.h</includes>
+    <member kind="variable">
+      <type>const t_type *</type>
+      <name>g_type_array</name>
+      <anchorfile>type__array_8c.html</anchorfile>
+      <anchor>abc5ccb1d2d6754827295ec02c1955268</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>type_char.c</name>
+    <path>/Users/almayor/Documents/programming/42/data_structures/src/types/</path>
+    <filename>type__char_8c</filename>
+    <includes id="types_8h" name="types.h" local="yes" imported="no">types.h</includes>
+    <member kind="variable">
+      <type>const t_type *</type>
+      <name>g_type_char</name>
+      <anchorfile>type__char_8c.html</anchorfile>
+      <anchor>a9d04a5e94044f6e27f8221f550734a50</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>type_float.c</name>
+    <path>/Users/almayor/Documents/programming/42/data_structures/src/types/</path>
+    <filename>type__float_8c</filename>
+    <includes id="types_8h" name="types.h" local="yes" imported="no">types.h</includes>
+    <member kind="variable">
+      <type>const t_type *</type>
+      <name>g_type_float</name>
+      <anchorfile>type__float_8c.html</anchorfile>
+      <anchor>a1e36cd7c196c22e8ed243a4d87bf58f5</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>type_hashset.c</name>
+    <path>/Users/almayor/Documents/programming/42/data_structures/src/types/</path>
+    <filename>type__hashset_8c</filename>
+    <includes id="types_8h" name="types.h" local="yes" imported="no">types.h</includes>
+    <includes id="hashset_8h" name="hashset.h" local="yes" imported="no">hashset.h</includes>
+  </compound>
+  <compound kind="file">
+    <name>type_int.c</name>
+    <path>/Users/almayor/Documents/programming/42/data_structures/src/types/</path>
+    <filename>type__int_8c</filename>
+    <includes id="types_8h" name="types.h" local="yes" imported="no">types.h</includes>
+    <member kind="variable">
+      <type>const t_type *</type>
+      <name>g_type_int</name>
+      <anchorfile>type__int_8c.html</anchorfile>
+      <anchor>af215681a167e8f582280d5b7c751385e</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>type_str.c</name>
+    <path>/Users/almayor/Documents/programming/42/data_structures/src/types/</path>
+    <filename>type__str_8c</filename>
+    <includes id="types_8h" name="types.h" local="yes" imported="no">types.h</includes>
+    <member kind="variable">
+      <type>const t_type *</type>
+      <name>g_type_str</name>
+      <anchorfile>type__str_8c.html</anchorfile>
+      <anchor>a8278aff799b837e44a459484cc2f5fdb</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>types.h</name>
+    <path>/Users/almayor/Documents/programming/42/data_structures/src/types/</path>
+    <filename>types_8h</filename>
+    <includes id="utils_8h" name="utils.h" local="yes" imported="no">utils.h</includes>
+    <class kind="struct">s_type</class>
     <member kind="function">
       <type>int *</type>
       <name>int2ptr</name>
-      <anchorfile>utils_8h.html</anchorfile>
+      <anchorfile>types_8h.html</anchorfile>
       <anchor>a80c0883d3c307b9567e7dc63e1206203</anchor>
       <arglist>(int a)</arglist>
     </member>
     <member kind="function">
       <type>char *</type>
       <name>char2ptr</name>
-      <anchorfile>utils_8h.html</anchorfile>
+      <anchorfile>types_8h.html</anchorfile>
       <anchor>ac428bba0c8e57c7085fd8c4da80b4397</anchor>
       <arglist>(char a)</arglist>
     </member>
     <member kind="function">
       <type>float *</type>
       <name>float2ptr</name>
-      <anchorfile>utils_8h.html</anchorfile>
+      <anchorfile>types_8h.html</anchorfile>
       <anchor>af97288f8ddb7a62b9af17617090da281</anchor>
       <arglist>(float a)</arglist>
     </member>
     <member kind="function">
       <type>int</type>
       <name>ptr2int</name>
-      <anchorfile>utils_8h.html</anchorfile>
+      <anchorfile>types_8h.html</anchorfile>
       <anchor>aa404616716f45e363e8e86971bc8690a</anchor>
       <arglist>(const void *ptr)</arglist>
     </member>
     <member kind="function">
       <type>char</type>
       <name>ptr2char</name>
-      <anchorfile>utils_8h.html</anchorfile>
+      <anchorfile>types_8h.html</anchorfile>
       <anchor>aed5a1898315a6858320d0708ab75849f</anchor>
       <arglist>(const void *ptr)</arglist>
     </member>
     <member kind="function">
       <type>float</type>
       <name>ptr2float</name>
-      <anchorfile>utils_8h.html</anchorfile>
+      <anchorfile>types_8h.html</anchorfile>
       <anchor>a34d308c396b5d1843dca4dc455a6ecc2</anchor>
       <arglist>(const void *ptr)</arglist>
+    </member>
+    <member kind="variable">
+      <type>const t_type *</type>
+      <name>g_type_char</name>
+      <anchorfile>types_8h.html</anchorfile>
+      <anchor>a9d04a5e94044f6e27f8221f550734a50</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>const t_type *</type>
+      <name>g_type_float</name>
+      <anchorfile>types_8h.html</anchorfile>
+      <anchor>a1e36cd7c196c22e8ed243a4d87bf58f5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>const t_type *</type>
+      <name>g_type_int</name>
+      <anchorfile>types_8h.html</anchorfile>
+      <anchor>af215681a167e8f582280d5b7c751385e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>const t_type *</type>
+      <name>g_type_str</name>
+      <anchorfile>types_8h.html</anchorfile>
+      <anchor>a8278aff799b837e44a459484cc2f5fdb</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>const t_type *</type>
+      <name>g_type_array</name>
+      <anchorfile>types_8h.html</anchorfile>
+      <anchor>abc5ccb1d2d6754827295ec02c1955268</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>ds_bzero.c</name>
+    <path>/Users/almayor/Documents/programming/42/data_structures/src/utils/</path>
+    <filename>ds__bzero_8c</filename>
+    <includes id="utils_8h" name="utils.h" local="yes" imported="no">utils.h</includes>
+    <member kind="function">
+      <type>void</type>
+      <name>ds_bzero</name>
+      <anchorfile>ds__bzero_8c.html</anchorfile>
+      <anchor>a8c5806446d7e41c8c08eba87711f047a</anchor>
+      <arglist>(void *s, size_t n)</arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>ds_calloc.c</name>
+    <path>/Users/almayor/Documents/programming/42/data_structures/src/utils/</path>
+    <filename>ds__calloc_8c</filename>
+    <includes id="utils_8h" name="utils.h" local="yes" imported="no">utils.h</includes>
+    <member kind="function">
+      <type>void *</type>
+      <name>ds_calloc</name>
+      <anchorfile>ds__calloc_8c.html</anchorfile>
+      <anchor>a555567c0193869d28df76d4f2af52eca</anchor>
+      <arglist>(size_t count, size_t size)</arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>ds_strcmp.c</name>
+    <path>/Users/almayor/Documents/programming/42/data_structures/src/utils/</path>
+    <filename>ds__strcmp_8c</filename>
+    <includes id="utils_8h" name="utils.h" local="yes" imported="no">utils.h</includes>
+    <member kind="function">
+      <type>int</type>
+      <name>ds_strcmp</name>
+      <anchorfile>ds__strcmp_8c.html</anchorfile>
+      <anchor>a08baeb3e1b8f615dc8b94700fcea8e5a</anchor>
+      <arglist>(const char *s1, const char *s2)</arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>ds_strdup.c</name>
+    <path>/Users/almayor/Documents/programming/42/data_structures/src/utils/</path>
+    <filename>ds__strdup_8c</filename>
+    <includes id="utils_8h" name="utils.h" local="yes" imported="no">utils.h</includes>
+    <member kind="function">
+      <type>char *</type>
+      <name>ds_strdup</name>
+      <anchorfile>ds__strdup_8c.html</anchorfile>
+      <anchor>a54e5f987803a4699c0a1c8d826e10e68</anchor>
+      <arglist>(const char *s1)</arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>ds_strlen.c</name>
+    <path>/Users/almayor/Documents/programming/42/data_structures/src/utils/</path>
+    <filename>ds__strlen_8c</filename>
+    <includes id="utils_8h" name="utils.h" local="yes" imported="no">utils.h</includes>
+    <member kind="function">
+      <type>size_t</type>
+      <name>ds_strlen</name>
+      <anchorfile>ds__strlen_8c.html</anchorfile>
+      <anchor>a6ab7d7a7f8358df16b632993aa68c011</anchor>
+      <arglist>(const char *s)</arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>utils.h</name>
+    <path>/Users/almayor/Documents/programming/42/data_structures/src/utils/</path>
+    <filename>utils_8h</filename>
+    <member kind="function">
+      <type>void</type>
+      <name>ds_bzero</name>
+      <anchorfile>utils_8h.html</anchorfile>
+      <anchor>a8c5806446d7e41c8c08eba87711f047a</anchor>
+      <arglist>(void *s, size_t n)</arglist>
+    </member>
+    <member kind="function">
+      <type>size_t</type>
+      <name>ds_strlen</name>
+      <anchorfile>utils_8h.html</anchorfile>
+      <anchor>a6ab7d7a7f8358df16b632993aa68c011</anchor>
+      <arglist>(const char *s)</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>ds_strcmp</name>
+      <anchorfile>utils_8h.html</anchorfile>
+      <anchor>a08baeb3e1b8f615dc8b94700fcea8e5a</anchor>
+      <arglist>(const char *s1, const char *s2)</arglist>
+    </member>
+    <member kind="function">
+      <type>void *</type>
+      <name>ds_calloc</name>
+      <anchorfile>utils_8h.html</anchorfile>
+      <anchor>a555567c0193869d28df76d4f2af52eca</anchor>
+      <arglist>(size_t count, size_t size)</arglist>
+    </member>
+    <member kind="function">
+      <type>char *</type>
+      <name>ds_strdup</name>
+      <anchorfile>utils_8h.html</anchorfile>
+      <anchor>a54e5f987803a4699c0a1c8d826e10e68</anchor>
+      <arglist>(const char *s1)</arglist>
     </member>
   </compound>
   <compound kind="struct">
