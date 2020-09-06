@@ -6,7 +6,7 @@
 /*   By: unite <marvin@42.fr>                       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/07/16 17:32:17 by unite             #+#    #+#             */
-/*   Updated: 2020/09/05 18:56:08 by unite            ###   ########.fr       */
+/*   Updated: 2020/09/06 14:26:40 by unite            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,7 +30,7 @@
 
 /*
 ** @struct s_array
-** @brief A resizable array holding generic items.
+** @brief A resizable array.
 ** @details The array will double in size when its capacity is filled,
 ** and halve its size when only `1/4` of its capacity is used.
 ** @var s_array::size
