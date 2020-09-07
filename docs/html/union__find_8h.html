@@ -84,13 +84,14 @@ $(function() {
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="union__find_8h__incl.png" border="0" usemap="#src_2data__structures_2union__find_8h" alt=""/></div>
 <map name="src_2data__structures_2union__find_8h" id="src_2data__structures_2union__find_8h">
-<area shape="rect" title=" " alt="" coords="121,5,256,47"/>
-<area shape="rect" title=" " alt="" coords="5,95,68,121"/>
-<area shape="rect" title=" " alt="" coords="93,95,183,121"/>
-<area shape="rect" href="types_8h.html" title=" " alt="" coords="208,95,273,121"/>
-<area shape="rect" href="utils_8h.html" title=" " alt="" coords="283,169,340,196"/>
-<area shape="rect" title=" " alt="" coords="194,169,258,196"/>
-<area shape="rect" title=" " alt="" coords="279,244,344,271"/>
+<area shape="rect" title=" " alt="" coords="97,5,232,47"/>
+<area shape="rect" title=" " alt="" coords="5,244,68,271"/>
+<area shape="rect" title=" " alt="" coords="258,95,349,121"/>
+<area shape="rect" href="types_8h.html" title=" " alt="" coords="168,95,233,121"/>
+<area shape="rect" href="utils_8h.html" title=" " alt="" coords="123,169,180,196"/>
+<area shape="rect" title=" " alt="" coords="267,244,331,271"/>
+<area shape="rect" title=" " alt="" coords="92,244,157,271"/>
+<area shape="rect" title=" " alt="" coords="182,244,243,271"/>
 </map>
 </div>
 </div>
@@ -113,9 +114,9 @@ Functions</h2></td></tr>
 <tr class="memitem:a859ec92fb593eb31755c0b7822cd320a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structs__union__find.html">t_union_find</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="union__find_8h.html#a859ec92fb593eb31755c0b7822cd320a">union_find_new</a> (size_t size)</td></tr>
 <tr class="memdesc:a859ec92fb593eb31755c0b7822cd320a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes a new union-find data structure of the specified size.  <a href="union__find_8h.html#a859ec92fb593eb31755c0b7822cd320a">More...</a><br /></td></tr>
 <tr class="separator:a859ec92fb593eb31755c0b7822cd320a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acd612f8ef64df5137a136c726cffbb64"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="union__find_8h.html#acd612f8ef64df5137a136c726cffbb64">union_find_union</a> (<a class="el" href="structs__union__find.html">t_union_find</a> *uf, size_t p, size_t q)</td></tr>
-<tr class="memdesc:acd612f8ef64df5137a136c726cffbb64"><td class="mdescLeft">&#160;</td><td class="mdescRight">Merges the set containing element.  <a href="union__find_8h.html#acd612f8ef64df5137a136c726cffbb64">More...</a><br /></td></tr>
-<tr class="separator:acd612f8ef64df5137a136c726cffbb64"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4166e7f1a37631f1ae4f72e14c6effb1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="union__find_8h.html#a4166e7f1a37631f1ae4f72e14c6effb1">union_find_union</a> (<a class="el" href="structs__union__find.html">t_union_find</a> *uf, size_t p, size_t q)</td></tr>
+<tr class="memdesc:a4166e7f1a37631f1ae4f72e14c6effb1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Merges the set containing element <code>p</code> with the set containing element <code>q</code>.  <a href="union__find_8h.html#a4166e7f1a37631f1ae4f72e14c6effb1">More...</a><br /></td></tr>
+<tr class="separator:a4166e7f1a37631f1ae4f72e14c6effb1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0d398f0a3f3bad9789323879f6aabef2"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="union__find_8h.html#a0d398f0a3f3bad9789323879f6aabef2">union_find_count</a> (const <a class="el" href="structs__union__find.html">t_union_find</a> *uf)</td></tr>
 <tr class="memdesc:a0d398f0a3f3bad9789323879f6aabef2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the number of disconnected sets.  <a href="union__find_8h.html#a0d398f0a3f3bad9789323879f6aabef2">More...</a><br /></td></tr>
 <tr class="separator:a0d398f0a3f3bad9789323879f6aabef2"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -125,9 +126,9 @@ Functions</h2></td></tr>
 <tr class="memitem:a6cd321938719bd1d6c121798e2285cd7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="union__find_8h.html#a6cd321938719bd1d6c121798e2285cd7">union_find_delete</a> (<a class="el" href="structs__union__find.html">t_union_find</a> *uf)</td></tr>
 <tr class="memdesc:a6cd321938719bd1d6c121798e2285cd7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deletes the union-find and frees all memory taken by its contents, or does nothing if the argument is <code>NULL</code>.  <a href="union__find_8h.html#a6cd321938719bd1d6c121798e2285cd7">More...</a><br /></td></tr>
 <tr class="separator:a6cd321938719bd1d6c121798e2285cd7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a83a714f2b1201e4051779b9cff2fdad2"><td class="memItemLeft" align="right" valign="top">ssize_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="union__find_8h.html#a83a714f2b1201e4051779b9cff2fdad2">union_find_find</a> (const <a class="el" href="structs__union__find.html">t_union_find</a> *uf, size_t p)</td></tr>
-<tr class="memdesc:a83a714f2b1201e4051779b9cff2fdad2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the canonical element of the set containing the specified element.  <a href="union__find_8h.html#a83a714f2b1201e4051779b9cff2fdad2">More...</a><br /></td></tr>
-<tr class="separator:a83a714f2b1201e4051779b9cff2fdad2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab628b2d862aad8889437a935c3baf312"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="union__find_8h.html#ab628b2d862aad8889437a935c3baf312">union_find_find</a> (const <a class="el" href="structs__union__find.html">t_union_find</a> *uf, size_t p)</td></tr>
+<tr class="memdesc:ab628b2d862aad8889437a935c3baf312"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the canonical element of the set containing the specified element.  <a href="union__find_8h.html#ab628b2d862aad8889437a935c3baf312">More...</a><br /></td></tr>
+<tr class="separator:ab628b2d862aad8889437a935c3baf312"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="a0d398f0a3f3bad9789323879f6aabef2"></a>
@@ -175,14 +176,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a83a714f2b1201e4051779b9cff2fdad2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a83a714f2b1201e4051779b9cff2fdad2">&#9670;&nbsp;</a></span>union_find_find()</h2>
+<a id="ab628b2d862aad8889437a935c3baf312"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab628b2d862aad8889437a935c3baf312">&#9670;&nbsp;</a></span>union_find_find()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">ssize_t union_find_find </td>
+          <td class="memname">size_t union_find_find </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="structs__union__find.html">t_union_find</a> *&#160;</td>
           <td class="paramname"><em>uf</em>, </td>
@@ -208,7 +209,7 @@ Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>The canonical element of the set containing the specified element, or <code>-1</code> if the element is outside of the range of this data structure. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>The canonical element of the set containing the specified element </dd></dl>
 
 <p class="definition">Definition at line <a class="el" href="union__find__find_8c_source.html#l00016">16</a> of file <a class="el" href="union__find__find_8c_source.html">union_find_find.c</a>.</p>
 
@@ -231,7 +232,7 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Initializes a new union-find data structure of the specified size. </p>
-<dl class="section return"><dt>Returns</dt><dd>The new union-find data structure, or <code>NULL</code> if an error occured. In case of an error, <code>errno</code> is set accordingly. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>The new union-find data structure </dd></dl>
 
 <p class="definition">Definition at line <a class="el" href="union__find__new_8c_source.html#l00016">16</a> of file <a class="el" href="union__find__new_8c_source.html">union_find_new.c</a>.</p>
 
@@ -260,14 +261,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="acd612f8ef64df5137a136c726cffbb64"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acd612f8ef64df5137a136c726cffbb64">&#9670;&nbsp;</a></span>union_find_union()</h2>
+<a id="a4166e7f1a37631f1ae4f72e14c6effb1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4166e7f1a37631f1ae4f72e14c6effb1">&#9670;&nbsp;</a></span>union_find_union()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int union_find_union </td>
+          <td class="memname">void union_find_union </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structs__union__find.html">t_union_find</a> *&#160;</td>
           <td class="paramname"><em>uf</em>, </td>
@@ -292,17 +293,14 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Merges the set containing element. </p>
-<div class="fragment"><div class="line">p </div>
-</div><!-- fragment --><p> with the set containing element</p><div class="fragment"><div class="line">q </div>
-</div><!-- fragment --><p> . </p><dl class="params"><dt>Parameters</dt><dd>
+<p>Merges the set containing element <code>p</code> with the set containing element <code>q</code>. </p>
+<dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">p</td><td>on element </td></tr>
     <tr><td class="paramname">q</td><td>the other element </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd><code>0</code> on success, <code>1</code> on failure (e.g. if either element is not contained in this union-find). In case of an error, <code>errno</code> is set accordingly. </dd></dl>
 
 <p class="definition">Definition at line <a class="el" href="union__find__union_8c_source.html#l00016">16</a> of file <a class="el" href="union__find__union_8c_source.html">union_find_union.c</a>.</p>
 

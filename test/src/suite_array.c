@@ -173,6 +173,22 @@ void test_array_sorted(void) {
 	array_delete(array);
 }
 
+void test_array_indexof(void) {
+	t_array *array = array_new(g_type_str);
+	array_append(array, "Hello");
+	array_append(array, "Edge");
+	array_append(array, "Adagio");
+	array_append(array, "Velcro");
+	array_append(array, "Massage");
+	array_append(array, "Xylo");
+	TEST_ASSERT(array_indexof(array, "Hello") == 0);
+	TEST_ASSERT(array_indexof(array, "Edge") == 1);
+	TEST_ASSERT(array_indexof(array, "Adagio") == 2);
+	TEST_ASSERT(array_indexof(array, "Velcro") == 3);
+	TEST_ASSERT(array_indexof(array, "Massage") == 4);
+	TEST_ASSERT(array_indexof(array, "Xylo") == 5);
+}
+
 int suite_array(void) {
     UNITY_BEGIN();
     RUN_TEST(test_array_new);
@@ -187,5 +203,6 @@ int suite_array(void) {
     RUN_TEST(test_array_quick_sort);
     RUN_TEST(test_array_insertion_sort);
     RUN_TEST(test_array_sorted);
+    RUN_TEST(test_array_indexof);
     return UNITY_END();
 }

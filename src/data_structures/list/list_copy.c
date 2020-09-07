@@ -6,7 +6,7 @@
 /*   By: unite <marvin@42.fr>                       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/07/22 10:07:52 by unite             #+#    #+#             */
-/*   Updated: 2020/07/22 10:10:23 by unite            ###   ########.fr       */
+/*   Updated: 2020/09/07 22:02:11 by unite            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,8 +17,7 @@ t_list		*list_copy(const t_list *alst)
 	t_list	*copy;
 	t_link	*link;
 
-	if (!(copy = list_new(alst->type)))
-		return (NULL);
+	copy = list_new(alst->type);
 	link = alst->head;
 	while (link)
 	{

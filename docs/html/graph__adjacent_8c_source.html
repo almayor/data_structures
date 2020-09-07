@@ -77,7 +77,7 @@ $(function() {
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="comment">/*   By: unite &lt;marvin@42.fr&gt;                       +#+  +:+       +#+        */</span></div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="comment">/*                                                +#+#+#+#+#+   +#+           */</span></div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="comment">/*   Created: 2020/07/22 15:51:34 by unite             #+#    #+#             */</span></div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="comment">/*   Updated: 2020/07/22 15:56:29 by unite            ###   ########.fr       */</span></div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="comment">/*   Updated: 2020/09/07 21:49:18 by unite            ###   ########.fr       */</span></div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="comment">/*                                                                            */</span></div>
 <div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="comment">/* ************************************************************************** */</span></div>
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160; </div>
@@ -89,20 +89,17 @@ $(function() {
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    <span class="keyword">const</span> <a class="code" href="structs__array.html">t_array</a>   *adjacency;</div>
 <div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160; </div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    <span class="keywordflow">if</span> (!<a class="code" href="rbt__contains_8c.html#a88c6a9c58eda33244e7df6c5c9343882">rbt_contains</a>(graph-&gt;<a class="code" href="structs__graph.html#ac62d642e1a23330862d4964c0e4f6746">adj</a>, v1) || !<a class="code" href="rbt__contains_8c.html#a88c6a9c58eda33244e7df6c5c9343882">rbt_contains</a>(graph-&gt;<a class="code" href="structs__graph.html#ac62d642e1a23330862d4964c0e4f6746">adj</a>, v2))</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    {</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;        errno = EINVAL;</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;        <span class="keywordflow">return</span> (0);</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    }</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    adjacency = <a class="code" href="rbt__get_8c.html#ad63f9a51331396993cbb1294166d790e">rbt_get</a>(graph-&gt;<a class="code" href="structs__graph.html#ac62d642e1a23330862d4964c0e4f6746">adj</a>, v1);</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    i = 0;</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    <span class="keywordflow">while</span> (i &lt; <a class="code" href="array__size_8c.html#a8b430a69e82ace913c563e1ebd123912">array_size</a>(adjacency))</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    {</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;        <span class="keywordflow">if</span> (graph-&gt;<a class="code" href="structs__graph.html#aba431eb336a8b87ce63400cbb1a866ac">type</a>-&gt;<a class="code" href="structs__type.html#a446d2d46d66404fe85cb99a2977ee65e">cmp</a>(v2, <a class="code" href="array__get_8c.html#a918d21770580885a0546aed54cdcd1d6">array_get</a>(adjacency, i)) == 0)</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;            <span class="keywordflow">return</span> (1);</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;        i++;</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    }</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    <span class="keywordflow">return</span> (0);</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;}</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;        <a class="code" href="ds__exit__set_8c.html#a1465a802cddd1a10dce59aa7a988ca15">ds_exit_set</a>(EINVAL);</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    adjacency = <a class="code" href="rbt__get_8c.html#ad63f9a51331396993cbb1294166d790e">rbt_get</a>(graph-&gt;<a class="code" href="structs__graph.html#ac62d642e1a23330862d4964c0e4f6746">adj</a>, v1);</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    i = 0;</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    <span class="keywordflow">while</span> (i &lt; <a class="code" href="array__size_8c.html#a8b430a69e82ace913c563e1ebd123912">array_size</a>(adjacency))</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    {</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;        <span class="keywordflow">if</span> (graph-&gt;<a class="code" href="structs__graph.html#aba431eb336a8b87ce63400cbb1a866ac">type</a>-&gt;<a class="code" href="structs__type.html#a446d2d46d66404fe85cb99a2977ee65e">cmp</a>(v2, <a class="code" href="array__get_8c.html#a918d21770580885a0546aed54cdcd1d6">array_get</a>(adjacency, i)) == 0)</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;            <span class="keywordflow">return</span> (1);</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;        i++;</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    }</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    <span class="keywordflow">return</span> (0);</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;}</div>
 </div><!-- fragment --></div><!-- contents -->
 <div class="ttc" id="arbt__contains_8c_html_a88c6a9c58eda33244e7df6c5c9343882"><div class="ttname"><a href="rbt__contains_8c.html#a88c6a9c58eda33244e7df6c5c9343882">rbt_contains</a></div><div class="ttdeci">int rbt_contains(const t_rbt *rbt, const void *key)</div><div class="ttdoc">Does the tree contain the specified key?</div><div class="ttdef"><b>Definition:</b> <a href="rbt__contains_8c_source.html#l00016">rbt_contains.c:16</a></div></div>
 <div class="ttc" id="aarray__get_8c_html_a918d21770580885a0546aed54cdcd1d6"><div class="ttname"><a href="array__get_8c.html#a918d21770580885a0546aed54cdcd1d6">array_get</a></div><div class="ttdeci">void * array_get(const t_array *array, size_t index)</div><div class="ttdoc">Returns the item at the specified position in this list.</div><div class="ttdef"><b>Definition:</b> <a href="array__get_8c_source.html#l00016">array_get.c:16</a></div></div>
@@ -115,6 +112,7 @@ $(function() {
 <div class="ttc" id="agraph__adjacent_8c_html_a21cac481d7ba7afebf531e22cad146a3"><div class="ttname"><a href="graph__adjacent_8c.html#a21cac481d7ba7afebf531e22cad146a3">graph_adjacent</a></div><div class="ttdeci">int graph_adjacent(const t_graph *graph, const void *v1, const void *v2)</div><div class="ttdoc">Are two vertices in the graph adjacent to each other?</div><div class="ttdef"><b>Definition:</b> <a href="graph__adjacent_8c_source.html#l00016">graph_adjacent.c:16</a></div></div>
 <div class="ttc" id="arbt__get_8c_html_ad63f9a51331396993cbb1294166d790e"><div class="ttname"><a href="rbt__get_8c.html#ad63f9a51331396993cbb1294166d790e">rbt_get</a></div><div class="ttdeci">void * rbt_get(const t_rbt *rbt, const void *key)</div><div class="ttdoc">Returns the value associated with a specified key.</div><div class="ttdef"><b>Definition:</b> <a href="rbt__get_8c_source.html#l00016">rbt_get.c:16</a></div></div>
 <div class="ttc" id="agraph_8h_html"><div class="ttname"><a href="graph_8h.html">graph.h</a></div></div>
+<div class="ttc" id="ads__exit__set_8c_html_a1465a802cddd1a10dce59aa7a988ca15"><div class="ttname"><a href="ds__exit__set_8c.html#a1465a802cddd1a10dce59aa7a988ca15">ds_exit_set</a></div><div class="ttdeci">void ds_exit_set(int err)</div><div class="ttdoc">Set errno to the specified value, print the error message, and exit the process.</div><div class="ttdef"><b>Definition:</b> <a href="ds__exit__set_8c_source.html#l00022">ds_exit_set.c:22</a></div></div>
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
 Generated by &#160;<a href="http://www.doxygen.org/index.html">

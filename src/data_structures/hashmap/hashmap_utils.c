@@ -6,7 +6,7 @@
 /*   By: unite <marvin@42.fr>                       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/07/21 19:19:37 by unite             #+#    #+#             */
-/*   Updated: 2020/09/05 19:11:24 by unite            ###   ########.fr       */
+/*   Updated: 2020/09/07 21:53:05 by unite            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,7 +33,7 @@ static void	hashmap_rehash(t_hashmap *hm, void **old_keys, void **old_vals,
 	free(old_vals);
 }
 
-int		hashmap_grow(t_hashmap *hm)
+void		hashmap_grow(t_hashmap *hm)
 {
 	void	**old_keys;
 	void	**old_vals;
@@ -42,22 +42,15 @@ int		hashmap_grow(t_hashmap *hm)
 	old_keys = hm->keys;
 	old_vals = hm->vals;
 	old_capacity = hm->capacity;
-	if (!(hm->keys = ds_calloc(sizeof(void *), hm->capacity * 2)) ||
-		!(hm->vals = ds_calloc(sizeof(void *), hm->capacity * 2)))
-	{
-		free(hm->keys);
-		hm->keys = old_keys;
-		hm->vals = old_vals;
-		return (1);
-	}
+	hm->keys = ds_xcalloc(sizeof(void *), hm->capacity * 2);
+	hm->vals = ds_xcalloc(sizeof(void *), hm->capacity * 2);
 	hm->capacity *= 2;
 	hashmap_rehash(hm, old_keys, old_vals, old_capacity);
 	free(old_keys);
 	free(old_vals);
-	return (0);
 }
 
-int		hashmap_shrink(t_hashmap *hm)
+void		hashmap_shrink(t_hashmap *hm)
 {
 	void	**old_keys;
 	void	**old_vals;
@@ -66,17 +59,10 @@ int		hashmap_shrink(t_hashmap *hm)
 	old_keys = hm->keys;
 	old_vals = hm->vals;
 	old_capacity = hm->capacity;
-	if (!(hm->keys = ds_calloc(sizeof(void *), hm->size * 2)) ||
-		!(hm->vals = ds_calloc(sizeof(void *), hm->size * 2)))
-	{
-		free(hm->keys);
-		hm->keys = old_keys;
-		hm->vals = old_vals;
-		return (1);
-	}
+	hm->keys = ds_xcalloc(sizeof(void *), hm->size * 2);
+	hm->vals = ds_xcalloc(sizeof(void *), hm->size * 2);
 	hm->capacity = hm->size * 2;
 	hashmap_rehash(hm, old_keys, old_vals, old_capacity);
 	free(old_keys);
 	free(old_vals);
-	return (0);
 }

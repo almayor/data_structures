@@ -6,7 +6,7 @@
 /*   By: unite <marvin@42.fr>                       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/07/18 13:46:33 by unite             #+#    #+#             */
-/*   Updated: 2020/07/19 00:33:29 by unite            ###   ########.fr       */
+/*   Updated: 2020/09/07 22:09:03 by unite            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -41,8 +41,7 @@ static t_rbt_node	*rbt_put_recur(t_rbt *rbt, t_rbt_node *node,
 	return (node);
 }
 
-int					rbt_put(t_rbt *rbt, const void *key, const void *val)
+void				rbt_put(t_rbt *rbt, const void *key, const void *val)
 {
 	rbt->root = rbt_put_recur(rbt, rbt->root, key, val);
-	return (errno > 0);
 }

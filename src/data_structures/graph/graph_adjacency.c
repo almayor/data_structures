@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   graph_adjancency.c                                 :+:      :+:    :+:   */
+/*   graph_adjacency.c                                  :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: unite <marvin@42.fr>                       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/07/22 01:42:21 by unite             #+#    #+#             */
-/*   Updated: 2020/07/22 15:24:13 by unite            ###   ########.fr       */
+/*   Updated: 2020/09/07 21:49:03 by unite            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,9 +17,6 @@ t_queue		*graph_adjacency(const t_graph *graph, const void *v)
 	t_array	*array;
 
 	if (!(array = rbt_get(graph->adj, v)))
-	{
-		errno = EINVAL;
-		return (NULL);
-	}
+		ds_exit_set(EINVAL);
 	return (array_to_queue(array));
 }

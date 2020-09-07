@@ -79,14 +79,15 @@ $(function() {
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="list__merge__sort_8c__incl.png" border="0" usemap="#src_2data__structures_2list_2list__merge__sort_8c" alt=""/></div>
 <map name="src_2data__structures_2list_2list__merge__sort_8c" id="src_2data__structures_2list_2list__merge__sort_8c">
-<area shape="rect" title=" " alt="" coords="115,5,262,47"/>
-<area shape="rect" href="list_8h.html" title=" " alt="" coords="163,95,214,121"/>
-<area shape="rect" title=" " alt="" coords="5,169,68,196"/>
-<area shape="rect" title=" " alt="" coords="93,169,183,196"/>
-<area shape="rect" href="types_8h.html" title=" " alt="" coords="208,169,273,196"/>
-<area shape="rect" href="utils_8h.html" title=" " alt="" coords="283,244,340,271"/>
-<area shape="rect" title=" " alt="" coords="194,244,258,271"/>
-<area shape="rect" title=" " alt="" coords="279,319,344,345"/>
+<area shape="rect" title=" " alt="" coords="91,5,238,47"/>
+<area shape="rect" href="list_8h.html" title=" " alt="" coords="139,95,190,121"/>
+<area shape="rect" title=" " alt="" coords="5,319,68,345"/>
+<area shape="rect" title=" " alt="" coords="258,169,349,196"/>
+<area shape="rect" href="types_8h.html" title=" " alt="" coords="168,169,233,196"/>
+<area shape="rect" href="utils_8h.html" title=" " alt="" coords="123,244,180,271"/>
+<area shape="rect" title=" " alt="" coords="267,319,331,345"/>
+<area shape="rect" title=" " alt="" coords="92,319,157,345"/>
+<area shape="rect" title=" " alt="" coords="182,319,243,345"/>
 </map>
 </div>
 </div>
@@ -94,19 +95,19 @@ $(function() {
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a1dda1c174502914f3782fc584c16d415"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="list__merge__sort_8c.html#a1dda1c174502914f3782fc584c16d415">list_merge_sort</a> (<a class="el" href="structs__list.html">t_list</a> *alst)</td></tr>
-<tr class="memdesc:a1dda1c174502914f3782fc584c16d415"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sorts this list in ascending order using in-place merge sort.  <a href="list__merge__sort_8c.html#a1dda1c174502914f3782fc584c16d415">More...</a><br /></td></tr>
-<tr class="separator:a1dda1c174502914f3782fc584c16d415"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4d7955c48cdc32a8343061cacb5c7628"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="list__merge__sort_8c.html#a4d7955c48cdc32a8343061cacb5c7628">list_merge_sort</a> (<a class="el" href="structs__list.html">t_list</a> *alst)</td></tr>
+<tr class="memdesc:a4d7955c48cdc32a8343061cacb5c7628"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sorts this list in ascending order using in-place merge sort.  <a href="list__merge__sort_8c.html#a4d7955c48cdc32a8343061cacb5c7628">More...</a><br /></td></tr>
+<tr class="separator:a4d7955c48cdc32a8343061cacb5c7628"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="a1dda1c174502914f3782fc584c16d415"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1dda1c174502914f3782fc584c16d415">&#9670;&nbsp;</a></span>list_merge_sort()</h2>
+<a id="a4d7955c48cdc32a8343061cacb5c7628"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4d7955c48cdc32a8343061cacb5c7628">&#9670;&nbsp;</a></span>list_merge_sort()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int list_merge_sort </td>
+          <td class="memname">void list_merge_sort </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structs__list.html">t_list</a> *&#160;</td>
           <td class="paramname"><em>alst</em></td><td>)</td>
@@ -116,8 +117,7 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Sorts this list in ascending order using in-place merge sort. </p>
-<dl class="section return"><dt>Returns</dt><dd><code>0</code> on success, <code>1</code> on failure. In case of failure, <code>errno</code> is set accordingly. </dd></dl>
-<dl class="section remark"><dt>Remarks</dt><dd>For this function to work, the datatype in this list must be comparable (i.e. implement the <code>cmp</code> function). </dd></dl>
+<dl class="section note"><dt>Note</dt><dd>For this function to work, the datatype in this list must be comparable (i.e. implement the <code>cmp</code> function). </dd></dl>
 
 <p class="definition">Definition at line <a class="el" href="list__merge__sort_8c_source.html#l00075">75</a> of file <a class="el" href="list__merge__sort_8c_source.html">list_merge_sort.c</a>.</p>
 

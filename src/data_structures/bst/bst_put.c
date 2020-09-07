@@ -6,7 +6,7 @@
 /*   By: unite <marvin@42.fr>                       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/07/17 22:09:18 by unite             #+#    #+#             */
-/*   Updated: 2020/09/05 19:12:48 by unite            ###   ########.fr       */
+/*   Updated: 2020/09/07 21:44:44 by unite            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,8 +16,7 @@ static t_bst_node	*bst_make_node(t_bst *bst, const void *key, const void *val)
 {
 	t_bst_node	*node;
 
-	if (!(node = ds_calloc(sizeof(t_bst_node), 1)))
-		return (NULL);
+	node = ds_xcalloc(sizeof(t_bst_node), 1);
 	node->key = bst->key_type->copy(key);
 	node->val = bst->val_type->copy(val);
 	return (node);
@@ -43,9 +42,8 @@ static t_bst_node	*bst_put_recur(t_bst *bst, t_bst_node *node,
 	return (node);
 }
 
-int		bst_put(t_bst *bst, const void *key, const void *val)
+void				bst_put(t_bst *bst, const void *key, const void *val)
 {
 	bst->root = bst_put_recur(bst, bst->root, key, val);
 	bst->size++;
-	return (errno > 0);
 }

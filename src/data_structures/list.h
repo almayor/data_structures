@@ -6,7 +6,7 @@
 /*   By: unite <marvin@42.fr>                       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/07/16 17:12:34 by unite             #+#    #+#             */
-/*   Updated: 2020/09/05 18:55:58 by unite            ###   ########.fr       */
+/*   Updated: 2020/09/07 22:17:55 by unite            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -61,20 +61,16 @@ typedef struct		s_list
 /*
 ** Adds a copy of the specified element at the front of this list.
 ** @param data	The item to be copied
-** @return `0` on success, `1` on failure. In case of an error, `errno` is
-** set accordingly.
 */
 
-int					list_add_first(t_list *alst, const void *data);
+void				list_add_first(t_list *alst, const void *data);
 
 /*
 ** Adds a copy of the specified element at the back of this list.
 ** @param data	The item to be copied
-** @return `0` on success, `1` on failure. In case of an error, `errno` is
-** set accordingly.
 */
 
-int					list_add_last(t_list *alst, const void *data);
+void				list_add_last(t_list *alst, const void *data);
 
 /*
 ** Deletes the list and frees all memory taken by its contents.
@@ -159,26 +155,22 @@ size_t				list_size(const t_list *alst);
 /*
 ** Allocates memory and initializes an empty list.
 ** @param the type of items that this list will hold
-** @return `0` on success, `1` on failure. In case of failure,
-** `errno` is set accordingly.
+** @return An empty list
 */
 
 t_list				*list_new(const t_type *type);
 
 /*
 ** Sorts this list in ascending order using in-place merge sort.
-** @return `0` on success, `1` on failure. In case of failure,
-** `errno` is set accordingly.
-** @remark For this function to work, the datatype in this list must be
+** @note For this function to work, the datatype in this list must be
 ** comparable (i.e. implement the `cmp` function).
 */
 
-int					list_merge_sort(t_list *alst);
+void				list_merge_sort(t_list *alst);
 
 /*
 ** Copies an list and all it contents.
-** @return The copy of the list or `NULL` if an error occured. In case of an
-** error, `errno` will set accordingly.
+** @return A copy of the list
 */
 
 t_list				*list_copy(const t_list *alst);

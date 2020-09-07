@@ -6,7 +6,7 @@
 /*   By: unite <marvin@42.fr>                       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/09/04 22:50:26 by unite             #+#    #+#             */
-/*   Updated: 2020/09/05 20:22:54 by unite            ###   ########.fr       */
+/*   Updated: 2020/09/07 22:49:50 by unite            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,8 +21,7 @@ char	*ds_strdup(const char *s1)
 	size_t	i;
 	char	*cpy;
 
-	if (!(cpy = ds_calloc(sizeof(char), ds_strlen(s1) + 1)))
-		return (NULL);
+	cpy = ds_xcalloc(sizeof(char), ds_strlen(s1) + 1);
 	i = 0;
 	while (s1[i])
 	{

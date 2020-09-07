@@ -6,7 +6,7 @@
 /*   By: unite <marvin@42.fr>                       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/07/21 21:49:30 by unite             #+#    #+#             */
-/*   Updated: 2020/09/05 18:55:45 by unite            ###   ########.fr       */
+/*   Updated: 2020/09/07 22:20:25 by unite            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -42,23 +42,19 @@ typedef struct	s_union_find
 
 /*
 ** Initializes a new union-find data structure of the specified size
-** @return The new union-find data structure, or `NULL` if an error occured.
-** In case of an error, `errno` is set accordingly.
+** @return The new union-find data structure
 */
 
 t_union_find	*union_find_new(size_t size);
 
 /*
-** Merges the set containing element {@code p} with
-** the set containing element {@code q}.
+** Merges the set containing element `p` with
+** the set containing element `q`.
 ** @param p on element
 ** @param q the other element
-** @return `0` on success, `1` on failure (e.g. if either element is not
-** contained in this union-find). In case of an error,
-** `errno` is set accordingly.
 */
 
-int				union_find_union(t_union_find *uf, size_t p, size_t q);
+void			union_find_union(t_union_find *uf, size_t p, size_t q);
 
 /*
 ** Returns the number of disconnected sets.
@@ -84,10 +80,9 @@ void			union_find_delete(t_union_find *uf);
 /*
 ** Returns the canonical element of the set containing the specified element.
 ** @param p	An element
-** @return The canonical element of the set containing the specified element,
-** or `-1` if the element is outside of the range of this data structure.
+** @return The canonical element of the set containing the specified element
 */
 
-ssize_t			union_find_find(const t_union_find *uf, size_t p);
+size_t			union_find_find(const t_union_find *uf, size_t p);
 
 #endif

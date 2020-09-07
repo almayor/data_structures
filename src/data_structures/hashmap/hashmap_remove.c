@@ -6,14 +6,14 @@
 /*   By: unite <marvin@42.fr>                       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/07/21 19:07:34 by unite             #+#    #+#             */
-/*   Updated: 2020/09/03 23:28:22 by unite            ###   ########.fr       */
+/*   Updated: 2020/09/07 21:53:55 by unite            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "hashmap.h"
 #include "hashmap_utils.h"
 
-static int	hashmap_rehash_cluster(t_hashmap *hm, size_t start)
+static void	hashmap_rehash_cluster(t_hashmap *hm, size_t start)
 {
 	void	*key;
 	void	*val;
@@ -30,10 +30,9 @@ static int	hashmap_rehash_cluster(t_hashmap *hm, size_t start)
 		hm->val_type->del(val);
 		start = (start + 1) % hm->capacity;
 	}
-	return (0);
 }
 
-int			hashmap_remove(t_hashmap *hm, const void *key)
+void		hashmap_remove(t_hashmap *hm, const void *key)
 {
 	size_t	i;
 
@@ -41,7 +40,7 @@ int			hashmap_remove(t_hashmap *hm, const void *key)
 	while (hm->key_type->cmp(hm->keys[i], key) != 0)
 	{
 		if (hm->keys[i] == NULL)
-			return (0);
+			return ;
 		i = (i + 1) % hm->capacity;
 	}
 	hm->key_type->del(hm->keys[i]);
@@ -51,7 +50,7 @@ int			hashmap_remove(t_hashmap *hm, const void *key)
 	hm->size--;
 	if (hm->capacity > HASHMAP_INIT_CAPACITY &&
 		hm->size <= hm->capacity / 8)
-		return (hashmap_shrink(hm));
+		hashmap_shrink(hm);
 	else
-		return (hashmap_rehash_cluster(hm, i + 1));
+		hashmap_rehash_cluster(hm, i + 1);
 }

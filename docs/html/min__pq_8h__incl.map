@@ -1,12 +1,13 @@
 <map id="src/data_structures/min_pq.h" name="src/data_structures/min_pq.h">
-<area shape="rect" id="node1" title=" " alt="" coords="254,5,389,47"/>
-<area shape="rect" id="node2" title=" " alt="" coords="479,319,542,345"/>
-<area shape="rect" id="node3" title=" " alt="" coords="121,319,212,345"/>
-<area shape="rect" id="node4" href="$types_8h.html" title=" " alt="" coords="351,319,417,345"/>
-<area shape="rect" id="node6" href="$utils_8h.html" title=" " alt="" coords="230,393,287,420"/>
-<area shape="rect" id="node8" href="$array_8h.html" title=" " alt="" coords="291,95,351,121"/>
-<area shape="rect" id="node5" title=" " alt="" coords="352,393,416,420"/>
-<area shape="rect" id="node7" title=" " alt="" coords="226,468,291,495"/>
-<area shape="rect" id="node9" href="$queue_8h.html" title=" " alt="" coords="287,169,355,196"/>
-<area shape="rect" id="node10" href="$list_8h.html" title=" " alt="" coords="296,244,347,271"/>
+<area shape="rect" id="node1" title=" " alt="" coords="256,5,391,47"/>
+<area shape="rect" id="node2" title=" " alt="" coords="355,468,417,495"/>
+<area shape="rect" id="node3" title=" " alt="" coords="423,319,514,345"/>
+<area shape="rect" id="node4" href="$types_8h.html" title=" " alt="" coords="5,319,71,345"/>
+<area shape="rect" id="node6" href="$utils_8h.html" title=" " alt="" coords="131,393,188,420"/>
+<area shape="rect" id="node9" href="$array_8h.html" title=" " alt="" coords="293,95,353,121"/>
+<area shape="rect" id="node5" title=" " alt="" coords="19,468,83,495"/>
+<area shape="rect" id="node7" title=" " alt="" coords="197,468,263,495"/>
+<area shape="rect" id="node8" title=" " alt="" coords="111,468,173,495"/>
+<area shape="rect" id="node10" href="$queue_8h.html" title=" " alt="" coords="289,169,357,196"/>
+<area shape="rect" id="node11" href="$list_8h.html" title=" " alt="" coords="298,244,349,271"/>
 </map>

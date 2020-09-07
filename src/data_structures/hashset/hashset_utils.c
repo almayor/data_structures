@@ -6,7 +6,7 @@
 /*   By: unite <marvin@42.fr>                       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/07/21 19:19:37 by unite             #+#    #+#             */
-/*   Updated: 2020/09/05 19:09:40 by unite            ###   ########.fr       */
+/*   Updated: 2020/09/07 21:56:27 by unite            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,38 +30,28 @@ void	hashset_rehash(t_hashset *hs, void **old_vals, size_t old_capacity)
 	free(old_vals);
 }
 
-int		hashset_grow(t_hashset *hs)
+void		hashset_grow(t_hashset *hs)
 {
 	void	**old_vals;
 	size_t	old_capacity;
 
 	old_vals = hs->vals;
 	old_capacity = hs->capacity;
-	if (!(hs->vals = ds_calloc(sizeof(void *), hs->capacity * 2)))
-	{
-		hs->vals = old_vals;
-		return (1);
-	}
+	hs->vals = ds_xcalloc(sizeof(void *), hs->capacity * 2);
 	hs->capacity = hs->capacity * 2;
 	hashset_rehash(hs, old_vals, old_capacity);
 	free(old_vals);
-	return (0);
 }
 
-int		hashset_shrink(t_hashset *hs)
+void		hashset_shrink(t_hashset *hs)
 {
 	void	**old_vals;
 	size_t	old_capacity;
 
 	old_vals = hs->vals;
 	old_capacity = hs->capacity;
-	if (!(hs->vals = ds_calloc(sizeof(void *), hs->size * 2)))
-	{
-		hs->vals = old_vals;
-		return (1);
-	}
+	hs->vals = ds_xcalloc(sizeof(void *), hs->size * 2);
 	hs->capacity = hs->size * 2;
 	hashset_rehash(hs, old_vals, old_capacity);
 	free(old_vals);
-	return (0);
 }

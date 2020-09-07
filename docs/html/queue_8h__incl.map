@@ -1,10 +1,11 @@
 <map id="src/data_structures/queue.h" name="src/data_structures/queue.h">
-<area shape="rect" id="node1" title=" " alt="" coords="139,5,273,47"/>
-<area shape="rect" id="node2" title=" " alt="" coords="5,169,68,196"/>
-<area shape="rect" id="node3" title=" " alt="" coords="93,169,183,196"/>
-<area shape="rect" id="node4" href="$types_8h.html" title=" " alt="" coords="309,169,375,196"/>
-<area shape="rect" id="node6" href="$utils_8h.html" title=" " alt="" coords="235,244,292,271"/>
-<area shape="rect" id="node8" href="$list_8h.html" title=" " alt="" coords="181,95,231,121"/>
-<area shape="rect" id="node5" title=" " alt="" coords="317,244,381,271"/>
-<area shape="rect" id="node7" title=" " alt="" coords="231,319,296,345"/>
+<area shape="rect" id="node1" title=" " alt="" coords="135,5,270,47"/>
+<area shape="rect" id="node2" title=" " alt="" coords="270,319,333,345"/>
+<area shape="rect" id="node3" title=" " alt="" coords="260,169,351,196"/>
+<area shape="rect" id="node4" href="$types_8h.html" title=" " alt="" coords="18,169,83,196"/>
+<area shape="rect" id="node6" href="$utils_8h.html" title=" " alt="" coords="98,244,155,271"/>
+<area shape="rect" id="node9" href="$list_8h.html" title=" " alt="" coords="177,95,228,121"/>
+<area shape="rect" id="node5" title=" " alt="" coords="5,319,69,345"/>
+<area shape="rect" id="node7" title=" " alt="" coords="94,319,159,345"/>
+<area shape="rect" id="node8" title=" " alt="" coords="184,319,245,345"/>
 </map>

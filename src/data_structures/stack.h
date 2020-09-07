@@ -6,7 +6,7 @@
 /*   By: unite <marvin@42.fr>                       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/07/16 17:19:03 by unite             #+#    #+#             */
-/*   Updated: 2020/09/05 18:55:47 by unite            ###   ########.fr       */
+/*   Updated: 2020/09/07 22:19:38 by unite            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,11 +30,9 @@ typedef t_array	t_stack;
 /*
 ** Copy the item and add it to the stack.
 ** @param data The item to be added
-** @return 0 on success, 1 on failure. In case of an error, `errno` is set
-** accordingly.
 */
 
-int				stack_push(t_stack *stack, const void *data);
+void			stack_push(t_stack *stack, const void *data);
 
 /*
 ** Removed and returns the item most recently added to this stack.
@@ -66,25 +64,14 @@ size_t			stack_size(const t_stack *stack);
 /*
 ** Initializes an empty stack.
 ** @param type the type of items that this stack will hold
-** @return The new stack, or `NULL` if an error occured. In case of an error,
-** `errno` is set accordingly.
+** @return The new stack
 */
 
 t_stack			*stack_new(const t_type *type);
 
 /*
-** Prints a string representation of this stack to standard output.
-** @remark For this function to work, the datatype in the queue must be
-** printable (i.e. implement the `print` function). Otherwise, an exception
-** will occur.
-*/
-
-void			stack_print(const t_stack *stack);
-
-/*
 ** Copies a stack and all it contents.
-** @return The copy of the stack or `NULL` if an error occured. In case of an
-** error, `errno` will set accordingly.
+** @return A copy of the stack
 */
 
 t_stack			*stack_copy(const t_stack *stack);

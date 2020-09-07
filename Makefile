@@ -6,7 +6,7 @@
 #    By: unite <marvin@42.fr>                       +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2020/09/05 18:17:42 by unite             #+#    #+#              #
-#    Updated: 2020/09/05 20:31:03 by unite            ###   ########.fr        #
+#    Updated: 2020/09/07 23:40:34 by unite            ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -17,6 +17,7 @@ data_structures/array/array_append.c \
 data_structures/array/array_copy.c \
 data_structures/array/array_delete.c \
 data_structures/array/array_get.c \
+data_structures/array/array_indexof.c \
 data_structures/array/array_insert.c \
 data_structures/array/array_insertion_sort.c \
 data_structures/array/array_merge_sort.c \
@@ -110,6 +111,7 @@ data_structures/rbt/rbt_keys.c \
 data_structures/rbt/rbt_max.c \
 data_structures/rbt/rbt_min.c \
 data_structures/rbt/rbt_new.c \
+data_structures/rbt/rbt_nth.c \
 data_structures/rbt/rbt_put.c \
 data_structures/rbt/rbt_rank.c \
 data_structures/rbt/rbt_size.c \
@@ -142,10 +144,13 @@ types/type_hashset.c \
 types/type_int.c \
 types/type_str.c \
 utils/ds_bzero.c \
-utils/ds_calloc.c \
+utils/ds_xcalloc.c \
+utils/ds_xmalloc.c \
 utils/ds_strcmp.c \
 utils/ds_strdup.c \
 utils/ds_strlen.c \
+utils/ds_exit.c \
+utils/ds_exit_set.c
 
 TEST_NAME = unit_tests
 

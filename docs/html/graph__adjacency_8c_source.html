@@ -72,12 +72,12 @@ $(function() {
 <a href="graph__adjacency_8c.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">/* ************************************************************************** */</span></div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment">/*                                                                            */</span></div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment">/*                                                        :::      ::::::::   */</span></div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment">/*   graph_adjancency.c                                 :+:      :+:    :+:   */</span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment">/*   graph_adjacency.c                                  :+:      :+:    :+:   */</span></div>
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="comment">/*                                                    +:+ +:+         +:+     */</span></div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="comment">/*   By: unite &lt;marvin@42.fr&gt;                       +#+  +:+       +#+        */</span></div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="comment">/*                                                +#+#+#+#+#+   +#+           */</span></div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="comment">/*   Created: 2020/07/22 01:42:21 by unite             #+#    #+#             */</span></div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="comment">/*   Updated: 2020/07/22 15:24:13 by unite            ###   ########.fr       */</span></div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="comment">/*   Updated: 2020/09/07 21:49:03 by unite            ###   ########.fr       */</span></div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="comment">/*                                                                            */</span></div>
 <div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="comment">/* ************************************************************************** */</span></div>
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160; </div>
@@ -88,12 +88,9 @@ $(function() {
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    <a class="code" href="structs__array.html">t_array</a> *array;</div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160; </div>
 <div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    <span class="keywordflow">if</span> (!(array = <a class="code" href="rbt__get_8c.html#ad63f9a51331396993cbb1294166d790e">rbt_get</a>(graph-&gt;<a class="code" href="structs__graph.html#ac62d642e1a23330862d4964c0e4f6746">adj</a>, v)))</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    {</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;        errno = EINVAL;</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;        <span class="keywordflow">return</span> (NULL);</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    }</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    <span class="keywordflow">return</span> (<a class="code" href="array__to__queue_8c.html#afc5ba2cd555b32533916e86026d846ee">array_to_queue</a>(array));</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;}</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;        <a class="code" href="ds__exit__set_8c.html#a1465a802cddd1a10dce59aa7a988ca15">ds_exit_set</a>(EINVAL);</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    <span class="keywordflow">return</span> (<a class="code" href="array__to__queue_8c.html#afc5ba2cd555b32533916e86026d846ee">array_to_queue</a>(array));</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;}</div>
 </div><!-- fragment --></div><!-- contents -->
 <div class="ttc" id="astructs__graph_html_ac62d642e1a23330862d4964c0e4f6746"><div class="ttname"><a href="structs__graph.html#ac62d642e1a23330862d4964c0e4f6746">s_graph::adj</a></div><div class="ttdeci">t_rbt * adj</div><div class="ttdoc">The set of arrays, where each arrays represents the adjacency of a given vertex.</div><div class="ttdef"><b>Definition:</b> <a href="graph_8h_source.html#l00043">graph.h:43</a></div></div>
 <div class="ttc" id="astructs__graph_html"><div class="ttname"><a href="structs__graph.html">s_graph</a></div><div class="ttdoc">A graph implemented using a set of arrays.</div><div class="ttdef"><b>Definition:</b> <a href="graph_8h_source.html#l00039">graph.h:39</a></div></div>
@@ -103,6 +100,7 @@ $(function() {
 <div class="ttc" id="arbt__get_8c_html_ad63f9a51331396993cbb1294166d790e"><div class="ttname"><a href="rbt__get_8c.html#ad63f9a51331396993cbb1294166d790e">rbt_get</a></div><div class="ttdeci">void * rbt_get(const t_rbt *rbt, const void *key)</div><div class="ttdoc">Returns the value associated with a specified key.</div><div class="ttdef"><b>Definition:</b> <a href="rbt__get_8c_source.html#l00016">rbt_get.c:16</a></div></div>
 <div class="ttc" id="agraph_8h_html"><div class="ttname"><a href="graph_8h.html">graph.h</a></div></div>
 <div class="ttc" id="agraph__adjacency_8c_html_a3decdf095e29fd5581d10c1ad89355d7"><div class="ttname"><a href="graph__adjacency_8c.html#a3decdf095e29fd5581d10c1ad89355d7">graph_adjacency</a></div><div class="ttdeci">t_queue * graph_adjacency(const t_graph *graph, const void *v)</div><div class="ttdoc">Returns the queue with all the vertices in this graph that are adjancent to the specified vertex.</div><div class="ttdef"><b>Definition:</b> <a href="graph__adjacency_8c_source.html#l00016">graph_adjacency.c:16</a></div></div>
+<div class="ttc" id="ads__exit__set_8c_html_a1465a802cddd1a10dce59aa7a988ca15"><div class="ttname"><a href="ds__exit__set_8c.html#a1465a802cddd1a10dce59aa7a988ca15">ds_exit_set</a></div><div class="ttdeci">void ds_exit_set(int err)</div><div class="ttdoc">Set errno to the specified value, print the error message, and exit the process.</div><div class="ttdef"><b>Definition:</b> <a href="ds__exit__set_8c_source.html#l00022">ds_exit_set.c:22</a></div></div>
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
 Generated by &#160;<a href="http://www.doxygen.org/index.html">

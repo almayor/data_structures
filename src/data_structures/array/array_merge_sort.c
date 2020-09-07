@@ -6,7 +6,7 @@
 /*   By: unite <marvin@42.fr>                       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/07/19 14:38:23 by unite             #+#    #+#             */
-/*   Updated: 2020/09/01 17:24:09 by unite            ###   ########.fr       */
+/*   Updated: 2020/09/07 21:50:50 by unite            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -69,20 +69,18 @@ static void array_merge_sort_iter(t_array *array, t_array *aux)
 	}
 }
 
-int			array_merge_sort(t_array *array)
+void		array_merge_sort(t_array *array)
 {
 	t_array *aux;
 
 	if (array->type->cmp == NULL)
-	{
-		errno = ENOTSUP;
-		return (1);
-	}
+		ds_exit_set(ENOTSUP);
 	if (array->size <= 7)
-		return (array_insertion_sort(array));
-	if (!(aux = array_zeros(array->type, array->size)))
-		return (1);
-	array_merge_sort_iter(array, aux);
-	array_delete(aux);
-	return (0);
+		array_insertion_sort(array);
+	else
+	{
+		aux = array_zeros(array->type, array->size);
+		array_merge_sort_iter(array, aux);
+		array_delete(aux);
+	}
 }

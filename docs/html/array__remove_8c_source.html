@@ -77,31 +77,27 @@ $(function() {
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="comment">/*   By: unite &lt;marvin@42.fr&gt;                       +#+  +:+       +#+        */</span></div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="comment">/*                                                +#+#+#+#+#+   +#+           */</span></div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="comment">/*   Created: 2020/07/18 23:34:25 by unite             #+#    #+#             */</span></div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="comment">/*   Updated: 2020/07/21 22:24:36 by unite            ###   ########.fr       */</span></div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="comment">/*   Updated: 2020/09/07 21:50:23 by unite            ###   ########.fr       */</span></div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="comment">/*                                                                            */</span></div>
 <div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="comment">/* ************************************************************************** */</span></div>
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160; </div>
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="array_8h.html">array.h</a>&quot;</span></div>
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="array__utils_8h.html">array_utils.h</a>&quot;</span></div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160; </div>
-<div class="line"><a name="l00017"></a><span class="lineno"><a class="line" href="array_8h.html#a573498b6318b686be6527b50f35529d3">   17</a></span>&#160;<span class="keywordtype">int</span> <a class="code" href="array__remove_8c.html#a573498b6318b686be6527b50f35529d3">array_remove</a>(<a class="code" href="structs__array.html">t_array</a> *array, <span class="keywordtype">size_t</span> index)</div>
+<div class="line"><a name="l00017"></a><span class="lineno"><a class="line" href="array_8h.html#a0fc30e27e32759e6c99f9f85b3673de6">   17</a></span>&#160;<span class="keywordtype">void</span>    <a class="code" href="array__remove_8c.html#a0fc30e27e32759e6c99f9f85b3673de6">array_remove</a>(<a class="code" href="structs__array.html">t_array</a> *array, <span class="keywordtype">size_t</span> index)</div>
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;{</div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    <span class="keywordflow">if</span> (index &gt;= array-&gt;<a class="code" href="structs__array.html#a0626ef6ec47ebb005269b3b0d7f9c246">size</a>)</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    {</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;        errno = EINVAL;</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;        <span class="keywordflow">return</span> (1);;</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    }</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    array-&gt;<a class="code" href="structs__array.html#a8c3652bc84ab1ac58ad4a50402cf0b41">type</a>-&gt;<a class="code" href="structs__type.html#ac820bed406ee8c3aa26b1cfe110cc63d">del</a>(array-&gt;<a class="code" href="structs__array.html#af3619b8a829a3212c36ace76cb6d24eb">arr</a>[index]);</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    <span class="keywordflow">while</span> (index &lt; array-&gt;size - 1)</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    {</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;        array-&gt;<a class="code" href="structs__array.html#af3619b8a829a3212c36ace76cb6d24eb">arr</a>[index] = array-&gt;<a class="code" href="structs__array.html#af3619b8a829a3212c36ace76cb6d24eb">arr</a>[index + 1];</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;        index++;</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    }</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    array-&gt;<a class="code" href="structs__array.html#a0626ef6ec47ebb005269b3b0d7f9c246">size</a>--;</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    <span class="keywordflow">if</span> (array-&gt;<a class="code" href="structs__array.html#a0626ef6ec47ebb005269b3b0d7f9c246">size</a> &lt;= array-&gt;<a class="code" href="structs__array.html#a3ee5e358dd4dffda00d49d6362484249">capacity</a> / 4 &amp;&amp; array_shrink(array))</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;        <span class="keywordflow">return</span> (1);</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    <span class="keywordflow">return</span> (0);</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;}</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;        <a class="code" href="ds__exit__set_8c.html#a1465a802cddd1a10dce59aa7a988ca15">ds_exit_set</a>(EINVAL);</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    array-&gt;<a class="code" href="structs__array.html#a8c3652bc84ab1ac58ad4a50402cf0b41">type</a>-&gt;<a class="code" href="structs__type.html#ac820bed406ee8c3aa26b1cfe110cc63d">del</a>(array-&gt;<a class="code" href="structs__array.html#af3619b8a829a3212c36ace76cb6d24eb">arr</a>[index]);</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    <span class="keywordflow">while</span> (index &lt; array-&gt;size - 1)</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    {</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;        array-&gt;<a class="code" href="structs__array.html#af3619b8a829a3212c36ace76cb6d24eb">arr</a>[index] = array-&gt;<a class="code" href="structs__array.html#af3619b8a829a3212c36ace76cb6d24eb">arr</a>[index + 1];</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;        index++;</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    }</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    array-&gt;<a class="code" href="structs__array.html#a0626ef6ec47ebb005269b3b0d7f9c246">size</a>--;</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    <span class="keywordflow">if</span> (array-&gt;<a class="code" href="structs__array.html#a0626ef6ec47ebb005269b3b0d7f9c246">size</a> &lt;= array-&gt;<a class="code" href="structs__array.html#a3ee5e358dd4dffda00d49d6362484249">capacity</a> / 4)</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;        array_shrink(array);</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;}</div>
 </div><!-- fragment --></div><!-- contents -->
 <div class="ttc" id="aarray_8h_html"><div class="ttname"><a href="array_8h.html">array.h</a></div></div>
 <div class="ttc" id="astructs__array_html_a8c3652bc84ab1ac58ad4a50402cf0b41"><div class="ttname"><a href="structs__array.html#a8c3652bc84ab1ac58ad4a50402cf0b41">s_array::type</a></div><div class="ttdeci">const t_type * type</div><div class="ttdoc">The type of items in this array.</div><div class="ttdef"><b>Definition:</b> <a href="array_8h_source.html#l00052">array.h:52</a></div></div>
@@ -110,7 +106,8 @@ $(function() {
 <div class="ttc" id="astructs__type_html_ac820bed406ee8c3aa26b1cfe110cc63d"><div class="ttname"><a href="structs__type.html#ac820bed406ee8c3aa26b1cfe110cc63d">s_type::del</a></div><div class="ttdeci">void(* del)(void *)</div><div class="ttdoc">A function pointer used to free the memory taken by the data type.</div><div class="ttdef"><b>Definition:</b> <a href="types_8h_source.html#l00051">types.h:51</a></div></div>
 <div class="ttc" id="astructs__array_html_a3ee5e358dd4dffda00d49d6362484249"><div class="ttname"><a href="structs__array.html#a3ee5e358dd4dffda00d49d6362484249">s_array::capacity</a></div><div class="ttdeci">size_t capacity</div><div class="ttdoc">The capacity of this array.</div><div class="ttdef"><b>Definition:</b> <a href="array_8h_source.html#l00050">array.h:50</a></div></div>
 <div class="ttc" id="astructs__array_html_a0626ef6ec47ebb005269b3b0d7f9c246"><div class="ttname"><a href="structs__array.html#a0626ef6ec47ebb005269b3b0d7f9c246">s_array::size</a></div><div class="ttdeci">size_t size</div><div class="ttdoc">The number of items in this array.</div><div class="ttdef"><b>Definition:</b> <a href="array_8h_source.html#l00049">array.h:49</a></div></div>
-<div class="ttc" id="aarray__remove_8c_html_a573498b6318b686be6527b50f35529d3"><div class="ttname"><a href="array__remove_8c.html#a573498b6318b686be6527b50f35529d3">array_remove</a></div><div class="ttdeci">int array_remove(t_array *array, size_t index)</div><div class="ttdoc">Deletes the item at the specified index.</div><div class="ttdef"><b>Definition:</b> <a href="array__remove_8c_source.html#l00017">array_remove.c:17</a></div></div>
+<div class="ttc" id="aarray__remove_8c_html_a0fc30e27e32759e6c99f9f85b3673de6"><div class="ttname"><a href="array__remove_8c.html#a0fc30e27e32759e6c99f9f85b3673de6">array_remove</a></div><div class="ttdeci">void array_remove(t_array *array, size_t index)</div><div class="ttdoc">Deletes the item at the specified index.</div><div class="ttdef"><b>Definition:</b> <a href="array__remove_8c_source.html#l00017">array_remove.c:17</a></div></div>
+<div class="ttc" id="ads__exit__set_8c_html_a1465a802cddd1a10dce59aa7a988ca15"><div class="ttname"><a href="ds__exit__set_8c.html#a1465a802cddd1a10dce59aa7a988ca15">ds_exit_set</a></div><div class="ttdeci">void ds_exit_set(int err)</div><div class="ttdoc">Set errno to the specified value, print the error message, and exit the process.</div><div class="ttdef"><b>Definition:</b> <a href="ds__exit__set_8c_source.html#l00022">ds_exit_set.c:22</a></div></div>
 <div class="ttc" id="aarray__utils_8h_html"><div class="ttname"><a href="array__utils_8h.html">array_utils.h</a></div></div>
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

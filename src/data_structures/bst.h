@@ -6,7 +6,7 @@
 /*   By: unite <marvin@42.fr>                       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/07/17 22:00:24 by unite             #+#    #+#             */
-/*   Updated: 2020/09/05 18:56:05 by unite            ###   ########.fr       */
+/*   Updated: 2020/09/07 22:15:57 by unite            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -67,7 +67,7 @@ typedef struct	s_bst
 ** @param val_type	The type of values
 ** @return The new tree, or `NULL` on failure. In case of an error, `errno` is
 ** set accordingly.
-** @remark For this function to work, the datatype in this array must be
+** @note For this function to work, the datatype in this array must be
 ** comparable (i.e. implement the `cmp` function).
 */
 
@@ -77,11 +77,9 @@ t_bst			*bst_new(const t_type *key_type, const t_type *val_type);
 ** Adds a new item to the tree or overwrites an existing one
 ** @param key	The key to be copied
 ** @param val	The value to be copied
-** @return `0` on success, `1` on failure. In case of an error, `errno` is
-** set accordingly.
 */
 
-int				bst_put(t_bst *bst, const void *key, const void *val);
+void			bst_put(t_bst *bst, const void *key, const void *val);
 
 /*
 ** Returns the value associated with a specified key.
@@ -109,7 +107,7 @@ void			bst_delete(t_bst *bst);
 /*
 ** Returns the number of tiers in the tree.
 ** @return The number of tiers
-** @note (used primarily for debugging purposes)
+** @remark (used primarily for debugging purposes)
 */
 
 size_t			bst_height(const t_bst *bst);

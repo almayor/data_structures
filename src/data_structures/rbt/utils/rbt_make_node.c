@@ -6,7 +6,7 @@
 /*   By: unite <marvin@42.fr>                       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/07/21 21:15:25 by unite             #+#    #+#             */
-/*   Updated: 2020/09/05 19:10:47 by unite            ###   ########.fr       */
+/*   Updated: 2020/09/07 22:10:52 by unite            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,8 +17,7 @@ t_rbt_node	*rbt_make_node(const t_rbt *rbt, const void *key,
 {
 	t_rbt_node	*node;
 
-	if (!(node = ds_calloc(sizeof(t_rbt_node), 1)))
-		return (NULL);
+	node = ds_xcalloc(sizeof(t_rbt_node), 1);
 	node->color = color;
 	node->key = rbt->key_type->copy(key);
 	node->val = rbt->val_type->copy(val);

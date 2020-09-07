@@ -1,9 +1,10 @@
 <map id="src/data_structures/union_find.h" name="src/data_structures/union_find.h">
-<area shape="rect" id="node1" title=" " alt="" coords="121,5,256,47"/>
-<area shape="rect" id="node2" title=" " alt="" coords="5,95,68,121"/>
-<area shape="rect" id="node3" title=" " alt="" coords="93,95,183,121"/>
-<area shape="rect" id="node4" href="$types_8h.html" title=" " alt="" coords="208,95,273,121"/>
-<area shape="rect" id="node6" href="$utils_8h.html" title=" " alt="" coords="283,169,340,196"/>
-<area shape="rect" id="node5" title=" " alt="" coords="194,169,258,196"/>
-<area shape="rect" id="node7" title=" " alt="" coords="279,244,344,271"/>
+<area shape="rect" id="node1" title=" " alt="" coords="97,5,232,47"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,244,68,271"/>
+<area shape="rect" id="node3" title=" " alt="" coords="258,95,349,121"/>
+<area shape="rect" id="node4" href="$types_8h.html" title=" " alt="" coords="168,95,233,121"/>
+<area shape="rect" id="node6" href="$utils_8h.html" title=" " alt="" coords="123,169,180,196"/>
+<area shape="rect" id="node5" title=" " alt="" coords="267,244,331,271"/>
+<area shape="rect" id="node7" title=" " alt="" coords="92,244,157,271"/>
+<area shape="rect" id="node8" title=" " alt="" coords="182,244,243,271"/>
 </map>

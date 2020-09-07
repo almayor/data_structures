@@ -6,7 +6,7 @@
 /*   By: unite <marvin@42.fr>                       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/07/19 16:16:40 by unite             #+#    #+#             */
-/*   Updated: 2020/09/01 17:24:38 by unite            ###   ########.fr       */
+/*   Updated: 2020/09/07 21:50:59 by unite            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,11 +24,13 @@ static void	array_insert_next(t_array *array, size_t j)
 	}
 }
 
-int			array_insertion_sort(t_array *array)
+void		array_insertion_sort(t_array *array)
 {
 	size_t	i;
 	size_t	j;
 
+	if (array->type->cmp == NULL)
+		ds_exit_set(ENOTSUP);
 	i = 0;
 	while (i < array->size - 1)
 	{
@@ -36,5 +38,4 @@ int			array_insertion_sort(t_array *array)
 			array_insert_next(array, i + 1);
 		i++;
 	}
-	return (0);
 }

@@ -77,7 +77,7 @@ $(function() {
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="comment">/*   By: unite &lt;marvin@42.fr&gt;                       +#+  +:+       +#+        */</span></div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="comment">/*                                                +#+#+#+#+#+   +#+           */</span></div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="comment">/*   Created: 2020/07/21 19:15:14 by unite             #+#    #+#             */</span></div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="comment">/*   Updated: 2020/07/22 01:46:40 by unite            ###   ########.fr       */</span></div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="comment">/*   Updated: 2020/09/07 20:19:25 by unite            ###   ########.fr       */</span></div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="comment">/*                                                                            */</span></div>
 <div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="comment">/* ************************************************************************** */</span></div>
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160; </div>
@@ -88,28 +88,23 @@ $(function() {
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    <a class="code" href="structs__list.html">t_queue</a> *queue;</div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    <span class="keywordtype">size_t</span>  i;</div>
 <div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160; </div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    <span class="keywordflow">if</span> (!(queue = <a class="code" href="queue__new_8c.html#ac891e81f9bb5f1c93752088716b9199e">queue_new</a>(hm-&gt;<a class="code" href="structs__hashmap.html#a3d63e67145074b1fda6a744f6926814e">val_type</a>)))</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;        <span class="keywordflow">return</span> (NULL);</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    i = 0;</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    <span class="keywordflow">while</span> (i &lt; hm-&gt;capacity)</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    {</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;        <span class="keywordflow">if</span> (hm-&gt;<a class="code" href="structs__hashmap.html#ae6d153e2544bae1acb8de7cb02085fe1">vals</a>[i] != NULL &amp;&amp; <a class="code" href="queue__enqueue_8c.html#a6ea138ae54eaf93acdcd15e553053edd">queue_enqueue</a>(queue, hm-&gt;<a class="code" href="structs__hashmap.html#ae6d153e2544bae1acb8de7cb02085fe1">vals</a>[i]))</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;        {</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;            <a class="code" href="queue__delete_8c.html#a6698d632dc2b07a32eaacebbdba762f4">queue_delete</a>(queue);</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;            <span class="keywordflow">return</span> (NULL);</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;        }</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;        i++;</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    }</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    <span class="keywordflow">return</span> (queue);</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;}</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    queue = <a class="code" href="queue__new_8c.html#ac891e81f9bb5f1c93752088716b9199e">queue_new</a>(hm-&gt;<a class="code" href="structs__hashmap.html#a3d63e67145074b1fda6a744f6926814e">val_type</a>);</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    i = 0;</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    <span class="keywordflow">while</span> (i &lt; hm-&gt;capacity)</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    {</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;        <span class="keywordflow">if</span> (hm-&gt;<a class="code" href="structs__hashmap.html#ae6d153e2544bae1acb8de7cb02085fe1">vals</a>[i] != NULL)</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;            <a class="code" href="queue__enqueue_8c.html#a282684f701f6205b39d2b5f6cd787d1d">queue_enqueue</a>(queue, hm-&gt;<a class="code" href="structs__hashmap.html#ae6d153e2544bae1acb8de7cb02085fe1">vals</a>[i]);</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;        i++;</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    }</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    <span class="keywordflow">return</span> (queue);</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;}</div>
 </div><!-- fragment --></div><!-- contents -->
 <div class="ttc" id="ahashmap__vals_8c_html_a32e16ff8ec07d5d27e94175d2f5aeb1b"><div class="ttname"><a href="hashmap__vals_8c.html#a32e16ff8ec07d5d27e94175d2f5aeb1b">hashmap_vals</a></div><div class="ttdeci">t_queue * hashmap_vals(const t_hashmap *hm)</div><div class="ttdoc">Returns a queue with all the values in the map.</div><div class="ttdef"><b>Definition:</b> <a href="hashmap__vals_8c_source.html#l00016">hashmap_vals.c:16</a></div></div>
 <div class="ttc" id="ahashmap_8h_html"><div class="ttname"><a href="hashmap_8h.html">hashmap.h</a></div></div>
-<div class="ttc" id="aqueue__delete_8c_html_a6698d632dc2b07a32eaacebbdba762f4"><div class="ttname"><a href="queue__delete_8c.html#a6698d632dc2b07a32eaacebbdba762f4">queue_delete</a></div><div class="ttdeci">void queue_delete(t_queue *queue)</div><div class="ttdoc">Deletes the queue and frees all memory taken by its contents, or does nothing if the argument is NULL...</div><div class="ttdef"><b>Definition:</b> <a href="queue__delete_8c_source.html#l00016">queue_delete.c:16</a></div></div>
 <div class="ttc" id="astructs__list_html"><div class="ttname"><a href="structs__list.html">s_list</a></div><div class="ttdoc">Doubly-linked list of generic items.</div><div class="ttdef"><b>Definition:</b> <a href="list_8h_source.html#l00054">list.h:54</a></div></div>
 <div class="ttc" id="aqueue__new_8c_html_ac891e81f9bb5f1c93752088716b9199e"><div class="ttname"><a href="queue__new_8c.html#ac891e81f9bb5f1c93752088716b9199e">queue_new</a></div><div class="ttdeci">t_queue * queue_new(const t_type *type)</div><div class="ttdoc">Allocates memory and initializes an empty queue.</div><div class="ttdef"><b>Definition:</b> <a href="queue__new_8c_source.html#l00016">queue_new.c:16</a></div></div>
-<div class="ttc" id="aqueue__enqueue_8c_html_a6ea138ae54eaf93acdcd15e553053edd"><div class="ttname"><a href="queue__enqueue_8c.html#a6ea138ae54eaf93acdcd15e553053edd">queue_enqueue</a></div><div class="ttdeci">int queue_enqueue(t_queue *queue, const void *data)</div><div class="ttdoc">Copies the item and adds the copy to the queue.</div><div class="ttdef"><b>Definition:</b> <a href="queue__enqueue_8c_source.html#l00016">queue_enqueue.c:16</a></div></div>
 <div class="ttc" id="astructs__hashmap_html"><div class="ttname"><a href="structs__hashmap.html">s_hashmap</a></div><div class="ttdoc">A symbol table of generic key-value pairs, implemented as a dynamically resizing linear-probing hashm...</div><div class="ttdef"><b>Definition:</b> <a href="hashmap_8h_source.html#l00048">hashmap.h:48</a></div></div>
+<div class="ttc" id="aqueue__enqueue_8c_html_a282684f701f6205b39d2b5f6cd787d1d"><div class="ttname"><a href="queue__enqueue_8c.html#a282684f701f6205b39d2b5f6cd787d1d">queue_enqueue</a></div><div class="ttdeci">void queue_enqueue(t_queue *queue, const void *data)</div><div class="ttdoc">Copies the item and adds the copy to the queue.</div><div class="ttdef"><b>Definition:</b> <a href="queue__enqueue_8c_source.html#l00016">queue_enqueue.c:16</a></div></div>
 <div class="ttc" id="astructs__hashmap_html_a3d63e67145074b1fda6a744f6926814e"><div class="ttname"><a href="structs__hashmap.html#a3d63e67145074b1fda6a744f6926814e">s_hashmap::val_type</a></div><div class="ttdeci">const t_type * val_type</div><div class="ttdoc">The type of values in the hashmap.</div><div class="ttdef"><b>Definition:</b> <a href="hashmap_8h_source.html#l00055">hashmap.h:55</a></div></div>
 <div class="ttc" id="astructs__hashmap_html_ae6d153e2544bae1acb8de7cb02085fe1"><div class="ttname"><a href="structs__hashmap.html#ae6d153e2544bae1acb8de7cb02085fe1">s_hashmap::vals</a></div><div class="ttdeci">void ** vals</div><div class="ttdoc">The values.</div><div class="ttdef"><b>Definition:</b> <a href="hashmap_8h_source.html#l00051">hashmap.h:51</a></div></div>
 <!-- start footer part -->

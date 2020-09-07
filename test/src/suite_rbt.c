@@ -99,6 +99,21 @@ void test_rbt_rank_contains(void) {
 	rbt_delete(rbt);
 }
 
+void test_rbt_nth(void) {
+	t_rbt *rbt = rbt_new(g_type_str, g_type_int);
+	rbt_put(rbt, "Hello", int2ptr(10));
+	rbt_put(rbt, "Velcro", int2ptr(8));
+	rbt_put(rbt, "Andante", int2ptr(13));
+	rbt_put(rbt, "Oolo", int2ptr(15));
+	rbt_put(rbt, "Arctic", int2ptr(20));
+
+	TEST_ASSERT_EQUAL_STRING("Andante", rbt_nth(rbt, 0));
+	TEST_ASSERT_EQUAL_STRING("Arctic", rbt_nth(rbt, 1));
+	TEST_ASSERT_EQUAL_STRING("Hello", rbt_nth(rbt, 2));
+	TEST_ASSERT_EQUAL_STRING("Oolo", rbt_nth(rbt, 3));
+	TEST_ASSERT_EQUAL_STRING("Velcro", rbt_nth(rbt, 4));
+}
+
 int suite_rbt(void) {
 	UNITY_BEGIN();
     RUN_TEST(test_rbt_new);
@@ -107,5 +122,6 @@ int suite_rbt(void) {
     RUN_TEST(test_rbt_min_max);
     RUN_TEST(test_rbt_floor_ceil);
     RUN_TEST(test_rbt_rank_contains);
+    RUN_TEST(test_rbt_nth);
     return UNITY_END();
 }

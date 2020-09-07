@@ -79,14 +79,15 @@ $(function() {
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="list__unlink__first_8c__incl.png" border="0" usemap="#src_2data__structures_2list_2list__unlink__first_8c" alt=""/></div>
 <map name="src_2data__structures_2list_2list__unlink__first_8c" id="src_2data__structures_2list_2list__unlink__first_8c">
-<area shape="rect" title=" " alt="" coords="116,5,261,47"/>
-<area shape="rect" href="list_8h.html" title=" " alt="" coords="163,95,214,121"/>
-<area shape="rect" title=" " alt="" coords="5,169,68,196"/>
-<area shape="rect" title=" " alt="" coords="93,169,183,196"/>
-<area shape="rect" href="types_8h.html" title=" " alt="" coords="208,169,273,196"/>
-<area shape="rect" href="utils_8h.html" title=" " alt="" coords="283,244,340,271"/>
-<area shape="rect" title=" " alt="" coords="194,244,258,271"/>
-<area shape="rect" title=" " alt="" coords="279,319,344,345"/>
+<area shape="rect" title=" " alt="" coords="92,5,237,47"/>
+<area shape="rect" href="list_8h.html" title=" " alt="" coords="139,95,190,121"/>
+<area shape="rect" title=" " alt="" coords="5,319,68,345"/>
+<area shape="rect" title=" " alt="" coords="258,169,349,196"/>
+<area shape="rect" href="types_8h.html" title=" " alt="" coords="168,169,233,196"/>
+<area shape="rect" href="utils_8h.html" title=" " alt="" coords="123,244,180,271"/>
+<area shape="rect" title=" " alt="" coords="267,319,331,345"/>
+<area shape="rect" title=" " alt="" coords="92,319,157,345"/>
+<area shape="rect" title=" " alt="" coords="182,319,243,345"/>
 </map>
 </div>
 </div>
@@ -94,19 +95,19 @@ $(function() {
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a9185a4ff4f960943b9df0df3a33fede0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="list__unlink__first_8c.html#a9185a4ff4f960943b9df0df3a33fede0">list_remove_first</a> (<a class="el" href="structs__list.html">t_list</a> *alst)</td></tr>
-<tr class="memdesc:a9185a4ff4f960943b9df0df3a33fede0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes the first item in the list.  <a href="list__unlink__first_8c.html#a9185a4ff4f960943b9df0df3a33fede0">More...</a><br /></td></tr>
-<tr class="separator:a9185a4ff4f960943b9df0df3a33fede0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5cf0a39e4fef5642c9dbb073f69e474f"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="list__unlink__first_8c.html#a5cf0a39e4fef5642c9dbb073f69e474f">list_unlink_first</a> (<a class="el" href="structs__list.html">t_list</a> *alst)</td></tr>
+<tr class="memdesc:a5cf0a39e4fef5642c9dbb073f69e474f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes the first item in the list and returns it.  <a href="list__unlink__first_8c.html#a5cf0a39e4fef5642c9dbb073f69e474f">More...</a><br /></td></tr>
+<tr class="separator:a5cf0a39e4fef5642c9dbb073f69e474f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="a9185a4ff4f960943b9df0df3a33fede0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9185a4ff4f960943b9df0df3a33fede0">&#9670;&nbsp;</a></span>list_remove_first()</h2>
+<a id="a5cf0a39e4fef5642c9dbb073f69e474f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5cf0a39e4fef5642c9dbb073f69e474f">&#9670;&nbsp;</a></span>list_unlink_first()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void list_remove_first </td>
+          <td class="memname">void* list_unlink_first </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structs__list.html">t_list</a> *&#160;</td>
           <td class="paramname"><em>alst</em></td><td>)</td>
@@ -115,7 +116,8 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Removes the first item in the list. </p>
+<p>Removes the first item in the list and returns it. </p>
+<dl class="section return"><dt>Returns</dt><dd>The first item in the list, or <code>NULL</code> if the list is empty. </dd></dl>
 
 <p class="definition">Definition at line <a class="el" href="list__unlink__first_8c_source.html#l00016">16</a> of file <a class="el" href="list__unlink__first_8c_source.html">list_unlink_first.c</a>.</p>
 

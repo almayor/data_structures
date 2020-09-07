@@ -6,7 +6,7 @@
 /*   By: unite <marvin@42.fr>                       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/07/18 22:35:24 by unite             #+#    #+#             */
-/*   Updated: 2020/09/01 17:25:38 by unite            ###   ########.fr       */
+/*   Updated: 2020/09/07 22:01:56 by unite            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -71,18 +71,14 @@ static void		list_fix_backlinks(t_list *alst, t_link *start)
 	alst->tail = link;
 }
 
-int				list_merge_sort(t_list *alst)
+void			list_merge_sort(t_list *alst)
 {
 	t_link	*start;
 
 	if (alst->type->cmp == NULL)
-	{
-		errno = ENOTSUP;
-		return (1);
-	}
+		ds_exit_set(ENOTSUP);
 	if (alst->head == NULL)
-		return (0);
+		return ;
 	start = link_merge_sort_recur(alst, alst->head, alst->size);
 	list_fix_backlinks(alst, start);
-	return (0);
 }

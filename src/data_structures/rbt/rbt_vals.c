@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   rbt_vals.c                                     :+:      :+:    :+:   */
+/*   rbt_vals.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: unite <marvin@42.fr>                       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/07/18 21:08:44 by unite             #+#    #+#             */
-/*   Updated: 2020/07/21 21:31:04 by unite            ###   ########.fr       */
+/*   Updated: 2020/09/07 22:42:53 by unite            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,8 +26,7 @@ t_queue		*rbt_vals(const t_rbt *rbt)
 {
 	t_queue		*queue;
 
-	if (!(queue = queue_new(rbt->val_type)))
-		return (NULL);
+	queue = queue_new(rbt->val_type);
 	rbt_inorder_recur(rbt, rbt->root, queue);
 	return (queue);
 }

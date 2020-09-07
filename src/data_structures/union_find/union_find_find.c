@@ -6,19 +6,16 @@
 /*   By: unite <marvin@42.fr>                       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/07/21 21:58:28 by unite             #+#    #+#             */
-/*   Updated: 2020/07/21 22:00:32 by unite            ###   ########.fr       */
+/*   Updated: 2020/09/07 22:13:31 by unite            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "union_find.h"
 
-ssize_t	union_find_find(const t_union_find *uf, size_t p)
+size_t	union_find_find(const t_union_find *uf, size_t p)
 {
 	if (p >= uf->size)
-	{
-		errno = EINVAL;
-		return (-1);
-	}
+		ds_exit_set(EINVAL);
 	while (p != uf->parent[p])
 	{
 		uf->parent[p] = uf->parent[uf->parent[p]];

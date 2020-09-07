@@ -72,6 +72,9 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &lt;string.h&gt;</code><br />
+<code>#include &lt;stdlib.h&gt;</code><br />
+<code>#include &lt;stdio.h&gt;</code><br />
+<code>#include &lt;errno.h&gt;</code><br />
 </div><div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Include dependency graph for utils.h:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
@@ -79,8 +82,11 @@ $(function() {
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="utils_8h__incl.png" border="0" usemap="#src_2utils_2utils_8h" alt=""/></div>
 <map name="src_2utils_2utils_8h" id="src_2utils_2utils_8h">
-<area shape="rect" title=" " alt="" coords="5,5,112,32"/>
-<area shape="rect" title=" " alt="" coords="26,80,91,107"/>
+<area shape="rect" title=" " alt="" coords="117,5,223,32"/>
+<area shape="rect" title=" " alt="" coords="5,80,71,107"/>
+<area shape="rect" title=" " alt="" coords="95,80,159,107"/>
+<area shape="rect" title=" " alt="" coords="183,80,245,107"/>
+<area shape="rect" title=" " alt="" coords="269,80,332,107"/>
 </map>
 </div>
 </div>
@@ -97,12 +103,21 @@ Functions</h2></td></tr>
 <tr class="memitem:a08baeb3e1b8f615dc8b94700fcea8e5a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="utils_8h.html#a08baeb3e1b8f615dc8b94700fcea8e5a">ds_strcmp</a> (const char *s1, const char *s2)</td></tr>
 <tr class="memdesc:a08baeb3e1b8f615dc8b94700fcea8e5a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Replicates <code>strcmp</code> from <code>libc</code>.  <a href="utils_8h.html#a08baeb3e1b8f615dc8b94700fcea8e5a">More...</a><br /></td></tr>
 <tr class="separator:a08baeb3e1b8f615dc8b94700fcea8e5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a555567c0193869d28df76d4f2af52eca"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="utils_8h.html#a555567c0193869d28df76d4f2af52eca">ds_calloc</a> (size_t count, size_t size)</td></tr>
-<tr class="memdesc:a555567c0193869d28df76d4f2af52eca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Replicates behaviour of <code>calloc</code> from <code>libc</code>.  <a href="utils_8h.html#a555567c0193869d28df76d4f2af52eca">More...</a><br /></td></tr>
-<tr class="separator:a555567c0193869d28df76d4f2af52eca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8932b60a98e1e53ddf2b85ddc60bab50"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="utils_8h.html#a8932b60a98e1e53ddf2b85ddc60bab50">ds_xcalloc</a> (size_t count, size_t size)</td></tr>
+<tr class="memdesc:a8932b60a98e1e53ddf2b85ddc60bab50"><td class="mdescLeft">&#160;</td><td class="mdescRight">Replicates behaviour of <code>calloc</code> from <code>libc</code>, but fails on memory allocation errors.  <a href="utils_8h.html#a8932b60a98e1e53ddf2b85ddc60bab50">More...</a><br /></td></tr>
+<tr class="separator:a8932b60a98e1e53ddf2b85ddc60bab50"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac44f1554bc0ebac58cb8b939fe886e71"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="utils_8h.html#ac44f1554bc0ebac58cb8b939fe886e71">ds_xmalloc</a> (size_t size)</td></tr>
+<tr class="memdesc:ac44f1554bc0ebac58cb8b939fe886e71"><td class="mdescLeft">&#160;</td><td class="mdescRight">Replicates behaviour of <code>malloc</code> from <code>libc</code>, but fails on memory allocation errors.  <a href="utils_8h.html#ac44f1554bc0ebac58cb8b939fe886e71">More...</a><br /></td></tr>
+<tr class="separator:ac44f1554bc0ebac58cb8b939fe886e71"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a54e5f987803a4699c0a1c8d826e10e68"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="utils_8h.html#a54e5f987803a4699c0a1c8d826e10e68">ds_strdup</a> (const char *s1)</td></tr>
 <tr class="memdesc:a54e5f987803a4699c0a1c8d826e10e68"><td class="mdescLeft">&#160;</td><td class="mdescRight">Replicates behaviour of <code>strdup</code> from <code>libc</code>.  <a href="utils_8h.html#a54e5f987803a4699c0a1c8d826e10e68">More...</a><br /></td></tr>
 <tr class="separator:a54e5f987803a4699c0a1c8d826e10e68"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae3b39622503c5ebf28247f3b5ac9ccf5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="utils_8h.html#ae3b39622503c5ebf28247f3b5ac9ccf5">ds_exit</a> (void)</td></tr>
+<tr class="memdesc:ae3b39622503c5ebf28247f3b5ac9ccf5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print the error message, corresponding to <code>errno</code>, exit the process.  <a href="utils_8h.html#ae3b39622503c5ebf28247f3b5ac9ccf5">More...</a><br /></td></tr>
+<tr class="separator:ae3b39622503c5ebf28247f3b5ac9ccf5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1465a802cddd1a10dce59aa7a988ca15"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="utils_8h.html#a1465a802cddd1a10dce59aa7a988ca15">ds_exit_set</a> (int err)</td></tr>
+<tr class="memdesc:a1465a802cddd1a10dce59aa7a988ca15"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set <code>errno</code> to the specified value, print the error message, and exit the process.  <a href="utils_8h.html#a1465a802cddd1a10dce59aa7a988ca15">More...</a><br /></td></tr>
+<tr class="separator:a1465a802cddd1a10dce59aa7a988ca15"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="a8c5806446d7e41c8c08eba87711f047a"></a>
@@ -137,35 +152,53 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a555567c0193869d28df76d4f2af52eca"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a555567c0193869d28df76d4f2af52eca">&#9670;&nbsp;</a></span>ds_calloc()</h2>
+<a id="ae3b39622503c5ebf28247f3b5ac9ccf5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae3b39622503c5ebf28247f3b5ac9ccf5">&#9670;&nbsp;</a></span>ds_exit()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void* ds_calloc </td>
+          <td class="memname">void ds_exit </td>
           <td>(</td>
-          <td class="paramtype">size_t&#160;</td>
-          <td class="paramname"><em>count</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
           <td></td>
-          <td class="paramtype">size_t&#160;</td>
-          <td class="paramname"><em>size</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Replicates behaviour of <code>calloc</code> from <code>libc</code>. </p>
+<p>Print the error message, corresponding to <code>errno</code>, exit the process. </p>
 
-<p class="definition">Definition at line <a class="el" href="ds__calloc_8c_source.html#l00021">21</a> of file <a class="el" href="ds__calloc_8c_source.html">ds_calloc.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ds__exit_8c_source.html#l00020">20</a> of file <a class="el" href="ds__exit_8c_source.html">ds_exit.c</a>.</p>
+
+</div>
+</div>
+<a id="a1465a802cddd1a10dce59aa7a988ca15"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1465a802cddd1a10dce59aa7a988ca15">&#9670;&nbsp;</a></span>ds_exit_set()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ds_exit_set </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>err</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set <code>errno</code> to the specified value, print the error message, and exit the process. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">err</td><td>The value to which set <code>errno</code> </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="ds__exit__set_8c_source.html#l00022">22</a> of file <a class="el" href="ds__exit__set_8c_source.html">ds_exit_set.c</a>.</p>
 
 </div>
 </div>
@@ -242,6 +275,60 @@ Functions</h2></td></tr>
 <p>Replicates behaviour of <code>strlen</code> from <code>libc</code>. </p>
 
 <p class="definition">Definition at line <a class="el" href="ds__strlen_8c_source.html#l00020">20</a> of file <a class="el" href="ds__strlen_8c_source.html">ds_strlen.c</a>.</p>
+
+</div>
+</div>
+<a id="a8932b60a98e1e53ddf2b85ddc60bab50"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8932b60a98e1e53ddf2b85ddc60bab50">&#9670;&nbsp;</a></span>ds_xcalloc()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void* ds_xcalloc </td>
+          <td>(</td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>count</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>size</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Replicates behaviour of <code>calloc</code> from <code>libc</code>, but fails on memory allocation errors. </p>
+
+<p class="definition">Definition at line <a class="el" href="ds__xcalloc_8c_source.html#l00022">22</a> of file <a class="el" href="ds__xcalloc_8c_source.html">ds_xcalloc.c</a>.</p>
+
+</div>
+</div>
+<a id="ac44f1554bc0ebac58cb8b939fe886e71"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac44f1554bc0ebac58cb8b939fe886e71">&#9670;&nbsp;</a></span>ds_xmalloc()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void* ds_xmalloc </td>
+          <td>(</td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>size</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Replicates behaviour of <code>malloc</code> from <code>libc</code>, but fails on memory allocation errors. </p>
+
+<p class="definition">Definition at line <a class="el" href="ds__xmalloc_8c_source.html#l00022">22</a> of file <a class="el" href="ds__xmalloc_8c_source.html">ds_xmalloc.c</a>.</p>
 
 </div>
 </div>

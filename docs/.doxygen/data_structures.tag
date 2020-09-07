@@ -46,17 +46,17 @@
       <arglist>(const t_array *array, size_t index)</arglist>
     </member>
     <member kind="function">
-      <type>int</type>
+      <type>void</type>
       <name>array_set</name>
       <anchorfile>array_8h.html</anchorfile>
-      <anchor>a88ce694134054dd37ecc6a5c667ac5f4</anchor>
+      <anchor>a2fb4fb218dc1974616258e9144343a2b</anchor>
       <arglist>(t_array *array, size_t index, const void *content)</arglist>
     </member>
     <member kind="function">
-      <type>int</type>
+      <type>void</type>
       <name>array_append</name>
       <anchorfile>array_8h.html</anchorfile>
-      <anchor>ab0ea71d200bb7b95541f3f273ecc96b9</anchor>
+      <anchor>ae04c4b37ed9da0ff13cceef0d557c238</anchor>
       <arglist>(t_array *array, const void *content)</arglist>
     </member>
     <member kind="function">
@@ -67,10 +67,10 @@
       <arglist>(t_array *array)</arglist>
     </member>
     <member kind="function">
-      <type>int</type>
+      <type>void</type>
       <name>array_swap</name>
       <anchorfile>array_8h.html</anchorfile>
-      <anchor>af5a1b6cab42108e9347cb08a79c3a4dc</anchor>
+      <anchor>a4566d12821f9ed61809ff170452a01fa</anchor>
       <arglist>(t_array *array, size_t ind1, size_t ind2)</arglist>
     </member>
     <member kind="function">
@@ -95,38 +95,38 @@
       <arglist>(const t_type *type, size_t size)</arglist>
     </member>
     <member kind="function">
-      <type>int</type>
+      <type>void</type>
       <name>array_remove</name>
       <anchorfile>array_8h.html</anchorfile>
-      <anchor>a573498b6318b686be6527b50f35529d3</anchor>
+      <anchor>a0fc30e27e32759e6c99f9f85b3673de6</anchor>
       <arglist>(t_array *array, size_t index)</arglist>
     </member>
     <member kind="function">
-      <type>int</type>
+      <type>void</type>
       <name>array_insert</name>
       <anchorfile>array_8h.html</anchorfile>
-      <anchor>a321e0cac8468a1df61629268348e708d</anchor>
+      <anchor>a066db6dc4a4027073e2cb427db890124</anchor>
       <arglist>(t_array *array, size_t index, const void *content)</arglist>
     </member>
     <member kind="function">
-      <type>int</type>
+      <type>void</type>
       <name>array_insertion_sort</name>
       <anchorfile>array_8h.html</anchorfile>
-      <anchor>aecc2106781415b38983f13b9198e3cef</anchor>
+      <anchor>a395561bc3051ed95cdbc41e2e9ff30c1</anchor>
       <arglist>(t_array *array)</arglist>
     </member>
     <member kind="function">
-      <type>int</type>
+      <type>void</type>
       <name>array_merge_sort</name>
       <anchorfile>array_8h.html</anchorfile>
-      <anchor>a7f292a4859b2269fc014ec62c11bf12d</anchor>
+      <anchor>acdee31effdf1a013fae080677037e620</anchor>
       <arglist>(t_array *array)</arglist>
     </member>
     <member kind="function">
-      <type>int</type>
+      <type>void</type>
       <name>array_quick_sort</name>
       <anchorfile>array_8h.html</anchorfile>
-      <anchor>ac7858b68581990e8396fb793df0c3fb8</anchor>
+      <anchor>afddc63a15ba47c157c60f2346da39565</anchor>
       <arglist>(t_array *array)</arglist>
     </member>
     <member kind="function">
@@ -150,6 +150,13 @@
       <anchor>afc5ba2cd555b32533916e86026d846ee</anchor>
       <arglist>(const t_array *array)</arglist>
     </member>
+    <member kind="function">
+      <type>ssize_t</type>
+      <name>array_indexof</name>
+      <anchorfile>array_8h.html</anchorfile>
+      <anchor>a37c9934001662c95755c43cfdac71df7</anchor>
+      <arglist>(const t_array *array, const void *val)</arglist>
+    </member>
   </compound>
   <compound kind="file">
     <name>array_append.c</name>
@@ -158,10 +165,10 @@
     <includes id="array_8h" name="array.h" local="yes" imported="no">array.h</includes>
     <includes id="array__utils_8h" name="array_utils.h" local="yes" imported="no">array_utils.h</includes>
     <member kind="function">
-      <type>int</type>
+      <type>void</type>
       <name>array_append</name>
       <anchorfile>array__append_8c.html</anchorfile>
-      <anchor>ab0ea71d200bb7b95541f3f273ecc96b9</anchor>
+      <anchor>ae04c4b37ed9da0ff13cceef0d557c238</anchor>
       <arglist>(t_array *array, const void *content)</arglist>
     </member>
   </compound>
@@ -205,16 +212,29 @@
     </member>
   </compound>
   <compound kind="file">
+    <name>array_indexof.c</name>
+    <path>/Users/almayor/Documents/programming/42/data_structures/src/data_structures/array/</path>
+    <filename>array__indexof_8c</filename>
+    <includes id="array_8h" name="array.h" local="yes" imported="no">array.h</includes>
+    <member kind="function">
+      <type>ssize_t</type>
+      <name>array_indexof</name>
+      <anchorfile>array__indexof_8c.html</anchorfile>
+      <anchor>a37c9934001662c95755c43cfdac71df7</anchor>
+      <arglist>(const t_array *array, const void *val)</arglist>
+    </member>
+  </compound>
+  <compound kind="file">
     <name>array_insert.c</name>
     <path>/Users/almayor/Documents/programming/42/data_structures/src/data_structures/array/</path>
     <filename>array__insert_8c</filename>
     <includes id="array_8h" name="array.h" local="yes" imported="no">array.h</includes>
     <includes id="array__utils_8h" name="array_utils.h" local="yes" imported="no">array_utils.h</includes>
     <member kind="function">
-      <type>int</type>
+      <type>void</type>
       <name>array_insert</name>
       <anchorfile>array__insert_8c.html</anchorfile>
-      <anchor>a321e0cac8468a1df61629268348e708d</anchor>
+      <anchor>a066db6dc4a4027073e2cb427db890124</anchor>
       <arglist>(t_array *array, size_t index, const void *content)</arglist>
     </member>
   </compound>
@@ -224,10 +244,10 @@
     <filename>array__insertion__sort_8c</filename>
     <includes id="array_8h" name="array.h" local="yes" imported="no">array.h</includes>
     <member kind="function">
-      <type>int</type>
+      <type>void</type>
       <name>array_insertion_sort</name>
       <anchorfile>array__insertion__sort_8c.html</anchorfile>
-      <anchor>aecc2106781415b38983f13b9198e3cef</anchor>
+      <anchor>a395561bc3051ed95cdbc41e2e9ff30c1</anchor>
       <arglist>(t_array *array)</arglist>
     </member>
   </compound>
@@ -237,10 +257,10 @@
     <filename>array__merge__sort_8c</filename>
     <includes id="array_8h" name="array.h" local="yes" imported="no">array.h</includes>
     <member kind="function">
-      <type>int</type>
+      <type>void</type>
       <name>array_merge_sort</name>
       <anchorfile>array__merge__sort_8c.html</anchorfile>
-      <anchor>a7f292a4859b2269fc014ec62c11bf12d</anchor>
+      <anchor>acdee31effdf1a013fae080677037e620</anchor>
       <arglist>(t_array *array)</arglist>
     </member>
   </compound>
@@ -277,10 +297,10 @@
     <filename>array__quick__sort_8c</filename>
     <includes id="array_8h" name="array.h" local="yes" imported="no">array.h</includes>
     <member kind="function">
-      <type>int</type>
+      <type>void</type>
       <name>array_quick_sort</name>
       <anchorfile>array__quick__sort_8c.html</anchorfile>
-      <anchor>ac7858b68581990e8396fb793df0c3fb8</anchor>
+      <anchor>afddc63a15ba47c157c60f2346da39565</anchor>
       <arglist>(t_array *array)</arglist>
     </member>
   </compound>
@@ -291,10 +311,10 @@
     <includes id="array_8h" name="array.h" local="yes" imported="no">array.h</includes>
     <includes id="array__utils_8h" name="array_utils.h" local="yes" imported="no">array_utils.h</includes>
     <member kind="function">
-      <type>int</type>
+      <type>void</type>
       <name>array_remove</name>
       <anchorfile>array__remove_8c.html</anchorfile>
-      <anchor>a573498b6318b686be6527b50f35529d3</anchor>
+      <anchor>a0fc30e27e32759e6c99f9f85b3673de6</anchor>
       <arglist>(t_array *array, size_t index)</arglist>
     </member>
   </compound>
@@ -304,10 +324,10 @@
     <filename>array__set_8c</filename>
     <includes id="array_8h" name="array.h" local="yes" imported="no">array.h</includes>
     <member kind="function">
-      <type>int</type>
+      <type>void</type>
       <name>array_set</name>
       <anchorfile>array__set_8c.html</anchorfile>
-      <anchor>a88ce694134054dd37ecc6a5c667ac5f4</anchor>
+      <anchor>a2fb4fb218dc1974616258e9144343a2b</anchor>
       <arglist>(t_array *array, size_t index, const void *content)</arglist>
     </member>
   </compound>
@@ -343,10 +363,10 @@
     <filename>array__swap_8c</filename>
     <includes id="array_8h" name="array.h" local="yes" imported="no">array.h</includes>
     <member kind="function">
-      <type>int</type>
+      <type>void</type>
       <name>array_swap</name>
       <anchorfile>array__swap_8c.html</anchorfile>
-      <anchor>af5a1b6cab42108e9347cb08a79c3a4dc</anchor>
+      <anchor>a4566d12821f9ed61809ff170452a01fa</anchor>
       <arglist>(t_array *array, size_t ind1, size_t ind2)</arglist>
     </member>
   </compound>
@@ -404,10 +424,10 @@
       <arglist>(const t_type *key_type, const t_type *val_type)</arglist>
     </member>
     <member kind="function">
-      <type>int</type>
+      <type>void</type>
       <name>bst_put</name>
       <anchorfile>bst_8h.html</anchorfile>
-      <anchor>a32296688c7d2eaf26bbc21161b296447</anchor>
+      <anchor>a7d8aa0ca4a02a1659b2fd92fec917874</anchor>
       <arglist>(t_bst *bst, const void *key, const void *val)</arglist>
     </member>
     <member kind="function">
@@ -497,10 +517,10 @@
     <filename>bst__put_8c</filename>
     <includes id="bst_8h" name="bst.h" local="yes" imported="no">bst.h</includes>
     <member kind="function">
-      <type>int</type>
+      <type>void</type>
       <name>bst_put</name>
       <anchorfile>bst__put_8c.html</anchorfile>
-      <anchor>a32296688c7d2eaf26bbc21161b296447</anchor>
+      <anchor>a7d8aa0ca4a02a1659b2fd92fec917874</anchor>
       <arglist>(t_bst *bst, const void *key, const void *val)</arglist>
     </member>
   </compound>
@@ -534,17 +554,17 @@
       <arglist>(const t_type *type)</arglist>
     </member>
     <member kind="function">
-      <type>int</type>
+      <type>void</type>
       <name>graph_add_vertex</name>
       <anchorfile>graph_8h.html</anchorfile>
-      <anchor>ad8093cc2754b546ffbf7592607b755cb</anchor>
+      <anchor>a99a604276e6e3834e21feb17c448967c</anchor>
       <arglist>(t_graph *graph, const void *v)</arglist>
     </member>
     <member kind="function">
-      <type>int</type>
+      <type>void</type>
       <name>graph_add_edge</name>
       <anchorfile>graph_8h.html</anchorfile>
-      <anchor>a7c559b00c43e0bcf6226473c230270f6</anchor>
+      <anchor>a3d3ae0564f4f565ec6f986b8ef905bf5</anchor>
       <arglist>(t_graph *graph, const void *v1, const void *v2)</arglist>
     </member>
     <member kind="function">
@@ -582,10 +602,10 @@
     <filename>graph__add__edge_8c</filename>
     <includes id="graph_8h" name="graph.h" local="yes" imported="no">graph.h</includes>
     <member kind="function">
-      <type>int</type>
+      <type>void</type>
       <name>graph_add_edge</name>
       <anchorfile>graph__add__edge_8c.html</anchorfile>
-      <anchor>a7c559b00c43e0bcf6226473c230270f6</anchor>
+      <anchor>a3d3ae0564f4f565ec6f986b8ef905bf5</anchor>
       <arglist>(t_graph *graph, const void *v1, const void *v2)</arglist>
     </member>
   </compound>
@@ -595,10 +615,10 @@
     <filename>graph__add__vertex_8c</filename>
     <includes id="graph_8h" name="graph.h" local="yes" imported="no">graph.h</includes>
     <member kind="function">
-      <type>int</type>
+      <type>void</type>
       <name>graph_add_vertex</name>
       <anchorfile>graph__add__vertex_8c.html</anchorfile>
-      <anchor>ad8093cc2754b546ffbf7592607b755cb</anchor>
+      <anchor>a99a604276e6e3834e21feb17c448967c</anchor>
       <arglist>(t_graph *graph, const void *v)</arglist>
     </member>
   </compound>
@@ -690,10 +710,10 @@
       <arglist>(const t_type *key_type, const t_type *val_type)</arglist>
     </member>
     <member kind="function">
-      <type>int</type>
+      <type>void</type>
       <name>hashmap_put</name>
       <anchorfile>hashmap_8h.html</anchorfile>
-      <anchor>af80e7a24e87a9620c5c24d8834acaabc</anchor>
+      <anchor>a58e14a0f0011a02dbdd356340114c858</anchor>
       <arglist>(t_hashmap *hm, const void *key, const void *val)</arglist>
     </member>
     <member kind="function">
@@ -732,10 +752,10 @@
       <arglist>(t_hashmap *hm)</arglist>
     </member>
     <member kind="function">
-      <type>int</type>
+      <type>void</type>
       <name>hashmap_remove</name>
       <anchorfile>hashmap_8h.html</anchorfile>
-      <anchor>ace34ec0da14abf5688502e445a93326b</anchor>
+      <anchor>ad04647f6fba4454d8331386cc4fae290</anchor>
       <arglist>(t_hashmap *hm, const void *key)</arglist>
     </member>
     <member kind="function">
@@ -819,10 +839,10 @@
     <includes id="hashmap_8h" name="hashmap.h" local="yes" imported="no">hashmap.h</includes>
     <includes id="hashmap__utils_8h" name="hashmap_utils.h" local="yes" imported="no">hashmap_utils.h</includes>
     <member kind="function">
-      <type>int</type>
+      <type>void</type>
       <name>hashmap_put</name>
       <anchorfile>hashmap__put_8c.html</anchorfile>
-      <anchor>af80e7a24e87a9620c5c24d8834acaabc</anchor>
+      <anchor>a58e14a0f0011a02dbdd356340114c858</anchor>
       <arglist>(t_hashmap *hm, const void *key, const void *val)</arglist>
     </member>
   </compound>
@@ -833,10 +853,10 @@
     <includes id="hashmap_8h" name="hashmap.h" local="yes" imported="no">hashmap.h</includes>
     <includes id="hashmap__utils_8h" name="hashmap_utils.h" local="yes" imported="no">hashmap_utils.h</includes>
     <member kind="function">
-      <type>int</type>
+      <type>void</type>
       <name>hashmap_remove</name>
       <anchorfile>hashmap__remove_8c.html</anchorfile>
-      <anchor>ace34ec0da14abf5688502e445a93326b</anchor>
+      <anchor>ad04647f6fba4454d8331386cc4fae290</anchor>
       <arglist>(t_hashmap *hm, const void *key)</arglist>
     </member>
   </compound>
@@ -901,10 +921,10 @@
       <arglist>(const t_type *type)</arglist>
     </member>
     <member kind="function">
-      <type>int</type>
+      <type>void</type>
       <name>hashset_put</name>
       <anchorfile>hashset_8h.html</anchorfile>
-      <anchor>a87bd45a19a1f25ee68a4f2a636e72268</anchor>
+      <anchor>a26b3cc015b593a0e9a74366f31f262fe</anchor>
       <arglist>(t_hashset *hs, const void *val)</arglist>
     </member>
     <member kind="function">
@@ -936,10 +956,10 @@
       <arglist>(const t_hashset *hs, const void *val)</arglist>
     </member>
     <member kind="function">
-      <type>int</type>
+      <type>void</type>
       <name>hashset_remove</name>
       <anchorfile>hashset_8h.html</anchorfile>
-      <anchor>af1f30007490a00f47c5732ff68c1a6f6</anchor>
+      <anchor>a24b32bd4eaaaec5023e0199c30fb359e</anchor>
       <arglist>(t_hashset *hs, const void *val)</arglist>
     </member>
     <member kind="function">
@@ -1010,10 +1030,10 @@
     <includes id="hashset_8h" name="hashset.h" local="yes" imported="no">hashset.h</includes>
     <includes id="hashset__utils_8h" name="hashset_utils.h" local="yes" imported="no">hashset_utils.h</includes>
     <member kind="function">
-      <type>int</type>
+      <type>void</type>
       <name>hashset_put</name>
       <anchorfile>hashset__put_8c.html</anchorfile>
-      <anchor>a87bd45a19a1f25ee68a4f2a636e72268</anchor>
+      <anchor>a26b3cc015b593a0e9a74366f31f262fe</anchor>
       <arglist>(t_hashset *hs, const void *val)</arglist>
     </member>
   </compound>
@@ -1024,10 +1044,10 @@
     <includes id="hashset_8h" name="hashset.h" local="yes" imported="no">hashset.h</includes>
     <includes id="hashset__utils_8h" name="hashset_utils.h" local="yes" imported="no">hashset_utils.h</includes>
     <member kind="function">
-      <type>int</type>
+      <type>void</type>
       <name>hashset_remove</name>
       <anchorfile>hashset__remove_8c.html</anchorfile>
-      <anchor>af1f30007490a00f47c5732ff68c1a6f6</anchor>
+      <anchor>a24b32bd4eaaaec5023e0199c30fb359e</anchor>
       <arglist>(t_hashset *hs, const void *val)</arglist>
     </member>
   </compound>
@@ -1078,17 +1098,17 @@
     <class kind="struct">s_link</class>
     <class kind="struct">s_list</class>
     <member kind="function">
-      <type>int</type>
+      <type>void</type>
       <name>list_add_first</name>
       <anchorfile>list_8h.html</anchorfile>
-      <anchor>a88e149abdbf725a0090c4d76eeb3ef44</anchor>
+      <anchor>a590064c33d7a9c0719bbc9cca3704988</anchor>
       <arglist>(t_list *alst, const void *data)</arglist>
     </member>
     <member kind="function">
-      <type>int</type>
+      <type>void</type>
       <name>list_add_last</name>
       <anchorfile>list_8h.html</anchorfile>
-      <anchor>a6877b8857455f53a42e24993d23f8e5d</anchor>
+      <anchor>a311ce5b77a1f7dcb0265b88af0cf09b0</anchor>
       <arglist>(t_list *alst, const void *data)</arglist>
     </member>
     <member kind="function">
@@ -1176,10 +1196,10 @@
       <arglist>(const t_type *type)</arglist>
     </member>
     <member kind="function">
-      <type>int</type>
+      <type>void</type>
       <name>list_merge_sort</name>
       <anchorfile>list_8h.html</anchorfile>
-      <anchor>a1dda1c174502914f3782fc584c16d415</anchor>
+      <anchor>a4d7955c48cdc32a8343061cacb5c7628</anchor>
       <arglist>(t_list *alst)</arglist>
     </member>
     <member kind="function">
@@ -1196,10 +1216,10 @@
     <filename>list__add__first_8c</filename>
     <includes id="list_8h" name="list.h" local="yes" imported="no">list.h</includes>
     <member kind="function">
-      <type>int</type>
+      <type>void</type>
       <name>list_add_first</name>
       <anchorfile>list__add__first_8c.html</anchorfile>
-      <anchor>a88e149abdbf725a0090c4d76eeb3ef44</anchor>
+      <anchor>a590064c33d7a9c0719bbc9cca3704988</anchor>
       <arglist>(t_list *alst, const void *data)</arglist>
     </member>
   </compound>
@@ -1209,10 +1229,10 @@
     <filename>list__add__last_8c</filename>
     <includes id="list_8h" name="list.h" local="yes" imported="no">list.h</includes>
     <member kind="function">
-      <type>int</type>
+      <type>void</type>
       <name>list_add_last</name>
       <anchorfile>list__add__last_8c.html</anchorfile>
-      <anchor>a6877b8857455f53a42e24993d23f8e5d</anchor>
+      <anchor>a311ce5b77a1f7dcb0265b88af0cf09b0</anchor>
       <arglist>(t_list *alst, const void *data)</arglist>
     </member>
   </compound>
@@ -1248,10 +1268,10 @@
     <filename>list__merge__sort_8c</filename>
     <includes id="list_8h" name="list.h" local="yes" imported="no">list.h</includes>
     <member kind="function">
-      <type>int</type>
+      <type>void</type>
       <name>list_merge_sort</name>
       <anchorfile>list__merge__sort_8c.html</anchorfile>
-      <anchor>a1dda1c174502914f3782fc584c16d415</anchor>
+      <anchor>a4d7955c48cdc32a8343061cacb5c7628</anchor>
       <arglist>(t_list *alst)</arglist>
     </member>
   </compound>
@@ -1326,10 +1346,10 @@
     <filename>list__remove__first_8c</filename>
     <includes id="list_8h" name="list.h" local="yes" imported="no">list.h</includes>
     <member kind="function">
-      <type>void *</type>
-      <name>list_unlink_first</name>
+      <type>void</type>
+      <name>list_remove_first</name>
       <anchorfile>list__remove__first_8c.html</anchorfile>
-      <anchor>a5cf0a39e4fef5642c9dbb073f69e474f</anchor>
+      <anchor>a9185a4ff4f960943b9df0df3a33fede0</anchor>
       <arglist>(t_list *alst)</arglist>
     </member>
   </compound>
@@ -1339,10 +1359,10 @@
     <filename>list__remove__last_8c</filename>
     <includes id="list_8h" name="list.h" local="yes" imported="no">list.h</includes>
     <member kind="function">
-      <type>void *</type>
-      <name>list_unlink_last</name>
+      <type>void</type>
+      <name>list_remove_last</name>
       <anchorfile>list__remove__last_8c.html</anchorfile>
-      <anchor>ad2ce10f39d694857f82298fa327f0c60</anchor>
+      <anchor>a21cbce426f16f1a1b9ae4d225fab656b</anchor>
       <arglist>(t_list *alst)</arglist>
     </member>
   </compound>
@@ -1378,10 +1398,10 @@
     <filename>list__unlink__first_8c</filename>
     <includes id="list_8h" name="list.h" local="yes" imported="no">list.h</includes>
     <member kind="function">
-      <type>void</type>
-      <name>list_remove_first</name>
+      <type>void *</type>
+      <name>list_unlink_first</name>
       <anchorfile>list__unlink__first_8c.html</anchorfile>
-      <anchor>a9185a4ff4f960943b9df0df3a33fede0</anchor>
+      <anchor>a5cf0a39e4fef5642c9dbb073f69e474f</anchor>
       <arglist>(t_list *alst)</arglist>
     </member>
   </compound>
@@ -1391,10 +1411,10 @@
     <filename>list__unlink__last_8c</filename>
     <includes id="list_8h" name="list.h" local="yes" imported="no">list.h</includes>
     <member kind="function">
-      <type>void</type>
-      <name>list_remove_last</name>
+      <type>void *</type>
+      <name>list_unlink_last</name>
       <anchorfile>list__unlink__last_8c.html</anchorfile>
-      <anchor>a21cbce426f16f1a1b9ae4d225fab656b</anchor>
+      <anchor>ad2ce10f39d694857f82298fa327f0c60</anchor>
       <arglist>(t_list *alst)</arglist>
     </member>
   </compound>
@@ -1434,10 +1454,10 @@
       <arglist>(t_max_pq *pq)</arglist>
     </member>
     <member kind="function">
-      <type>int</type>
+      <type>void</type>
       <name>max_pq_add</name>
       <anchorfile>max__pq_8h.html</anchorfile>
-      <anchor>aa57bcf9d7e22503bac9fb4c43fb07981</anchor>
+      <anchor>aded0759d1a0dfea2b58eccac823ff6ac</anchor>
       <arglist>(t_max_pq *pq, const void *data)</arglist>
     </member>
     <member kind="function">
@@ -1468,10 +1488,10 @@
     <filename>max__pq__add_8c</filename>
     <includes id="max__pq_8h" name="max_pq.h" local="yes" imported="no">max_pq.h</includes>
     <member kind="function">
-      <type>int</type>
+      <type>void</type>
       <name>max_pq_add</name>
       <anchorfile>max__pq__add_8c.html</anchorfile>
-      <anchor>aa57bcf9d7e22503bac9fb4c43fb07981</anchor>
+      <anchor>aded0759d1a0dfea2b58eccac823ff6ac</anchor>
       <arglist>(t_max_pq *pq, const void *data)</arglist>
     </member>
   </compound>
@@ -1589,10 +1609,10 @@
       <arglist>(t_min_pq *pq)</arglist>
     </member>
     <member kind="function">
-      <type>int</type>
+      <type>void</type>
       <name>min_pq_add</name>
       <anchorfile>min__pq_8h.html</anchorfile>
-      <anchor>a6bae256a12169cba4fb8f297fecebb20</anchor>
+      <anchor>a19ea9f068f1426e60d7ec6d9adc46797</anchor>
       <arglist>(t_min_pq *pq, const void *data)</arglist>
     </member>
     <member kind="function">
@@ -1623,10 +1643,10 @@
     <filename>min__pq__add_8c</filename>
     <includes id="min__pq_8h" name="min_pq.h" local="yes" imported="no">min_pq.h</includes>
     <member kind="function">
-      <type>int</type>
+      <type>void</type>
       <name>min_pq_add</name>
       <anchorfile>min__pq__add_8c.html</anchorfile>
-      <anchor>a6bae256a12169cba4fb8f297fecebb20</anchor>
+      <anchor>a19ea9f068f1426e60d7ec6d9adc46797</anchor>
       <arglist>(t_min_pq *pq, const void *data)</arglist>
     </member>
   </compound>
@@ -1723,10 +1743,10 @@
       <arglist></arglist>
     </member>
     <member kind="function">
-      <type>int</type>
+      <type>void</type>
       <name>queue_enqueue</name>
       <anchorfile>queue_8h.html</anchorfile>
-      <anchor>a6ea138ae54eaf93acdcd15e553053edd</anchor>
+      <anchor>a282684f701f6205b39d2b5f6cd787d1d</anchor>
       <arglist>(t_queue *queue, const void *data)</arglist>
     </member>
     <member kind="function">
@@ -1817,10 +1837,10 @@
     <filename>queue__enqueue_8c</filename>
     <includes id="queue_8h" name="queue.h" local="yes" imported="no">queue.h</includes>
     <member kind="function">
-      <type>int</type>
+      <type>void</type>
       <name>queue_enqueue</name>
       <anchorfile>queue__enqueue_8c.html</anchorfile>
-      <anchor>a6ea138ae54eaf93acdcd15e553053edd</anchor>
+      <anchor>a282684f701f6205b39d2b5f6cd787d1d</anchor>
       <arglist>(t_queue *queue, const void *data)</arglist>
     </member>
   </compound>
@@ -1887,10 +1907,10 @@
       <arglist>(const t_type *key_type, const t_type *val_type)</arglist>
     </member>
     <member kind="function">
-      <type>int</type>
+      <type>void</type>
       <name>rbt_put</name>
       <anchorfile>rbt_8h.html</anchorfile>
-      <anchor>a8eeebbdf1cef6656b085ba7b4ed4695f</anchor>
+      <anchor>aa01464aa52ab087204b35bc7bafda7a0</anchor>
       <arglist>(t_rbt *rbt, const void *key, const void *val)</arglist>
     </member>
     <member kind="function">
@@ -1976,6 +1996,13 @@
       <anchorfile>rbt_8h.html</anchorfile>
       <anchor>a88c6a9c58eda33244e7df6c5c9343882</anchor>
       <arglist>(const t_rbt *rbt, const void *key)</arglist>
+    </member>
+    <member kind="function">
+      <type>void *</type>
+      <name>rbt_nth</name>
+      <anchorfile>rbt_8h.html</anchorfile>
+      <anchor>a80ef919e59bea3c12d437712fb787d67</anchor>
+      <arglist>(const t_rbt *rbt, size_t n)</arglist>
     </member>
   </compound>
   <compound kind="file">
@@ -2109,16 +2136,30 @@
     </member>
   </compound>
   <compound kind="file">
+    <name>rbt_nth.c</name>
+    <path>/Users/almayor/Documents/programming/42/data_structures/src/data_structures/rbt/</path>
+    <filename>rbt__nth_8c</filename>
+    <includes id="rbt_8h" name="rbt.h" local="yes" imported="no">rbt.h</includes>
+    <includes id="rbt__utils_8h" name="rbt_utils.h" local="yes" imported="no">rbt_utils.h</includes>
+    <member kind="function">
+      <type>void *</type>
+      <name>rbt_nth</name>
+      <anchorfile>rbt__nth_8c.html</anchorfile>
+      <anchor>a80ef919e59bea3c12d437712fb787d67</anchor>
+      <arglist>(const t_rbt *rbt, size_t n)</arglist>
+    </member>
+  </compound>
+  <compound kind="file">
     <name>rbt_put.c</name>
     <path>/Users/almayor/Documents/programming/42/data_structures/src/data_structures/rbt/</path>
     <filename>rbt__put_8c</filename>
     <includes id="rbt_8h" name="rbt.h" local="yes" imported="no">rbt.h</includes>
     <includes id="rbt__utils_8h" name="rbt_utils.h" local="yes" imported="no">rbt_utils.h</includes>
     <member kind="function">
-      <type>int</type>
+      <type>void</type>
       <name>rbt_put</name>
       <anchorfile>rbt__put_8c.html</anchorfile>
-      <anchor>a8eeebbdf1cef6656b085ba7b4ed4695f</anchor>
+      <anchor>aa01464aa52ab087204b35bc7bafda7a0</anchor>
       <arglist>(t_rbt *rbt, const void *key, const void *val)</arglist>
     </member>
   </compound>
@@ -2220,10 +2261,10 @@
       <arglist></arglist>
     </member>
     <member kind="function">
-      <type>int</type>
+      <type>void</type>
       <name>stack_push</name>
       <anchorfile>stack_8h.html</anchorfile>
-      <anchor>ad3c8812392692e798aa5564ee09db4e6</anchor>
+      <anchor>a88d0595a4587d22c6aa187f7397edda1</anchor>
       <arglist>(t_stack *stack, const void *data)</arglist>
     </member>
     <member kind="function">
@@ -2260,13 +2301,6 @@
       <anchorfile>stack_8h.html</anchorfile>
       <anchor>a9314fbb09bf3f332b3422172aa2999a3</anchor>
       <arglist>(const t_type *type)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>stack_print</name>
-      <anchorfile>stack_8h.html</anchorfile>
-      <anchor>a7149ce2f0633c48805a1a60e5ba19c04</anchor>
-      <arglist>(const t_stack *stack)</arglist>
     </member>
     <member kind="function">
       <type>t_stack *</type>
@@ -2347,10 +2381,10 @@
     <filename>stack__push_8c</filename>
     <includes id="stack_8h" name="stack.h" local="yes" imported="no">stack.h</includes>
     <member kind="function">
-      <type>int</type>
+      <type>void</type>
       <name>stack_push</name>
       <anchorfile>stack__push_8c.html</anchorfile>
-      <anchor>ad3c8812392692e798aa5564ee09db4e6</anchor>
+      <anchor>a88d0595a4587d22c6aa187f7397edda1</anchor>
       <arglist>(t_stack *stack, const void *data)</arglist>
     </member>
   </compound>
@@ -2382,10 +2416,10 @@
       <arglist>(size_t size)</arglist>
     </member>
     <member kind="function">
-      <type>int</type>
+      <type>void</type>
       <name>union_find_union</name>
       <anchorfile>union__find_8h.html</anchorfile>
-      <anchor>acd612f8ef64df5137a136c726cffbb64</anchor>
+      <anchor>a4166e7f1a37631f1ae4f72e14c6effb1</anchor>
       <arglist>(t_union_find *uf, size_t p, size_t q)</arglist>
     </member>
     <member kind="function">
@@ -2410,10 +2444,10 @@
       <arglist>(t_union_find *uf)</arglist>
     </member>
     <member kind="function">
-      <type>ssize_t</type>
+      <type>size_t</type>
       <name>union_find_find</name>
       <anchorfile>union__find_8h.html</anchorfile>
-      <anchor>a83a714f2b1201e4051779b9cff2fdad2</anchor>
+      <anchor>ab628b2d862aad8889437a935c3baf312</anchor>
       <arglist>(const t_union_find *uf, size_t p)</arglist>
     </member>
   </compound>
@@ -2449,10 +2483,10 @@
     <filename>union__find__find_8c</filename>
     <includes id="union__find_8h" name="union_find.h" local="yes" imported="no">union_find.h</includes>
     <member kind="function">
-      <type>ssize_t</type>
+      <type>size_t</type>
       <name>union_find_find</name>
       <anchorfile>union__find__find_8c.html</anchorfile>
-      <anchor>a83a714f2b1201e4051779b9cff2fdad2</anchor>
+      <anchor>ab628b2d862aad8889437a935c3baf312</anchor>
       <arglist>(const t_union_find *uf, size_t p)</arglist>
     </member>
   </compound>
@@ -2488,10 +2522,10 @@
     <filename>union__find__union_8c</filename>
     <includes id="union__find_8h" name="union_find.h" local="yes" imported="no">union_find.h</includes>
     <member kind="function">
-      <type>int</type>
+      <type>void</type>
       <name>union_find_union</name>
       <anchorfile>union__find__union_8c.html</anchorfile>
-      <anchor>acd612f8ef64df5137a136c726cffbb64</anchor>
+      <anchor>a4166e7f1a37631f1ae4f72e14c6effb1</anchor>
       <arglist>(t_union_find *uf, size_t p, size_t q)</arglist>
     </member>
   </compound>
@@ -2720,16 +2754,29 @@
     </member>
   </compound>
   <compound kind="file">
-    <name>ds_calloc.c</name>
+    <name>ds_exit.c</name>
     <path>/Users/almayor/Documents/programming/42/data_structures/src/utils/</path>
-    <filename>ds__calloc_8c</filename>
+    <filename>ds__exit_8c</filename>
     <includes id="utils_8h" name="utils.h" local="yes" imported="no">utils.h</includes>
     <member kind="function">
-      <type>void *</type>
-      <name>ds_calloc</name>
-      <anchorfile>ds__calloc_8c.html</anchorfile>
-      <anchor>a555567c0193869d28df76d4f2af52eca</anchor>
-      <arglist>(size_t count, size_t size)</arglist>
+      <type>void</type>
+      <name>ds_exit</name>
+      <anchorfile>ds__exit_8c.html</anchorfile>
+      <anchor>ae3b39622503c5ebf28247f3b5ac9ccf5</anchor>
+      <arglist>(void)</arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>ds_exit_set.c</name>
+    <path>/Users/almayor/Documents/programming/42/data_structures/src/utils/</path>
+    <filename>ds__exit__set_8c</filename>
+    <includes id="utils_8h" name="utils.h" local="yes" imported="no">utils.h</includes>
+    <member kind="function">
+      <type>void</type>
+      <name>ds_exit_set</name>
+      <anchorfile>ds__exit__set_8c.html</anchorfile>
+      <anchor>a1465a802cddd1a10dce59aa7a988ca15</anchor>
+      <arglist>(int err)</arglist>
     </member>
   </compound>
   <compound kind="file">
@@ -2772,6 +2819,32 @@
     </member>
   </compound>
   <compound kind="file">
+    <name>ds_xcalloc.c</name>
+    <path>/Users/almayor/Documents/programming/42/data_structures/src/utils/</path>
+    <filename>ds__xcalloc_8c</filename>
+    <includes id="utils_8h" name="utils.h" local="yes" imported="no">utils.h</includes>
+    <member kind="function">
+      <type>void *</type>
+      <name>ds_xcalloc</name>
+      <anchorfile>ds__xcalloc_8c.html</anchorfile>
+      <anchor>a8932b60a98e1e53ddf2b85ddc60bab50</anchor>
+      <arglist>(size_t count, size_t size)</arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>ds_xmalloc.c</name>
+    <path>/Users/almayor/Documents/programming/42/data_structures/src/utils/</path>
+    <filename>ds__xmalloc_8c</filename>
+    <includes id="utils_8h" name="utils.h" local="yes" imported="no">utils.h</includes>
+    <member kind="function">
+      <type>void *</type>
+      <name>ds_xmalloc</name>
+      <anchorfile>ds__xmalloc_8c.html</anchorfile>
+      <anchor>ac44f1554bc0ebac58cb8b939fe886e71</anchor>
+      <arglist>(size_t size)</arglist>
+    </member>
+  </compound>
+  <compound kind="file">
     <name>utils.h</name>
     <path>/Users/almayor/Documents/programming/42/data_structures/src/utils/</path>
     <filename>utils_8h</filename>
@@ -2798,10 +2871,17 @@
     </member>
     <member kind="function">
       <type>void *</type>
-      <name>ds_calloc</name>
+      <name>ds_xcalloc</name>
       <anchorfile>utils_8h.html</anchorfile>
-      <anchor>a555567c0193869d28df76d4f2af52eca</anchor>
+      <anchor>a8932b60a98e1e53ddf2b85ddc60bab50</anchor>
       <arglist>(size_t count, size_t size)</arglist>
+    </member>
+    <member kind="function">
+      <type>void *</type>
+      <name>ds_xmalloc</name>
+      <anchorfile>utils_8h.html</anchorfile>
+      <anchor>ac44f1554bc0ebac58cb8b939fe886e71</anchor>
+      <arglist>(size_t size)</arglist>
     </member>
     <member kind="function">
       <type>char *</type>
@@ -2809,6 +2889,20 @@
       <anchorfile>utils_8h.html</anchorfile>
       <anchor>a54e5f987803a4699c0a1c8d826e10e68</anchor>
       <arglist>(const char *s1)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>ds_exit</name>
+      <anchorfile>utils_8h.html</anchorfile>
+      <anchor>ae3b39622503c5ebf28247f3b5ac9ccf5</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>ds_exit_set</name>
+      <anchorfile>utils_8h.html</anchorfile>
+      <anchor>a1465a802cddd1a10dce59aa7a988ca15</anchor>
+      <arglist>(int err)</arglist>
     </member>
   </compound>
   <compound kind="struct">

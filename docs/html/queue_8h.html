@@ -84,14 +84,15 @@ $(function() {
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="queue_8h__incl.png" border="0" usemap="#src_2data__structures_2queue_8h" alt=""/></div>
 <map name="src_2data__structures_2queue_8h" id="src_2data__structures_2queue_8h">
-<area shape="rect" title=" " alt="" coords="139,5,273,47"/>
-<area shape="rect" title=" " alt="" coords="5,169,68,196"/>
-<area shape="rect" title=" " alt="" coords="93,169,183,196"/>
-<area shape="rect" href="types_8h.html" title=" " alt="" coords="309,169,375,196"/>
-<area shape="rect" href="utils_8h.html" title=" " alt="" coords="235,244,292,271"/>
-<area shape="rect" href="list_8h.html" title=" " alt="" coords="181,95,231,121"/>
-<area shape="rect" title=" " alt="" coords="317,244,381,271"/>
-<area shape="rect" title=" " alt="" coords="231,319,296,345"/>
+<area shape="rect" title=" " alt="" coords="135,5,270,47"/>
+<area shape="rect" title=" " alt="" coords="270,319,333,345"/>
+<area shape="rect" title=" " alt="" coords="260,169,351,196"/>
+<area shape="rect" href="types_8h.html" title=" " alt="" coords="18,169,83,196"/>
+<area shape="rect" href="utils_8h.html" title=" " alt="" coords="98,244,155,271"/>
+<area shape="rect" href="list_8h.html" title=" " alt="" coords="177,95,228,121"/>
+<area shape="rect" title=" " alt="" coords="5,319,69,345"/>
+<area shape="rect" title=" " alt="" coords="94,319,159,345"/>
+<area shape="rect" title=" " alt="" coords="184,319,245,345"/>
 </map>
 </div>
 </div>
@@ -105,9 +106,9 @@ Typedefs</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a6ea138ae54eaf93acdcd15e553053edd"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="queue_8h.html#a6ea138ae54eaf93acdcd15e553053edd">queue_enqueue</a> (<a class="el" href="queue_8h.html#a3c4d3efef4db98e495895a0cb288e6a4">t_queue</a> *queue, const void *data)</td></tr>
-<tr class="memdesc:a6ea138ae54eaf93acdcd15e553053edd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copies the item and adds the copy to the queue.  <a href="queue_8h.html#a6ea138ae54eaf93acdcd15e553053edd">More...</a><br /></td></tr>
-<tr class="separator:a6ea138ae54eaf93acdcd15e553053edd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a282684f701f6205b39d2b5f6cd787d1d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="queue_8h.html#a282684f701f6205b39d2b5f6cd787d1d">queue_enqueue</a> (<a class="el" href="queue_8h.html#a3c4d3efef4db98e495895a0cb288e6a4">t_queue</a> *queue, const void *data)</td></tr>
+<tr class="memdesc:a282684f701f6205b39d2b5f6cd787d1d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copies the item and adds the copy to the queue.  <a href="queue_8h.html#a282684f701f6205b39d2b5f6cd787d1d">More...</a><br /></td></tr>
+<tr class="separator:a282684f701f6205b39d2b5f6cd787d1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad4c04b1e1146c9771b95e38fea94b924"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="queue_8h.html#ad4c04b1e1146c9771b95e38fea94b924">queue_dequeue</a> (<a class="el" href="queue_8h.html#a3c4d3efef4db98e495895a0cb288e6a4">t_queue</a> *queue)</td></tr>
 <tr class="memdesc:ad4c04b1e1146c9771b95e38fea94b924"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes and returns the item on this queue that was least recently added.  <a href="queue_8h.html#ad4c04b1e1146c9771b95e38fea94b924">More...</a><br /></td></tr>
 <tr class="separator:ad4c04b1e1146c9771b95e38fea94b924"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -165,7 +166,7 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Copies a queue and all it contents. </p>
-<dl class="section return"><dt>Returns</dt><dd>The copy of the queue or <code>NULL</code> if an error occured. In case of an error, <code>errno</code> will set accordingly. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>A copy of the queue </dd></dl>
 
 <p class="definition">Definition at line <a class="el" href="queue__copy_8c_source.html#l00016">16</a> of file <a class="el" href="queue__copy_8c_source.html">queue_copy.c</a>.</p>
 
@@ -216,14 +217,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a6ea138ae54eaf93acdcd15e553053edd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6ea138ae54eaf93acdcd15e553053edd">&#9670;&nbsp;</a></span>queue_enqueue()</h2>
+<a id="a282684f701f6205b39d2b5f6cd787d1d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a282684f701f6205b39d2b5f6cd787d1d">&#9670;&nbsp;</a></span>queue_enqueue()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int queue_enqueue </td>
+          <td class="memname">void queue_enqueue </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="queue_8h.html#a3c4d3efef4db98e495895a0cb288e6a4">t_queue</a> *&#160;</td>
           <td class="paramname"><em>queue</em>, </td>
@@ -249,7 +250,6 @@ Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>0 on success, 1 on failure. On failure, <code>errno</code> is set to indicate the error. </dd></dl>
 
 <p class="definition">Definition at line <a class="el" href="queue__enqueue_8c_source.html#l00016">16</a> of file <a class="el" href="queue__enqueue_8c_source.html">queue_enqueue.c</a>.</p>
 
@@ -278,7 +278,7 @@ Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd><code>0</code> on success, <code>1</code> on failure. In case of failure, <code>errno</code> is set accordingly. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>The new queue </dd></dl>
 
 <p class="definition">Definition at line <a class="el" href="queue__new_8c_source.html#l00016">16</a> of file <a class="el" href="queue__new_8c_source.html">queue_new.c</a>.</p>
 

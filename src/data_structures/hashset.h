@@ -6,7 +6,7 @@
 /*   By: unite <marvin@42.fr>                       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/07/21 18:15:39 by unite             #+#    #+#             */
-/*   Updated: 2020/09/05 18:56:00 by unite            ###   ########.fr       */
+/*   Updated: 2020/09/07 22:36:25 by unite            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -50,9 +50,8 @@ typedef struct	s_hashset
 /*
 ** Initializes a new empty set.
 ** @param type	The type of items that this set can hold
-** @return The new hashset, or `NULL` on failure. In case of an error,
-** `errno` is set accordingly.
-** @remark For this function to work, the type must be
+** @return The new hashset
+** @note For this function to work, the type must be
 ** hashable (i.e. implement the `hash` function).
 */
 
@@ -61,11 +60,9 @@ t_hashset	*hashset_new(const t_type *type);
 /*
 ** Adds a copy of the specified element to the hashset.
 ** @param val	The value
-** @return `0` on success, `1` on failure. In case of an error, `errno` is set
-** accordingly.
 */
 
-int			hashset_put(t_hashset *hs, const void *val);
+void		hashset_put(t_hashset *hs, const void *val);
 
 /*
 ** Returns a queue with all the elements in the set.
@@ -102,12 +99,11 @@ int			hashset_contains(const t_hashset *hs, const void *val);
 ** @return `1` on success, `0` if the element is not in the set.
 */
 
-int			hashset_remove(t_hashset *hs, const void *val);
+void		hashset_remove(t_hashset *hs, const void *val);
 
 /*
 ** Copies the hashset and all it contents.
-** @return The copy of the set or `NULL` if an error occured. In case of an
-** error, `errno` will set accordingly.
+** @return The copy of the set
 */
 
 t_hashset	*hashset_copy(const t_hashset *hs);

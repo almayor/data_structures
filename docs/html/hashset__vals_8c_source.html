@@ -77,7 +77,7 @@ $(function() {
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="comment">/*   By: unite &lt;marvin@42.fr&gt;                       +#+  +:+       +#+        */</span></div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="comment">/*                                                +#+#+#+#+#+   +#+           */</span></div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="comment">/*   Created: 2020/07/21 19:15:14 by unite             #+#    #+#             */</span></div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="comment">/*   Updated: 2020/07/22 01:50:25 by unite            ###   ########.fr       */</span></div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="comment">/*   Updated: 2020/09/07 21:55:40 by unite            ###   ########.fr       */</span></div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="comment">/*                                                                            */</span></div>
 <div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="comment">/* ************************************************************************** */</span></div>
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160; </div>
@@ -88,27 +88,22 @@ $(function() {
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    <a class="code" href="structs__list.html">t_queue</a> *queue;</div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    <span class="keywordtype">size_t</span>  i;</div>
 <div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160; </div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    <span class="keywordflow">if</span> (!(queue = <a class="code" href="queue__new_8c.html#ac891e81f9bb5f1c93752088716b9199e">queue_new</a>(hs-&gt;<a class="code" href="structs__hashset.html#a720835a1fea5473618c2f27611a7817f">type</a>)))</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;        <span class="keywordflow">return</span> (NULL);</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    i = 0;</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    <span class="keywordflow">while</span> (i &lt; hs-&gt;capacity)</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    {</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;        <span class="keywordflow">if</span> (hs-&gt;<a class="code" href="structs__hashset.html#aa4390dd34833ffcf103fcf64b05f434a">vals</a>[i] != NULL &amp;&amp; <a class="code" href="queue__enqueue_8c.html#a6ea138ae54eaf93acdcd15e553053edd">queue_enqueue</a>(queue, hs-&gt;<a class="code" href="structs__hashset.html#aa4390dd34833ffcf103fcf64b05f434a">vals</a>[i]))</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;        {</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;            <a class="code" href="queue__delete_8c.html#a6698d632dc2b07a32eaacebbdba762f4">queue_delete</a>(queue);</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;            <span class="keywordflow">return</span> (NULL);</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;        }</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;        i++;</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    }</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    <span class="keywordflow">return</span> (queue);</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;}</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    queue = <a class="code" href="queue__new_8c.html#ac891e81f9bb5f1c93752088716b9199e">queue_new</a>(hs-&gt;<a class="code" href="structs__hashset.html#a720835a1fea5473618c2f27611a7817f">type</a>);</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    i = 0;</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    <span class="keywordflow">while</span> (i &lt; hs-&gt;capacity)</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    {</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;        <span class="keywordflow">if</span> (hs-&gt;<a class="code" href="structs__hashset.html#aa4390dd34833ffcf103fcf64b05f434a">vals</a>[i] != NULL)</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;            <a class="code" href="queue__enqueue_8c.html#a282684f701f6205b39d2b5f6cd787d1d">queue_enqueue</a>(queue, hs-&gt;<a class="code" href="structs__hashset.html#aa4390dd34833ffcf103fcf64b05f434a">vals</a>[i]);</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;        i++;</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    }</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    <span class="keywordflow">return</span> (queue);</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;}</div>
 </div><!-- fragment --></div><!-- contents -->
 <div class="ttc" id="ahashset_8h_html"><div class="ttname"><a href="hashset_8h.html">hashset.h</a></div></div>
-<div class="ttc" id="aqueue__delete_8c_html_a6698d632dc2b07a32eaacebbdba762f4"><div class="ttname"><a href="queue__delete_8c.html#a6698d632dc2b07a32eaacebbdba762f4">queue_delete</a></div><div class="ttdeci">void queue_delete(t_queue *queue)</div><div class="ttdoc">Deletes the queue and frees all memory taken by its contents, or does nothing if the argument is NULL...</div><div class="ttdef"><b>Definition:</b> <a href="queue__delete_8c_source.html#l00016">queue_delete.c:16</a></div></div>
 <div class="ttc" id="astructs__hashset_html_aa4390dd34833ffcf103fcf64b05f434a"><div class="ttname"><a href="structs__hashset.html#aa4390dd34833ffcf103fcf64b05f434a">s_hashset::vals</a></div><div class="ttdeci">void ** vals</div><div class="ttdoc">The data.</div><div class="ttdef"><b>Definition:</b> <a href="hashset_8h_source.html#l00045">hashset.h:45</a></div></div>
 <div class="ttc" id="astructs__list_html"><div class="ttname"><a href="structs__list.html">s_list</a></div><div class="ttdoc">Doubly-linked list of generic items.</div><div class="ttdef"><b>Definition:</b> <a href="list_8h_source.html#l00054">list.h:54</a></div></div>
 <div class="ttc" id="aqueue__new_8c_html_ac891e81f9bb5f1c93752088716b9199e"><div class="ttname"><a href="queue__new_8c.html#ac891e81f9bb5f1c93752088716b9199e">queue_new</a></div><div class="ttdeci">t_queue * queue_new(const t_type *type)</div><div class="ttdoc">Allocates memory and initializes an empty queue.</div><div class="ttdef"><b>Definition:</b> <a href="queue__new_8c_source.html#l00016">queue_new.c:16</a></div></div>
-<div class="ttc" id="aqueue__enqueue_8c_html_a6ea138ae54eaf93acdcd15e553053edd"><div class="ttname"><a href="queue__enqueue_8c.html#a6ea138ae54eaf93acdcd15e553053edd">queue_enqueue</a></div><div class="ttdeci">int queue_enqueue(t_queue *queue, const void *data)</div><div class="ttdoc">Copies the item and adds the copy to the queue.</div><div class="ttdef"><b>Definition:</b> <a href="queue__enqueue_8c_source.html#l00016">queue_enqueue.c:16</a></div></div>
+<div class="ttc" id="aqueue__enqueue_8c_html_a282684f701f6205b39d2b5f6cd787d1d"><div class="ttname"><a href="queue__enqueue_8c.html#a282684f701f6205b39d2b5f6cd787d1d">queue_enqueue</a></div><div class="ttdeci">void queue_enqueue(t_queue *queue, const void *data)</div><div class="ttdoc">Copies the item and adds the copy to the queue.</div><div class="ttdef"><b>Definition:</b> <a href="queue__enqueue_8c_source.html#l00016">queue_enqueue.c:16</a></div></div>
 <div class="ttc" id="ahashset__vals_8c_html_a8ff8f619c981ce26728bf8616c7e82aa"><div class="ttname"><a href="hashset__vals_8c.html#a8ff8f619c981ce26728bf8616c7e82aa">hashset_vals</a></div><div class="ttdeci">t_queue * hashset_vals(const t_hashset *hs)</div><div class="ttdoc">Returns a queue with all the elements in the set.</div><div class="ttdef"><b>Definition:</b> <a href="hashset__vals_8c_source.html#l00016">hashset_vals.c:16</a></div></div>
 <div class="ttc" id="astructs__hashset_html"><div class="ttname"><a href="structs__hashset.html">s_hashset</a></div><div class="ttdoc">A dynamically resizing linear-probing hashset.</div><div class="ttdef"><b>Definition:</b> <a href="hashset_8h_source.html#l00043">hashset.h:43</a></div></div>
 <div class="ttc" id="astructs__hashset_html_a720835a1fea5473618c2f27611a7817f"><div class="ttname"><a href="structs__hashset.html#a720835a1fea5473618c2f27611a7817f">s_hashset::type</a></div><div class="ttdeci">const t_type * type</div><div class="ttdoc">The type of elements in the hashset.</div><div class="ttdef"><b>Definition:</b> <a href="hashset_8h_source.html#l00048">hashset.h:48</a></div></div>

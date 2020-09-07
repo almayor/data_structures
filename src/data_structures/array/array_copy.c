@@ -6,7 +6,7 @@
 /*   By: unite <marvin@42.fr>                       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/07/22 00:23:30 by unite             #+#    #+#             */
-/*   Updated: 2020/07/22 00:29:24 by unite            ###   ########.fr       */
+/*   Updated: 2020/09/07 19:53:45 by unite            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,8 +17,7 @@ t_array	*array_copy(const t_array *array)
 	t_array	*copy;
 	size_t	i;
 
-	if (!(copy = array_zeros(array->type, array->size)))
-		return (NULL);
+	copy = array_zeros(array->type, array->size);
 	i = 0;
 	while (i < array->size)
 	{

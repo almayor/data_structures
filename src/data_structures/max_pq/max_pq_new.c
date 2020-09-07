@@ -6,7 +6,7 @@
 /*   By: unite <marvin@42.fr>                       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/07/17 01:46:17 by unite             #+#    #+#             */
-/*   Updated: 2020/07/18 19:15:51 by unite            ###   ########.fr       */
+/*   Updated: 2020/09/07 22:03:44 by unite            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,9 +15,6 @@
 t_max_pq	*max_pq_new(const t_type *type)
 {
 	if (!type->cmp)
-	{
-		errno = EINVAL;
-		return (NULL);
-	}
+		ds_exit_set(EINVAL);
 	return (array_new(type));
 }

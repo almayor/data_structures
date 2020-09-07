@@ -1,29 +1,23 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ds_calloc.c                                        :+:      :+:    :+:   */
+/*   ds_exit.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: unite <marvin@42.fr>                       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2019/09/05 00:27:33 by unite             #+#    #+#             */
-/*   Updated: 2020/09/05 20:21:36 by unite            ###   ########.fr       */
+/*   Created: 2020/09/07 19:48:38 by unite             #+#    #+#             */
+/*   Updated: 2020/09/07 22:26:32 by unite            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "utils.h"
-#include <stdlib.h>
 
 /*
-** Replicates behaviour of `calloc` from `libc`.
+** Print the error message, corresponding to `errno`, exit the process
 */
 
-void	*ds_calloc(size_t count, size_t size)
+void	ds_exit(void)
 {
-	void	*mem;
-
-	mem = malloc(count * size);
-	if (mem == NULL)
-		return (NULL);
-	ds_bzero(mem, count * size);
-	return (mem);
+	perror("data_structures");
+	exit(errno);
 }

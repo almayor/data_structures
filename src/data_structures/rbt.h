@@ -6,7 +6,7 @@
 /*   By: unite <marvin@42.fr>                       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/07/16 20:41:50 by unite             #+#    #+#             */
-/*   Updated: 2020/09/05 18:55:50 by unite            ###   ########.fr       */
+/*   Updated: 2020/09/07 23:35:56 by unite            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -91,11 +91,9 @@ t_rbt			*rbt_new(const t_type *key_type, const t_type *val_type);
 ** Adds a new item to the tree or overwrites an existing one
 ** @param key	The key to be copied
 ** @param val	The value to be copied
-** @return `0` on success, `1` on failure. In case of an error, `errno` is
-** set accordingly.
 */
 
-int				rbt_put(t_rbt *rbt, const void *key, const void *val);
+void			rbt_put(t_rbt *rbt, const void *key, const void *val);
 
 /*
 ** Returns the value associated with a specified key.
@@ -193,5 +191,13 @@ t_queue			*rbt_vals(const t_rbt *rbt);
 */
 
 int				rbt_contains(const t_rbt *rbt, const void *key);
+
+/*
+** Returns the key of the nth element in the tree
+** @param n	The index
+** @return The key of the nth element in the tree
+*/
+
+void			*rbt_nth(const t_rbt *rbt, size_t n);
 
 #endif

@@ -6,7 +6,7 @@
 /*   By: unite <marvin@42.fr>                       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/07/22 00:10:11 by unite             #+#    #+#             */
-/*   Updated: 2020/09/05 18:56:03 by unite            ###   ########.fr       */
+/*   Updated: 2020/09/07 22:34:48 by unite            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -46,8 +46,7 @@ typedef struct	s_graph
 /*
 ** Initializes a new graph with vertices of the specified type.
 ** @param type The type of vertices
-** @return The new graph, or `NULL` if an error occured. In case of an error,
-** `errno` is set accordingly.
+** @return The new graph
 */
 
 t_graph			*graph_new(const t_type *type);
@@ -55,21 +54,17 @@ t_graph			*graph_new(const t_type *type);
 /*
 ** Adds a vertex to the graph
 ** @param v The vertex name to be copied
-** @return `0` on success, `1` on failure. In case of an error, `errno` is set
-** accordingly.
 */
 
-int				graph_add_vertex(t_graph *graph, const void *v);
+void			graph_add_vertex(t_graph *graph, const void *v);
 
 /*
 ** Adds an edge between two vertices in the graph
 ** @param v1 One vertex
 ** @param v2 The other vertex
-** @return `0` on success, `1` on error (e.g. if either vertex is not in
-** the graph). In case of an error, `errno` is set accordingly.
 */
 
-int				graph_add_edge(t_graph *graph, const void *v1, const void *v2);
+void			graph_add_edge(t_graph *graph, const void *v1, const void *v2);
 
 /*
 ** Deletes this graph and frees all the associated data. Does
@@ -80,8 +75,7 @@ void			graph_delete(t_graph *graph);
 
 /*
 ** Returns the queue with all the vertices in this graph
-** @return The queue with all the vertices in this graph, or `NULL`,
-** if an error occured. In case of an error, `errno` is set accordingly.
+** @return The queue with all the vertices in this graph
 */
 
 t_queue			*graph_vertices(const t_graph *graph);
@@ -89,10 +83,9 @@ t_queue			*graph_vertices(const t_graph *graph);
 /*
 ** Returns the queue with all the vertices in this graph that are
 ** adjancent to the specified vertex.
-** @param v	The vertexe
+** @param v	The vertex
 ** @return The queue with all the vertices in this graph that are
-** adjacent to the specified vertex, or `NULL`,
-** if an error occured. In case of an error, `errno` is set accordingly.
+** adjacent to the specified vertex
 */
 
 t_queue			*graph_adjacency(const t_graph *graph, const void *v);

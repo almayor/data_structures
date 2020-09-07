@@ -79,14 +79,15 @@ $(function() {
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="union__find__union_8c__incl.png" border="0" usemap="#src_2data__structures_2union__find_2union__find__union_8c" alt=""/></div>
 <map name="src_2data__structures_2union__find_2union__find__union_8c" id="src_2data__structures_2union__find_2union__find__union_8c">
-<area shape="rect" title=" " alt="" coords="115,5,263,61"/>
-<area shape="rect" href="union__find_8h.html" title=" " alt="" coords="143,109,235,136"/>
-<area shape="rect" title=" " alt="" coords="5,184,68,211"/>
-<area shape="rect" title=" " alt="" coords="93,184,183,211"/>
-<area shape="rect" href="types_8h.html" title=" " alt="" coords="208,184,273,211"/>
-<area shape="rect" href="utils_8h.html" title=" " alt="" coords="283,259,340,285"/>
-<area shape="rect" title=" " alt="" coords="194,259,258,285"/>
-<area shape="rect" title=" " alt="" coords="279,333,344,360"/>
+<area shape="rect" title=" " alt="" coords="91,5,239,61"/>
+<area shape="rect" href="union__find_8h.html" title=" " alt="" coords="119,109,211,136"/>
+<area shape="rect" title=" " alt="" coords="5,333,68,360"/>
+<area shape="rect" title=" " alt="" coords="258,184,349,211"/>
+<area shape="rect" href="types_8h.html" title=" " alt="" coords="168,184,233,211"/>
+<area shape="rect" href="utils_8h.html" title=" " alt="" coords="123,259,180,285"/>
+<area shape="rect" title=" " alt="" coords="267,333,331,360"/>
+<area shape="rect" title=" " alt="" coords="92,333,157,360"/>
+<area shape="rect" title=" " alt="" coords="182,333,243,360"/>
 </map>
 </div>
 </div>
@@ -94,19 +95,19 @@ $(function() {
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:acd612f8ef64df5137a136c726cffbb64"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="union__find__union_8c.html#acd612f8ef64df5137a136c726cffbb64">union_find_union</a> (<a class="el" href="structs__union__find.html">t_union_find</a> *uf, size_t p, size_t q)</td></tr>
-<tr class="memdesc:acd612f8ef64df5137a136c726cffbb64"><td class="mdescLeft">&#160;</td><td class="mdescRight">Merges the set containing element.  <a href="union__find__union_8c.html#acd612f8ef64df5137a136c726cffbb64">More...</a><br /></td></tr>
-<tr class="separator:acd612f8ef64df5137a136c726cffbb64"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4166e7f1a37631f1ae4f72e14c6effb1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="union__find__union_8c.html#a4166e7f1a37631f1ae4f72e14c6effb1">union_find_union</a> (<a class="el" href="structs__union__find.html">t_union_find</a> *uf, size_t p, size_t q)</td></tr>
+<tr class="memdesc:a4166e7f1a37631f1ae4f72e14c6effb1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Merges the set containing element <code>p</code> with the set containing element <code>q</code>.  <a href="union__find__union_8c.html#a4166e7f1a37631f1ae4f72e14c6effb1">More...</a><br /></td></tr>
+<tr class="separator:a4166e7f1a37631f1ae4f72e14c6effb1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="acd612f8ef64df5137a136c726cffbb64"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acd612f8ef64df5137a136c726cffbb64">&#9670;&nbsp;</a></span>union_find_union()</h2>
+<a id="a4166e7f1a37631f1ae4f72e14c6effb1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4166e7f1a37631f1ae4f72e14c6effb1">&#9670;&nbsp;</a></span>union_find_union()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int union_find_union </td>
+          <td class="memname">void union_find_union </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structs__union__find.html">t_union_find</a> *&#160;</td>
           <td class="paramname"><em>uf</em>, </td>
@@ -131,17 +132,14 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Merges the set containing element. </p>
-<div class="fragment"><div class="line">p </div>
-</div><!-- fragment --><p> with the set containing element</p><div class="fragment"><div class="line">q </div>
-</div><!-- fragment --><p> . </p><dl class="params"><dt>Parameters</dt><dd>
+<p>Merges the set containing element <code>p</code> with the set containing element <code>q</code>. </p>
+<dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">p</td><td>on element </td></tr>
     <tr><td class="paramname">q</td><td>the other element </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd><code>0</code> on success, <code>1</code> on failure (e.g. if either element is not contained in this union-find). In case of an error, <code>errno</code> is set accordingly. </dd></dl>
 
 <p class="definition">Definition at line <a class="el" href="union__find__union_8c_source.html#l00016">16</a> of file <a class="el" href="union__find__union_8c_source.html">union_find_union.c</a>.</p>
 

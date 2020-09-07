@@ -6,7 +6,7 @@
 /*   By: unite <marvin@42.fr>                       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/07/18 22:16:54 by unite             #+#    #+#             */
-/*   Updated: 2020/09/01 19:33:43 by unite            ###   ########.fr       */
+/*   Updated: 2020/09/07 22:48:41 by unite            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -41,7 +41,7 @@ void	*list_unlink(t_list *alst, size_t index)
 {
 	if (index >= alst->size)
 	{
-		errno = EINVAL;
+		ds_exit_set(EINVAL);
 		return (NULL);
 	}
 	else if (index == 0)

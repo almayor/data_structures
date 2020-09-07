@@ -6,7 +6,7 @@
 /*   By: unite <marvin@42.fr>                       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/07/22 15:51:34 by unite             #+#    #+#             */
-/*   Updated: 2020/07/22 15:56:29 by unite            ###   ########.fr       */
+/*   Updated: 2020/09/07 21:49:18 by unite            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,10 +18,7 @@ int	graph_adjacent(const t_graph *graph, const void *v1, const void *v2)
 	const t_array	*adjacency;
 
 	if (!rbt_contains(graph->adj, v1) || !rbt_contains(graph->adj, v2))
-	{
-		errno = EINVAL;
-		return (0);
-	}
+		ds_exit_set(EINVAL);
 	adjacency = rbt_get(graph->adj, v1);
 	i = 0;
 	while (i < array_size(adjacency))

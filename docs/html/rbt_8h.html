@@ -86,15 +86,16 @@ $(function() {
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="rbt_8h__incl.png" border="0" usemap="#src_2data__structures_2rbt_8h" alt=""/></div>
 <map name="src_2data__structures_2rbt_8h" id="src_2data__structures_2rbt_8h">
-<area shape="rect" title=" " alt="" coords="54,5,189,47"/>
-<area shape="rect" title=" " alt="" coords="27,244,90,271"/>
-<area shape="rect" title=" " alt="" coords="165,244,256,271"/>
-<area shape="rect" href="types_8h.html" title=" " alt="" coords="281,244,346,271"/>
-<area shape="rect" href="utils_8h.html" title=" " alt="" coords="30,319,87,345"/>
-<area shape="rect" href="queue_8h.html" title=" " alt="" coords="87,95,155,121"/>
-<area shape="rect" title=" " alt="" coords="281,319,345,345"/>
-<area shape="rect" title=" " alt="" coords="26,393,91,420"/>
-<area shape="rect" href="list_8h.html" title=" " alt="" coords="96,169,147,196"/>
+<area shape="rect" title=" " alt="" coords="147,5,282,47"/>
+<area shape="rect" title=" " alt="" coords="270,393,333,420"/>
+<area shape="rect" title=" " alt="" coords="328,244,419,271"/>
+<area shape="rect" href="types_8h.html" title=" " alt="" coords="35,244,101,271"/>
+<area shape="rect" href="utils_8h.html" title=" " alt="" coords="103,319,161,345"/>
+<area shape="rect" href="queue_8h.html" title=" " alt="" coords="181,95,249,121"/>
+<area shape="rect" title=" " alt="" coords="5,393,69,420"/>
+<area shape="rect" title=" " alt="" coords="94,393,159,420"/>
+<area shape="rect" title=" " alt="" coords="184,393,245,420"/>
+<area shape="rect" href="list_8h.html" title=" " alt="" coords="189,169,240,196"/>
 </map>
 </div>
 </div>
@@ -134,9 +135,9 @@ Functions</h2></td></tr>
 <tr class="memitem:af50e2b9ed29d63fcad6060e438ad0809"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structs__rbt.html">t_rbt</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rbt_8h.html#af50e2b9ed29d63fcad6060e438ad0809">rbt_new</a> (const <a class="el" href="structs__type.html">t_type</a> *key_type, const <a class="el" href="structs__type.html">t_type</a> *val_type)</td></tr>
 <tr class="memdesc:af50e2b9ed29d63fcad6060e438ad0809"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes a new empty tree.  <a href="rbt_8h.html#af50e2b9ed29d63fcad6060e438ad0809">More...</a><br /></td></tr>
 <tr class="separator:af50e2b9ed29d63fcad6060e438ad0809"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8eeebbdf1cef6656b085ba7b4ed4695f"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rbt_8h.html#a8eeebbdf1cef6656b085ba7b4ed4695f">rbt_put</a> (<a class="el" href="structs__rbt.html">t_rbt</a> *rbt, const void *key, const void *val)</td></tr>
-<tr class="memdesc:a8eeebbdf1cef6656b085ba7b4ed4695f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a new item to the tree or overwrites an existing one.  <a href="rbt_8h.html#a8eeebbdf1cef6656b085ba7b4ed4695f">More...</a><br /></td></tr>
-<tr class="separator:a8eeebbdf1cef6656b085ba7b4ed4695f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa01464aa52ab087204b35bc7bafda7a0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rbt_8h.html#aa01464aa52ab087204b35bc7bafda7a0">rbt_put</a> (<a class="el" href="structs__rbt.html">t_rbt</a> *rbt, const void *key, const void *val)</td></tr>
+<tr class="memdesc:aa01464aa52ab087204b35bc7bafda7a0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a new item to the tree or overwrites an existing one.  <a href="rbt_8h.html#aa01464aa52ab087204b35bc7bafda7a0">More...</a><br /></td></tr>
+<tr class="separator:aa01464aa52ab087204b35bc7bafda7a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad63f9a51331396993cbb1294166d790e"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rbt_8h.html#ad63f9a51331396993cbb1294166d790e">rbt_get</a> (const <a class="el" href="structs__rbt.html">t_rbt</a> *rbt, const void *key)</td></tr>
 <tr class="memdesc:ad63f9a51331396993cbb1294166d790e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the value associated with a specified key.  <a href="rbt_8h.html#ad63f9a51331396993cbb1294166d790e">More...</a><br /></td></tr>
 <tr class="separator:ad63f9a51331396993cbb1294166d790e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -173,6 +174,9 @@ Functions</h2></td></tr>
 <tr class="memitem:a88c6a9c58eda33244e7df6c5c9343882"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rbt_8h.html#a88c6a9c58eda33244e7df6c5c9343882">rbt_contains</a> (const <a class="el" href="structs__rbt.html">t_rbt</a> *rbt, const void *key)</td></tr>
 <tr class="memdesc:a88c6a9c58eda33244e7df6c5c9343882"><td class="mdescLeft">&#160;</td><td class="mdescRight">Does the tree contain the specified key?  <a href="rbt_8h.html#a88c6a9c58eda33244e7df6c5c9343882">More...</a><br /></td></tr>
 <tr class="separator:a88c6a9c58eda33244e7df6c5c9343882"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a80ef919e59bea3c12d437712fb787d67"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rbt_8h.html#a80ef919e59bea3c12d437712fb787d67">rbt_nth</a> (const <a class="el" href="structs__rbt.html">t_rbt</a> *rbt, size_t n)</td></tr>
+<tr class="memdesc:a80ef919e59bea3c12d437712fb787d67"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the key of the nth element in the tree.  <a href="rbt_8h.html#a80ef919e59bea3c12d437712fb787d67">More...</a><br /></td></tr>
+<tr class="separator:a80ef919e59bea3c12d437712fb787d67"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Enumeration Type Documentation</h2>
 <a id="a2151a0f38adc4849d0e2eb449d6ca4d3"></a>
@@ -507,14 +511,53 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a8eeebbdf1cef6656b085ba7b4ed4695f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8eeebbdf1cef6656b085ba7b4ed4695f">&#9670;&nbsp;</a></span>rbt_put()</h2>
+<a id="a80ef919e59bea3c12d437712fb787d67"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a80ef919e59bea3c12d437712fb787d67">&#9670;&nbsp;</a></span>rbt_nth()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int rbt_put </td>
+          <td class="memname">void* rbt_nth </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structs__rbt.html">t_rbt</a> *&#160;</td>
+          <td class="paramname"><em>rbt</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>n</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns the key of the nth element in the tree. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">n</td><td>The index </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The key of the nth element in the tree </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="rbt__nth_8c_source.html#l00030">30</a> of file <a class="el" href="rbt__nth_8c_source.html">rbt_nth.c</a>.</p>
+
+</div>
+</div>
+<a id="aa01464aa52ab087204b35bc7bafda7a0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa01464aa52ab087204b35bc7bafda7a0">&#9670;&nbsp;</a></span>rbt_put()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void rbt_put </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structs__rbt.html">t_rbt</a> *&#160;</td>
           <td class="paramname"><em>rbt</em>, </td>
@@ -547,7 +590,6 @@ Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd><code>0</code> on success, <code>1</code> on failure. In case of an error, <code>errno</code> is set accordingly. </dd></dl>
 
 <p class="definition">Definition at line <a class="el" href="rbt__put_8c_source.html#l00045">45</a> of file <a class="el" href="rbt__put_8c_source.html">rbt_put.c</a>.</p>
 

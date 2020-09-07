@@ -6,7 +6,7 @@
 /*   By: unite <marvin@42.fr>                       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/07/17 14:05:12 by unite             #+#    #+#             */
-/*   Updated: 2020/07/17 16:26:49 by unite            ###   ########.fr       */
+/*   Updated: 2020/09/07 22:41:15 by unite            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,10 +26,8 @@ static void min_pq_swim(t_min_pq *pq, size_t k)
 	}
 }
 
-int			min_pq_add(t_min_pq *pq, const void *data)
+void		min_pq_add(t_min_pq *pq, const void *data)
 {
-	if (array_append(pq, data))
-		return (1);
+	array_append(pq, data);
 	min_pq_swim(pq, min_pq_size(pq));
-	return (0);
 }

@@ -6,7 +6,7 @@
 /*   By: unite <marvin@42.fr>                       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/07/22 00:44:01 by unite             #+#    #+#             */
-/*   Updated: 2020/09/05 19:10:33 by unite            ###   ########.fr       */
+/*   Updated: 2020/09/07 21:46:01 by unite            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,13 +16,8 @@ t_graph	*graph_new(const t_type *type)
 {
 	t_graph	*graph;
 
-	if (!(graph = ds_calloc(sizeof(t_graph), 1)) ||
-		!(graph->adj = rbt_new(type, g_type_array)))
-	{
-		errno = ENOMEM;
-		graph_delete(graph);
-		return (NULL);
-	}
+	graph = ds_xcalloc(sizeof(t_graph), 1);
+	graph->adj = rbt_new(type, g_type_array);
 	graph->v = 0;
 	graph->e = 0;
 	graph->type = type;

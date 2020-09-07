@@ -6,7 +6,7 @@
 /*   By: unite <marvin@42.fr>                       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/07/21 18:15:39 by unite             #+#    #+#             */
-/*   Updated: 2020/09/05 18:56:02 by unite            ###   ########.fr       */
+/*   Updated: 2020/09/07 22:21:01 by unite            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -58,9 +58,8 @@ typedef struct	s_hashmap
 ** Initializes a new empty map.
 ** @param key_type	The type of keys that this map can hold
 ** @param val_type	The type of values that this map can hold
-** @return The new hashmap, or `NULL` on failure. In case of an error,
-** `errno` is set accordingly.
-** @remark For this function to work, the key_type must be
+** @return The new hashmap
+** @note For this function to work, the key_type must be
 ** hashable (i.e. implement the `hash` function).
 */
 
@@ -70,11 +69,9 @@ t_hashmap	*hashmap_new(const t_type *key_type, const t_type *val_type);
 ** Adds a key-value pair to the symbol table.
 ** @param key	The key
 ** @param val	The value
-** @return `1` no success, `0` on failure. In case of an error, `errno` is
-** set accordingly.
 */
 
-int			hashmap_put(t_hashmap *hm, const void *key, const void *val);
+void		hashmap_put(t_hashmap *hm, const void *key, const void *val);
 
 /*
 ** Fetches the value associated with the given key
@@ -115,10 +112,9 @@ void		hashmap_delete(t_hashmap *hm);
 /*
 ** Removed the element associated with the specified key from the map.
 ** @param key	The key
-** @return `1` on success, `0` if the key is not in the map.
 */
 
-int			hashmap_remove(t_hashmap *hm, const void *key);
+void		hashmap_remove(t_hashmap *hm, const void *key);
 
 /*
 ** Is the specified key contained in the map?
