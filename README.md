@@ -1,5 +1,8 @@
 # data_structures
 
+## Disclaimer
+> In [School 42](https://en.wikipedia.org/wiki/42_(school)), almost every project must be written to comply with. coding standard (also known as the "[Norm](./docs/subjects/norme.en.pdf)"). As a result, the implementation of certain parts may appear strange.
+
 ## Overview
 
 * [Code documentation](https://almayor.github.io/data_structures/)
@@ -18,8 +21,6 @@
 	* binary search tree
 	* red-black tree
 	* union-find
-
-(**_NOTE_**: This project (with the exception of tests) is written to be consistent with the [Norme](docs/norme.en.pdf), the code standard accepted at School 42.)
 
 ## Usage and testing
 
